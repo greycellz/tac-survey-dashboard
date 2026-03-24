@@ -2,26 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surface */
+  --bg: #F5F4F1;
+  --card: #FFFFFF;
+  --card-alt: #FAFAF8;
+
+  /* Borders */
+  --border: #E0DDD7;
+  --border-strong: #C8C4BC;
+
+  /* Text */
+  --text-primary: #1A1917;
+  --text-secondary: #4A4845;
+  --text-muted: #7A7672;
+  --text-disabled: #AEABA6;
+
+  /* Accent — restrained slate blue */
+  --accent: #2B5C8A;
+  --accent-light: #EBF1F8;
+  --accent-hover: #224A70;
+
+  /* Status / chart colors */
+  --status-good: #3A7D5A;
+  --status-warn: #B8860B;
+  --status-bad: #C0392B;
+  --status-neutral: #6B7280;
+
+  /* Likert scale (5 steps, diverging) */
+  --likert-1: #C0392B;
+  --likert-2: #E07B59;
+  --likert-3: #D4C89A;
+  --likert-4: #7DB68D;
+  --likert-5: #2E7D52;
+
+  /* Chart bar default */
+  --bar-fill: #6B93B8;
+  --bar-fill-alt: #A8C4DA;
+
+  /* Nav */
+  --nav-bg: #FFFFFF;
+  --nav-active-bg: var(--accent-light);
+  --nav-active-text: var(--accent);
+
+  /* Layout */
+  --header-height: 88px;
+  --filterbar-height: 56px;
+  --nav-width: 232px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+
+/* Typography utilities */
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Type tag badges */
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+.type-badge-gray {
+  background: #F0EEE9;
+  color: var(--text-muted);
 }

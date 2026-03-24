@@ -9,8 +9,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: "var(--bg)",
+        card: "var(--card)",
+        "card-alt": "var(--card-alt)",
+        border: "var(--border)",
+        "border-strong": "var(--border-strong)",
+        accent: "var(--accent)",
+        "accent-light": "var(--accent-light)",
+        "accent-hover": "var(--accent-hover)",
+        "text-primary": "var(--text-primary)",
+        "text-secondary": "var(--text-secondary)",
+        "text-muted": "var(--text-muted)",
+      },
+      fontFamily: {
+        sans: ["IBM Plex Sans", "system-ui", "sans-serif"],
+        mono: ["IBM Plex Mono", "monospace"],
+      },
+      height: {
+        header: "var(--header-height)",
+        filterbar: "var(--filterbar-height)",
+      },
+      width: {
+        nav: "var(--nav-width)",
       },
     },
   },

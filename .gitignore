@@ -28,6 +28,12 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# planning / review docs (not tracked)
+/plan/
+
+# survey data (not committed to repo)
+*.csv
+
 # vercel
 .vercel
 
