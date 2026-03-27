@@ -44,22 +44,25 @@ export function HorizontalBarChart({ data, maxPct }: HorizontalBarProps) {
   const denominator = maxPct != null && maxPct > 0 ? maxPct : 100;
 
   return (
-    <div className="space-y-2">
+    <div className="flex flex-col gap-2">
       {data.map((row) => {
         const widthPct = Math.min(100, Math.max(0, (row.pct / denominator) * 100));
         return (
-          <div key={row.label}>
-            <div className="flex items-center justify-between mb-1">
-              <span className="text-xs text-text-secondary leading-tight max-w-[60%] truncate" title={row.label}>
+          <div key={row.label} className="flex flex-col gap-1.5 min-h-0">
+            <div className="flex items-start justify-between gap-3 shrink-0">
+              <span
+                className="text-xs text-text-secondary leading-normal flex-1 min-w-0 break-words"
+                title={row.label}
+              >
                 {row.label}
               </span>
-              <span className="text-xs font-mono text-text-muted tabular-nums">
+              <span className="text-xs font-mono text-text-muted tabular-nums shrink-0 pt-px">
                 {row.n} ({row.pct.toFixed(1)}%)
               </span>
             </div>
-            <div className="h-5 bg-accent-light rounded-sm overflow-hidden">
+            <div className="h-5 bg-accent-light rounded-sm overflow-hidden shrink-0 relative z-0">
               <div
-                className="h-full rounded-sm transition-all"
+                className="h-full rounded-sm"
                 style={{
                   width: `${widthPct}%`,
                   backgroundColor: "var(--bar-fill)",
@@ -94,11 +97,11 @@ export function CompareHorizontalBarChart({
   const denominator = maxPct != null && maxPct > 0 ? maxPct : 100;
 
   return (
-    <div className="space-y-4">
+    <div className="flex flex-col gap-4">
       {pooledRows.map((pr) => (
         <div key={pr.label}>
-          <p className="text-xs font-medium text-text-secondary">{pr.label}</p>
-          <div className="mt-1.5 space-y-1.5 pl-2 border-l-2 border-border">
+          <p className="text-xs font-medium text-text-secondary shrink-0">{pr.label}</p>
+          <div className="mt-1.5 flex flex-col gap-1.5 pl-2 border-l-2 border-border">
             {slices.map((slice) => {
               const row = slice.rows.find((x) => x.label === pr.label);
               const n = row?.n ?? 0;
@@ -106,22 +109,22 @@ export function CompareHorizontalBarChart({
               const widthPct = Math.min(100, Math.max(0, (pct / denominator) * 100));
               const fill = compareFill(slice.slotIndex);
               return (
-                <div key={slice.label}>
-                  <div className="flex items-center justify-between gap-2 mb-0.5">
+                <div key={slice.label} className="flex flex-col gap-1 min-h-0">
+                  <div className="flex items-start justify-between gap-2 shrink-0">
                     <span
-                      className="text-[11px] text-text-secondary truncate pl-1 border-l-[3px]"
+                      className="text-[11px] text-text-secondary pl-1 border-l-[3px] flex-1 min-w-0 break-words"
                       style={{ borderColor: fill }}
                     >
                       {slice.label}
                       <span className="text-text-muted font-normal"> (N={slice.n})</span>
                     </span>
-                    <span className="text-[11px] font-mono text-text-muted tabular-nums shrink-0">
+                    <span className="text-[11px] font-mono text-text-muted tabular-nums shrink-0 pt-px">
                       {n} ({pct.toFixed(1)}%)
                     </span>
                   </div>
-                  <div className="h-4 bg-accent-light rounded-sm overflow-hidden">
+                  <div className="h-4 bg-accent-light rounded-sm overflow-hidden shrink-0 relative z-0">
                     <div
-                      className="h-full rounded-sm transition-all"
+                      className="h-full rounded-sm"
                       style={{
                         width: `${widthPct}%`,
                         backgroundColor: fill,

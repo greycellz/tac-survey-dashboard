@@ -40,9 +40,11 @@ export default function DashboardShell({ children }: { children: React.ReactNode
               <EmptyState variant="error" errorMessage={error ?? undefined} onAction={triggerUpload} />
             )}
             {status === "loaded" && (
-              filteredRespondents.length === 0
-                ? <EmptyState variant="no-results" onAction={() => setFilters(DEFAULT_FILTER_STATE)} />
-                : children
+              filteredRespondents.length === 0 ? (
+                <EmptyState variant="no-results" onAction={() => setFilters(DEFAULT_FILTER_STATE)} />
+              ) : (
+                <div id="dashboard-export-root">{children}</div>
+              )
             )}
           </div>
         </main>
