@@ -59,12 +59,12 @@ export default function AIAttitudesPage() {
 
         <SectionCard title="Interest in AI tools (select any that apply)" type="multi-select" validN={aiToolInterestsResult.totalRespondents}>
           <p className="text-xs text-text-muted mb-3">Ranked by selection frequency</p>
-          <HorizontalBarChart data={aiToolInterestsResult.rows} maxPct={100} />
+          <HorizontalBarChart data={aiToolInterestsResult.rows} />
         </SectionCard>
 
         <SectionCard title="What concerns, if any, do you have about using AI for disaster recovery or emotional support?" type="multi-select" validN={aiConcernsResult.totalRespondents}>
           <p className="text-xs text-text-muted mb-3">Ranked by frequency</p>
-          <HorizontalBarChart data={aiConcernsResult.rows} maxPct={100} />
+          <HorizontalBarChart data={aiConcernsResult.rows} />
         </SectionCard>
 
         <SectionCard title="If an AI coach could help you with one thing in your fire recovery right now, what would it be?" type="open-text" validN={aiOneThingEntries.length}>

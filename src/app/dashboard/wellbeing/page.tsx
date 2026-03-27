@@ -47,7 +47,7 @@ export default function WellbeingPage() {
           <p className="text-xs text-text-muted mb-3">
             Multi-select — barriers remain as independent options
           </p>
-          <HorizontalBarChart data={supportBarriersResult.rows} maxPct={100} />
+          <HorizontalBarChart data={supportBarriersResult.rows} />
         </SectionCard>
 
         <SectionCard title="How do you currently cope with stress or difficult emotions?" type="open-text" validN={copingEntries.length}>

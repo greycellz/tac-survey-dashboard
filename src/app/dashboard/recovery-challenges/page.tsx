@@ -46,7 +46,7 @@ export default function RecoveryChallengesPage() {
           <p className="text-xs text-text-muted mb-3">
             % of {challengingAreasResult.totalRespondents} respondents who selected each area
           </p>
-          <HorizontalBarChart data={challengingAreasResult.rows} maxPct={100} />
+          <HorizontalBarChart data={challengingAreasResult.rows} />
         </SectionCard>
 
         <SectionCard title="What has felt most overwhelming in your recovery process?" type="open-text" validN={overwhelmingEntries.length}>

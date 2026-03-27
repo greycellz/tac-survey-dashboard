@@ -49,7 +49,7 @@ export default function FireImpactPage() {
           <p className="text-xs text-text-muted mb-3">
             Multi-select — % of {fireImpactResult.totalRespondents} respondents who selected each option
           </p>
-          <HorizontalBarChart data={fireImpactResult.rows} maxPct={100} />
+          <HorizontalBarChart data={fireImpactResult.rows} />
         </SectionCard>
 
         <SectionCard title="Did you have homeowners or renters insurance at the time?" type="single-select" validN={insuranceAtTimeResult.validN} missingN={insuranceAtTimeResult.missingN}>

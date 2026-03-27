@@ -5,35 +5,39 @@ import type { LikertResult, NumericResult } from "@/types/survey";
 
 interface HorizontalBarProps {
   data: Array<{ label: string; n: number; pct: number }>;
+  /** Scale denominator so bar width = (row.pct / denominator) × 100% of track. Default 100 matches “% of respondents” from compute. */
   maxPct?: number;
 }
 
 export function HorizontalBarChart({ data, maxPct }: HorizontalBarProps) {
-  const max = maxPct ?? Math.max(...data.map((d) => d.pct));
+  const denominator = maxPct != null && maxPct > 0 ? maxPct : 100;
 
   return (
     <div className="space-y-2">
-      {data.map((row) => (
-        <div key={row.label}>
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-xs text-text-secondary leading-tight max-w-[60%] truncate" title={row.label}>
-              {row.label}
-            </span>
-            <span className="text-xs font-mono text-text-muted tabular-nums">
-              {row.n} ({row.pct.toFixed(1)}%)
-            </span>
+      {data.map((row) => {
+        const widthPct = Math.min(100, Math.max(0, (row.pct / denominator) * 100));
+        return (
+          <div key={row.label}>
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-xs text-text-secondary leading-tight max-w-[60%] truncate" title={row.label}>
+                {row.label}
+              </span>
+              <span className="text-xs font-mono text-text-muted tabular-nums">
+                {row.n} ({row.pct.toFixed(1)}%)
+              </span>
+            </div>
+            <div className="h-5 bg-accent-light rounded-sm overflow-hidden">
+              <div
+                className="h-full rounded-sm transition-all"
+                style={{
+                  width: `${widthPct}%`,
+                  backgroundColor: "var(--bar-fill)",
+                }}
+              />
+            </div>
           </div>
-          <div className="h-5 bg-accent-light rounded-sm overflow-hidden">
-            <div
-              className="h-full rounded-sm transition-all"
-              style={{
-                width: `${(row.pct / max) * 100}%`,
-                backgroundColor: "var(--bar-fill)",
-              }}
-            />
-          </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

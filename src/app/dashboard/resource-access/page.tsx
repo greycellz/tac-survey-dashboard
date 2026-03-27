@@ -30,7 +30,7 @@ export default function ResourceAccessPage() {
       <div className="grid grid-cols-2 gap-5 mb-5">
         <SectionCard title="Which types of help do you most need right now? (Select all that apply)" type="multi-select" validN={helpNeededResult.totalRespondents}>
           <p className="text-xs text-text-muted mb-3">% of {helpNeededResult.totalRespondents} respondents</p>
-          <HorizontalBarChart data={helpNeededResult.rows} maxPct={100} />
+          <HorizontalBarChart data={helpNeededResult.rows} />
         </SectionCard>
 
         <SectionCard title="How easy has it been to find accurate and up-to-date information about available resources?" type="likert" validN={infoEaseResult.validN} missingN={infoEaseResult.missingN}>
@@ -38,12 +38,12 @@ export default function ResourceAccessPage() {
         </SectionCard>
 
         <SectionCard title="Where do you usually look for assistance, guidance, or information?" type="multi-select" validN={infoSourcesResult.totalRespondents}>
-          <HorizontalBarChart data={infoSourcesResult.rows} maxPct={100} />
+          <HorizontalBarChart data={infoSourcesResult.rows} />
           <div className="mt-3"><BreakdownTable rows={infoSourcesResult.rows} /></div>
         </SectionCard>
 
         <SectionCard title="How would you prefer to receive support or information?" type="multi-select" validN={preferredChannelResult.totalRespondents}>
-          <HorizontalBarChart data={preferredChannelResult.rows} maxPct={100} />
+          <HorizontalBarChart data={preferredChannelResult.rows} />
           <div className="mt-3"><BreakdownTable rows={preferredChannelResult.rows} /></div>
         </SectionCard>
       </div>
