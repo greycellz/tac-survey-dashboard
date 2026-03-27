@@ -42,6 +42,16 @@
   --bar-fill: #6B93B8;
   --bar-fill-alt: #A8C4DA;
 
+  /* Compare-by subgroup stripes (distinct from Likert scale) */
+  --compare-1: #2B5C8A;
+  --compare-2: #8B4D6A;
+  --compare-3: #4A7C59;
+  --compare-4: #B8860B;
+  --compare-5: #5C6BC0;
+  --compare-6: #00838F;
+  --compare-7: #6D4C41;
+  --compare-8: #455A64;
+
   /* Nav */
   --nav-bg: #FFFFFF;
   --nav-active-bg: var(--accent-light);

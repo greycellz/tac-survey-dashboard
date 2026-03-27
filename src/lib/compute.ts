@@ -9,13 +9,14 @@ import type {
 
 // ─── Predefined sort orders ───────────────────────────────────────────────────
 
-const RECOVERY_STAGE_ORDER = [
+/** Canonical recovery-stage order for filters, compare-by subgroups, and chart sorting. */
+export const RECOVERY_STAGE_ORDER = [
   "Still trying to meet basic needs",
   "Actively rebuilding / navigating paperwork",
   "Re-settled but still dealing with emotional or financial impacts",
   "Feel mostly recovered",
   "Other",
-];
+] as const;
 
 const DISPLACEMENT_ORDER = [
   "Not displaced",
@@ -413,7 +414,7 @@ export function computeAll(respondents: SurveyRespondent[]): ComputedData {
     "recoveryStage",
     "What stage of recovery are you currently in?",
     "single-select",
-    RECOVERY_STAGE_ORDER
+    [...RECOVERY_STAGE_ORDER]
   );
 
   // ── Recovery ───────────────────────────────────────────────────────────────

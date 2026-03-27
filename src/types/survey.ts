@@ -233,4 +233,27 @@ export const COMPARE_OPTIONS = [
   { value: "caregiver", label: "Caregiver" },
   { value: "ai-experience", label: "AI Experience" },
   { value: "recovery-stage", label: "Recovery Stage" },
-];
+] as const;
+
+export type CompareBy = (typeof COMPARE_OPTIONS)[number]["value"];
+
+/** Canonical slot index sets stable compare bar colors (`--compare-{n}`). */
+export interface SubgroupSlice {
+  key: string;
+  label: string;
+  respondents: SurveyRespondent[];
+  n: number;
+  slotIndex: number;
+}
+
+/**
+ * Use with shouldSuppressCompareForChart when the chart’s outcome is the same dimension as compare
+ * (e.g. gender breakdown while comparing by gender).
+ */
+export type CompareChartId =
+  | "gender"
+  | "fire-affected"
+  | "children"
+  | "caregiver"
+  | "prior-ai"
+  | "recovery-stage";

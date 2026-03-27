@@ -3,7 +3,7 @@
 import PageHeader from "@/components/dashboard/PageHeader";
 import StatCard from "@/components/cards/StatCard";
 import SectionCard from "@/components/cards/SectionCard";
-import { HorizontalBarChart } from "@/components/charts/ChartPlaceholder";
+import { CategoricalCompareBody } from "@/components/charts/ChartPlaceholder";
 import LinkedResponseDrawer from "@/components/cards/LinkedResponseDrawer";
 import EmbeddedResponseBrowser from "./EmbeddedResponseBrowser";
 import { useSurveyData } from "@/contexts/SurveyDataContext";
@@ -46,7 +46,7 @@ export default function RecoveryChallengesPage() {
           <p className="text-xs text-text-muted mb-3">
             % of {challengingAreasResult.totalRespondents} respondents who selected each area
           </p>
-          <HorizontalBarChart data={challengingAreasResult.rows} />
+          <CategoricalCompareBody chartId={null} pooled={challengingAreasResult} pick={(d) => d.challengingAreasResult} showBreakdownTable={false} />
         </SectionCard>
 
         <SectionCard title="What has felt most overwhelming in your recovery process?" type="open-text" validN={overwhelmingEntries.length}>

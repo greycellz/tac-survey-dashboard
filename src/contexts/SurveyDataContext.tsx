@@ -1,10 +1,11 @@
 "use client";
 
 import { createContext, useContext, useState, useMemo, useRef, type ReactNode } from "react";
-import type { SurveyRespondent, FilterState } from "@/types/survey";
+import type { SurveyRespondent, FilterState, CompareBy, SubgroupSlice } from "@/types/survey";
 import { DEFAULT_FILTER_STATE } from "@/types/survey";
 import { parseCSV } from "@/lib/csv-parser";
 import { computeAll, type ComputedData } from "@/lib/compute";
+import { splitByCompareDimension } from "@/lib/compare";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -16,6 +17,14 @@ interface SurveyDataContextValue {
   setFilters: (f: FilterState) => void;
   filteredRespondents: SurveyRespondent[];
   computedData: ComputedData;
+  compareBy: CompareBy;
+  setCompareBy: (c: CompareBy) => void;
+  /** Non-empty subgroups when compare active; empty when `compareBy === "none"`. */
+  compareSubgroups: SubgroupSlice[];
+  /** `computeAll` per `compareSubgroups` row; `null` when not comparing. */
+  computedBySubgroup: ComputedData[] | null;
+  /** True when compare is on but fewer than two subgroups have respondents (often due to filters). */
+  compareNonInformative: boolean;
   status: DataStatus;
   error: string | null;
   uploadCSV: (file: File) => void;
@@ -64,6 +73,7 @@ function applyFilters(respondents: SurveyRespondent[], filters: FilterState): Su
 export function SurveyDataProvider({ children }: { children: ReactNode }) {
   const [allRespondents, setAllRespondents] = useState<SurveyRespondent[]>([]);
   const [filters, setFiltersState] = useState<FilterState>(DEFAULT_FILTER_STATE);
+  const [compareBy, setCompareByState] = useState<CompareBy>("none");
   const [status, setStatus] = useState<DataStatus>("empty");
   const [error, setError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -75,8 +85,25 @@ export function SurveyDataProvider({ children }: { children: ReactNode }) {
 
   const computedData = useMemo(() => computeAll(filteredRespondents), [filteredRespondents]);
 
+  const compareSubgroups = useMemo(
+    () => (compareBy === "none" ? [] : splitByCompareDimension(filteredRespondents, compareBy)),
+    [filteredRespondents, compareBy]
+  );
+
+  const computedBySubgroup = useMemo(() => {
+    if (compareBy === "none" || compareSubgroups.length === 0) return null;
+    return compareSubgroups.map((s) => computeAll(s.respondents));
+  }, [compareBy, compareSubgroups]);
+
+  const compareNonInformative =
+    compareBy !== "none" && compareSubgroups.filter((s) => s.n > 0).length <= 1;
+
   function setFilters(f: FilterState) {
     setFiltersState(f);
+  }
+
+  function setCompareBy(c: CompareBy) {
+    setCompareByState(c);
   }
 
   async function uploadCSV(file: File) {
@@ -93,6 +120,7 @@ export function SurveyDataProvider({ children }: { children: ReactNode }) {
 
     setAllRespondents(respondents);
     setFiltersState(DEFAULT_FILTER_STATE); // reset filters on new upload
+    setCompareByState("none");
     setStatus("loaded");
 
     if (errors.length > 0) {
@@ -112,6 +140,11 @@ export function SurveyDataProvider({ children }: { children: ReactNode }) {
         setFilters,
         filteredRespondents,
         computedData: status === "loaded" ? computedData : EMPTY_COMPUTED,
+        compareBy,
+        setCompareBy,
+        compareSubgroups,
+        computedBySubgroup: status === "loaded" ? computedBySubgroup : null,
+        compareNonInformative,
         status,
         error,
         uploadCSV,

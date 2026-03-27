@@ -4,11 +4,16 @@ import { useMemo } from "react";
 import PageHeader from "@/components/dashboard/PageHeader";
 import StatCard from "@/components/cards/StatCard";
 import SectionCard from "@/components/cards/SectionCard";
-import { HorizontalBarChart, LikertChart } from "@/components/charts/ChartPlaceholder";
+import {
+  HorizontalBarChart,
+  CategoricalCompareBody,
+  LikertCompareBody,
+} from "@/components/charts/ChartPlaceholder";
 import { useSurveyData } from "@/contexts/SurveyDataContext";
 
 export default function OverviewPage() {
-  const { computedData, filteredRespondents } = useSurveyData();
+  const { computedData, filteredRespondents, compareBy } = useSurveyData();
+  const compareOn = compareBy !== "none";
   const {
     overviewKPIs,
     genderResult,
@@ -80,6 +85,11 @@ export default function OverviewPage() {
       .replace("Unhoused/unstable housing", "Unhoused/unstable"),
   }));
 
+  const challengingTop5 = {
+    ...challengingAreasResult,
+    rows: challengingAreasResult.rows.slice(0, 5),
+  };
+
   return (
     <div>
       <PageHeader
@@ -101,11 +111,19 @@ export default function OverviewPage() {
           <div className="space-y-4">
             <div>
               <p className="text-xs font-medium text-text-muted mb-2">Gender</p>
-              <HorizontalBarChart data={genderResult.rows} />
+              {!compareOn ? (
+                <HorizontalBarChart data={genderResult.rows} />
+              ) : (
+                <CategoricalCompareBody chartId="gender" pooled={genderResult} pick={(d) => d.genderResult} showBreakdownTable={false} />
+              )}
             </div>
             <div className="border-t border-border pt-4">
               <p className="text-xs font-medium text-text-muted mb-2">Living situation</p>
-              <HorizontalBarChart data={livingSituationShort} />
+              {!compareOn ? (
+                <HorizontalBarChart data={livingSituationShort} />
+              ) : (
+                <CategoricalCompareBody chartId={null} pooled={livingSituationResult} pick={(d) => d.livingSituationResult} showBreakdownTable={false} />
+              )}
             </div>
             <div className="flex gap-6 text-xs text-text-muted pt-1 border-t border-border">
               <span>With children: <span className="text-text-primary font-medium">{childrenPct}</span></span>
@@ -120,22 +138,34 @@ export default function OverviewPage() {
           <div className="space-y-4">
             <div>
               <p className="text-xs font-medium text-text-muted mb-2">Top challenging areas</p>
-              <HorizontalBarChart data={challengingAreasResult.rows.slice(0, 5)} />
+              {!compareOn ? (
+                <HorizontalBarChart data={challengingAreasResult.rows.slice(0, 5)} />
+              ) : (
+                <CategoricalCompareBody chartId={null} pooled={challengingTop5} pick={(d) => d.challengingAreasResult} showBreakdownTable={false} />
+              )}
             </div>
             <div className="border-t border-border pt-4">
               <p className="text-xs font-medium text-text-muted mb-2">Displacement status</p>
-              <HorizontalBarChart data={displacementResult.rows} />
+              {!compareOn ? (
+                <HorizontalBarChart data={displacementResult.rows} />
+              ) : (
+                <CategoricalCompareBody chartId={null} pooled={displacementResult} pick={(d) => d.displacementResult} showBreakdownTable={false} />
+              )}
             </div>
             <div className="border-t border-border pt-3">
               <p className="text-xs font-medium text-text-muted mb-2">Recovery stage</p>
-              <HorizontalBarChart data={recoveryStageResult.rows} />
+              {!compareOn ? (
+                <HorizontalBarChart data={recoveryStageResult.rows} />
+              ) : (
+                <CategoricalCompareBody chartId="recovery-stage" pooled={recoveryStageResult} pick={(d) => d.recoveryStageResult} showBreakdownTable={false} />
+              )}
             </div>
           </div>
         </SectionCard>
 
         {/* Wellbeing Snapshot */}
         <SectionCard title="Wellbeing Snapshot" type="likert" validN={wellbeingResult.validN}>
-          <LikertChart result={wellbeingResult} />
+          <LikertCompareBody pick={(d) => d.wellbeingResult} />
           <div className="mt-4 pt-4 border-t border-border grid grid-cols-3 gap-3 text-xs">
             <div className="text-center">
               <p className="text-text-muted">Sought support</p>
@@ -157,11 +187,19 @@ export default function OverviewPage() {
           <div className="space-y-4">
             <div>
               <p className="text-xs font-medium text-text-muted mb-2">Interest in AI chatbot for recovery</p>
-              <HorizontalBarChart data={aiInterestResult.rows} />
+              {!compareOn ? (
+                <HorizontalBarChart data={aiInterestResult.rows} />
+              ) : (
+                <CategoricalCompareBody chartId={null} pooled={aiInterestResult} pick={(d) => d.aiInterestResult} showBreakdownTable={false} />
+              )}
+            </div>
+            <div className="border-t border-border pt-4">
+              <p className="text-xs font-medium text-text-muted mb-2">AI comfort (Likert)</p>
+              <LikertCompareBody pick={(d) => d.aiComfortResult} />
             </div>
             <div className="border-t border-border pt-4 grid grid-cols-2 gap-4 text-xs">
               <div>
-                <p className="text-text-muted mb-1">Mean AI comfort</p>
+                <p className="text-text-muted mb-1">Mean AI comfort (pooled)</p>
                 <p className="text-2xl font-mono font-semibold text-text-primary">
                   {aiComfortResult.mean.toFixed(1)}{" "}
                   <span className="text-sm font-normal text-text-muted">/ 5</span>

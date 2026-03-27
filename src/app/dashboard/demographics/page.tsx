@@ -3,8 +3,10 @@
 import PageHeader from "@/components/dashboard/PageHeader";
 import StatCard from "@/components/cards/StatCard";
 import SectionCard from "@/components/cards/SectionCard";
-import { HorizontalBarChart, HistogramChart } from "@/components/charts/ChartPlaceholder";
-import BreakdownTable from "@/components/tables/BreakdownTable";
+import {
+  CategoricalCompareBody,
+  HistogramCompareBody,
+} from "@/components/charts/ChartPlaceholder";
 import { useSurveyData } from "@/contexts/SurveyDataContext";
 
 export default function DemographicsPage() {
@@ -38,32 +40,27 @@ export default function DemographicsPage() {
 
       <div className="grid grid-cols-2 gap-5">
         <SectionCard title="What is your age?" type="numeric" validN={ageResult.validN} missingN={ageResult.missingN}>
-          <HistogramChart result={ageResult} />
+          <HistogramCompareBody pick={(d) => d.ageResult} />
         </SectionCard>
 
         <SectionCard title="What is your gender?" type="single-select" validN={genderResult.validN} missingN={genderResult.missingN}>
-          <HorizontalBarChart data={genderResult.rows} />
-          <div className="mt-3"><BreakdownTable rows={genderResult.rows} /></div>
+          <CategoricalCompareBody chartId="gender" pooled={genderResult} pick={(d) => d.genderResult} />
         </SectionCard>
 
         <SectionCard title="Do you have children under the age of 18?" type="single-select" validN={childrenResult.validN} missingN={childrenResult.missingN}>
-          <HorizontalBarChart data={childrenResult.rows} />
-          <div className="mt-3"><BreakdownTable rows={childrenResult.rows} /></div>
+          <CategoricalCompareBody chartId="children" pooled={childrenResult} pick={(d) => d.childrenResult} />
         </SectionCard>
 
         <SectionCard title="Are you a caregiver for a relative with a disability or health condition?" type="single-select" validN={caregiverResult.validN} missingN={caregiverResult.missingN}>
-          <HorizontalBarChart data={caregiverResult.rows} />
-          <div className="mt-3"><BreakdownTable rows={caregiverResult.rows} /></div>
+          <CategoricalCompareBody chartId="caregiver" pooled={caregiverResult} pick={(d) => d.caregiverResult} />
         </SectionCard>
 
         <SectionCard title="Are you currently caring for a pet?" type="single-select" validN={petResult.validN} missingN={petResult.missingN}>
-          <HorizontalBarChart data={petResult.rows} />
-          <div className="mt-3"><BreakdownTable rows={petResult.rows} /></div>
+          <CategoricalCompareBody chartId={null} pooled={petResult} pick={(d) => d.petResult} />
         </SectionCard>
 
         <SectionCard title="How would you describe your current living situation?" type="single-select" validN={livingSituationResult.validN} missingN={livingSituationResult.missingN}>
-          <HorizontalBarChart data={livingSituationResult.rows} />
-          <div className="mt-3"><BreakdownTable rows={livingSituationResult.rows} /></div>
+          <CategoricalCompareBody chartId={null} pooled={livingSituationResult} pick={(d) => d.livingSituationResult} />
         </SectionCard>
 
         <SectionCard title="Living situation — Other responses" type="open-text" validN={livingOtherResponses.length} wide>

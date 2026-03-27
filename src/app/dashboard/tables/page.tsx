@@ -3,6 +3,7 @@
 import { useState } from "react";
 import PageHeader from "@/components/dashboard/PageHeader";
 import { useSurveyData } from "@/contexts/SurveyDataContext";
+import { COMPARE_OPTIONS } from "@/types/survey";
 import type { CategoricalResult, LikertResult, MultiSelectResult } from "@/types/survey";
 import { Download } from "lucide-react";
 
@@ -17,7 +18,7 @@ const TABS: Array<{ key: TabKey; label: string }> = [
 
 export default function TablesPage() {
   const [tab, setTab] = useState<TabKey>("descriptives");
-  const { computedData } = useSurveyData();
+  const { computedData, compareBy } = useSurveyData();
   const { ageResult, likertData, categoricalData, multiSelectData } = computedData;
 
   return (
@@ -26,6 +27,14 @@ export default function TablesPage() {
         title="Tables & Export"
         description="Structured outputs for writeup, appendix tables, and slide prep"
       />
+
+      {compareBy !== "none" && (
+        <div className="mb-4 rounded-md border border-border bg-card-alt px-4 py-2.5 text-xs text-text-secondary">
+          Compare is on ({COMPARE_OPTIONS.find((o) => o.value === compareBy)?.label ?? compareBy}): these tables reflect the{" "}
+          <strong className="text-text-primary">pooled filtered sample</strong> only, not separate subgroups. Use section charts for subgroup
+          breakdowns.
+        </div>
+      )}
 
       <div className="flex border-b border-border mb-5">
         {TABS.map(({ key, label }) => (
