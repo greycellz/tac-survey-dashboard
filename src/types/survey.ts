@@ -115,6 +115,9 @@ export type HumanHelperImportance =
   | "Moderately important"
   | "Very important";
 
+/** Same labels as `AGE_BINS` in `lib/compute.ts` (age histogram bands). */
+export type AgeBandLabel = "<20" | "20–29" | "30–39" | "40–49" | "50–59" | "60–69" | "70+";
+
 export interface SurveyRespondent {
   id: string; // e.g. "ID-001"
   submissionNum: number;
@@ -184,6 +187,7 @@ export interface SurveyRespondent {
 export interface FilterState {
   fire: FireAffected | "All";
   gender: Gender | "All";
+  ageBand: AgeBandLabel | "All";
   parent: "Yes" | "No" | "All";
   caregiver: "Yes" | "No" | "All";
   insurance: "Yes" | "No" | "Not sure" | "All";
@@ -195,6 +199,7 @@ export interface FilterState {
 export const DEFAULT_FILTER_STATE: FilterState = {
   fire: "All",
   gender: "All",
+  ageBand: "All",
   parent: "All",
   caregiver: "All",
   insurance: "All",

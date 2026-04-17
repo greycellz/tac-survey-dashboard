@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useMemo, useRef, type ReactNode } 
 import type { SurveyRespondent, FilterState, CompareBy, SubgroupSlice } from "@/types/survey";
 import { DEFAULT_FILTER_STATE } from "@/types/survey";
 import { parseCSV } from "@/lib/csv-parser";
-import { computeAll, type ComputedData } from "@/lib/compute";
+import { computeAll, respondentInAgeBand, type ComputedData } from "@/lib/compute";
 import { splitByCompareDimension } from "@/lib/compare";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -52,6 +52,7 @@ function applyFilters(respondents: SurveyRespondent[], filters: FilterState): Su
   return respondents.filter((r) => {
     if (filters.fire !== "All" && r.fireAffected !== filters.fire) return false;
     if (filters.gender !== "All" && r.gender !== filters.gender) return false;
+    if (filters.ageBand !== "All" && !respondentInAgeBand(r.age, filters.ageBand)) return false;
     if (filters.parent !== "All") {
       const want = filters.parent === "Yes";
       if (r.hasChildren !== want) return false;

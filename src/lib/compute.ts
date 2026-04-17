@@ -5,6 +5,7 @@ import type {
   NumericResult,
   MultiSelectResult,
   KPIValue,
+  AgeBandLabel,
 } from "@/types/survey";
 
 // ─── Predefined sort orders ───────────────────────────────────────────────────
@@ -29,7 +30,8 @@ const DISPLACEMENT_ORDER = [
 
 const INSURANCE_CLAIM_ORDER = ["Yes", "In progress", "No", "Not applicable"];
 
-const AGE_BINS = [
+/** Age histogram bands; also used by dashboard age-band filter. */
+export const AGE_BINS = [
   { label: "<20", min: 0, max: 19 },
   { label: "20–29", min: 20, max: 29 },
   { label: "30–39", min: 30, max: 39 },
@@ -37,7 +39,15 @@ const AGE_BINS = [
   { label: "50–59", min: 50, max: 59 },
   { label: "60–69", min: 60, max: 69 },
   { label: "70+", min: 70, max: 999 },
-];
+] as const;
+
+/** Matches `numericResult` age histogram rules: invalid/missing age (≤0) never matches a band. */
+export function respondentInAgeBand(age: number, label: AgeBandLabel): boolean {
+  const bin = AGE_BINS.find((b) => b.label === label);
+  if (!bin) return false;
+  if (typeof age !== "number" || Number.isNaN(age) || age <= 0) return false;
+  return age >= bin.min && age <= bin.max;
+}
 
 // ─── Likert scale configurations ──────────────────────────────────────────────
 

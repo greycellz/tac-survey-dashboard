@@ -4,6 +4,7 @@ import { ChevronDown, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import type { FilterState } from "@/types/survey";
 import { DEFAULT_FILTER_STATE } from "@/types/survey";
+import { AGE_BINS } from "@/lib/compute";
 import { createPortal } from "react-dom";
 
 const FILTER_CONFIGS: Array<{
@@ -13,6 +14,7 @@ const FILTER_CONFIGS: Array<{
 }> = [
   { key: "fire", label: "Fire", options: ["All", "Eaton Fire", "Palisade Fire"] },
   { key: "gender", label: "Gender", options: ["All", "Female", "Male", "Non-binary / another identity", "Prefer not to say"] },
+  { key: "ageBand", label: "Age", options: ["All", ...AGE_BINS.map((b) => b.label)] },
   { key: "parent", label: "Parent", options: ["All", "Yes", "No"] },
   { key: "caregiver", label: "Caregiver", options: ["All", "Yes", "No"] },
   { key: "insurance", label: "Insurance", options: ["All", "Yes", "No", "Not sure"] },
@@ -101,7 +103,7 @@ export default function FilterBar({ filters, onFiltersChange, filteredN }: Filte
   }
 
   function handleSelect(key: keyof FilterState, value: string) {
-    onFiltersChange({ ...filters, [key]: value });
+    onFiltersChange({ ...filters, [key]: value } as FilterState);
     setOpenKey(null);
   }
 
