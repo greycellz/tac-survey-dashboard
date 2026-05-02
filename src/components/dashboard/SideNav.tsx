@@ -12,6 +12,8 @@ import {
   Bot,
   MessageSquare,
   Table2,
+  BookMarked,
+  FlaskConical,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -25,6 +27,8 @@ const NAV_ITEMS = [
   { label: "AI Attitudes", href: "/dashboard/ai-attitudes", icon: Bot },
   { label: "Open Responses", href: "/dashboard/open-responses", icon: MessageSquare },
   { label: "Tables & Export", href: "/dashboard/tables", icon: Table2 },
+  { label: "Codebook", href: "/codebook", icon: BookMarked },
+  { label: "Inferential Tests", href: "/inferential", icon: FlaskConical },
 ];
 
 export default function SideNav() {

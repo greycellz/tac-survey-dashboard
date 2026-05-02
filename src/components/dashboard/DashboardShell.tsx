@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import DashboardHeader from "./DashboardHeader";
 import FilterBar from "./FilterBar";
 import SideNav from "./SideNav";
@@ -8,7 +9,14 @@ import { useSurveyData } from "@/contexts/SurveyDataContext";
 import { DEFAULT_FILTER_STATE } from "@/types/survey";
 
 export default function DashboardShell({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
   const { filters, setFilters, filteredRespondents, status, error, triggerUpload } = useSurveyData();
+
+  const allowEmptyFilterView =
+    pathname === "/codebook" ||
+    pathname === "/inferential" ||
+    pathname?.startsWith("/codebook/") ||
+    pathname?.startsWith("/inferential/");
 
   return (
     <div className="min-h-screen bg-bg">
@@ -40,7 +48,7 @@ export default function DashboardShell({ children }: { children: React.ReactNode
               <EmptyState variant="error" errorMessage={error ?? undefined} onAction={triggerUpload} />
             )}
             {status === "loaded" && (
-              filteredRespondents.length === 0 ? (
+              filteredRespondents.length === 0 && !allowEmptyFilterView ? (
                 <EmptyState variant="no-results" onAction={() => setFilters(DEFAULT_FILTER_STATE)} />
               ) : (
                 <div id="dashboard-export-root">{children}</div>

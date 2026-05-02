@@ -226,6 +226,8 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "AI Attitudes", href: "/dashboard/ai-attitudes" },
   { label: "Open Responses", href: "/dashboard/open-responses" },
   { label: "Tables & Export", href: "/dashboard/tables" },
+  { label: "Codebook", href: "/codebook" },
+  { label: "Inferential Tests", href: "/inferential" },
 ];
 
 // ─── Compare options ──────────────────────────────────────────────────────────

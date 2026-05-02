@@ -51,7 +51,8 @@ export function respondentInAgeBand(age: number, label: AgeBandLabel): boolean {
 
 // ─── Likert scale configurations ──────────────────────────────────────────────
 
-const LIKERT_CONFIGS: Record<string, { labels: string[]; scale: Record<string, number> }> = {
+/** Canonical Likert numeric coding (low = negative pole, high = positive). Shared with featurization. */
+export const LIKERT_CONFIGS: Record<string, { labels: string[]; scale: Record<string, number> }> = {
   wellbeing: {
     labels: ["Very poor", "Poor", "Fair", "Good", "Excellent"],
     scale: { "Very poor": 1, Poor: 2, Fair: 3, Good: 4, Excellent: 5 },

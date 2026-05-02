@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AppSurveyProvider from "@/components/providers/AppSurveyProvider";
 
 export const metadata: Metadata = {
   title: "Wildfire Survivor Survey Dashboard — The After Collective",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <AppSurveyProvider>{children}</AppSurveyProvider>
+      </body>
     </html>
   );
 }
