@@ -31,8 +31,6 @@ yarn-error.log*
 # planning / review docs (not tracked)
 /plan/
 
-# survey data (not committed to repo)
-*.csv
 
 # vercel
 .vercel

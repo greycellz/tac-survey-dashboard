@@ -1,9 +1,21 @@
 "use client";
 
+import { Fragment, useState } from "react";
 import PageHeader from "@/components/dashboard/PageHeader";
-import { useFeatureBundle } from "@/contexts/FeatureContext";
+import CompositeEditor, { type CompositeEditorKey } from "@/components/codebook/CompositeEditor";
 import type { FeatureValue, VariableDef } from "@/lib/featurize";
 import { useSurveyData } from "@/contexts/SurveyDataContext";
+import { useFeatureBundle } from "@/contexts/FeatureContext";
+
+const COMPOSITE_EDITOR_BY_VAR: Partial<Record<string, CompositeEditorKey>> = {
+  totalLoss: "totalLoss",
+  anyDamage: "anyDamage",
+  exposureTier: "exposureTier",
+  accessBarrier: "accessBarrier",
+  ai_emo_support: "aiEmoSupport",
+  healthImpact: "healthImpact",
+  financialStrain: "financialStrain",
+};
 
 function escapeCsvCell(v: unknown): string {
   if (v === null || v === undefined) return "";
@@ -86,9 +98,19 @@ function DistCells({ def }: { def: VariableDef }) {
 
 export default function CodebookClient() {
   const { filters, filteredRespondents, allRespondents } = useSurveyData();
-  const { bundle } = useFeatureBundle();
+  const { bundle, composites, setComposites } = useFeatureBundle();
   const { schema, matrix, observedMultiSelectOptions, warnings } = bundle;
   const columnOrder = schema.map((s) => s.name);
+  const [expandedComposites, setExpandedComposites] = useState<Set<string>>(() => new Set());
+
+  function toggleCompositeRow(name: string) {
+    setExpandedComposites((prev) => {
+      const next = new Set(prev);
+      if (next.has(name)) next.delete(name);
+      else next.add(name);
+      return next;
+    });
+  }
 
   function handleExportMatrix() {
     const rows = matrix.map((row) => {
@@ -117,8 +139,8 @@ export default function CodebookClient() {
       </p>
       {warnings.length > 0 && (
         <ul className="mb-4 text-xs text-amber-800 list-disc ml-6">
-          {warnings.map((w) => (
-            <li key={w}>{w}</li>
+          {warnings.map((w, wi) => (
+            <li key={`codebook-warn-${wi}`}>{w}</li>
           ))}
         </ul>
       )}
@@ -135,6 +157,12 @@ export default function CodebookClient() {
         </button>
       </div>
       <h2 className="text-sm font-semibold mb-2">Variables</h2>
+      <p className="text-[11px] text-text-muted border border-border bg-card-alt rounded px-3 py-2 mb-3">
+        For ordinal and Likert variables, skew and kurtosis describe clustering shape and tail heaviness, not continuous
+        normality in the strict sense. Values with |skew| or |excess kurtosis| greater than{" "}
+        <span className="font-mono">1</span> are highlighted only as heuristics when choosing parametric vs
+        non-parametric tests—not as formal diagnostics.
+      </p>
       <div className="border rounded overflow-auto max-h-[420px]">
         <table className="text-[11px] w-full">
           <thead className="bg-card-alt sticky top-0">
@@ -152,15 +180,47 @@ export default function CodebookClient() {
             </tr>
           </thead>
           <tbody>
-            {schema.map((d) => (
-              <tr key={d.name} className="border-t border-border">
-                <td className="px-2 py-0.5 font-mono">{d.name}</td>
-                <td className="px-2 py-0.5">{d.label}</td>
-                <td className="px-2 py-0.5">{d.type}</td>
-                <td className="px-2 py-0.5 max-w-md">{d.derivation}</td>
-                <DistCells def={d} />
-              </tr>
-            ))}
+            {schema.map((d) => {
+              const ck = COMPOSITE_EDITOR_BY_VAR[d.name];
+              const open = ck ? expandedComposites.has(d.name) : false;
+              return (
+                <Fragment key={d.name}>
+                  <tr key={`${d.name}-main`} className="border-t border-border">
+                    <td className="px-2 py-0.5 font-mono align-top">
+                      {ck ? (
+                        <button
+                          type="button"
+                          onClick={() => toggleCompositeRow(d.name)}
+                          className="underline decoration-dotted text-left"
+                          title="Configure composite members"
+                        >
+                          {open ? "▾" : "▸"} {d.name}
+                        </button>
+                      ) : (
+                        d.name
+                      )}
+                    </td>
+                    <td className="px-2 py-0.5">{d.label}</td>
+                    <td className="px-2 py-0.5">{d.type}</td>
+                    <td className="px-2 py-0.5 max-w-md">{d.derivation}</td>
+                    <DistCells def={d} />
+                  </tr>
+                  {open && ck && (
+                    <tr key={`${d.name}-editor`} className="border-t border-border bg-card-alt/70">
+                      <td colSpan={10} className="px-2 py-2">
+                        <CompositeEditor
+                          which={ck}
+                          bundle={bundle}
+                          composites={composites}
+                          setComposites={setComposites}
+                          allRespondents={allRespondents}
+                        />
+                      </td>
+                    </tr>
+                  )}
+                </Fragment>
+              );
+            })}
           </tbody>
         </table>
       </div>

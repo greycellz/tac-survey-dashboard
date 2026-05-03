@@ -44,6 +44,8 @@ export interface CompositeConfig {
   };
   accessBarrier: { members: string[] };
   aiEmoSupport: { members: string[] };
+  healthImpact: { members: string[] };
+  financialStrain: { members: string[] };
 }
 
 export const DEFAULT_COMPOSITES: CompositeConfig = {
@@ -67,6 +69,12 @@ export const DEFAULT_COMPOSITES: CompositeConfig = {
   },
   aiEmoSupport: {
     members: ["AI chatbot to deliver emotional support for navigating disaster"],
+  },
+  healthImpact: {
+    members: ["Health issues from smoke", "Health issues from stress"],
+  },
+  financialStrain: {
+    members: ["Dealing with financial strain"],
   },
 };
 
@@ -310,6 +318,22 @@ function rowValues(
         : 0;
   row.ai_emo_support = aiEmo;
 
+  const healthHit =
+    composite.healthImpact.members.length === 0
+      ? null
+      : composite.healthImpact.members.some((m) => r.fireImpacts.includes(m))
+        ? 1
+        : 0;
+  row.healthImpact = composite.healthImpact.members.length === 0 ? null : healthHit;
+
+  const finStrainHit =
+    composite.financialStrain.members.length === 0
+      ? null
+      : composite.financialStrain.members.some((m) => r.challengingAreas.includes(m))
+        ? 1
+        : 0;
+  row.financialStrain = composite.financialStrain.members.length === 0 ? null : finStrainHit;
+
   for (const { field, prefix } of MULTI_CONFIG) {
     const slugMap = optionSlugs.get(field as string)!;
     const arr = (r[field] as string[]) ?? [];
@@ -366,6 +390,26 @@ function buildCompositeWarnings(all: SurveyRespondent[], composites: CompositeCo
     composites.exposureTier.partialOrSmokeMembers.length === 0
   ) {
     w.push("exposureTier composites unconfigured — `exposureTier` is all missing.");
+  }
+
+  const observedChallenging = new Set(collectMultiOptions(all, "challengingAreas"));
+  const finOverlap = composites.financialStrain.members.filter((m) => observedChallenging.has(m)).length;
+  if (composites.financialStrain.members.length === 0) {
+    w.push("financialStrain composite has no members — `financialStrain` is all missing.");
+  } else if (finOverlap === 0) {
+    w.push(
+      "None of the configured `financialStrain` strings matched any observed `challengingAreas` option in this dataset — check wording vs. CSV."
+    );
+  }
+
+  const observedFire = new Set(collectMultiOptions(all, "fireImpacts"));
+  const hiOverlap = composites.healthImpact.members.filter((m) => observedFire.has(m)).length;
+  if (composites.healthImpact.members.length === 0) {
+    w.push("healthImpact composite has no members — `healthImpact` is all missing.");
+  } else if (hiOverlap === 0) {
+    w.push(
+      "None of the configured `healthImpact` strings matched any observed `fireImpacts` option in this dataset — check wording vs. CSV."
+    );
   }
 
   return w;
@@ -547,7 +591,8 @@ function buildSchema(
       sourceQuestion: SQ.insuranceSatisfaction,
     },
     derivation: "Only defined for respondents with filedClaim \"Yes\" or \"In progress\" and non-empty satisfaction.",
-    notes: `Null for non–claim-filers (${LIKERT_CONFIGS.insuranceSatisfaction.scale["Very dissatisfied"]}=dissatisfied pole).`,
+    notes:
+      "Claim-filers only: null where the respondent did not file a claim or has no satisfaction rating. Non-filers are excluded from analysis (not treated as a comparison group).",
     levels: LIKERT_CONFIGS.insuranceSatisfaction.labels.map((l) => ({
       value: LIKERT_CONFIGS.insuranceSatisfaction.scale[l],
       label: l,
@@ -660,6 +705,34 @@ function buildSchema(
     type: "binary",
     source: { kind: "composite", sourceField: "aiToolInterests", sourceQuestion: SQ.aiToolInterests },
     derivation: `1 if any configured member string equals an element of aiToolInterests (verbatim; semicolon-split in CSV).`,
+    levels: [
+      { value: 0, label: "No" },
+      { value: 1, label: "Yes" },
+    ],
+  });
+  defs.push({
+    name: "healthImpact",
+    label: "Health-related fire-impact composite",
+    type: "binary",
+    source: { kind: "composite", sourceField: "fireImpacts", sourceQuestion: SQ.fireImpacts },
+    derivation: `OR of configured health-related fire impact options in fireImpacts; default: ${composites.healthImpact.members.join("; ")}.`,
+    notes:
+      composites.healthImpact.members.length === 0 ? "Composite member list empty — values are missing." : undefined,
+    levels: [
+      { value: 0, label: "No" },
+      { value: 1, label: "Yes" },
+    ],
+  });
+  defs.push({
+    name: "financialStrain",
+    label: "Financial-strain burden composite",
+    type: "binary",
+    source: { kind: "composite", sourceField: "challengingAreas", sourceQuestion: SQ.challengingAreas },
+    derivation: `1 if configured member(s) appear in challengingAreas (${composites.financialStrain.members.join("; ")}).`,
+    notes:
+      composites.financialStrain.members.length === 0
+        ? "Composite member list empty — values are missing."
+        : undefined,
     levels: [
       { value: 0, label: "No" },
       { value: 1, label: "Yes" },
