@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# tac-survey-dashboard
 
-## Getting Started
+Web app for analyzing **wildfire survivor survey CSV** exports (**The After Collective**): interactive dashboards, a **prepared-matrix codebook** with configurable composites, and **inferential exploratory tests** (Welch/MWU/Kruskal–Wallis/Pearson·Spearman/χ²/Fisher with within-family BH **q** values).
 
-First, run the development server:
+See **[DESIGN_AND_ARCHITECTURE.md](./DESIGN_AND_ARCHITECTURE.md)** for accomplishments, runtime architecture (providers, routing, dashboard vs inferential data paths), onboarding notes for builders/LLMs, and guidance on adding a **separate qualitative workspace** with **different datasources** in the **same deployed app**.
+
+## Quick start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Opens **http://localhost:3000** (redirects to **`/dashboard/overview`**). Upload a survey CSV from the header; dashboards and **`/codebook`** / **`/inferential`** use the parsed cohort.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Production-style run:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build && npm run start
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+| Script | Purpose |
+|--------|---------|
+| `npm run dev` | Next.js dev server |
+| `npm run build` | Production build |
+| `npm test` | Vitest (survey inferential/featurize + qualitative transcript parser) |
+| `npm run lint` | ESLint (Next preset) |
+| `npm run qualitative:build-manifest` | Build **`data/qualitative/manifest.json`** from **`data/qualitative/transcripts/*.md`** |
+| `npm run qualitative:test` | Vitest — **`scripts/qualitative/**/*.test.ts`** only |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Inferential fixture references:** regenerate from the pinned CSV via R as described in [**scripts/README-fixture.md**](./scripts/README-fixture.md) (Docker-friendly on hosts without **Rscript**).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Qualitative data layer** (interview VTT, optional **`notes.csv`**, manifest): see **[DESIGN_AND_ARCHITECTURE.md](./DESIGN_AND_ARCHITECTURE.md)** — *Qualitative interview workspace — data layer*.
 
-## Deploy on Vercel
+## Repository map
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Path | Meaning |
+|------|---------|
+| `src/app/dashboard/*` | Descriptive KPI views (`compute.ts`) |
+| `src/app/codebook` | Prepared matrix export + **`VariableDef`** + composite editors |
+| `src/app/inferential` | **`runAllTests`** output + BH q + CSV export |
+| `src/lib/csv-parser.ts` | CSV → **`SurveyRespondent`** |
+| `src/lib/featurize.ts` | Prepared-wide matrix used by codebook/inferential |
+| `src/lib/inferential.ts` | Statistical tests + **`adjustForFDR`** |
+| `src/types/qualitative.ts` | Interview / manifest / citation types (data layer; no UI yet) |
+| `scripts/qualitative/*` | WebVTT parser, notes loader, manifest builder ( **`npm run qualitative:*`** ) |
+| `data/qualitative/transcripts/` | Interview **`INT###.md`** WebVTT files; **`manifest.json`** at **`data/qualitative/`** |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Learn More (framework)
+
+Built with [Next.js](https://nextjs.org)—see upstream docs for App Router deployment (e.g. Vercel).

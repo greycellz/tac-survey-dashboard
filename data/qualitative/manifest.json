@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-08T23:15:20.820Z",
+  "entries": [
+    {
+      "id": "INT001",
+      "transcriptFilename": "INT001.md",
+      "transcriptPath": "data/qualitative/transcripts/INT001.md",
+      "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+      "cueCount": 445,
+      "participantUtteranceCount": 290,
+      "interviewerUtteranceCount": 155,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.804Z"
+    },
+    {
+      "id": "INT002",
+      "transcriptFilename": "INT002.md",
+      "transcriptPath": "data/qualitative/transcripts/INT002.md",
+      "transcriptSha256": "8e680c9d805802c1bfceba9515fda4734e2ba339c0278adf86b076a9ed4bc938",
+      "cueCount": 438,
+      "participantUtteranceCount": 320,
+      "interviewerUtteranceCount": 118,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.805Z"
+    },
+    {
+      "id": "INT003",
+      "transcriptFilename": "INT003.md",
+      "transcriptPath": "data/qualitative/transcripts/INT003.md",
+      "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+      "cueCount": 491,
+      "participantUtteranceCount": 333,
+      "interviewerUtteranceCount": 158,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.807Z"
+    },
+    {
+      "id": "INT004",
+      "transcriptFilename": "INT004.md",
+      "transcriptPath": "data/qualitative/transcripts/INT004.md",
+      "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+      "cueCount": 423,
+      "participantUtteranceCount": 236,
+      "interviewerUtteranceCount": 187,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.808Z"
+    },
+    {
+      "id": "INT005",
+      "transcriptFilename": "INT005.md",
+      "transcriptPath": "data/qualitative/transcripts/INT005.md",
+      "transcriptSha256": "3af1c2b458df4965fff288d67234c8446dd9f73cf40bd9b897c8b47ccf315f09",
+      "cueCount": 501,
+      "participantUtteranceCount": 402,
+      "interviewerUtteranceCount": 99,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.809Z"
+    },
+    {
+      "id": "INT006",
+      "transcriptFilename": "INT006.md",
+      "transcriptPath": "data/qualitative/transcripts/INT006.md",
+      "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+      "cueCount": 523,
+      "participantUtteranceCount": 291,
+      "interviewerUtteranceCount": 232,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.811Z"
+    },
+    {
+      "id": "INT007",
+      "transcriptFilename": "INT007.md",
+      "transcriptPath": "data/qualitative/transcripts/INT007.md",
+      "transcriptSha256": "675786c15b423e4945e9546f59bf2a2aacf5ec8c1eedf8b210768da6e8b92b8d",
+      "cueCount": 508,
+      "participantUtteranceCount": 0,
+      "interviewerUtteranceCount": 508,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.812Z"
+    },
+    {
+      "id": "INT008",
+      "transcriptFilename": "INT008.md",
+      "transcriptPath": "data/qualitative/transcripts/INT008.md",
+      "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+      "cueCount": 408,
+      "participantUtteranceCount": 236,
+      "interviewerUtteranceCount": 172,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.813Z"
+    },
+    {
+      "id": "INT009",
+      "transcriptFilename": "INT009.md",
+      "transcriptPath": "data/qualitative/transcripts/INT009.md",
+      "transcriptSha256": "6a41c15d4635ee27e0c7ccfbd4eb5d057fbf05a6640040d1a616aad8d3d2321a",
+      "cueCount": 396,
+      "participantUtteranceCount": 224,
+      "interviewerUtteranceCount": 172,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.814Z"
+    },
+    {
+      "id": "INT010",
+      "transcriptFilename": "INT010.md",
+      "transcriptPath": "data/qualitative/transcripts/INT010.md",
+      "transcriptSha256": "dfb156f11a6add6df93541992b14a8b3a244dea076c0bbe2b97689552992e5be",
+      "cueCount": 499,
+      "participantUtteranceCount": 0,
+      "interviewerUtteranceCount": 499,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.815Z"
+    },
+    {
+      "id": "INT011",
+      "transcriptFilename": "INT011.md",
+      "transcriptPath": "data/qualitative/transcripts/INT011.md",
+      "transcriptSha256": "b94e449fa75629ea5f5ad537afbb2a0029823f8684e6a0e9b212880ddcfb410d",
+      "cueCount": 381,
+      "participantUtteranceCount": 239,
+      "interviewerUtteranceCount": 142,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.816Z"
+    },
+    {
+      "id": "INT012",
+      "transcriptFilename": "INT012.md",
+      "transcriptPath": "data/qualitative/transcripts/INT012.md",
+      "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+      "cueCount": 217,
+      "participantUtteranceCount": 141,
+      "interviewerUtteranceCount": 76,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.817Z"
+    },
+    {
+      "id": "INT013",
+      "transcriptFilename": "INT013.md",
+      "transcriptPath": "data/qualitative/transcripts/INT013.md",
+      "transcriptSha256": "fa0b0b5d11594cd02777ffef9a82c9fc4c9296841fb1ae12aa3f97766e0861a1",
+      "cueCount": 506,
+      "participantUtteranceCount": 285,
+      "interviewerUtteranceCount": 221,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.818Z"
+    },
+    {
+      "id": "INT014",
+      "transcriptFilename": "INT014.md",
+      "transcriptPath": "data/qualitative/transcripts/INT014.md",
+      "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+      "cueCount": 494,
+      "participantUtteranceCount": 344,
+      "interviewerUtteranceCount": 150,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.819Z"
+    },
+    {
+      "id": "INT015",
+      "transcriptFilename": "INT015.md",
+      "transcriptPath": "data/qualitative/transcripts/INT015.md",
+      "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+      "cueCount": 530,
+      "participantUtteranceCount": 326,
+      "interviewerUtteranceCount": 204,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.820Z"
+    },
+    {
+      "id": "INT016",
+      "transcriptFilename": "INT016.md",
+      "transcriptPath": "data/qualitative/transcripts/INT016.md",
+      "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+      "cueCount": 448,
+      "participantUtteranceCount": 208,
+      "interviewerUtteranceCount": 240,
+      "demographics": null,
+      "builtAt": "2026-05-08T23:15:20.820Z"
+    }
+  ]
+}
