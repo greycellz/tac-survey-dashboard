@@ -1,0 +1,288 @@
+{
+  "participantId": "INT009",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T12:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT009:cue10:0",
+      "participantId": "INT009",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.15,
+      "stance": -0.2,
+      "confidence": 0.82,
+      "rationale": "Factual recount of displacement duration; affect not foregrounded in the fragment itself."
+    },
+    {
+      "quoteId": "INT009:cue39:0",
+      "participantId": "INT009",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.55,
+      "confidence": 0.84,
+      "rationale": "Recovery work named as consuming the speaker’s household role—depleted, time-eating register."
+    },
+    {
+      "quoteId": "INT009:cue9:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "grief",
+      "intensity": 0.88,
+      "stance": -0.85,
+      "confidence": 0.86,
+      "rationale": "Overwhelming smoke + ‘world collapse’ foregrounds terror/re-experiencing; grief colors ‘still emotional.’"
+    },
+    {
+      "quoteId": "INT009:cue19:0",
+      "participantId": "INT009",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.82,
+      "stance": -0.9,
+      "confidence": 0.88,
+      "rationale": "Neighborhood annihilation named as gone—loss-oriented, anchor destroyed."
+    },
+    {
+      "quoteId": "INT009:cue85:0",
+      "participantId": "INT009",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": 0.78,
+      "confidence": 0.87,
+      "rationale": "Explicit hope/rebirth language tied to homes returning—forward-looking positive appraisal."
+    },
+    {
+      "quoteId": "INT009:cue56:0",
+      "participantId": "INT009",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": 0.82,
+      "confidence": 0.84,
+      "rationale": "Thankfulness for being back and fortunate—other-directed appreciation of circumstance."
+    },
+    {
+      "quoteId": "INT009:cue68:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.74,
+      "stance": -0.92,
+      "confidence": 0.9,
+      "rationale": "Energized blame: governments ‘failed us’—opposition toward institutional actors."
+    },
+    {
+      "quoteId": "INT009:cue214:0",
+      "participantId": "INT009",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.7,
+      "stance": -0.75,
+      "confidence": 0.68,
+      "rationale": "Witnessing neighbor’s irreplaceable lineage loss; mournful weight more than anger."
+    },
+    {
+      "quoteId": "INT009:cue42:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.78,
+      "stance": -0.88,
+      "confidence": 0.9,
+      "rationale": "Future harm orientation—cancer/move questions about unseen contaminants."
+    },
+    {
+      "quoteId": "INT009:cue124:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.68,
+      "stance": -0.88,
+      "confidence": 0.86,
+      "rationale": "Adversarial framing—experts paid to minimize—opposition toward insurer-aligned process."
+    },
+    {
+      "quoteId": "INT009:cue126:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.7,
+      "stance": -0.85,
+      "confidence": 0.85,
+      "rationale": "They ‘fought it’—mobilized frustration at insurer resistance; undertone of long fight."
+    },
+    {
+      "quoteId": "INT009:cue117:0",
+      "participantId": "INT009",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.48,
+      "confidence": 0.8,
+      "rationale": "Sprawl of meetings/orgs—depleted overwhelm from fragmented information load."
+    },
+    {
+      "quoteId": "INT009:cue140:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.56,
+      "stance": -0.6,
+      "confidence": 0.82,
+      "rationale": "Named frustration: willingness lost in process—reactive irritation at the gap."
+    },
+    {
+      "quoteId": "INT009:cue132:0",
+      "participantId": "INT009",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.48,
+      "stance": -0.4,
+      "confidence": 0.72,
+      "rationale": "Unknowns + need for basic steps—drained orientation toward navigating the abyss."
+    },
+    {
+      "quoteId": "INT009:cue164:0",
+      "participantId": "INT009",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.44,
+      "stance": 0.76,
+      "confidence": 0.78,
+      "rationale": "‘AI is terrific’—forward-positive evaluation of usefulness; user caveat lowers heat."
+    },
+    {
+      "quoteId": "INT009:cue160:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.46,
+      "stance": -0.35,
+      "confidence": 0.74,
+      "rationale": "Risk warning about misrecognized AI attachment—anticipatory harm for users."
+    },
+    {
+      "quoteId": "INT009:cue169:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": -0.28,
+      "confidence": 0.7,
+      "rationale": "Prescriptive safeguard: AI without human tether—cautious posture toward lone use."
+    },
+    {
+      "quoteId": "INT009:cue172:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.82,
+      "stance": -0.55,
+      "confidence": 0.84,
+      "rationale": "Clinical worst-case harms for vulnerable youth—strong anticipatory safety anxiety."
+    },
+    {
+      "quoteId": "INT009:cue180:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.44,
+      "stance": -0.5,
+      "confidence": 0.8,
+      "rationale": "‘Annoyed’ at repetitive shallow answers—irritated opposition to a bad UX pattern."
+    },
+    {
+      "quoteId": "INT009:cue182:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": -0.45,
+      "confidence": 0.76,
+      "rationale": "Rejects superficiality; mobilized dislike of generic guidance vs need for depth."
+    },
+    {
+      "quoteId": "INT009:cue261:0",
+      "participantId": "INT009",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.54,
+      "stance": -0.4,
+      "confidence": 0.8,
+      "rationale": "Privacy concern—apprehension about how much to share and downstream harm."
+    },
+    {
+      "quoteId": "INT009:cue363:0",
+      "participantId": "INT009",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.62,
+      "stance": 0.88,
+      "confidence": 0.82,
+      "rationale": "Enthusiastic yes toward consolidation concept—forward relief plus thankfulness for idea."
+    },
+    {
+      "quoteId": "INT009:cue373:0",
+      "participantId": "INT009",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.68,
+      "stance": 0.9,
+      "confidence": 0.8,
+      "rationale": "‘Wonderful’ praise—warm positive eval of the shown feature; hope in what it enables."
+    },
+    {
+      "quoteId": "INT009:cue378:0",
+      "participantId": "INT009",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "fear",
+      "intensity": 0.52,
+      "stance": 0.68,
+      "confidence": 0.66,
+      "rationale": "Endorses support networks ahead; CA disasters line adds dread—but primary is constructive vision."
+    },
+    {
+      "quoteId": "INT009:cue137:0",
+      "participantId": "INT009",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.76,
+      "stance": -0.78,
+      "confidence": 0.86,
+      "rationale": "Greatest loss named as people/community—textbook loss-oriented sorrow."
+    },
+    {
+      "quoteId": "INT009:cue364:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.52,
+      "stance": -0.55,
+      "confidence": 0.82,
+      "rationale": "Explicit frustration about volume without a center—irritated search for relevance."
+    },
+    {
+      "quoteId": "INT009:cue150:0",
+      "participantId": "INT009",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.12,
+      "stance": 0.35,
+      "confidence": 0.83,
+      "rationale": "Matter-of-fact tool use for speed—procedural, little foregrounded emotion."
+    },
+    {
+      "quoteId": "INT009:cue152:0",
+      "participantId": "INT009",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.64,
+      "stance": -0.7,
+      "confidence": 0.8,
+      "rationale": "Policy critique with stakes—opposition to density plans; fear of repeat evacuation failure underneath."
+    }
+  ]
+}

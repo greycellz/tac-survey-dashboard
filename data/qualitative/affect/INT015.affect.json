@@ -1,0 +1,278 @@
+{
+  "participantId": "INT015",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-10T12:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT015:cue8:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.62,
+      "stance": -0.55,
+      "confidence": 0.82,
+      "rationale": "Chaotic sleep framed as no routine; depleted register about basic rhythms, not anger at anyone."
+    },
+    {
+      "quoteId": "INT015:cue57:0",
+      "participantId": "INT015",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": -0.35,
+      "confidence": 0.76,
+      "rationale": "Sequential displacement facts (car, friend, apartment); affect not foregrounded in wording."
+    },
+    {
+      "quoteId": "INT015:cue122:0",
+      "participantId": "INT015",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.72,
+      "confidence": 0.8,
+      "rationale": "Named loss of income stream and stability; absence of prior financial life, not only annoyance."
+    },
+    {
+      "quoteId": "INT015:cue215:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.72,
+      "stance": -0.65,
+      "confidence": 0.88,
+      "rationale": "Explicit exhaustion managing unequal relationship; somatic depletion dominant over anger."
+    },
+    {
+      "quoteId": "INT015:cue84:0",
+      "participantId": "INT015",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.92,
+      "stance": -0.85,
+      "confidence": 0.94,
+      "rationale": "Bare longing for mother and home; loss-anchor utterance, overwhelmingly grief-oriented."
+    },
+    {
+      "quoteId": "INT015:cue78:0",
+      "participantId": "INT015",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.68,
+      "stance": -0.45,
+      "confidence": 0.86,
+      "rationale": "Future-oriented disaster imagery while driving; anticipatory harm, not mourning a past object."
+    },
+    {
+      "quoteId": "INT015:cue112:0",
+      "participantId": "INT015",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "grief",
+      "intensity": 0.7,
+      "stance": -0.7,
+      "confidence": 0.74,
+      "rationale": "Anticipates depression from the list—dread of upcoming episode; loss work underneath."
+    },
+    {
+      "quoteId": "INT015:cue200:0",
+      "participantId": "INT015",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "grief",
+      "intensity": 0.65,
+      "stance": -0.55,
+      "confidence": 0.8,
+      "rationale": "Come to terms with enduring loneliness—cognitive acceptance without endorsing the situation."
+    },
+    {
+      "quoteId": "INT015:cue129:0",
+      "participantId": "INT015",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.7,
+      "stance": -0.82,
+      "confidence": 0.85,
+      "rationale": "Contrast past self-setup with feeling on the street; identity and security loss, not only fatigue."
+    },
+    {
+      "quoteId": "INT015:cue271:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.52,
+      "confidence": 0.74,
+      "rationale": "Procedural recount of paper piles; cumulative bureaucratic load without acute spike."
+    },
+    {
+      "quoteId": "INT015:cue113:0",
+      "participantId": "INT015",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "grief",
+      "intensity": 0.65,
+      "stance": -0.8,
+      "confidence": 0.77,
+      "rationale": "Depression aftermath plus ‘scary’—task feels threatening/aversive forward, not mainly angry."
+    },
+    {
+      "quoteId": "INT015:cue288:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "numbness",
+      "intensity": 0.58,
+      "stance": -0.48,
+      "confidence": 0.78,
+      "rationale": "Cannot organize, wandering—depleted executive capacity; foggy searching vs focused anger."
+    },
+    {
+      "quoteId": "INT015:cue134:0",
+      "participantId": "INT015",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.42,
+      "stance": 0.25,
+      "confidence": 0.72,
+      "rationale": "Forward plan for bookkeeper/Vera; mild lift amid ongoing money stress."
+    },
+    {
+      "quoteId": "INT015:cue60:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.55,
+      "stance": -0.35,
+      "confidence": 0.73,
+      "rationale": "Acute need for silence—not talk; overwhelmed depletion more than numb absence."
+    },
+    {
+      "quoteId": "INT015:cue145:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.58,
+      "confidence": 0.8,
+      "rationale": "Repetition and parallel portals (SBA etc.); grind and fragmentation, low-energy frustration."
+    },
+    {
+      "quoteId": "INT015:cue133:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.45,
+      "stance": -0.65,
+      "confidence": 0.74,
+      "rationale": "Plain need for money and organization; strain forward more than pride or gratitude."
+    },
+    {
+      "quoteId": "INT015:cue290:0",
+      "participantId": "INT015",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": 0.55,
+      "confidence": 0.72,
+      "rationale": "Actively seeking psychiatrist—expectation help may be found; light, hedged forward tone."
+    },
+    {
+      "quoteId": "INT015:cue33:0",
+      "participantId": "INT015",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.42,
+      "stance": 0.68,
+      "confidence": 0.76,
+      "rationale": "Belated neighbor connection via ongoing WhatsApp; mild positive toward street-level support."
+    },
+    {
+      "quoteId": "INT015:cue231:0",
+      "participantId": "INT015",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.5,
+      "stance": -0.42,
+      "confidence": 0.77,
+      "rationale": "Tool limits on Amazon list—drained limitation more than energized outrage at AI."
+    },
+    {
+      "quoteId": "INT015:cue235:0",
+      "participantId": "INT015",
+      "primaryEmotion": "pride",
+      "secondaryEmotion": "hope",
+      "intensity": 0.44,
+      "stance": 0.82,
+      "confidence": 0.81,
+      "rationale": "Competent habitual use (before Google); self-directed mastery under stress."
+    },
+    {
+      "quoteId": "INT015:cue293:0",
+      "participantId": "INT015",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.35,
+      "stance": -0.15,
+      "confidence": 0.73,
+      "rationale": "Boundary statement—not flesh, not emotional support; definitional, low arousal."
+    },
+    {
+      "quoteId": "INT015:cue413:0",
+      "participantId": "INT015",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "defiance",
+      "intensity": 0.82,
+      "stance": -0.88,
+      "confidence": 0.9,
+      "rationale": "Energized pushback on tone and ‘help’; refusal and profanity—reactive plus identity-claiming."
+    },
+    {
+      "quoteId": "INT015:cue416:0",
+      "participantId": "INT015",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.68,
+      "stance": -0.8,
+      "confidence": 0.84,
+      "rationale": "Skeptical opposition to barons/assurances; distrust of power, surveillance undertone."
+    },
+    {
+      "quoteId": "INT015:cue514:0",
+      "participantId": "INT015",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "grief",
+      "intensity": 0.5,
+      "stance": 0.88,
+      "confidence": 0.67,
+      "rationale": "Sensitive need for co-present people—values human rooms for healing; mixed urgency and belief."
+    },
+    {
+      "quoteId": "INT015:cue64:0",
+      "participantId": "INT015",
+      "primaryEmotion": "pride",
+      "secondaryEmotion": null,
+      "intensity": 0.4,
+      "stance": 0.6,
+      "confidence": 0.72,
+      "rationale": "Preparedness carried since Bobcat—quiet competence about self-protection, not bravado."
+    },
+    {
+      "quoteId": "INT015:cue76:0",
+      "participantId": "INT015",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.3,
+      "stance": -0.25,
+      "confidence": 0.66,
+      "rationale": "Clinical baseline description—foundational anxiety stated flatly, little performed affect."
+    },
+    {
+      "quoteId": "INT015:cue525:0",
+      "participantId": "INT015",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.5,
+      "stance": -0.35,
+      "confidence": 0.62,
+      "rationale": "General rule about kindness misfiring—world-weary design insight, not hot anger."
+    }
+  ]
+}

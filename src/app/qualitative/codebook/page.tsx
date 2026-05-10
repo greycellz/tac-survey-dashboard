@@ -42,13 +42,26 @@ function CodebookPageInner() {
     filteredQuotes,
     allQuotes,
     quotesByCode,
-    affectByCode,
     fingerprintForQuotes,
     affectVocabulary,
     affectByQuote,
   } = useQualitativeData();
 
   const quoteId = searchParams.get("quote");
+  const emotionFilter = searchParams.get("emotion");
+
+  const emotionLabel =
+    emotionFilter &&
+    affectVocabulary.emotions.find((e) => e.id === emotionFilter)?.name;
+
+  const visibleQuotesForCode = (codeId: string) => {
+    const base = quotesByCode(codeId);
+    if (!emotionFilter) return base;
+    return base.filter((q) => {
+      const a = affectByQuote(q.quoteId);
+      return a?.primaryEmotion === emotionFilter;
+    });
+  };
 
   const setQuoteParam = useCallback(
     (id: string | null) => {
@@ -113,6 +126,27 @@ function CodebookPageInner() {
 
       <QualitativeFilterStrip />
 
+      {emotionFilter && (
+        <div className="mb-4 px-3 py-2 bg-amber-50 border border-amber-200 rounded text-sm flex items-center justify-between gap-3">
+          <span>
+            Filtered to quotes with primary emotion:{" "}
+            <strong>{emotionLabel ?? emotionFilter}</strong>
+          </span>
+          <button
+            type="button"
+            onClick={() => {
+              const sp = new URLSearchParams(searchParams.toString());
+              sp.delete("emotion");
+              router.replace(sp.toString() ? `${pathname}?${sp.toString()}` : pathname, { scroll: false });
+            }}
+            className="text-amber-700 hover:text-amber-900 shrink-0"
+            aria-label="Clear emotion filter"
+          >
+            ×
+          </button>
+        </div>
+      )}
+
       <div className="mt-6 space-y-8">
         {CATEGORY_ORDER.map((cat) => {
           const codes = codesByCategory.get(cat) ?? [];
@@ -121,7 +155,8 @@ function CodebookPageInner() {
               <h3 className="text-sm uppercase tracking-wide text-neutral-500 mb-3">{CATEGORY_LABELS[cat]}</h3>
               <div className="space-y-3">
                 {codes.map((code) => {
-                  const codeQuotes = quotesByCode(code.id);
+                  const codeQuotes = visibleQuotesForCode(code.id);
+                  const barFingerprint = fingerprintForQuotes(codeQuotes);
                   return (
                     <details
                       key={code.id}
@@ -183,10 +218,7 @@ function CodebookPageInner() {
                               );
                             })}
                           </ul>
-                          <EmotionFingerprintBar
-                            fingerprint={affectByCode(code.id)}
-                            vocabulary={affectVocabulary}
-                          />
+                          <EmotionFingerprintBar fingerprint={barFingerprint} vocabulary={affectVocabulary} />
                         </>
                       )}
                     </details>

@@ -7,6 +7,7 @@ import type { ReactNode } from "react";
 const NAV = [
   { href: "/qualitative", label: "Participants", prefixMatch: "/qualitative/INT" },
   { href: "/qualitative/codebook", label: "Codebook", prefixMatch: "/qualitative/codebook" },
+  { href: "/qualitative/emotions", label: "Emotions", prefixMatch: "/qualitative/emotions" },
 ] as const;
 
 function navActive(pathname: string | null, href: string, prefixMatch: string): boolean {

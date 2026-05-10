@@ -1,0 +1,238 @@
+{
+  "participantId": "INT004",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT004:cue13:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.5,
+      "stance": -0.55,
+      "confidence": 0.82,
+      "rationale": "‘A lot’ + doing it that morning: rebuild admin reads as draining, ongoing load rather than acute anger."
+    },
+    {
+      "quoteId": "INT004:cue20:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.35,
+      "stance": -0.45,
+      "confidence": 0.78,
+      "rationale": "Calm agreement that recovery is a part-time job — low-key acknowledgement of sustained effort."
+    },
+    {
+      "quoteId": "INT004:cue6:0",
+      "participantId": "INT004",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.7,
+      "stance": -0.85,
+      "confidence": 0.88,
+      "rationale": "Names house, yard, community as what they ‘miss’ — concrete losses, absence-forward."
+    },
+    {
+      "quoteId": "INT004:cue93:0",
+      "participantId": "INT004",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.55,
+      "stance": -0.3,
+      "confidence": 0.68,
+      "rationale": "Past ‘anxiety’ named; comparative framing tempers tone but fear register still central."
+    },
+    {
+      "quoteId": "INT004:cue128:0",
+      "participantId": "INT004",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.55,
+      "stance": -0.7,
+      "confidence": 0.8,
+      "rationale": "‘How do we get back to what we had?’ — forward-looking financial worry more than institutional anger."
+    },
+    {
+      "quoteId": "INT004:cue17:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.48,
+      "confidence": 0.83,
+      "rationale": "SBA + ‘lot of stuff to figure out’ — depletion and cognitive pile-up, not a sharp blame spike."
+    },
+    {
+      "quoteId": "INT004:cue403:0",
+      "participantId": "INT004",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.48,
+      "stance": -0.72,
+      "confidence": 0.72,
+      "rationale": "‘Taken advantage of’ signals opposition to pricing; ‘I could be wrong’ pulls intensity down."
+    },
+    {
+      "quoteId": "INT004:cue54:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.48,
+      "stance": -0.35,
+      "confidence": 0.76,
+      "rationale": "Long arc of self-navigation dominates; ‘okay in the end’ adds modest forward-positive note."
+    },
+    {
+      "quoteId": "INT004:cue100:0",
+      "participantId": "INT004",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.55,
+      "stance": 0.68,
+      "confidence": 0.84,
+      "rationale": "‘Helpful’ housing soon after — thankfulness for stability; pressure-easing subtext."
+    },
+    {
+      "quoteId": "INT004:cue169:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.42,
+      "confidence": 0.8,
+      "rationale": "Funds-release navigation: procedural grind, low dramatization but clearly tiring."
+    },
+    {
+      "quoteId": "INT004:cue183:0",
+      "participantId": "INT004",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.15,
+      "stance": 0,
+      "confidence": 0.86,
+      "rationale": "Flat comparison of tools — no strong evaluative heat in the snippet itself."
+    },
+    {
+      "quoteId": "INT004:cue201:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": 0.55,
+      "confidence": 0.78,
+      "rationale": "Limited but real upside: coherent synthesis vs scattered search — mild forward-positive on the use case."
+    },
+    {
+      "quoteId": "INT004:cue241:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.62,
+      "stance": 0.88,
+      "confidence": 0.87,
+      "rationale": "Strong ‘very helpful’ — enthusiastic endorsement; thankfulness tones toward the idea as support."
+    },
+    {
+      "quoteId": "INT004:cue300:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.82,
+      "confidence": 0.85,
+      "rationale": "Clear positive expectation about community-layer utility."
+    },
+    {
+      "quoteId": "INT004:cue310:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.6,
+      "stance": 0.85,
+      "confidence": 0.86,
+      "rationale": "Same pattern: concrete approval of personalized/context-aware assistance."
+    },
+    {
+      "quoteId": "INT004:cue335:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.35,
+      "stance": 0.1,
+      "confidence": 0.62,
+      "rationale": "Hedged — ‘could be,’ no try yet; low-intensity possible benefit, not refusal."
+    },
+    {
+      "quoteId": "INT004:cue370:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "anger",
+      "intensity": 0.68,
+      "stance": 0.78,
+      "confidence": 0.74,
+      "rationale": "Animated feature ideation; hope toward the tool, anger undertone toward opaque pricing context."
+    },
+    {
+      "quoteId": "INT004:cue48:0",
+      "participantId": "INT004",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.42,
+      "stance": -0.4,
+      "confidence": 0.8,
+      "rationale": "Trial-and-error path named as okay but suboptimal — tired process, cognitive ‘this is how it was.’"
+    },
+    {
+      "quoteId": "INT004:cue214:0",
+      "participantId": "INT004",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.35,
+      "confidence": 0.75,
+      "rationale": "Efficacy vs hype — skeptical, show-me stance without heated frustration."
+    },
+    {
+      "quoteId": "INT004:cue91:0",
+      "participantId": "INT004",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.78,
+      "stance": -0.85,
+      "confidence": 0.86,
+      "rationale": "Desperation + ‘are we going to be able to rebuild?’ — acute future viability dread."
+    },
+    {
+      "quoteId": "INT004:cue404:0",
+      "participantId": "INT004",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.82,
+      "confidence": 0.8,
+      "rationale": "Profit-taking frame — moralized opposition to who benefits from the disaster economy."
+    },
+    {
+      "quoteId": "INT004:cue99:0",
+      "participantId": "INT004",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.52,
+      "stance": 0.72,
+      "confidence": 0.73,
+      "rationale": "Deliberate routine restoration — forward motion toward normalcy and quiet competence in coping."
+    },
+    {
+      "quoteId": "INT004:cue219:0",
+      "participantId": "INT004",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": -0.55,
+      "confidence": 0.77,
+      "rationale": "Preference statement, mild aversion to robotic tone — evaluative but not emotionally flooded."
+    }
+  ]
+}

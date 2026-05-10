@@ -1,0 +1,288 @@
+{
+  "participantId": "INT014",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-10T12:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT014:cue10:0",
+      "participantId": "INT014",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.18,
+      "stance": 0.0,
+      "confidence": 0.88,
+      "rationale": "Sequential evacuation facts; no foregrounded feeling in the wording itself."
+    },
+    {
+      "quoteId": "INT014:cue11:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.58,
+      "stance": -0.65,
+      "confidence": 0.82,
+      "rationale": "Solo caregiver 'reaching my limit' reads as depleted endurance and hard limits."
+    },
+    {
+      "quoteId": "INT014:cue18:0",
+      "participantId": "INT014",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.68,
+      "stance": -0.78,
+      "confidence": 0.8,
+      "rationale": "Wife did poorly in evacuation; loss-facing concern for her, fire as precipitating harm."
+    },
+    {
+      "quoteId": "INT014:cue348:0",
+      "participantId": "INT014",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.52,
+      "confidence": 0.74,
+      "rationale": "Self-reproach about visitation—absence and unmet caregiving longing, not institutional anger."
+    },
+    {
+      "quoteId": "INT014:cue112:0",
+      "participantId": "INT014",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.48,
+      "stance": -0.82,
+      "confidence": 0.79,
+      "rationale": "Layoff as unwelcome loss of chosen work path; blunt 'doesn't feel good' affect."
+    },
+    {
+      "quoteId": "INT014:cue89:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.74,
+      "stance": -0.48,
+      "confidence": 0.86,
+      "rationale": "Unresolved need for sleep names somatic depletion, not numb absence of feeling."
+    },
+    {
+      "quoteId": "INT014:cue151:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.52,
+      "stance": -0.55,
+      "confidence": 0.8,
+      "rationale": "Labels recovery admin as a job; paperwork and insurance churn as draining obligation."
+    },
+    {
+      "quoteId": "INT014:cue70:0",
+      "participantId": "INT014",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.05,
+      "confidence": 0.77,
+      "rationale": "Explains an adrenaline-then-stabilize arc in matter-of-fact, retrospective terms."
+    },
+    {
+      "quoteId": "INT014:cue166:0",
+      "participantId": "INT014",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "defiance",
+      "intensity": 0.88,
+      "stance": -0.95,
+      "confidence": 0.9,
+      "rationale": "Energized opposition to badge revocation framed as having the rug pulled."
+    },
+    {
+      "quoteId": "INT014:cue167:0",
+      "participantId": "INT014",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.84,
+      "stance": -0.92,
+      "confidence": 0.88,
+      "rationale": "Explicit insult-to-injury framing and rhetorical challenge to the policy rationale."
+    },
+    {
+      "quoteId": "INT014:cue235:0",
+      "participantId": "INT014",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "defiance",
+      "intensity": 0.62,
+      "stance": 0.82,
+      "confidence": 0.84,
+      "rationale": "Rebuild contingent on it being fun—forward agency and refusal of purely grim recovery."
+    },
+    {
+      "quoteId": "INT014:cue96:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.9,
+      "stance": -0.52,
+      "confidence": 0.92,
+      "rationale": "Plain naming of exhaustion as baseline state; dominant depleted register."
+    },
+    {
+      "quoteId": "INT014:cue152:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.44,
+      "stance": -0.18,
+      "confidence": 0.72,
+      "rationale": "Deadlines prop functioning—obligation fatigue with slight forward pull from structure."
+    },
+    {
+      "quoteId": "INT014:cue188:0",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.48,
+      "stance": -0.28,
+      "confidence": 0.74,
+      "rationale": "Strong norm that therapy be in-person plus I-need-to-find-time strain; hedged hope."
+    },
+    {
+      "quoteId": "INT014:cue352:0",
+      "participantId": "INT014",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.55,
+      "stance": 0.38,
+      "confidence": 0.76,
+      "rationale": "Long-term goal—closer placement—with imagined help from AI for the search task."
+    },
+    {
+      "quoteId": "INT014:cue282:0",
+      "participantId": "INT014",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.16,
+      "stance": 0.12,
+      "confidence": 0.85,
+      "rationale": "Adds a channel fact (WhatsApp) without evaluative charge in this line."
+    },
+    {
+      "quoteId": "INT014:cue470:0",
+      "participantId": "INT014",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.54,
+      "stance": -0.62,
+      "confidence": 0.77,
+      "rationale": "Future-oriented worry about dependence on bots from stories, not present anger."
+    },
+    {
+      "quoteId": "INT014:cue188:1",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.48,
+      "stance": -0.28,
+      "confidence": 0.74,
+      "rationale": "Strong norm that therapy be in-person plus I-need-to-find-time strain; hedged hope."
+    },
+    {
+      "quoteId": "INT014:cue211:0",
+      "participantId": "INT014",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.5,
+      "stance": 0.78,
+      "confidence": 0.84,
+      "rationale": "Believes AI could work for practical tasks—forward, constructive evaluation of scope."
+    },
+    {
+      "quoteId": "INT014:cue263:0",
+      "participantId": "INT014",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "hope",
+      "intensity": 0.42,
+      "stance": 0.58,
+      "confidence": 0.73,
+      "rationale": "Mild counterfactual on past speed; accepts current position while endorsing tool value."
+    },
+    {
+      "quoteId": "INT014:cue265:0",
+      "participantId": "INT014",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": 0.35,
+      "confidence": 0.8,
+      "rationale": "Labels a feature type clinically; low affect, slight positive toward usefulness."
+    },
+    {
+      "quoteId": "INT014:cue419:0",
+      "participantId": "INT014",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.86,
+      "confidence": 0.87,
+      "rationale": "Repeated emphatic endorsement of practical/insurance use—clear positive expectation."
+    },
+    {
+      "quoteId": "INT014:cue188:2",
+      "participantId": "INT014",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.48,
+      "stance": -0.28,
+      "confidence": 0.74,
+      "rationale": "Strong norm that therapy be in-person plus I-need-to-find-time strain; hedged hope."
+    },
+    {
+      "quoteId": "INT014:cue173:0",
+      "participantId": "INT014",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.42,
+      "stance": 0.58,
+      "confidence": 0.75,
+      "rationale": "Back on list / access restored—pressure eased plus appreciative posture toward inclusion."
+    },
+    {
+      "quoteId": "INT014:cue38:0",
+      "participantId": "INT014",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.72,
+      "stance": -0.72,
+      "confidence": 0.83,
+      "rationale": "Empty house names absence of son's presence—loss of domestic fullness, not flat procedure."
+    },
+    {
+      "quoteId": "INT014:cue328:0",
+      "participantId": "INT014",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.68,
+      "stance": -0.82,
+      "confidence": 0.76,
+      "rationale": "Self-blame over missed early symptoms—mourning clarity and caregiver regret."
+    },
+    {
+      "quoteId": "INT014:cue454:0",
+      "participantId": "INT014",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.5,
+      "stance": -0.48,
+      "confidence": 0.7,
+      "rationale": "Worried whether bot identity stays transparent in multi-party talk—anticipatory mistrust."
+    },
+    {
+      "quoteId": "INT014:cue423:0",
+      "participantId": "INT014",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.08,
+      "confidence": 0.72,
+      "rationale": "Generational adoption observation; analytic tone without strong personal charge here."
+    }
+  ]
+}

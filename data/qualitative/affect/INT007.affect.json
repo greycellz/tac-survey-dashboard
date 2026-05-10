@@ -1,0 +1,328 @@
+{
+  "participantId": "INT007",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T14:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT007:cue7:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.45,
+      "stance": -0.55,
+      "confidence": 0.78,
+      "rationale": "Routine named as constantly disrupted—depleted, matter-of-fact register about instability."
+    },
+    {
+      "quoteId": "INT007:cue8:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.5,
+      "stance": -0.5,
+      "confidence": 0.72,
+      "rationale": "Extra pressure layering school on displacement—accumulated load more than angry blame."
+    },
+    {
+      "quoteId": "INT007:cue21:0",
+      "participantId": "INT007",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "hope",
+      "intensity": 0.65,
+      "stance": 0.8,
+      "confidence": 0.85,
+      "rationale": "Grounding after bouncing—pressure eases; forward stability named explicitly."
+    },
+    {
+      "quoteId": "INT007:cue37:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.55,
+      "stance": -0.52,
+      "confidence": 0.76,
+      "rationale": "‘But again’ flags ongoing disruption accepted as persistent; tired more than combative."
+    },
+    {
+      "quoteId": "INT007:cue46:0",
+      "participantId": "INT007",
+      "primaryEmotion": "numbness",
+      "secondaryEmotion": null,
+      "intensity": 0.72,
+      "stance": -0.35,
+      "confidence": 0.88,
+      "rationale": "Explicit dissociation and poor recall—affective distance and blanking, not mainly exhaustion."
+    },
+    {
+      "quoteId": "INT007:cue92:0",
+      "participantId": "INT007",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.88,
+      "stance": -0.82,
+      "confidence": 0.92,
+      "rationale": "Direct, permanent mourning of irreplaceable things—loss-named, not process-tired."
+    },
+    {
+      "quoteId": "INT007:cue98:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.7,
+      "stance": 0.82,
+      "confidence": 0.84,
+      "rationale": "Regrowth read as message of return—forward meaning and thankfulness toward that symbol."
+    },
+    {
+      "quoteId": "INT007:cue498:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.52,
+      "stance": 0.78,
+      "confidence": 0.7,
+      "rationale": "Purpose framed as helping others—future-oriented and identity-aligned, calm energy."
+    },
+    {
+      "quoteId": "INT007:cue26:0",
+      "participantId": "INT007",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.72,
+      "confidence": 0.74,
+      "rationale": "Burden shifted to survivor—energized critique of structural offload, not flat fatigue alone."
+    },
+    {
+      "quoteId": "INT007:cue33:0",
+      "participantId": "INT007",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.78,
+      "stance": -0.85,
+      "confidence": 0.82,
+      "rationale": "Inventory as ordeal plus named heirloom—loss-centered with procedural exhaustion underneath."
+    },
+    {
+      "quoteId": "INT007:cue67:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.48,
+      "stance": -0.68,
+      "confidence": 0.65,
+      "rationale": "Fragmentation described in drained register; low-grade frustration at invisible offers."
+    },
+    {
+      "quoteId": "INT007:cue74:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.52,
+      "stance": -0.48,
+      "confidence": 0.7,
+      "rationale": "Mind tangled, executive function ‘offline’—depletion and cognitive overwhelm dominant."
+    },
+    {
+      "quoteId": "INT007:cue65:0",
+      "participantId": "INT007",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.12,
+      "stance": -0.15,
+      "confidence": 0.8,
+      "rationale": "Lists informational needs in flat, practical tone—little foregrounded feeling."
+    },
+    {
+      "quoteId": "INT007:cue84:0",
+      "participantId": "INT007",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.18,
+      "stance": 0.45,
+      "confidence": 0.72,
+      "rationale": "Proposal for psychoeducation—mostly prescriptive/descriptive, mildly pro-intervention."
+    },
+    {
+      "quoteId": "INT007:cue223:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "fear",
+      "intensity": 0.42,
+      "stance": 0.58,
+      "confidence": 0.62,
+      "rationale": "Voices survivor dread (‘permanently damaged’) to argue for normalization—care + forward fix."
+    },
+    {
+      "quoteId": "INT007:cue114:0",
+      "participantId": "INT007",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.62,
+      "stance": 0.85,
+      "confidence": 0.83,
+      "rationale": "Tools named as broadly helpful—thanks/relief toward support that eases practical load."
+    },
+    {
+      "quoteId": "INT007:cue119:0",
+      "participantId": "INT007",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.5,
+      "stance": 0.82,
+      "confidence": 0.76,
+      "rationale": "Curator voices as lifeline—other-directed appreciation and sense of wayfinding."
+    },
+    {
+      "quoteId": "INT007:cue124:0",
+      "participantId": "INT007",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.15,
+      "stance": 0.55,
+      "confidence": 0.78,
+      "rationale": "Simple membership fact about WeChat—procedural, mildly positive toward peer channel."
+    },
+    {
+      "quoteId": "INT007:cue183:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.35,
+      "stance": 0.72,
+      "confidence": 0.8,
+      "rationale": "General endorsement of AI for synthesis—forward-positive, low-key rather than ecstatic."
+    },
+    {
+      "quoteId": "INT007:cue193:0",
+      "participantId": "INT007",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.58,
+      "confidence": 0.82,
+      "rationale": "Hesitant about MH uses—orientation toward harm stories and risk, not anger at a person."
+    },
+    {
+      "quoteId": "INT007:cue195:0",
+      "participantId": "INT007",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "anger",
+      "intensity": 0.68,
+      "stance": -0.55,
+      "confidence": 0.74,
+      "rationale": "Loss-of-life examples and need for human tether—dread of harm plus normative pushback."
+    },
+    {
+      "quoteId": "INT007:cue230:0",
+      "participantId": "INT007",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": -0.58,
+      "confidence": 0.84,
+      "rationale": "Wrong-path and hallucination worry—future harm if misinformation, vigilant tone."
+    },
+    {
+      "quoteId": "INT007:cue272:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": 0.88,
+      "confidence": 0.82,
+      "rationale": "Design ‘makes a ton of sense’—clear approval and optimism about the approach."
+    },
+    {
+      "quoteId": "INT007:cue383:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "relief",
+      "intensity": 0.68,
+      "stance": 0.9,
+      "confidence": 0.86,
+      "rationale": "Deadline tracking framed as incredibly helpful—enthusiastic, burden-easing promise."
+    },
+    {
+      "quoteId": "INT007:cue423:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": 0.85,
+      "confidence": 0.8,
+      "rationale": "Digest surfacing key items—forward utility, warm but not theatrical."
+    },
+    {
+      "quoteId": "INT007:cue436:0",
+      "participantId": "INT007",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.62,
+      "stance": 0.92,
+      "confidence": 0.83,
+      "rationale": "‘I love that you’re thinking…’—thankful toward builders; bullish on the architecture."
+    },
+    {
+      "quoteId": "INT007:cue280:0",
+      "participantId": "INT007",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.48,
+      "stance": -0.62,
+      "confidence": 0.68,
+      "rationale": "Disasters every month—anticipatory dread and grim drumbeat, not neutral forecasting."
+    },
+    {
+      "quoteId": "INT007:cue146:0",
+      "participantId": "INT007",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": 0.88,
+      "confidence": 0.72,
+      "rationale": "Peer who gets impacts named as valuable—appreciation toward lived-experience support."
+    },
+    {
+      "quoteId": "INT007:cue85:0",
+      "participantId": "INT007",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": 0.68,
+      "confidence": 0.75,
+      "rationale": "Phase checkpoints ‘of value’—mild forward hope for structured guidance helping others."
+    },
+    {
+      "quoteId": "INT007:cue17:0",
+      "participantId": "INT007",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "grief",
+      "intensity": 0.72,
+      "stance": -0.82,
+      "confidence": 0.7,
+      "rationale": "Cancer plus fire stacked—‘whoa’ shock; future/health threat layered on displacement."
+    },
+    {
+      "quoteId": "INT007:cue58:0",
+      "participantId": "INT007",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.48,
+      "stance": -0.48,
+      "confidence": 0.68,
+      "rationale": "Brand-new in program—vulnerable, ungrounded; tired uncertainty more than pride."
+    },
+    {
+      "quoteId": "INT007:cue44:0",
+      "participantId": "INT007",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.12,
+      "stance": 0.1,
+      "confidence": 0.85,
+      "rationale": "Matter-of-fact credential line—identification without strong evaluative color."
+    }
+  ]
+}

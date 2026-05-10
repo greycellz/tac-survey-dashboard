@@ -1,0 +1,318 @@
+{
+  "participantId": "INT011",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T20:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT011:cue7:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.55,
+      "confidence": 0.82,
+      "rationale": "Calm, shared framing of recovery as a full-time job—burden is named without heat, depleted bandwidth implied."
+    },
+    {
+      "quoteId": "INT011:cue9:0",
+      "participantId": "INT011",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.52,
+      "stance": -0.58,
+      "confidence": 0.8,
+      "rationale": "Weekends eaten by recovery stated as normalized fact—cognitive acceptance of an endless grind."
+    },
+    {
+      "quoteId": "INT011:cue51:0",
+      "participantId": "INT011",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.45,
+      "confidence": 0.78,
+      "rationale": "Explicit worry about kids and housing crowded out fundraising—acute threat salience in the acute phase."
+    },
+    {
+      "quoteId": "INT011:cue60:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "numbness",
+      "intensity": 0.68,
+      "stance": -0.5,
+      "confidence": 0.76,
+      "rationale": "Survival triage shrinks the social world; ‘no time’ and ‘toll’ signal depleted capacity more than blame."
+    },
+    {
+      "quoteId": "INT011:cue64:0",
+      "participantId": "INT011",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.88,
+      "stance": -0.92,
+      "confidence": 0.92,
+      "rationale": "Repeated ‘broke me’ names a collapse after held-together functioning—loss and overwhelm crest together."
+    },
+    {
+      "quoteId": "INT011:cue76:0",
+      "participantId": "INT011",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.72,
+      "stance": -0.75,
+      "confidence": 0.8,
+      "rationale": "Contrast with ‘moved on’ vs neighbor’s ongoing haunt—empathic pain at a loss shape he’d never wish."
+    },
+    {
+      "quoteId": "INT011:cue367:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.68,
+      "stance": 0.88,
+      "confidence": 0.84,
+      "rationale": "Forward pull toward helping others after rebuild—meaning and anticipated contribution, not relief about the past."
+    },
+    {
+      "quoteId": "INT011:cue70:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.62,
+      "confidence": 0.82,
+      "rationale": "‘Super hard’ names friction and cognitive load sorting signal from noise across mismatched profiles."
+    },
+    {
+      "quoteId": "INT011:cue86:0",
+      "participantId": "INT011",
+      "primaryEmotion": "defiance",
+      "secondaryEmotion": "anger",
+      "intensity": 0.58,
+      "stance": -0.72,
+      "confidence": 0.74,
+      "rationale": "Refusal to engage ghosting adjuster is identity-level opting out; anger at them supports but isn’t the spine."
+    },
+    {
+      "quoteId": "INT011:cue164:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.58,
+      "stance": -0.68,
+      "confidence": 0.8,
+      "rationale": "Task-imposed inventory clashes with everyday unknowns—logistical weight with a hint of dread about gaps."
+    },
+    {
+      "quoteId": "INT011:cue83:0",
+      "participantId": "INT011",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": -0.15,
+      "confidence": 0.78,
+      "rationale": "Describes stacking and prioritizing parallel obligations—analytic coping strategy, low overt affect."
+    },
+    {
+      "quoteId": "INT011:cue116:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.55,
+      "confidence": 0.8,
+      "rationale": "Navigator/checklist gap names sustained executive strain—what to do and how to do it efficiently."
+    },
+    {
+      "quoteId": "INT011:cue137:0",
+      "participantId": "INT011",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.55,
+      "stance": -0.65,
+      "confidence": 0.82,
+      "rationale": "Tax bite and timing framed as something to worry about sooner—anticipatory financial threat."
+    },
+    {
+      "quoteId": "INT011:cue31:0",
+      "participantId": "INT011",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.18,
+      "stance": 0.0,
+      "confidence": 0.76,
+      "rationale": "Timeline note about outreach vs already-moving logistics—factual sequencing, little evaluative heat."
+    },
+    {
+      "quoteId": "INT011:cue113:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": -0.6,
+      "confidence": 0.84,
+      "rationale": "‘Super complicated’ and a week of life consumed—cumulative bureaucratic exhaustion."
+    },
+    {
+      "quoteId": "INT011:cue130:0",
+      "participantId": "INT011",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.5,
+      "stance": -0.55,
+      "confidence": 0.77,
+      "rationale": "Caught off guard by tax complexity—surprise plus need to escalate to a professional; future hassle looms."
+    },
+    {
+      "quoteId": "INT011:cue110:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.55,
+      "stance": -0.4,
+      "confidence": 0.62,
+      "rationale": "Good-but-painful trade named explicitly; dominant register is cost of exposure, with dread of extra anguish."
+    },
+    {
+      "quoteId": "INT011:cue276:0",
+      "participantId": "INT011",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.48,
+      "stance": 0.78,
+      "confidence": 0.8,
+      "rationale": "‘Best’ signals thankfulness for the channel/community that actually worked; mild ease at having found it."
+    },
+    {
+      "quoteId": "INT011:cue168:0",
+      "participantId": "INT011",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "pride",
+      "intensity": 0.58,
+      "stance": 0.82,
+      "confidence": 0.85,
+      "rationale": "Pressure lifts on a lawyer-ready list; self-efficacy shows in willingness to hand it to counsel."
+    },
+    {
+      "quoteId": "INT011:cue192:0",
+      "participantId": "INT011",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.58,
+      "stance": 0.72,
+      "confidence": 0.83,
+      "rationale": "Tool framed as clarifying absurd rules and next steps—other-directed help that also eases confusion."
+    },
+    {
+      "quoteId": "INT011:cue177:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": -0.35,
+      "confidence": 0.75,
+      "rationale": "Low-energy disappointment—helpful for some but not integrated enough for him; mild drain, not fight."
+    },
+    {
+      "quoteId": "INT011:cue211:0",
+      "participantId": "INT011",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.32,
+      "stance": -0.55,
+      "confidence": 0.79,
+      "rationale": "Boundaried preference stated calmly—against bots for deep emotional disclosure; humans endorsed without heat."
+    },
+    {
+      "quoteId": "INT011:cue189:0",
+      "participantId": "INT011",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": 0.68,
+      "confidence": 0.82,
+      "rationale": "‘Pretty good’ on practical tax guidance—pressure reduced on an opaque chore."
+    },
+    {
+      "quoteId": "INT011:cue336:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.65,
+      "stance": 0.88,
+      "confidence": 0.86,
+      "rationale": "Retroactive appreciation for a tool that could have matched shifting daily needs—forward-positive evaluation."
+    },
+    {
+      "quoteId": "INT011:cue346:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": 0.85,
+      "confidence": 0.84,
+      "rationale": "‘Would have loved’ imagines a steady check-in and usable documentation—aspiration toward support."
+    },
+    {
+      "quoteId": "INT011:cue339:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.65,
+      "stance": 0.8,
+      "confidence": 0.8,
+      "rationale": "Envisions proactive health nudges from lived near-miss—protective, forward-looking endorsement."
+    },
+    {
+      "quoteId": "INT011:cue293:0",
+      "participantId": "INT011",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.28,
+      "stance": 0.1,
+      "confidence": 0.81,
+      "rationale": "Product-design question about cross-platform gleaning—curiosity, minimal emotional coloring."
+    },
+    {
+      "quoteId": "INT011:cue71:0",
+      "participantId": "INT011",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.62,
+      "stance": -0.58,
+      "confidence": 0.76,
+      "rationale": "Low-point insight: mutual irrelevance of mismatched feeds—draining recognition post-collapse."
+    },
+    {
+      "quoteId": "INT011:cue335:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.45,
+      "stance": 0.55,
+      "confidence": 0.78,
+      "rationale": "Understands and affirms variable daily needs—optimistic alignment with an adaptive, agentic model."
+    },
+    {
+      "quoteId": "INT011:cue33:0",
+      "participantId": "INT011",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.5,
+      "stance": 0.45,
+      "confidence": 0.72,
+      "rationale": "Counterfactual prep: pre-disaster list and named ally—constructive, imagined readiness rather than dread."
+    },
+    {
+      "quoteId": "INT011:cue217:0",
+      "participantId": "INT011",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.52,
+      "stance": 0.6,
+      "confidence": 0.78,
+      "rationale": "Positive on structured wellness plans from AI while rejecting it as counselor—practical help, bounded use."
+    }
+  ]
+}

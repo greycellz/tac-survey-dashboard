@@ -1,0 +1,328 @@
+{
+  "participantId": "INT010",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT010:cue11:0",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.55,
+      "stance": -0.65,
+      "confidence": 0.78,
+      "rationale": "Cycles of tentative normalcy keep breaking—depleted rhythm of displacement rather than energized anger."
+    },
+    {
+      "quoteId": "INT010:cue15:0",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.72,
+      "stance": -0.6,
+      "confidence": 0.85,
+      "rationale": "Days ‘3 times full’ names cumulative overload of recovery stacked on ordinary life."
+    },
+    {
+      "quoteId": "INT010:cue25:0",
+      "participantId": "INT010",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.5,
+      "stance": -0.55,
+      "confidence": 0.74,
+      "rationale": "Long multi-year horizons stated matter-of-factly—accepted weight of the timeline, drained edge."
+    },
+    {
+      "quoteId": "INT010:cue110:0",
+      "participantId": "INT010",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.28,
+      "stance": -0.15,
+      "confidence": 0.68,
+      "rationale": "Explains a coping sequence (logistics first, feelings deferred) in a largely descriptive, measured register."
+    },
+    {
+      "quoteId": "INT010:cue146:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.62,
+      "stance": 0.88,
+      "confidence": 0.82,
+      "rationale": "Forward meaning through service; affirmative posture toward helping others as central coping."
+    },
+    {
+      "quoteId": "INT010:cue113:0",
+      "participantId": "INT010",
+      "primaryEmotion": "pride",
+      "secondaryEmotion": "hope",
+      "intensity": 0.58,
+      "stance": 0.8,
+      "confidence": 0.76,
+      "rationale": "Redirects inner state outward and names competence-reward loop from aiding others—not mainly relief."
+    },
+    {
+      "quoteId": "INT010:cue121:0",
+      "participantId": "INT010",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "anger",
+      "intensity": 0.78,
+      "stance": -0.82,
+      "confidence": 0.8,
+      "rationale": "Trigger from fire-linked phrase in environment; keyed-up ‘worst title’ reacts to recurrence/re-exposure cues."
+    },
+    {
+      "quoteId": "INT010:cue173:0",
+      "participantId": "INT010",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "fear",
+      "intensity": 0.62,
+      "stance": -0.68,
+      "confidence": 0.75,
+      "rationale": "No return + unknown destination centers irreplaceable place loss; uncertainty about the town adds dread."
+    },
+    {
+      "quoteId": "INT010:cue60:0",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.6,
+      "stance": -0.72,
+      "confidence": 0.8,
+      "rationale": "‘Very, very challenging’ stresses sustained strain of hunting reliable information, not flat neutrality."
+    },
+    {
+      "quoteId": "INT010:cue73:0",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.58,
+      "confidence": 0.72,
+      "rationale": "Analytic but fatigued diagnosis of systemic inexperience blocking actionable clarity."
+    },
+    {
+      "quoteId": "INT010:cue86:0",
+      "participantId": "INT010",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.72,
+      "stance": -0.85,
+      "confidence": 0.84,
+      "rationale": "Energized pushback—“will not believe me”—at insurer disbelief layered on prior exhaustion."
+    },
+    {
+      "quoteId": "INT010:cue93:0",
+      "participantId": "INT010",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.8,
+      "stance": -0.92,
+      "confidence": 0.87,
+      "rationale": "Moral condemnation of repeating trauma narrative for bureaucratic rhythms—mobilized opposition."
+    },
+    {
+      "quoteId": "INT010:cue215:0",
+      "participantId": "INT010",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.7,
+      "stance": -0.88,
+      "confidence": 0.83,
+      "rationale": "‘Awful but typical’ pairs outrage at outcomes with cynical acceptance drawn from precedent."
+    },
+    {
+      "quoteId": "INT010:cue224:0",
+      "participantId": "INT010",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.55,
+      "stance": -0.7,
+      "confidence": 0.81,
+      "rationale": "Professional prognosis of multi-year processing—cognitive ‘this is how it will be’ more than hot anger."
+    },
+    {
+      "quoteId": "INT010:cue101:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": 0.68,
+      "confidence": 0.71,
+      "rationale": "Enthused description of synthesized, clarifying workflow—toward a tool-like fix as promising."
+    },
+    {
+      "quoteId": "INT010:cue195:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": 0.86,
+      "confidence": 0.79,
+      "rationale": "Vision of pre-wired responder networks—positive expectation about coordinated future capability."
+    },
+    {
+      "quoteId": "INT010:cue152:0",
+      "participantId": "INT010",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.88,
+      "confidence": 0.84,
+      "rationale": "Therapy named as vital personal support—thankfulness and advocate tone for the practice itself."
+    },
+    {
+      "quoteId": "INT010:cue25:1",
+      "participantId": "INT010",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.5,
+      "stance": -0.55,
+      "confidence": 0.72,
+      "rationale": "Same verbatim long-horizon estimate; same sober acceptance and tired weight of timeline."
+    },
+    {
+      "quoteId": "INT010:cue240:0",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.75,
+      "stance": -0.78,
+      "confidence": 0.82,
+      "rationale": "Volume framed as undoable—overload and drowning in channel noise dominate the utterance."
+    },
+    {
+      "quoteId": "INT010:cue242:0",
+      "participantId": "INT010",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.45,
+      "stance": -0.45,
+      "confidence": 0.66,
+      "rationale": "‘Not sure they do good’ hedges usefulness—muted defeat about available tools vs. sharper anger."
+    },
+    {
+      "quoteId": "INT010:cue294:0",
+      "participantId": "INT010",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": -0.1,
+      "confidence": 0.62,
+      "rationale": "Conditional ‘let’s assume trustable’ exposes underlying reliability worry before endorsing reliance."
+    },
+    {
+      "quoteId": "INT010:cue321:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.56,
+      "stance": 0.78,
+      "confidence": 0.81,
+      "rationale": "Collective embrace of AI for throughput—professional optimism tempered by limits, still pro-adoption energy."
+    },
+    {
+      "quoteId": "INT010:cue339:0",
+      "participantId": "INT010",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.35,
+      "confidence": 0.56,
+      "rationale": "‘Hesitant’ signals guardedness about intimacy with automated help—risk/unease atop otherwise open interview tone."
+    },
+    {
+      "quoteId": "INT010:cue356:0",
+      "participantId": "INT010",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.55,
+      "stance": 0.95,
+      "confidence": 0.78,
+      "rationale": "Values human relational warmth (‘warm embrace’) as irreducible good—toward spouse/community over tools."
+    },
+    {
+      "quoteId": "INT010:cue402:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.82,
+      "confidence": 0.83,
+      "rationale": "‘Like the sound’ of inviting others signals positive curiosity about communal, non-isolating UX."
+    },
+    {
+      "quoteId": "INT010:cue425:0",
+      "participantId": "INT010",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "hope",
+      "intensity": 0.62,
+      "stance": 0.86,
+      "confidence": 0.85,
+      "rationale": "Avoiding torrent of reads names pressure release paired with upbeat expectation from summarization affordance."
+    },
+    {
+      "quoteId": "INT010:cue428:0",
+      "participantId": "INT010",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "relief",
+      "intensity": 0.64,
+      "stance": 0.88,
+      "confidence": 0.86,
+      "rationale": "‘Fantastic’ actionable takeaway for time-poor survivors—positive eval of efficiency plus lifted burden."
+    },
+    {
+      "quoteId": "INT010:cue441:0",
+      "participantId": "INT010",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "hope",
+      "intensity": 0.32,
+      "stance": 0.58,
+      "confidence": 0.69,
+      "rationale": "Feature wish stated in illustrative, explanatory mode—some forward-positive note but muted affect."
+    },
+    {
+      "quoteId": "INT010:cue73:1",
+      "participantId": "INT010",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.58,
+      "confidence": 0.65,
+      "rationale": "Same verbatim meta-generalization cross-coded; analytic fatigue toward information landscape unchanged."
+    },
+    {
+      "quoteId": "INT010:cue356:1",
+      "participantId": "INT010",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.55,
+      "stance": 0.95,
+      "confidence": 0.74,
+      "rationale": "Duplicate excerpt as cross-cutting human-irreplaceable theme; affirmation of relational warmth persists."
+    },
+    {
+      "quoteId": "INT010:cue332:0",
+      "participantId": "INT010",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.52,
+      "stance": 0.75,
+      "confidence": 0.76,
+      "rationale": "Daily meditation apps appraised as ‘great’ self-care—thankful, lightly buoyant tooling for stress."
+    },
+    {
+      "quoteId": "INT010:cue128:0",
+      "participantId": "INT010",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.74,
+      "stance": -0.72,
+      "confidence": 0.78,
+      "rationale": "‘It hurts’ centers empathic sorrow for daughter’s helpless pain—relational loss witnessing, future-oriented ache."
+    }
+  ]
+}

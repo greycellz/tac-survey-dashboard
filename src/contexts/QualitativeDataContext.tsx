@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import { createContext, useContext, useCallback, useMemo, useState, type ReactNode } from "react";
 import type {
   QualitativeBundle,
   ValidatedCodedQuote,
@@ -73,6 +73,7 @@ type QualitativeContextValue = {
   affectByQuote: (quoteId: string) => QuoteAffect | null;
   affectByCode: (codeId: string) => AffectFingerprint;
   fingerprintForQuotes: (quotes: EnrichedQuote[]) => AffectFingerprint;
+  fingerprintsByParticipant: Record<string, AffectFingerprint>;
   affectVocabulary: QualitativeBundle["affectVocabulary"];
 };
 
@@ -182,7 +183,7 @@ export function QualitativeDataProvider({
   const quotesByCategory = (cat: CategoryKey) => filteredQuotes.filter((q) => q.category === cat);
   const quotesByParticipant = (id: ParticipantId) => filteredQuotes.filter((q) => q.participantId === id);
 
-  const participantIds = bundle.manifest.entries.map((e) => e.id);
+  const participantIds = useMemo(() => bundle.manifest.entries.map((e) => e.id), [bundle.manifest.entries]);
   const manifestEntry = (id: ParticipantId) => bundle.manifest.entries.find((e) => e.id === id) ?? null;
 
   const affectByQuoteId = useMemo(() => {
@@ -196,31 +197,42 @@ export function QualitativeDataProvider({
 
   const affectByQuote = (quoteId: string) => affectByQuoteId.get(quoteId) ?? null;
 
-  const fingerprintForQuotes = (quotes: EnrichedQuote[]): AffectFingerprint => {
-    const counts = Object.fromEntries(bundle.affectVocabulary.emotions.map((e) => [e.id, 0])) as Record<
-      EmotionId,
-      number
-    >;
-    let intensitySum = 0;
-    let stanceSum = 0;
-    let n = 0;
-    for (const q of quotes) {
-      const a = affectByQuoteId.get(q.quoteId);
-      if (!a) continue;
-      counts[a.primaryEmotion]++;
-      intensitySum += a.intensity;
-      stanceSum += a.stance;
-      n++;
-    }
-    return {
-      n,
-      emotionCounts: counts,
-      meanIntensity: n > 0 ? intensitySum / n : 0,
-      meanStance: n > 0 ? stanceSum / n : 0,
-    };
-  };
+  const fingerprintForQuotes = useCallback(
+    (quotes: EnrichedQuote[]): AffectFingerprint => {
+      const counts = Object.fromEntries(bundle.affectVocabulary.emotions.map((e) => [e.id, 0])) as Record<
+        EmotionId,
+        number
+      >;
+      let intensitySum = 0;
+      let stanceSum = 0;
+      let n = 0;
+      for (const q of quotes) {
+        const a = affectByQuoteId.get(q.quoteId);
+        if (!a) continue;
+        counts[a.primaryEmotion]++;
+        intensitySum += a.intensity;
+        stanceSum += a.stance;
+        n++;
+      }
+      return {
+        n,
+        emotionCounts: counts,
+        meanIntensity: n > 0 ? intensitySum / n : 0,
+        meanStance: n > 0 ? stanceSum / n : 0,
+      };
+    },
+    [affectByQuoteId, bundle.affectVocabulary.emotions],
+  );
 
   const affectByCode = (codeId: string) => fingerprintForQuotes(quotesByCode(codeId));
+
+  const fingerprintsByParticipant = useMemo(() => {
+    const map: Record<string, AffectFingerprint> = {};
+    for (const id of participantIds) {
+      map[id] = fingerprintForQuotes(filteredQuotes.filter((q) => q.participantId === id));
+    }
+    return map;
+  }, [filteredQuotes, participantIds, fingerprintForQuotes]);
 
   const value: QualitativeContextValue = {
     bundle,
@@ -238,6 +250,7 @@ export function QualitativeDataProvider({
     affectByQuote,
     affectByCode,
     fingerprintForQuotes,
+    fingerprintsByParticipant,
     affectVocabulary: bundle.affectVocabulary,
   };
 

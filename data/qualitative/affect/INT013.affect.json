@@ -1,0 +1,268 @@
+{
+  "participantId": "INT013",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT013:cue8:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.58,
+      "stance": -0.55,
+      "confidence": 0.78,
+      "rationale": "Lists three fronts (recovery, job, family) competing for time — cumulative load and worry about juggling, read from wording not codes."
+    },
+    {
+      "quoteId": "INT013:cue38:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.65,
+      "stance": -0.62,
+      "confidence": 0.82,
+      "rationale": "Flat enumeration of PoA chores plus explicit housing stake reads as depleted labor with insecurity about lodging."
+    },
+    {
+      "quoteId": "INT013:cue214:0",
+      "participantId": "INT013",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.7,
+      "stance": -0.72,
+      "confidence": 0.74,
+      "rationale": "Loss of embodied daily normals (‘went away’); absence of formerly automatic life, not merely annoyance."
+    },
+    {
+      "quoteId": "INT013:cue20:0",
+      "participantId": "INT013",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.78,
+      "stance": -0.68,
+      "confidence": 0.85,
+      "rationale": "Memories tethered to things; inventory named a ‘heavy burden’ — loss-facing sadness with procedural drain."
+    },
+    {
+      "quoteId": "INT013:cue59:0",
+      "participantId": "INT013",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.88,
+      "stance": -0.88,
+      "confidence": 0.92,
+      "rationale": "Explicit absence of ‘home’ to return to — core place-loss longing, unmistakably grief-oriented."
+    },
+    {
+      "quoteId": "INT013:cue120:0",
+      "participantId": "INT013",
+      "primaryEmotion": "numbness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.52,
+      "stance": -0.35,
+      "confidence": 0.61,
+      "rationale": "Feelings withheld until narration; surfacing ‘in the middle of nowhere’ suggests guarded affect between bursts."
+    },
+    {
+      "quoteId": "INT013:cue18:0",
+      "participantId": "INT013",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.46,
+      "stance": 0.7,
+      "confidence": 0.76,
+      "rationale": "‘Can’t complain,’ responsive fair insurer — appreciative posture toward insurer; relieved relative to others."
+    },
+    {
+      "quoteId": "INT013:cue43:0",
+      "participantId": "INT013",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.52,
+      "stance": -0.48,
+      "confidence": 0.69,
+      "rationale": "Empathic weight for others’ heavier losses — sorrow for others’ harm plus implicit fatigue of witnessing."
+    },
+    {
+      "quoteId": "INT013:cue30:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.74,
+      "stance": -0.78,
+      "confidence": 0.84,
+      "rationale": "Interminable process (‘doesn’t seem to ever end’) — depleted, low-energy register about inventory drag."
+    },
+    {
+      "quoteId": "INT013:cue12:0",
+      "participantId": "INT013",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.68,
+      "stance": -0.58,
+      "confidence": 0.81,
+      "rationale": "Explicit worry about unseen deadlines — forward-oriented harm (‘what am I missing’), not energized blame."
+    },
+    {
+      "quoteId": "INT013:cue162:0",
+      "participantId": "INT013",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.72,
+      "stance": -0.86,
+      "confidence": 0.79,
+      "rationale": "Indignant dismissal (‘Nothing,’ repeats doesn’t help) at policy undermining recovery dollars — energized opposition."
+    },
+    {
+      "quoteId": "INT013:cue53:0",
+      "participantId": "INT013",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.16,
+      "stance": -0.2,
+      "confidence": 0.72,
+      "rationale": "First-week checklist (utilities): largely procedural narration with faint stress, not foregrounded emotion."
+    },
+    {
+      "quoteId": "INT013:cue131:0",
+      "participantId": "INT013",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.54,
+      "stance": -0.42,
+      "confidence": 0.73,
+      "rationale": "Anxiety about unknown grants/obligations one might miss — future-oriented vigilance rather than sadness."
+    },
+    {
+      "quoteId": "INT013:cue130:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.5,
+      "stance": -0.36,
+      "confidence": 0.77,
+      "rationale": "Monitoring many channels to avoid gaps — slog of attention plus subtle fear of missing something."
+    },
+    {
+      "quoteId": "INT013:cue223:0",
+      "participantId": "INT013",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "hope",
+      "intensity": 0.4,
+      "stance": 0.62,
+      "confidence": 0.64,
+      "rationale": "Fragment praises non-human listener as less judging — eased self-presentation tension; tentative openness to AI."
+    },
+    {
+      "quoteId": "INT013:cue286:0",
+      "participantId": "INT013",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.47,
+      "stance": -0.52,
+      "confidence": 0.71,
+      "rationale": "Relayed hallucination warnings — mistrust toward tool reliability colored by others’ narratives."
+    },
+    {
+      "quoteId": "INT013:cue287:0",
+      "participantId": "INT013",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.56,
+      "stance": 0.78,
+      "confidence": 0.82,
+      "rationale": "Explicit comfort knowing humans oversee the tool — other-directed appreciation for safeguards."
+    },
+    {
+      "quoteId": "INT013:cue370:0",
+      "participantId": "INT013",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.68,
+      "stance": 0.88,
+      "confidence": 0.83,
+      "rationale": "Enthusiastic endorsement of richer context plus self-trust filtering — upbeat expectation plus agency."
+    },
+    {
+      "quoteId": "INT013:cue381:0",
+      "participantId": "INT013",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.71,
+      "stance": 0.82,
+      "confidence": 0.81,
+      "rationale": "‘Very useful’ directed at envisioned support while naming overwhelm — forward hope dominant over fatigue."
+    },
+    {
+      "quoteId": "INT013:cue383:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.7,
+      "stance": -0.52,
+      "confidence": 0.84,
+      "rationale": "‘Firebrain’ labels cognitive depletion — exhausted register about memory, not anger at product."
+    },
+    {
+      "quoteId": "INT013:cue413:0",
+      "participantId": "INT013",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.26,
+      "stance": 0.28,
+      "confidence": 0.69,
+      "rationale": "UX preference for relaxation modality — practical critique, mildly drained by screen-reading strain."
+    },
+    {
+      "quoteId": "INT013:cue441:0",
+      "participantId": "INT013",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "relief",
+      "intensity": 0.7,
+      "stance": 0.86,
+      "confidence": 0.84,
+      "rationale": "‘Sounds great’ toward consolidated info bridging async gaps — positive expectation easing coordination fear."
+    },
+    {
+      "quoteId": "INT013:cue454:0",
+      "participantId": "INT013",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.34,
+      "stance": -0.28,
+      "confidence": 0.72,
+      "rationale": "Low-energy aversion to verbosity — tonal burden without sharp institutional anger."
+    },
+    {
+      "quoteId": "INT013:cue246:0",
+      "participantId": "INT013",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.05,
+      "confidence": 0.74,
+      "rationale": "Brief conditional generalization (‘depends on timing’) — meta, low affective charge in the excerpt."
+    },
+    {
+      "quoteId": "INT013:cue279:0",
+      "participantId": "INT013",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "pride",
+      "intensity": 0.72,
+      "stance": -0.38,
+      "confidence": 0.63,
+      "rationale": "‘Hardest thing to get over’ (aid acceptance per note): loss-facing identity shift mixes sorrow with wounded self-image."
+    },
+    {
+      "quoteId": "INT013:cue353:0",
+      "participantId": "INT013",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.24,
+      "stance": 0.55,
+      "confidence": 0.7,
+      "rationale": "Epistemic triage of trusted vs neighborhood sources — methodological stance toward information more than emotion."
+    }
+  ]
+}

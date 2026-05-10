@@ -1,0 +1,248 @@
+{
+  "participantId": "INT012",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T14:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT012:cue40:0",
+      "participantId": "INT012",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.68,
+      "stance": -0.72,
+      "confidence": 0.87,
+      "rationale": "Loss of the children’s school and lifelong peer circle—mourned social rupture, not only logistics."
+    },
+    {
+      "quoteId": "INT012:cue123:0",
+      "participantId": "INT012",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.6,
+      "stance": -0.82,
+      "confidence": 0.78,
+      "rationale": "Energized frustration at absent institutional guidance; long month out of school adds drained edge."
+    },
+    {
+      "quoteId": "INT012:cue28:0",
+      "participantId": "INT012",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.48,
+      "confidence": 0.8,
+      "rationale": "Accepted tradeoff—kids first, her wellbeing ‘pushed to the back’—stated as settled fact."
+    },
+    {
+      "quoteId": "INT012:cue18:0",
+      "participantId": "INT012",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.68,
+      "confidence": 0.82,
+      "rationale": "Urgency driven by anticipated scarcity—getting ‘stuck’ with bad or costly housing if they wait."
+    },
+    {
+      "quoteId": "INT012:cue64:0",
+      "participantId": "INT012",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.52,
+      "stance": 0.22,
+      "confidence": 0.72,
+      "rationale": "Deferred self-processing reads as long depletion; faint hedged openness to future space is secondary."
+    },
+    {
+      "quoteId": "INT012:cue82:0",
+      "participantId": "INT012",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.48,
+      "stance": 0.18,
+      "confidence": 0.68,
+      "rationale": "Comparative ‘could be worse’ explicitly used to pull herself out—forward-reorienting, if ambivalent."
+    },
+    {
+      "quoteId": "INT012:cue92:0",
+      "participantId": "INT012",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.76,
+      "stance": 0.86,
+      "confidence": 0.9,
+      "rationale": "Names renewed hope from regained control; agency under hardship edges toward competent self-view."
+    },
+    {
+      "quoteId": "INT012:cue127:0",
+      "participantId": "INT012",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.82,
+      "stance": -0.92,
+      "confidence": 0.91,
+      "rationale": "Ongoing insurer fight framed as unjust and avoidable—energized opposition, not flat fatigue."
+    },
+    {
+      "quoteId": "INT012:cue130:0",
+      "participantId": "INT012",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.86,
+      "stance": -0.94,
+      "confidence": 0.88,
+      "rationale": "Moralized critique (‘broken,’ ‘inhumane’); hoops and delay add a depleted undertone."
+    },
+    {
+      "quoteId": "INT012:cue63:0",
+      "participantId": "INT012",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.6,
+      "stance": -0.55,
+      "confidence": 0.84,
+      "rationale": "‘Thrown everywhere’ overload—cumulative strain of too much, too fast, not energized blame."
+    },
+    {
+      "quoteId": "INT012:cue135:0",
+      "participantId": "INT012",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.72,
+      "stance": -0.88,
+      "confidence": 0.8,
+      "rationale": "Contrast with fast payouts sharpens righteous frustration at arbitrary insurer treatment."
+    },
+    {
+      "quoteId": "INT012:cue53:0",
+      "participantId": "INT012",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.54,
+      "stance": -0.38,
+      "confidence": 0.76,
+      "rationale": "Matter-of-fact deferral of her own care—accepted sequencing under cost pressure."
+    },
+    {
+      "quoteId": "INT012:cue149:0",
+      "participantId": "INT012",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.58,
+      "confidence": 0.82,
+      "rationale": "Describes workflow and prompts; affect not foregrounded—mildly positive posture toward the tool."
+    },
+    {
+      "quoteId": "INT012:cue147:0",
+      "participantId": "INT012",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "pride",
+      "intensity": 0.2,
+      "stance": 0.62,
+      "confidence": 0.7,
+      "rationale": "Mostly procedural recount of automation; slight lift crediting partner’s competent workaround."
+    },
+    {
+      "quoteId": "INT012:cue154:0",
+      "participantId": "INT012",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.62,
+      "confidence": 0.8,
+      "rationale": "‘Lot of paperwork’ names the draining bulk of the insurance grind more than fresh outrage."
+    },
+    {
+      "quoteId": "INT012:cue167:0",
+      "participantId": "INT012",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.52,
+      "confidence": 0.74,
+      "rationale": "Pushback at undesired cheerleading—wants critique, rejects ‘echo chamber’ affirmation."
+    },
+    {
+      "quoteId": "INT012:cue168:0",
+      "participantId": "INT012",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.42,
+      "confidence": 0.76,
+      "rationale": "Explicit worry about future blindness—AI too positive might miss needed corrective feedback."
+    },
+    {
+      "quoteId": "INT012:cue164:0",
+      "participantId": "INT012",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.5,
+      "stance": -0.12,
+      "confidence": 0.65,
+      "rationale": "Seeks relief from carrying all venting to spouse; acknowledges partner ‘takes it’—mixed debt/thankfulness."
+    },
+    {
+      "quoteId": "INT012:cue185:0",
+      "participantId": "INT012",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.74,
+      "stance": 0.92,
+      "confidence": 0.9,
+      "rationale": "Enthusiastic projection—recovery agent imagined like trusted mission scheduling she already values."
+    },
+    {
+      "quoteId": "INT012:cue188:0",
+      "participantId": "INT012",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.7,
+      "stance": 0.9,
+      "confidence": 0.88,
+      "rationale": "Wishes for early ‘what next’ guidance—forward-looking, strongly pro centralized help."
+    },
+    {
+      "quoteId": "INT012:cue194:0",
+      "participantId": "INT012",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.64,
+      "stance": 0.86,
+      "confidence": 0.85,
+      "rationale": "Endorses judgment-free AI space for teens—optimistic about fit for their disclosure needs."
+    },
+    {
+      "quoteId": "INT012:cue184:0",
+      "participantId": "INT012",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.24,
+      "stance": 0.1,
+      "confidence": 0.78,
+      "rationale": "Analytical sketch of common post-fire steps; little evaluative heat, mostly informational."
+    },
+    {
+      "quoteId": "INT012:cue151:0",
+      "participantId": "INT012",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.26,
+      "stance": 0.66,
+      "confidence": 0.83,
+      "rationale": "Rebuild visualization use told in practical terms; mild positive stance toward AI assist."
+    },
+    {
+      "quoteId": "INT012:cue47:0",
+      "participantId": "INT012",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.88,
+      "stance": -0.82,
+      "confidence": 0.89,
+      "rationale": "Parental sorrow for identity-forming losses at middle school—friendships and selfhood interrupted."
+    }
+  ]
+}

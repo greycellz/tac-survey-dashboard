@@ -1,0 +1,238 @@
+{
+  "participantId": "INT008",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT008:cue8:0",
+      "participantId": "INT008",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.55,
+      "stance": -0.55,
+      "confidence": 0.78,
+      "rationale": "Factual recount of canceled work and biweekly travel; dominant register is drained logistics load, not outrage."
+    },
+    {
+      "quoteId": "INT008:cue34:0",
+      "participantId": "INT008",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "fear",
+      "intensity": 0.7,
+      "stance": -0.85,
+      "confidence": 0.76,
+      "rationale": "Names mother’s diagnosis right after fire—loss and future decline foregrounded; ‘really hard’ signals bereavement weight."
+    },
+    {
+      "quoteId": "INT008:cue12:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.18,
+      "stance": -0.35,
+      "confidence": 0.72,
+      "rationale": "Sequential displacement facts; little emotive coloring—mild negative stance toward instability only."
+    },
+    {
+      "quoteId": "INT008:cue122:0",
+      "participantId": "INT008",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.62,
+      "stance": -0.45,
+      "confidence": 0.68,
+      "rationale": "Suppression framed as ongoing emotional labor with parents; exhaustion of restraint more salient than numb absence."
+    },
+    {
+      "quoteId": "INT008:cue135:0",
+      "participantId": "INT008",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.78,
+      "stance": -0.75,
+      "confidence": 0.85,
+      "rationale": "Explicit ‘painful’ and blocking grief—mourning foregrounded; fatigue secondary to withheld grieving."
+    },
+    {
+      "quoteId": "INT008:cue65:0",
+      "participantId": "INT008",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.48,
+      "stance": 0.65,
+      "confidence": 0.74,
+      "rationale": "Parents’ dream of return to familiar streets—forward-looking positive attachment to place, warm appraisal of their wish."
+    },
+    {
+      "quoteId": "INT008:cue85:0",
+      "participantId": "INT008",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.42,
+      "stance": 0.55,
+      "confidence": 0.7,
+      "rationale": "‘Lucky’ + full proceeds names eased pressure versus peers; release of a worst-case financial fear."
+    },
+    {
+      "quoteId": "INT008:cue174:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.05,
+      "confidence": 0.75,
+      "rationale": "Problem-solving habit described in plain procedural terms; no strong affect beyond pragmatic caution."
+    },
+    {
+      "quoteId": "INT008:cue190:0",
+      "participantId": "INT008",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.52,
+      "stance": -0.55,
+      "confidence": 0.77,
+      "rationale": "Widespread underinsurance + ‘navigating’—cumulative administrative drain and ‘how it is’ structure."
+    },
+    {
+      "quoteId": "INT008:cue4:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.15,
+      "stance": 0,
+      "confidence": 0.82,
+      "rationale": "Timeline/phase labeling of acute logistics; descriptive rather than emotive."
+    },
+    {
+      "quoteId": "INT008:cue208:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": 0.15,
+      "confidence": 0.78,
+      "rationale": "Explains checklist format from helper; matter-of-fact appreciation implied but not affectively loaded here."
+    },
+    {
+      "quoteId": "INT008:cue24:0",
+      "participantId": "INT008",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.38,
+      "stance": -0.25,
+      "confidence": 0.7,
+      "rationale": "Shift to long-term planning while parents ‘still’ stuck—low-energy frustration with stalled resolution."
+    },
+    {
+      "quoteId": "INT008:cue154:0",
+      "participantId": "INT008",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.46,
+      "stance": 0.62,
+      "confidence": 0.73,
+      "rationale": "Design wish for embedded emotional support—positive expectation tied to better integration of care."
+    },
+    {
+      "quoteId": "INT008:cue177:0",
+      "participantId": "INT008",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": 0.78,
+      "confidence": 0.8,
+      "rationale": "Direct praise of social media’s role in fast outreach—thankfulness toward channel for timely drives."
+    },
+    {
+      "quoteId": "INT008:cue228:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.32,
+      "stance": 0.72,
+      "confidence": 0.74,
+      "rationale": "Pragmatic endorsement of AI for synthesis; calm utility evaluation rather than strong feeling."
+    },
+    {
+      "quoteId": "INT008:cue230:0",
+      "participantId": "INT008",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "defiance",
+      "intensity": 0.48,
+      "stance": 0.55,
+      "confidence": 0.69,
+      "rationale": "Pushback on exaggerated ‘boogeyman’ framing—energized disagreement defending proportionate views of AI."
+    },
+    {
+      "quoteId": "INT008:cue245:0",
+      "participantId": "INT008",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.72,
+      "confidence": 0.81,
+      "rationale": "Worried about wrong info and reputational harm ahead—anticipatory harm + correction burden."
+    },
+    {
+      "quoteId": "INT008:cue355:0",
+      "participantId": "INT008",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.24,
+      "stance": 0,
+      "confidence": 0.72,
+      "rationale": "Channel constraint for parents stated tentatively (‘if at all’); analytic user need, little emotion."
+    },
+    {
+      "quoteId": "INT008:cue366:0",
+      "participantId": "INT008",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.4,
+      "stance": 0.48,
+      "confidence": 0.66,
+      "rationale": "Probing specificity of curated data—engaged interest implying positive expectation of tailored help."
+    },
+    {
+      "quoteId": "INT008:cue56:0",
+      "participantId": "INT008",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.58,
+      "stance": -0.68,
+      "confidence": 0.79,
+      "rationale": "Attention ends fast after disasters—flattened recount of social withdrawal; grim familiarity (‘before’)."
+    },
+    {
+      "quoteId": "INT008:cue150:0",
+      "participantId": "INT008",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.52,
+      "stance": -0.48,
+      "confidence": 0.65,
+      "rationale": "Incredulous analogy to Russian—frustrated clash with generational resistance to therapy, not mainly fear."
+    },
+    {
+      "quoteId": "INT008:cue137:0",
+      "participantId": "INT008",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.66,
+      "stance": -0.58,
+      "confidence": 0.67,
+      "rationale": "‘Ballet’ of grief expression/control—mourning choreographed in relationships; heavy but articulate sorrow frame."
+    },
+    {
+      "quoteId": "INT008:cue201:0",
+      "participantId": "INT008",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.72,
+      "stance": 0.82,
+      "confidence": 0.84,
+      "rationale": "Neighbor’s comprehensive checklists—strong thankfulness and eased burden from actionable guidance."
+    }
+  ]
+}

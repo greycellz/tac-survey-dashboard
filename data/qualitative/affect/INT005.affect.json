@@ -1,0 +1,218 @@
+{
+  "participantId": "INT005",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT005:cue59:0",
+      "participantId": "INT005",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.55,
+      "stance": -0.7,
+      "confidence": 0.84,
+      "rationale": "Recovery framed as stacked jobs—dominant depleted, ‘this is how it is’ about the workload, not outrage in this line."
+    },
+    {
+      "quoteId": "INT005:cue15:0",
+      "participantId": "INT005",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.12,
+      "stance": 0.0,
+      "confidence": 0.9,
+      "rationale": "Factual recount of hotel stay length; no foregrounded feeling in the wording."
+    },
+    {
+      "quoteId": "INT005:cue72:0",
+      "participantId": "INT005",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.88,
+      "stance": -0.92,
+      "confidence": 0.92,
+      "rationale": "Named irreplaceables ‘gone forever’—loss of child’s art and toys, mourns specific absence."
+    },
+    {
+      "quoteId": "INT005:cue79:0",
+      "participantId": "INT005",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": null,
+      "intensity": 0.85,
+      "stance": -0.9,
+      "confidence": 0.9,
+      "rationale": "Ritual book missing for son—tradition and shared reading framed as permanently lost."
+    },
+    {
+      "quoteId": "INT005:cue74:0",
+      "participantId": "INT005",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.68,
+      "stance": -0.75,
+      "confidence": 0.8,
+      "rationale": "Ongoing mourning months in; ‘still remembering’ couples bereavement with long-haul exhaustion."
+    },
+    {
+      "quoteId": "INT005:cue232:0",
+      "participantId": "INT005",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.78,
+      "stance": 0.88,
+      "confidence": 0.88,
+      "rationale": "‘Blessed’ toward having help—thankfulness foremost; relief that support exists is secondary here."
+    },
+    {
+      "quoteId": "INT005:cue275:0",
+      "participantId": "INT005",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.78,
+      "stance": -0.95,
+      "confidence": 0.86,
+      "rationale": "Energized indictment of insurers/mortgage (‘bullshit’); cynicism about empathy lands as opposition, with fatigue underneath."
+    },
+    {
+      "quoteId": "INT005:cue41:0",
+      "participantId": "INT005",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.65,
+      "stance": -0.88,
+      "confidence": 0.82,
+      "rationale": "Exposes ‘facade’ vs promised help—opposition to insurer posture; bitter acceptance that it’s hollow."
+    },
+    {
+      "quoteId": "INT005:cue48:0",
+      "participantId": "INT005",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.62,
+      "stance": -0.85,
+      "confidence": 0.8,
+      "rationale": "Emphasis on relentless self-advocacy—depleted energy; low-grade anger at the system is secondary."
+    },
+    {
+      "quoteId": "INT005:cue135:0",
+      "participantId": "INT005",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": -0.55,
+      "confidence": 0.78,
+      "rationale": "Chores fractured by intrusive recovery calls—flat illustration of cognitive overload, not anger-led."
+    },
+    {
+      "quoteId": "INT005:cue271:0",
+      "participantId": "INT005",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": 0.58,
+      "confidence": 0.76,
+      "rationale": "Sketches a wished-for one-stop map—forward-looking, modestly positive toward a clearer navigation hub."
+    },
+    {
+      "quoteId": "INT005:cue20:0",
+      "participantId": "INT005",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.54,
+      "stance": -0.52,
+      "confidence": 0.72,
+      "rationale": "Hard to absorb deluge—depleted by noise; slight forward worry about tracking/verifying who sent what."
+    },
+    {
+      "quoteId": "INT005:cue17:0",
+      "participantId": "INT005",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.72,
+      "stance": 0.82,
+      "confidence": 0.87,
+      "rationale": "Friend’s notebooks—thankfulness toward the person; relief that a simple tool eased the scramble."
+    },
+    {
+      "quoteId": "INT005:cue271:1",
+      "participantId": "INT005",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": 0.58,
+      "confidence": 0.76,
+      "rationale": "Same utterance as prior cue—need for categorized resources reads as hoped-for order, not bitter."
+    },
+    {
+      "quoteId": "INT005:cue294:0",
+      "participantId": "INT005",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.72,
+      "stance": -0.62,
+      "confidence": 0.8,
+      "rationale": "Overwhelmed by recovery labor crowding life—dominant drained register about why MH goes unused."
+    },
+    {
+      "quoteId": "INT005:cue17:1",
+      "participantId": "INT005",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "relief",
+      "intensity": 0.7,
+      "stance": 0.82,
+      "confidence": 0.86,
+      "rationale": "Duplicate quote under tech: still other-thankful for friend + felt easing of acute chaos via logging."
+    },
+    {
+      "quoteId": "INT005:cue323:0",
+      "participantId": "INT005",
+      "primaryEmotion": "defiance",
+      "secondaryEmotion": "pride",
+      "intensity": 0.52,
+      "stance": 0.72,
+      "confidence": 0.74,
+      "rationale": "AI mobilized to dispute omissions—refusal to accept the adjuster frame; competence under pressure as secondary pride."
+    },
+    {
+      "quoteId": "INT005:cue345:0",
+      "participantId": "INT005",
+      "primaryEmotion": "pride",
+      "secondaryEmotion": "hope",
+      "intensity": 0.48,
+      "stance": 0.68,
+      "confidence": 0.75,
+      "rationale": "Strategic use of AI to find leverage—self-directed efficacy; slight forward hope it will move officials."
+    },
+    {
+      "quoteId": "INT005:cue461:0",
+      "participantId": "INT005",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.52,
+      "stance": 0.78,
+      "confidence": 0.8,
+      "rationale": "Endorses communal info hub—positive expectation for peers helping peers; warm toward the idea."
+    },
+    {
+      "quoteId": "INT005:cue466:0",
+      "participantId": "INT005",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.15,
+      "confidence": 0.7,
+      "rationale": "Describes insurer-specific channels—mainly structural detail; mild positive lean toward usefulness."
+    },
+    {
+      "quoteId": "INT005:cue265:0",
+      "participantId": "INT005",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.52,
+      "stance": -0.1,
+      "confidence": 0.74,
+      "rationale": "Meta insight that timing obscures needs—cognitive ‘you don’t know what you don’t know,’ not rage at helpers."
+    }
+  ]
+}

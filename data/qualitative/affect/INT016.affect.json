@@ -1,0 +1,318 @@
+{
+  "participantId": "INT016",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-10T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT016:cue16:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.55,
+      "stance": -0.65,
+      "confidence": 0.82,
+      "rationale": "Early displacement and survival focus; depleted ‘make it through’ energy, with implied worry about what comes next."
+    },
+    {
+      "quoteId": "INT016:cue18:0",
+      "participantId": "INT016",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.62,
+      "stance": -0.55,
+      "confidence": 0.88,
+      "rationale": "Explicit worry about distance and commute; trade-off to stay close yielded constraining ADU housing."
+    },
+    {
+      "quoteId": "INT016:cue9:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.52,
+      "confidence": 0.85,
+      "rationale": "Evenings piled with recovery calls and coordination—cumulative administrative drain on top of work."
+    },
+    {
+      "quoteId": "INT016:cue32:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.68,
+      "stance": -0.66,
+      "confidence": 0.8,
+      "rationale": "Constant multi-channel monitoring framed as a full-time job; exhaustion with an edge of system frustration."
+    },
+    {
+      "quoteId": "INT016:cue48:0",
+      "participantId": "INT016",
+      "primaryEmotion": "numbness",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.48,
+      "confidence": 0.72,
+      "rationale": "Hasn’t ‘gotten around to feeling’ the rest while logistics feel omnipresent—deferral reads as damped affect."
+    },
+    {
+      "quoteId": "INT016:cue52:0",
+      "participantId": "INT016",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": 0.38,
+      "confidence": 0.74,
+      "rationale": "Creative immersion and escapism as a way to get distance from ongoing struggle—brief release from mental load."
+    },
+    {
+      "quoteId": "INT016:cue77:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.52,
+      "stance": -0.35,
+      "confidence": 0.68,
+      "rationale": "Partial connection but ‘wildly different experiences’—low-energy sense that peer overlap isn’t enough."
+    },
+    {
+      "quoteId": "INT016:cue66:0",
+      "participantId": "INT016",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "relief",
+      "intensity": 0.68,
+      "stance": 0.82,
+      "confidence": 0.86,
+      "rationale": "Milestones resolving insurance and turning toward rebuild/design signal forward-looking expectation and eased tension."
+    },
+    {
+      "quoteId": "INT016:cue29:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.64,
+      "stance": -0.78,
+      "confidence": 0.84,
+      "rationale": "Chaotic forms and lost submissions—depletion dominates with energized frustration at the process."
+    },
+    {
+      "quoteId": "INT016:cue103:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.58,
+      "confidence": 0.83,
+      "rationale": "Juggling many groups and trying to recall where a fact lived—classic fragmentation fatigue."
+    },
+    {
+      "quoteId": "INT016:cue88:0",
+      "participantId": "INT016",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.48,
+      "stance": -0.48,
+      "confidence": 0.76,
+      "rationale": "Accepts that each person’s insurer/adjuster path differs—‘not the same as the person next door.’"
+    },
+    {
+      "quoteId": "INT016:cue86:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.54,
+      "stance": -0.74,
+      "confidence": 0.87,
+      "rationale": "Policy comprehension as a ‘huge challenge’—effortful, depleting slog without sharp anger at an agent."
+    },
+    {
+      "quoteId": "INT016:cue108:0",
+      "participantId": "INT016",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.56,
+      "stance": -0.62,
+      "confidence": 0.81,
+      "rationale": "‘Floating’ without one advocate—cognitive acceptance of having no single anchor."
+    },
+    {
+      "quoteId": "INT016:cue115:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.44,
+      "stance": -0.56,
+      "confidence": 0.65,
+      "rationale": "Wistful counterfactual—county-specific guide ‘would have been so helpful’—missed support tinged with loss."
+    },
+    {
+      "quoteId": "INT016:cue124:0",
+      "participantId": "INT016",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.74,
+      "stance": -0.72,
+      "confidence": 0.9,
+      "rationale": "Names languishing, anxiety, waiting, and path uncertainty—future-oriented distress and depletion."
+    },
+    {
+      "quoteId": "INT016:cue126:0",
+      "participantId": "INT016",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.46,
+      "confidence": 0.78,
+      "rationale": "Shelved details now urgent—‘now it’s time’ evokes apprehension and catch-up overwhelm."
+    },
+    {
+      "quoteId": "INT016:cue129:0",
+      "participantId": "INT016",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "hope",
+      "intensity": 0.5,
+      "stance": 0.58,
+      "confidence": 0.7,
+      "rationale": "Warns against neglecting mental health during rebuild—apprehension paired with advocacy for more support."
+    },
+    {
+      "quoteId": "INT016:cue148:0",
+      "participantId": "INT016",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.14,
+      "stance": 0,
+      "confidence": 0.88,
+      "rationale": "Matter-of-fact description of search and channel use without foregrounded feeling."
+    },
+    {
+      "quoteId": "INT016:cue157:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.46,
+      "stance": -0.54,
+      "confidence": 0.8,
+      "rationale": "Apps felt like extra work; nothing fit—low-energy discouragement more than active anger."
+    },
+    {
+      "quoteId": "INT016:cue185:0",
+      "participantId": "INT016",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.58,
+      "stance": -0.78,
+      "confidence": 0.84,
+      "rationale": "‘Not a huge fan’—energized opposition to training-data ethics and untrustworthy outputs."
+    },
+    {
+      "quoteId": "INT016:cue186:0",
+      "participantId": "INT016",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": -0.64,
+      "confidence": 0.82,
+      "rationale": "Warning stories and downsides of LLM-as-therapy—anticipatory concern about harm."
+    },
+    {
+      "quoteId": "INT016:cue190:0",
+      "participantId": "INT016",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.7,
+      "stance": 0.86,
+      "confidence": 0.83,
+      "rationale": "If verified and valid, on-demand regulation reminders framed as ‘really powerful’—conditional positive expectation."
+    },
+    {
+      "quoteId": "INT016:cue233:0",
+      "participantId": "INT016",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": null,
+      "intensity": 0.6,
+      "stance": -0.72,
+      "confidence": 0.79,
+      "rationale": "Performs positivity and ‘an angle’ to shape feeling—reactive distrust and irritation at the voice."
+    },
+    {
+      "quoteId": "INT016:cue311:0",
+      "participantId": "INT016",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.48,
+      "stance": 0.78,
+      "confidence": 0.81,
+      "rationale": "Explicit liking of dual private/public options—forward-looking approval of the design."
+    },
+    {
+      "quoteId": "INT016:cue313:0",
+      "participantId": "INT016",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.56,
+      "stance": 0.84,
+      "confidence": 0.77,
+      "rationale": "Praises the collaborative-channel example—thankfulness-tinged endorsement of partner-inclusive workflow."
+    },
+    {
+      "quoteId": "INT016:cue245:0",
+      "participantId": "INT016",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.56,
+      "stance": 0.76,
+      "confidence": 0.74,
+      "rationale": "Therapy-bridge idea—capturing in-the-moment prompts—positive expectation for filling gaps between sessions."
+    },
+    {
+      "quoteId": "INT016:cue420:0",
+      "participantId": "INT016",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "hope",
+      "intensity": 0.26,
+      "stance": 0.36,
+      "confidence": 0.66,
+      "rationale": "UX preference stated calmly—knowing which mode to open reads more analytical than emotional."
+    },
+    {
+      "quoteId": "INT016:cue224:0",
+      "participantId": "INT016",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": null,
+      "intensity": 0.76,
+      "stance": 0.94,
+      "confidence": 0.88,
+      "rationale": "Dedicated person’s emotional support ‘went a long way’—clear thankfulness toward human help."
+    },
+    {
+      "quoteId": "INT016:cue117:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.38,
+      "stance": -0.28,
+      "confidence": 0.73,
+      "rationale": "Cognitive labor mapping ‘where my specifics fit’—mild depletion in navigating possibility space."
+    },
+    {
+      "quoteId": "INT016:cue44:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.66,
+      "stance": -0.8,
+      "confidence": 0.75,
+      "rationale": "Everything connected, can’t isolate strands—polycrisis overwhelm: exhaustion with undercurrent of dread."
+    },
+    {
+      "quoteId": "INT016:cue177:0",
+      "participantId": "INT016",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.44,
+      "stance": -0.34,
+      "confidence": 0.71,
+      "rationale": "No perfect modality—journal lacks structure, apps mean more screen—torn, depleted by the choice."
+    }
+  ]
+}

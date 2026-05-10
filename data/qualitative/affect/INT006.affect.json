@@ -1,0 +1,308 @@
+{
+  "participantId": "INT006",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T18:30:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT006:cue15:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.15,
+      "stance": -0.35,
+      "confidence": 0.78,
+      "rationale": "Chronological displacement account; little foregrounded feeling—mildly negative stance toward prolonged instability."
+    },
+    {
+      "quoteId": "INT006:cue93:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.5,
+      "stance": -0.65,
+      "confidence": 0.82,
+      "rationale": "Matter-of-fact tally of daily recovery labor; dominant register is sustained administrative drain."
+    },
+    {
+      "quoteId": "INT006:cue105:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.65,
+      "stance": -0.7,
+      "confidence": 0.8,
+      "rationale": "Repeated ‘I can’t’ and reduced caseload—depleted capacity plus bleak acceptance that recovery crowds clinical work."
+    },
+    {
+      "quoteId": "INT006:cue36:0",
+      "participantId": "INT006",
+      "primaryEmotion": "numbness",
+      "secondaryEmotion": "hope",
+      "intensity": 0.7,
+      "stance": -0.55,
+      "confidence": 0.74,
+      "rationale": "‘Zombie’ and paralysis foreground affective shutdown; job as anchor adds a small forward pull at the end."
+    },
+    {
+      "quoteId": "INT006:cue51:0",
+      "participantId": "INT006",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.75,
+      "stance": -0.95,
+      "confidence": 0.88,
+      "rationale": "Hostage frame is energized opposition to the insurer; trapped posture implies ongoing threat, secondary to anger."
+    },
+    {
+      "quoteId": "INT006:cue146:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": -0.45,
+      "confidence": 0.68,
+      "rationale": "Clinical facts delivered in flat, informative tone; evaluative edge is mild (unwanted diagnosis), not vivid emotion."
+    },
+    {
+      "quoteId": "INT006:cue221:0",
+      "participantId": "INT006",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "anger",
+      "intensity": 0.45,
+      "stance": 0.35,
+      "confidence": 0.62,
+      "rationale": "Now/understanding + good reporting lift the close; earlier ‘not really’ carries residual irritation at dismissal."
+    },
+    {
+      "quoteId": "INT006:cue32:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.6,
+      "stance": -0.9,
+      "confidence": 0.8,
+      "rationale": "Dry accounting of double housing costs; cumulative burden reads louder than overt outrage, stance strongly against the squeeze."
+    },
+    {
+      "quoteId": "INT006:cue34:0",
+      "participantId": "INT006",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.7,
+      "stance": -0.92,
+      "confidence": 0.85,
+      "rationale": "‘Only after then’ indicts institutional delay; bitter acceptance that suit was required for baseline diligence."
+    },
+    {
+      "quoteId": "INT006:cue233:0",
+      "participantId": "INT006",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.85,
+      "stance": -0.95,
+      "confidence": 0.9,
+      "rationale": "Systemic playbook and ‘still doing it’—high-energy indictment with undertone of long-haul exhaustion."
+    },
+    {
+      "quoteId": "INT006:cue25:0",
+      "participantId": "INT006",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.55,
+      "stance": -0.75,
+      "confidence": 0.76,
+      "rationale": "Unsafe for 12–18 months orients to prolonged risk/limbo; timeline lands as grim structural fact."
+    },
+    {
+      "quoteId": "INT006:cue55:0",
+      "participantId": "INT006",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "fear",
+      "intensity": 0.55,
+      "stance": -0.82,
+      "confidence": 0.77,
+      "rationale": "Loss of ‘house as it was’ via full gut; stakes of rebuild imply dread, but absence of the intact home is central."
+    },
+    {
+      "quoteId": "INT006:cue255:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.55,
+      "stance": -0.55,
+      "confidence": 0.84,
+      "rationale": "Wish for delegation follows ‘too much’—depleted tolerance for managing yet another system."
+    },
+    {
+      "quoteId": "INT006:cue278:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": -0.15,
+      "confidence": 0.72,
+      "rationale": "Anecdotal information pathway; mild implicit critique of official silence, mostly descriptive."
+    },
+    {
+      "quoteId": "INT006:cue311:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.72,
+      "stance": -0.72,
+      "confidence": 0.83,
+      "rationale": "Massive spreadsheet review is cumulative slog; every-item framing touches cataloguing a shattered domestic world."
+    },
+    {
+      "quoteId": "INT006:cue50:0",
+      "participantId": "INT006",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.55,
+      "confidence": 0.8,
+      "rationale": "Self-directed rebuild via SBA—forward-looking, hedged with ‘hopefully’ but clearly oriented toward a path."
+    },
+    {
+      "quoteId": "INT006:cue297:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.1,
+      "confidence": 0.7,
+      "rationale": "Defines a support type in professional/clinical idiom; low arousal, instructional rather than emotive."
+    },
+    {
+      "quoteId": "INT006:cue66:0",
+      "participantId": "INT006",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.62,
+      "stance": 0.88,
+      "confidence": 0.86,
+      "rationale": "‘Most helpful’ thanks peer networks; ‘impossible otherwise’ implies lifeline dependency and modest optimism."
+    },
+    {
+      "quoteId": "INT006:cue239:0",
+      "participantId": "INT006",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.48,
+      "stance": 0.78,
+      "confidence": 0.78,
+      "rationale": "Avoiding a 90-page read lowers cognitive load; tool framed as pragmatic aid—stance strongly favorable to Chat use here."
+    },
+    {
+      "quoteId": "INT006:cue318:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": -0.35,
+      "confidence": 0.82,
+      "rationale": "Cannot spend time on capture—outsourced labor as energy conservation; still planning hybrid tool use."
+    },
+    {
+      "quoteId": "INT006:cue272:0",
+      "participantId": "INT006",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.52,
+      "stance": 0.82,
+      "confidence": 0.8,
+      "rationale": "Imagines branching disaster menus—constructive, forward-looking endorsement of structured guidance."
+    },
+    {
+      "quoteId": "INT006:cue269:0",
+      "participantId": "INT006",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.58,
+      "stance": -0.68,
+      "confidence": 0.8,
+      "rationale": "Worried vulnerable users get ‘sucked in’—anticipatory harm; references depleted post-trauma populations."
+    },
+    {
+      "quoteId": "INT006:cue265:0",
+      "participantId": "INT006",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "anger",
+      "intensity": 0.48,
+      "stance": -0.55,
+      "confidence": 0.65,
+      "rationale": "Guardrails gap read as risk of harm; ‘maybe’ keeps it analytic but concern is forward-facing."
+    },
+    {
+      "quoteId": "INT006:cue414:0",
+      "participantId": "INT006",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "numbness",
+      "intensity": 0.68,
+      "stance": -0.8,
+      "confidence": 0.84,
+      "rationale": "Explicit overwhelm and disengagement a year out—cognitive depletion plus withdrawal from complex UI."
+    },
+    {
+      "quoteId": "INT006:cue479:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.25,
+      "stance": 0.05,
+      "confidence": 0.76,
+      "rationale": "Sourcing question—epistemic due diligence without strong feeling; mildly probing posture."
+    },
+    {
+      "quoteId": "INT006:cue485:0",
+      "participantId": "INT006",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.28,
+      "stance": 0.0,
+      "confidence": 0.74,
+      "rationale": "Demands specificity on provenance—task-focused, low affective color despite high stakes."
+    },
+    {
+      "quoteId": "INT006:cue274:0",
+      "participantId": "INT006",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "fear",
+      "intensity": 0.52,
+      "stance": -0.45,
+      "confidence": 0.66,
+      "rationale": "‘Don’t know what to think’ reads as bleak sense-making collapse—cognitive defeat more than rage."
+    },
+    {
+      "quoteId": "INT006:cue295:0",
+      "participantId": "INT006",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.42,
+      "stance": 0.72,
+      "confidence": 0.75,
+      "rationale": "Timed check-ins framed as what recovery support should be—constructive, pro-design stance."
+    },
+    {
+      "quoteId": "INT006:cue221:1",
+      "participantId": "INT006",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.62,
+      "stance": -0.88,
+      "confidence": 0.77,
+      "rationale": "Pushback on ‘lucky’—energized rejection of minimizing; ‘not really’ is sharp corrective frustration."
+    },
+    {
+      "quoteId": "INT006:cue410:0",
+      "participantId": "INT006",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "fear",
+      "intensity": 0.32,
+      "stance": 0.25,
+      "confidence": 0.58,
+      "rationale": "‘Potentially’ mixed with uncertainty about integration—mild positive openness overshadowed by not-knowing."
+    }
+  ]
+}

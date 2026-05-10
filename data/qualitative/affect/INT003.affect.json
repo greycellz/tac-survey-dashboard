@@ -1,0 +1,328 @@
+{
+  "participantId": "INT003",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T12:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT003:cue53:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.65,
+      "stance": -0.65,
+      "confidence": 0.8,
+      "rationale": "‘Total, disorganized chaos’ foregrounds depletion and loss of normal functioning right after the fire."
+    },
+    {
+      "quoteId": "INT003:cue124:0",
+      "participantId": "INT003",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": -0.2,
+      "confidence": 0.78,
+      "rationale": "Chronology of temporary housing reads as factual narrative with little overt emotional coloring."
+    },
+    {
+      "quoteId": "INT003:cue55:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.65,
+      "stance": -0.75,
+      "confidence": 0.74,
+      "rationale": "‘Full-time job’ stresses unbearable workload; ‘insurance fight’ hints energized opposition beneath exhaustion."
+    },
+    {
+      "quoteId": "INT003:cue56:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": null,
+      "intensity": 0.78,
+      "stance": -0.68,
+      "confidence": 0.85,
+      "rationale": "Stacking work + adjuster calls + 9–5 errands — dominant register is time-squeezed depletion."
+    },
+    {
+      "quoteId": "INT003:cue32:0",
+      "participantId": "INT003",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.72,
+      "stance": -0.72,
+      "confidence": 0.82,
+      "rationale": "Named loss of ‘dream job’ / meaningful work — absence-oriented sorrow more than pure anger."
+    },
+    {
+      "quoteId": "INT003:cue172:0",
+      "participantId": "INT003",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.78,
+      "stance": -0.9,
+      "confidence": 0.84,
+      "rationale": "Labels betrayal by protective systems — energized moral injury at institutions, safety shattered."
+    },
+    {
+      "quoteId": "INT003:cue168:0",
+      "participantId": "INT003",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "grief",
+      "intensity": 0.82,
+      "stance": -0.95,
+      "confidence": 0.8,
+      "rationale": "Facts of non-response read as indictment — hot opposition to failure; loss of neighbors underneath."
+    },
+    {
+      "quoteId": "INT003:cue147:0",
+      "participantId": "INT003",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.65,
+      "stance": -0.55,
+      "confidence": 0.68,
+      "rationale": "Community as post-divorce ‘home’ — attachment and impending/threatened loss; warmth toward what it was."
+    },
+    {
+      "quoteId": "INT003:cue211:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.7,
+      "stance": -0.62,
+      "confidence": 0.66,
+      "rationale": "Dark counterfactual + ‘disorienting’ — drained ambivalence about ‘lucky’ status, not mainly hope."
+    },
+    {
+      "quoteId": "INT003:cue33:0",
+      "participantId": "INT003",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "pride",
+      "intensity": 0.55,
+      "stance": 0.78,
+      "confidence": 0.76,
+      "rationale": "‘Pulled’ toward advocacy — forward purpose and identity reclamation through service."
+    },
+    {
+      "quoteId": "INT003:cue247:0",
+      "participantId": "INT003",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.68,
+      "stance": -0.85,
+      "confidence": 0.8,
+      "rationale": "Adversarial claims practice described with mobilized frustration at lowballing and proof burden."
+    },
+    {
+      "quoteId": "INT003:cue254:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.7,
+      "stance": -0.84,
+      "confidence": 0.78,
+      "rationale": "Repeated illness caps inventory work — somatic drain with worry about re-entry consequences."
+    },
+    {
+      "quoteId": "INT003:cue251:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "anger",
+      "intensity": 0.76,
+      "stance": -0.76,
+      "confidence": 0.83,
+      "rationale": "‘Massive,’ ‘hundreds of hours,’ unpaid — cumulative exhaustion; injustice flickers in the framing."
+    },
+    {
+      "quoteId": "INT003:cue221:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.65,
+      "stance": -0.55,
+      "confidence": 0.7,
+      "rationale": "Brain fog / can’t add — depleted cognitive bandwidth; desire for a navigator signals overwhelm."
+    },
+    {
+      "quoteId": "INT003:cue222:0",
+      "participantId": "INT003",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.48,
+      "stance": -0.42,
+      "confidence": 0.64,
+      "rationale": "Ironic pivot after layoff — cognitive ‘I guess I don’t need an assistant’ more than fresh anger."
+    },
+    {
+      "quoteId": "INT003:cue103:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.48,
+      "stance": -0.28,
+      "confidence": 0.65,
+      "rationale": "Scatter and hour-long drives tire; ‘incredible’ help named but logistics dominate the affect."
+    },
+    {
+      "quoteId": "INT003:cue58:0",
+      "participantId": "INT003",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.52,
+      "stance": 0.38,
+      "confidence": 0.72,
+      "rationale": "Employer OK’d part-time plus grants/friends — pressure easing and thankfulness amid a hard stretch."
+    },
+    {
+      "quoteId": "INT003:cue115:0",
+      "participantId": "INT003",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "fear",
+      "intensity": 0.58,
+      "stance": -0.58,
+      "confidence": 0.77,
+      "rationale": "Blocked access, meds stuck — acute logistical scramble; drained ‘figure it all out’ posture."
+    },
+    {
+      "quoteId": "INT003:cue73:0",
+      "participantId": "INT003",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": -0.12,
+      "confidence": 0.74,
+      "rationale": "Time-allocation accounting between insurance and business plan — mostly descriptive."
+    },
+    {
+      "quoteId": "INT003:cue111:0",
+      "participantId": "INT003",
+      "primaryEmotion": "gratitude",
+      "secondaryEmotion": "hope",
+      "intensity": 0.72,
+      "stance": 0.88,
+      "confidence": 0.86,
+      "rationale": "Explicit ‘lifeline’ — thankfulness toward peer network / channel that met urgent needs fast."
+    },
+    {
+      "quoteId": "INT003:cue263:0",
+      "participantId": "INT003",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "pride",
+      "intensity": 0.28,
+      "stance": 0.52,
+      "confidence": 0.73,
+      "rationale": "Describes a self-built document hub matter-of-factly; slight competence pride in the system."
+    },
+    {
+      "quoteId": "INT003:cue269:0",
+      "participantId": "INT003",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "hope",
+      "intensity": 0.22,
+      "stance": 0.55,
+      "confidence": 0.76,
+      "rationale": "Concrete AI use case stated without strong feeling — mild positive expectation about utility."
+    },
+    {
+      "quoteId": "INT003:cue417:0",
+      "participantId": "INT003",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "gratitude",
+      "intensity": 0.66,
+      "stance": 0.82,
+      "confidence": 0.84,
+      "rationale": "‘Really, really helpful’ — drafting eases a stressful advocacy task; appreciation toward the tool."
+    },
+    {
+      "quoteId": "INT003:cue293:0",
+      "participantId": "INT003",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.45,
+      "stance": 0.62,
+      "confidence": 0.75,
+      "rationale": "Hedged endorsement — ‘great’ plus ‘hesitancy’ keeps forward-positive stance toward AI overall."
+    },
+    {
+      "quoteId": "INT003:cue296:0",
+      "participantId": "INT003",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "anger",
+      "intensity": 0.58,
+      "stance": -0.52,
+      "confidence": 0.78,
+      "rationale": "Fabricated code triggers worry about trusting outputs; spike of reactive mistrust at the model."
+    },
+    {
+      "quoteId": "INT003:cue305:0",
+      "participantId": "INT003",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": null,
+      "intensity": 0.62,
+      "stance": -0.64,
+      "confidence": 0.74,
+      "rationale": "Anticipatory harm scenario for less savvy users — vigilance about downstream damage."
+    },
+    {
+      "quoteId": "INT003:cue352:0",
+      "participantId": "INT003",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.46,
+      "stance": -0.36,
+      "confidence": 0.68,
+      "rationale": "‘Is it the latest?’ — worry about stale guidance in fast-changing crisis info; mild fatigue with churn."
+    },
+    {
+      "quoteId": "INT003:cue389:0",
+      "participantId": "INT003",
+      "primaryEmotion": "relief",
+      "secondaryEmotion": "hope",
+      "intensity": 0.58,
+      "stance": 0.82,
+      "confidence": 0.72,
+      "rationale": "Slowed ‘very nice’ lands as eased longing — release imagining executive-assistant-style help."
+    },
+    {
+      "quoteId": "INT003:cue424:0",
+      "participantId": "INT003",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.68,
+      "stance": 0.88,
+      "confidence": 0.83,
+      "rationale": "‘Really cool’ — upbeat, forward-looking enthusiasm for in-channel bot tagging in groups."
+    },
+    {
+      "quoteId": "INT003:cue370:0",
+      "participantId": "INT003",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": "hope",
+      "intensity": 0.32,
+      "stance": 0.48,
+      "confidence": 0.7,
+      "rationale": "Meta observation that splintering helped relevance — analytic tone with mild positive evaluation."
+    },
+    {
+      "quoteId": "INT003:cue413:0",
+      "participantId": "INT003",
+      "primaryEmotion": "fear",
+      "secondaryEmotion": "relief",
+      "intensity": 0.56,
+      "stance": 0.35,
+      "confidence": 0.62,
+      "rationale": "‘Really nervous’ names anticipatory stress about a call; AI reframes as prep support — mixed."
+    },
+    {
+      "quoteId": "INT003:cue454:0",
+      "participantId": "INT003",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "anger",
+      "intensity": 0.58,
+      "stance": -0.72,
+      "confidence": 0.66,
+      "rationale": "Names extreme hardship and access gap — sorrow for others’ conditions plus heat at who tools serve."
+    }
+  ]
+}

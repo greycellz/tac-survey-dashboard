@@ -1,0 +1,198 @@
+{
+  "participantId": "INT002",
+  "affectSkillVersion": "v1.0.0",
+  "affectVocabularyVersion": "v1.0.0",
+  "generatedAt": "2026-05-09T20:00:00.000Z",
+  "annotations": [
+    {
+      "quoteId": "INT002:cue104:0",
+      "participantId": "INT002",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "grief",
+      "intensity": 0.65,
+      "stance": -0.65,
+      "confidence": 0.8,
+      "rationale": "Grinding schedule and explicit admission of mental toll; loss of normal life under the workload."
+    },
+    {
+      "quoteId": "INT002:cue122:0",
+      "participantId": "INT002",
+      "primaryEmotion": "grief",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.6,
+      "stance": -0.75,
+      "confidence": 0.78,
+      "rationale": "Home still absent/unremediated names ongoing displacement; matter-of-fact delivery adds acceptance-without-fix."
+    },
+    {
+      "quoteId": "INT002:cue177:0",
+      "participantId": "INT002",
+      "primaryEmotion": "numbness",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.5,
+      "stance": -0.35,
+      "confidence": 0.62,
+      "rationale": "‘Don’t emotionally process’ reads as detachment from affect more than active sadness; flat self-assessment."
+    },
+    {
+      "quoteId": "INT002:cue200:0",
+      "participantId": "INT002",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.6,
+      "stance": -0.85,
+      "confidence": 0.82,
+      "rationale": "Institutional failure framed as what should have happened day one — energized blame toward public health silence."
+    },
+    {
+      "quoteId": "INT002:cue83:0",
+      "participantId": "INT002",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.65,
+      "stance": -0.85,
+      "confidence": 0.8,
+      "rationale": "‘Bottom line’ statistic about failed clearance lands as accusation of system/remediation failure, not neutral data."
+    },
+    {
+      "quoteId": "INT002:cue118:0",
+      "participantId": "INT002",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "fear",
+      "intensity": 0.45,
+      "stance": -0.55,
+      "confidence": 0.68,
+      "rationale": "Deliberate non-rush accepts limbo; contamination risk is the implied reason — acceptance more than outrage here."
+    },
+    {
+      "quoteId": "INT002:cue85:0",
+      "participantId": "INT002",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "fear",
+      "intensity": 0.72,
+      "stance": -0.9,
+      "confidence": 0.86,
+      "rationale": "Energized opposition to insurers pushing people into unsafe homes; future harm to residents is explicit."
+    },
+    {
+      "quoteId": "INT002:cue352:0",
+      "participantId": "INT002",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "anger",
+      "intensity": 0.55,
+      "stance": -0.75,
+      "confidence": 0.74,
+      "rationale": "Litigation as only path states grim institutional reality — accepting the necessity while implicating the system."
+    },
+    {
+      "quoteId": "INT002:cue357:0",
+      "participantId": "INT002",
+      "primaryEmotion": "weariness",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.45,
+      "stance": -0.5,
+      "confidence": 0.72,
+      "rationale": "Long factual setup ending in reluctant next step (‘bite the bullet’); depleted pragmatism about hiring counsel."
+    },
+    {
+      "quoteId": "INT002:cue250:0",
+      "participantId": "INT002",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.2,
+      "stance": -0.25,
+      "confidence": 0.7,
+      "rationale": "Tool choice explained pragmatically; dislike of FB politics is mild and secondary to matter-of-fact adoption."
+    },
+    {
+      "quoteId": "INT002:cue283:0",
+      "participantId": "INT002",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.22,
+      "stance": 0.1,
+      "confidence": 0.76,
+      "rationale": "Mostly procedural monitoring of group chatter; ‘want to know’ is informational, not strongly valenced affect."
+    },
+    {
+      "quoteId": "INT002:cue261:0",
+      "participantId": "INT002",
+      "primaryEmotion": "neutral",
+      "secondaryEmotion": null,
+      "intensity": 0.18,
+      "stance": 0.2,
+      "confidence": 0.82,
+      "rationale": "Describes crowdsourcing workflow and channel correction (‘Facebook… website’); affect flat, task-focused."
+    },
+    {
+      "quoteId": "INT002:cue402:0",
+      "participantId": "INT002",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": "relief",
+      "intensity": 0.42,
+      "stance": 0.65,
+      "confidence": 0.72,
+      "rationale": "Opens with hope; endorsement of crowdsourcing lifts toward positive expectation while avoiding doom tone."
+    },
+    {
+      "quoteId": "INT002:cue350:0",
+      "participantId": "INT002",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "anger",
+      "intensity": 0.58,
+      "stance": -0.85,
+      "confidence": 0.7,
+      "rationale": "‘Doesn’t matter’ — systemic futility: accepting tools can’t win in a rigged game; institutional critique underneath."
+    },
+    {
+      "quoteId": "INT002:cue416:0",
+      "participantId": "INT002",
+      "primaryEmotion": "hope",
+      "secondaryEmotion": null,
+      "intensity": 0.58,
+      "stance": 0.55,
+      "confidence": 0.78,
+      "rationale": "Imagining better early response — forward-looking, aspirational even as it critiques missed opportunity."
+    },
+    {
+      "quoteId": "INT002:cue225:0",
+      "participantId": "INT002",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.6,
+      "stance": -0.82,
+      "confidence": 0.8,
+      "rationale": "Testing gap denying standing-home survivors information — accusatory about cascade of ‘no information’ failures."
+    },
+    {
+      "quoteId": "INT002:cue350:1",
+      "participantId": "INT002",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "anger",
+      "intensity": 0.58,
+      "stance": -0.85,
+      "confidence": 0.68,
+      "rationale": "Same systemic futility as coded instance; duplicate citation — judgment unchanged (uncertain: double-label use case)."
+    },
+    {
+      "quoteId": "INT002:cue345:0",
+      "participantId": "INT002",
+      "primaryEmotion": "resignation",
+      "secondaryEmotion": "weariness",
+      "intensity": 0.48,
+      "stance": -0.6,
+      "confidence": 0.65,
+      "rationale": "Insight about delegation distancing you from your case — cognitive resignation more than active fight."
+    },
+    {
+      "quoteId": "INT002:cue375:0",
+      "participantId": "INT002",
+      "primaryEmotion": "anger",
+      "secondaryEmotion": "resignation",
+      "intensity": 0.45,
+      "stance": -0.72,
+      "confidence": 0.66,
+      "rationale": "Inequity framed plainly — wealth bypasses insurance failure; institutional unfairness with muted, factual heat."
+    }
+  ]
+}
