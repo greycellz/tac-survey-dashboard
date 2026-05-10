@@ -5,7 +5,8 @@ import { Suspense, useCallback, useEffect } from "react";
 import { useParams, useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useQualitativeData } from "@/contexts/QualitativeDataContext";
 import { QuoteContextModal } from "../_components/QuoteContextModal";
-import type { ParticipantId } from "@/types/qualitative";
+import { EMOTION_COLORS } from "@/lib/qualitative/emotion-colors";
+import type { EmotionId, ParticipantId } from "@/types/qualitative";
 
 function ParticipantTranscriptInner() {
   const params = useParams<{ id: string }>();
@@ -15,7 +16,7 @@ function ParticipantTranscriptInner() {
   const searchParams = useSearchParams();
   const quoteId = searchParams.get("quote");
 
-  const { bundle, quotesByParticipant, manifestEntry } = useQualitativeData();
+  const { bundle, quotesByParticipant, manifestEntry, affectByQuote } = useQualitativeData();
 
   const setQuoteParam = useCallback(
     (next: string | null) => {
@@ -90,26 +91,42 @@ function ParticipantTranscriptInner() {
           <div className="text-xs text-neutral-500">{quotes.length} total (filtered)</div>
         </div>
         <ul className="divide-y divide-neutral-100">
-          {quotes.map((q) => (
-            <li
-              key={q.quoteId}
-              className="px-4 py-2.5 hover:bg-neutral-50 cursor-pointer"
-              onClick={() => setQuoteParam(q.quoteId)}
-            >
-              <div className="flex flex-wrap gap-1 mb-1">
-                {q.codes.map((c) => (
-                  <span key={c.id} className="text-[10px] px-1.5 py-0.5 rounded bg-neutral-100 text-neutral-700">
-                    {c.name}
-                  </span>
-                ))}
-              </div>
-              <div className="text-xs text-neutral-700">
-                &ldquo;
-                {q.quoteVerbatim.length > 100 ? `${q.quoteVerbatim.slice(0, 100)}…` : q.quoteVerbatim}
-                &rdquo;
-              </div>
-            </li>
-          ))}
+          {quotes.map((q) => {
+            const aff = affectByQuote(q.quoteId);
+            return (
+              <li
+                key={q.quoteId}
+                className="px-4 py-2.5 hover:bg-neutral-50 cursor-pointer"
+                onClick={() => setQuoteParam(q.quoteId)}
+              >
+                <div className="flex flex-wrap items-center gap-1 mb-1">
+                  {q.source === "uncoded" ? (
+                    <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-900">
+                      Uncoded
+                    </span>
+                  ) : (
+                    q.codes.map((c) => (
+                      <span key={c.id} className="text-[10px] px-1.5 py-0.5 rounded bg-neutral-100 text-neutral-700">
+                        {c.name}
+                      </span>
+                    ))
+                  )}
+                  {aff && (
+                    <span
+                      className="inline-block w-2.5 h-2.5 rounded-sm shrink-0 ml-auto"
+                      style={{ backgroundColor: EMOTION_COLORS[aff.primaryEmotion as EmotionId] }}
+                      title={`${aff.primaryEmotion} · ${aff.intensity.toFixed(2)}`}
+                    />
+                  )}
+                </div>
+                <div className="text-xs text-neutral-700">
+                  &ldquo;
+                  {q.quoteVerbatim.length > 100 ? `${q.quoteVerbatim.slice(0, 100)}…` : q.quoteVerbatim}
+                  &rdquo;
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </aside>
 

@@ -10,12 +10,12 @@ import type {
   Demographics,
   ManifestEntry,
   QuoteId,
+  QuoteAffect,
+  EmotionId,
+  AffectFingerprint,
 } from "@/types/qualitative";
 import { makeQuoteId } from "@/types/qualitative";
-
-// =====================================================================
-// Filter shape — minimal demographics filter for MVP.
-// =====================================================================
+import { QUALITATIVE_CATEGORY_KEYS } from "@/lib/qualitative/category-keys";
 
 export type QualitativeFilter = {
   ageBand: ("under40" | "40to60" | "over60")[];
@@ -33,24 +33,29 @@ const EMPTY_FILTER: QualitativeFilter = {
   recoveryStage: [],
 };
 
-const CATEGORY_KEYS: CategoryKey[] = [
-  "lifeAndRoutineChanges",
-  "emotionalImpact",
-  "recoveryChallengesAndPainPoints",
-  "needsOverTime",
-  "technologyForRecovery",
-  "aiAttitudesAndBeliefs",
-  "mvpFeedback",
-  "crossCutting",
-];
-
-export type EnrichedQuote = ValidatedCodedQuote & {
+export type EnrichedCodedQuote = ValidatedCodedQuote & {
+  source: "coded";
   quoteId: QuoteId;
   participantId: ParticipantId;
   category: CategoryKey;
   codes: CodebookEntry[];
   demographics: Demographics | null;
 };
+
+export type EnrichedUncodedQuote = {
+  source: "uncoded";
+  quoteId: QuoteId;
+  participantId: ParticipantId;
+  category: CategoryKey;
+  citation: ValidatedCodedQuote["citation"];
+  quoteVerbatim: string;
+  note: string;
+  codeIds: [];
+  codes: [];
+  demographics: Demographics | null;
+};
+
+export type EnrichedQuote = EnrichedCodedQuote | EnrichedUncodedQuote;
 
 type QualitativeContextValue = {
   bundle: QualitativeBundle;
@@ -65,6 +70,10 @@ type QualitativeContextValue = {
   participantIds: ParticipantId[];
   manifestEntry: (id: ParticipantId) => ManifestEntry | null;
   filteredParticipantIds: ParticipantId[];
+  affectByQuote: (quoteId: string) => QuoteAffect | null;
+  affectByCode: (codeId: string) => AffectFingerprint;
+  fingerprintForQuotes: (quotes: EnrichedQuote[]) => AffectFingerprint;
+  affectVocabulary: QualitativeBundle["affectVocabulary"];
 };
 
 const Ctx = createContext<QualitativeContextValue | null>(null);
@@ -94,7 +103,7 @@ function passesFilter(d: Demographics | null, f: QualitativeFilter): boolean {
     if (!v || !f.isCaregiver.includes(v)) return false;
   }
   if (f.recoveryStage.length > 0) {
-    if (!d.recoveryStage || !f.recoveryStage.includes(d.recoveryStage)) return false;
+    if (!d.recoveryStage || !d.recoveryStage.includes(d.recoveryStage)) return false;
   }
   return true;
 }
@@ -114,9 +123,9 @@ export function QualitativeDataProvider({
     for (const entry of bundle.manifest.entries) {
       const ext = bundle.extractions[entry.id];
       if (!ext) continue;
-      for (const cat of CATEGORY_KEYS) {
+      const cueCounter = new Map<number, number>();
+      for (const cat of QUALITATIVE_CATEGORY_KEYS) {
         const arr = ext.codedQuotes[cat];
-        const cueCounter = new Map<number, number>();
         for (const q of arr) {
           const cueNum = q.citation.cueNumber;
           const idx = cueCounter.get(cueNum) ?? 0;
@@ -127,6 +136,7 @@ export function QualitativeDataProvider({
             .filter((c): c is NonNullable<typeof c> => Boolean(c));
           out.push({
             ...q,
+            source: "coded",
             quoteId,
             participantId: entry.id,
             category: cat,
@@ -134,6 +144,24 @@ export function QualitativeDataProvider({
             demographics: entry.demographics,
           });
         }
+      }
+      for (const obs of ext.uncodedObservationsValidated ?? []) {
+        const cueNum = obs.citation.cueNumber;
+        const idx = cueCounter.get(cueNum) ?? 0;
+        cueCounter.set(cueNum, idx + 1);
+        const quoteId = makeQuoteId(entry.id, cueNum, idx);
+        out.push({
+          source: "uncoded",
+          quoteId,
+          participantId: entry.id,
+          category: obs.category,
+          citation: obs.citation,
+          quoteVerbatim: obs.citation.quoteVerbatim,
+          note: obs.note,
+          codeIds: [],
+          codes: [],
+          demographics: entry.demographics,
+        });
       }
     }
     return out;
@@ -149,12 +177,50 @@ export function QualitativeDataProvider({
     return Array.from(uniq).sort();
   }, [filteredQuotes]);
 
-  const quotesByCode = (codeId: string) => filteredQuotes.filter((q) => q.codeIds.includes(codeId));
+  const quotesByCode = (codeId: string) =>
+    filteredQuotes.filter((q) => q.source === "coded" && q.codeIds.includes(codeId));
   const quotesByCategory = (cat: CategoryKey) => filteredQuotes.filter((q) => q.category === cat);
   const quotesByParticipant = (id: ParticipantId) => filteredQuotes.filter((q) => q.participantId === id);
 
   const participantIds = bundle.manifest.entries.map((e) => e.id);
   const manifestEntry = (id: ParticipantId) => bundle.manifest.entries.find((e) => e.id === id) ?? null;
+
+  const affectByQuoteId = useMemo(() => {
+    const map = new Map<string, QuoteAffect>();
+    for (const file of Object.values(bundle.affect)) {
+      if (!file) continue;
+      for (const a of file.annotations) map.set(a.quoteId, a);
+    }
+    return map;
+  }, [bundle]);
+
+  const affectByQuote = (quoteId: string) => affectByQuoteId.get(quoteId) ?? null;
+
+  const fingerprintForQuotes = (quotes: EnrichedQuote[]): AffectFingerprint => {
+    const counts = Object.fromEntries(bundle.affectVocabulary.emotions.map((e) => [e.id, 0])) as Record<
+      EmotionId,
+      number
+    >;
+    let intensitySum = 0;
+    let stanceSum = 0;
+    let n = 0;
+    for (const q of quotes) {
+      const a = affectByQuoteId.get(q.quoteId);
+      if (!a) continue;
+      counts[a.primaryEmotion]++;
+      intensitySum += a.intensity;
+      stanceSum += a.stance;
+      n++;
+    }
+    return {
+      n,
+      emotionCounts: counts,
+      meanIntensity: n > 0 ? intensitySum / n : 0,
+      meanStance: n > 0 ? stanceSum / n : 0,
+    };
+  };
+
+  const affectByCode = (codeId: string) => fingerprintForQuotes(quotesByCode(codeId));
 
   const value: QualitativeContextValue = {
     bundle,
@@ -169,6 +235,10 @@ export function QualitativeDataProvider({
     participantIds,
     manifestEntry,
     filteredParticipantIds,
+    affectByQuote,
+    affectByCode,
+    fingerprintForQuotes,
+    affectVocabulary: bundle.affectVocabulary,
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

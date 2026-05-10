@@ -370,6 +370,86 @@ export function parseQuoteId(
   };
 }
 
+// =====================================================================
+// Affect annotation types (Prompt 6)
+// =====================================================================
+
+export type EmotionId =
+  | "grief"
+  | "fear"
+  | "anger"
+  | "weariness"
+  | "hope"
+  | "relief"
+  | "numbness"
+  | "resignation"
+  | "defiance"
+  | "gratitude"
+  | "pride"
+  | "neutral";
+
+export type AffectVocabularyEntry = {
+  id: EmotionId;
+  name: string;
+  definition: string;
+};
+
+export type AffectVocabulary = {
+  version: string;
+  generatedAt: string;
+  emotions: AffectVocabularyEntry[];
+};
+
+/**
+ * One annotation per quote. Produced by the LLM annotator following SKILL_AFFECT.md.
+ * The model returns this; validation enforces vocabulary membership and value ranges.
+ */
+export type QuoteAffect = {
+  quoteId: QuoteId;
+  participantId: ParticipantId;
+  primaryEmotion: EmotionId;
+  /** Optional second emotion when affect is genuinely mixed. */
+  secondaryEmotion: EmotionId | null;
+  /** 0 = flat, 1 = overwhelming. Intensity is independent of valence. */
+  intensity: number;
+  /**
+   * Direction of the speaker's stance toward the *referent of the quote*
+   * (e.g., insurance company, AI tool, demo feature, their own home).
+   * -1 = strongly against, 0 = neutral, +1 = strongly for.
+   */
+  stance: number;
+  /** Annotator confidence in this label, 0–1. */
+  confidence: number;
+  /** ≤ 200 chars: brief justification, optional. */
+  rationale?: string;
+};
+
+/**
+ * Per-transcript affect file. One per participant, parallel to extractions.
+ */
+export type AffectFile = {
+  participantId: ParticipantId;
+  affectSkillVersion: string;
+  affectVocabularyVersion: string;
+  generatedAt: string;
+  annotations: QuoteAffect[];
+};
+
+/**
+ * Aggregated affect for a set of quotes — used for spider chart and bar chart.
+ * Sums to (number of quotes), not 1.0; UI normalizes for display.
+ */
+export type AffectFingerprint = {
+  /** Number of quotes this fingerprint summarizes */
+  n: number;
+  /** Count per emotion (primary only — secondary not double-counted) */
+  emotionCounts: Record<EmotionId, number>;
+  /** Mean intensity across the set */
+  meanIntensity: number;
+  /** Mean stance across the set */
+  meanStance: number;
+};
+
 /**
  * Everything the qualitative dashboard needs in memory. Loaded once at
  * server-render time from the JSON files in data/qualitative/.
@@ -381,4 +461,7 @@ export type QualitativeBundle = {
   extractions: Partial<Record<ParticipantId, ValidatedExtraction>>;
   /** Parsed transcripts (cues + flat text), keyed by ParticipantId */
   transcripts: Record<ParticipantId, ParsedTranscript>;
+  /** Affect layer: optional per participant (Prompt 6). */
+  affect: Partial<Record<ParticipantId, AffectFile>>;
+  affectVocabulary: AffectVocabulary;
 };

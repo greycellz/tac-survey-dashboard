@@ -6,6 +6,10 @@ import { useQualitativeData } from "@/contexts/QualitativeDataContext";
 import type { CategoryKey } from "@/types/qualitative";
 import { QualitativeFilterStrip } from "../_components/QualitativeFilterStrip";
 import { QuoteContextModal } from "../_components/QuoteContextModal";
+import { EmotionFingerprintBar } from "../_components/EmotionFingerprintBar";
+import { EmotionSpiderChart } from "../_components/EmotionSpiderChart";
+import { EMOTION_COLORS } from "@/lib/qualitative/emotion-colors";
+import type { EmotionId } from "@/types/qualitative";
 
 const CATEGORY_ORDER: CategoryKey[] = [
   "lifeAndRoutineChanges",
@@ -33,7 +37,16 @@ function CodebookPageInner() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { bundle, filteredQuotes, quotesByCode } = useQualitativeData();
+  const {
+    bundle,
+    filteredQuotes,
+    allQuotes,
+    quotesByCode,
+    affectByCode,
+    fingerprintForQuotes,
+    affectVocabulary,
+    affectByQuote,
+  } = useQualitativeData();
 
   const quoteId = searchParams.get("quote");
 
@@ -67,6 +80,36 @@ function CodebookPageInner() {
           v{bundle.codebook.version.replace(/^v/, "")}
         </span>
       </div>
+
+      <details className="mb-4 border border-neutral-200 rounded-md bg-white">
+        <summary className="cursor-pointer px-4 py-2 text-sm font-medium hover:bg-neutral-50">
+          Corpus emotion fingerprint
+        </summary>
+        <div className="px-4 py-4">
+          <EmotionSpiderChart
+            polygons={[
+              {
+                fingerprint: fingerprintForQuotes(allQuotes),
+                label: "All quotes",
+                color: "#5a7ba0",
+                fillOpacity: 0.15,
+              },
+              ...(filteredQuotes.length !== allQuotes.length
+                ? [
+                    {
+                      fingerprint: fingerprintForQuotes(filteredQuotes),
+                      label: "Filtered",
+                      color: "#c14b4b",
+                      fillOpacity: 0.3,
+                    },
+                  ]
+                : []),
+            ]}
+            vocabulary={affectVocabulary}
+            size={360}
+          />
+        </div>
+      </details>
 
       <QualitativeFilterStrip />
 
@@ -102,26 +145,49 @@ function CodebookPageInner() {
                         </span>
                       </summary>
                       {codeQuotes.length > 0 && (
-                        <ul className="border-t border-neutral-100 divide-y divide-neutral-100">
-                          {codeQuotes.map((q) => (
-                            <li
-                              key={q.quoteId}
-                              className="px-4 py-2.5 text-sm hover:bg-neutral-50 cursor-pointer flex items-start gap-3"
-                              onClick={() => setQuoteParam(q.quoteId)}
-                            >
-                              <span className="font-mono text-xs text-neutral-500 shrink-0 mt-0.5">
-                                {q.participantId}
-                              </span>
-                              <span className="flex-1 text-neutral-800">
-                                &ldquo;
-                                {q.quoteVerbatim.length > 140
-                                  ? `${q.quoteVerbatim.slice(0, 140)}…`
-                                  : q.quoteVerbatim}
-                                &rdquo;
-                              </span>
-                            </li>
-                          ))}
-                        </ul>
+                        <>
+                          <ul className="border-t border-neutral-100 divide-y divide-neutral-100">
+                            {codeQuotes.map((q) => {
+                              const aff = affectByQuote(q.quoteId);
+                              return (
+                                <li
+                                  key={q.quoteId}
+                                  className="px-4 py-2.5 text-sm hover:bg-neutral-50 cursor-pointer flex items-start gap-3"
+                                  onClick={() => setQuoteParam(q.quoteId)}
+                                >
+                                  <span className="font-mono text-xs text-neutral-500 shrink-0 mt-0.5">
+                                    {q.participantId}
+                                  </span>
+                                  <span className="flex-1 text-neutral-800">
+                                    &ldquo;
+                                    {q.quoteVerbatim.length > 140
+                                      ? `${q.quoteVerbatim.slice(0, 140)}…`
+                                      : q.quoteVerbatim}
+                                    &rdquo;
+                                  </span>
+                                  {aff && (
+                                    <span
+                                      className="shrink-0 inline-flex flex-col items-end gap-0.5 text-[10px] text-neutral-500"
+                                      title={`${aff.primaryEmotion} · intensity ${aff.intensity.toFixed(2)}`}
+                                    >
+                                      <span
+                                        className="inline-block w-3 h-3 rounded-sm border border-neutral-200"
+                                        style={{
+                                          backgroundColor: EMOTION_COLORS[aff.primaryEmotion as EmotionId],
+                                        }}
+                                      />
+                                      <span className="tabular-nums opacity-80">{aff.intensity.toFixed(2)}</span>
+                                    </span>
+                                  )}
+                                </li>
+                              );
+                            })}
+                          </ul>
+                          <EmotionFingerprintBar
+                            fingerprint={affectByCode(code.id)}
+                            vocabulary={affectVocabulary}
+                          />
+                        </>
                       )}
                     </details>
                   );

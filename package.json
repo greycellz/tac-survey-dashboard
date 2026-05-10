@@ -12,7 +12,8 @@
     "qualitative:build-manifest": "tsx scripts/qualitative/build-manifest.ts",
     "qualitative:dry-run": "tsx scripts/qualitative/extract-batch.ts",
     "qualitative:test": "vitest run scripts/qualitative",
-    "qualitative:validate": "tsx scripts/qualitative/validate-quotes.ts"
+    "qualitative:validate": "tsx scripts/qualitative/validate-quotes.ts",
+    "qualitative:validate-affect": "tsx scripts/qualitative/validate-affect.ts"
   },
   "dependencies": {
     "@types/papaparse": "^5.5.2",

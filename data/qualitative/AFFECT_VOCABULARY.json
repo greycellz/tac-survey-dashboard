@@ -1,0 +1,18 @@
+{
+  "version": "v1.0.0",
+  "generatedAt": "2026-05-09T00:00:00.000Z",
+  "emotions": [
+    { "id": "grief", "name": "Grief", "definition": "Loss-oriented sadness specifically tied to absence — of people, objects, identity, place, or routines that no longer exist." },
+    { "id": "fear", "name": "Fear", "definition": "Anticipatory anxiety, dread, hypervigilance, worry about future harm or recurrence." },
+    { "id": "anger", "name": "Anger", "definition": "Active, energized opposition. Includes righteous anger at institutions, frustration that mobilizes action." },
+    { "id": "weariness", "name": "Weariness", "definition": "Exhaustion accumulated over time. Distinct from anger or sadness — flat, depleted, low-energy." },
+    { "id": "hope", "name": "Hope", "definition": "Forward-looking positive expectation. Often tied to visible progress, community support, or imagined future states." },
+    { "id": "relief", "name": "Relief", "definition": "Reduction of acute pressure. The release-after-tension affect. Often paired with safety, completion, or external help arriving." },
+    { "id": "numbness", "name": "Numbness", "definition": "Affective absence. Dissociation, detachment, inability to feel. Distinct from weariness — there is *less* affect, not depleted affect." },
+    { "id": "resignation", "name": "Resignation", "definition": "Acceptance without endorsement. The 'this is just how it is' affect. Distinct from weariness (resignation is cognitive; weariness is somatic) and numbness (resignation feels something — namely, defeat)." },
+    { "id": "defiance", "name": "Defiance", "definition": "Active resistance to defeat or expectation. The 'I refuse' affect. Often coexists with anger but is more identity-claiming." },
+    { "id": "gratitude", "name": "Gratitude", "definition": "Thankfulness directed at people, institutions, or circumstances. Distinct from relief — gratitude is other-directed; relief is self-experienced." },
+    { "id": "pride", "name": "Pride", "definition": "Self-directed positive evaluation. Often appears around competence demonstrated under hard circumstances, or community/family members' actions." },
+    { "id": "neutral", "name": "Neutral / procedural", "definition": "Affectively flat. Procedural, descriptive, factual. Use when the speech is genuinely neutral, not when affect is mixed or unclear." }
+  ]
+}

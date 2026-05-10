@@ -6,6 +6,8 @@ import type {
   ValidatedExtraction,
   Manifest,
   Codebook,
+  AffectFile,
+  AffectVocabulary,
 } from "@/types/qualitative";
 import { parseTranscriptFromFile } from "../../../scripts/qualitative/parse-transcript";
 
@@ -33,5 +35,20 @@ export function loadQualitativeData(): QualitativeBundle {
     transcripts[entry.id] = parsed;
   }
 
-  return { manifest, codebook, extractions, transcripts };
+  const affectVocabulary = JSON.parse(
+    fs.readFileSync(path.resolve("data/qualitative/AFFECT_VOCABULARY.json"), "utf8"),
+  ) as AffectVocabulary;
+
+  const affect: Partial<Record<ParticipantId, AffectFile>> = {};
+  const affectDir = path.resolve("data/qualitative/affect");
+  if (fs.existsSync(affectDir)) {
+    for (const entry of manifest.entries) {
+      const p = path.join(affectDir, `${entry.id}.affect.json`);
+      if (fs.existsSync(p)) {
+        affect[entry.id] = JSON.parse(fs.readFileSync(p, "utf8")) as AffectFile;
+      }
+    }
+  }
+
+  return { manifest, codebook, extractions, transcripts, affect, affectVocabulary };
 }

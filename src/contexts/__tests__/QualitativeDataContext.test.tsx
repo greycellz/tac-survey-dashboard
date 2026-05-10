@@ -169,6 +169,25 @@ const FIXTURE: QualitativeBundle = {
       interviewerCueCount: 0,
     },
   },
+  affect: {},
+  affectVocabulary: {
+    version: "v1.0.0",
+    generatedAt: "",
+    emotions: [
+      { id: "grief", name: "Grief", definition: "" },
+      { id: "fear", name: "Fear", definition: "" },
+      { id: "anger", name: "Anger", definition: "" },
+      { id: "weariness", name: "Weariness", definition: "" },
+      { id: "hope", name: "Hope", definition: "" },
+      { id: "relief", name: "Relief", definition: "" },
+      { id: "numbness", name: "Numbness", definition: "" },
+      { id: "resignation", name: "Resignation", definition: "" },
+      { id: "defiance", name: "Defiance", definition: "" },
+      { id: "gratitude", name: "Gratitude", definition: "" },
+      { id: "pride", name: "Pride", definition: "" },
+      { id: "neutral", name: "Neutral / procedural", definition: "" },
+    ],
+  },
 };
 
 const wrapper = ({ children }: { children: ReactNode }) => (

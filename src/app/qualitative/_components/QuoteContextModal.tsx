@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
 import { useQualitativeData } from "@/contexts/QualitativeDataContext";
+import { EMOTION_COLORS } from "@/lib/qualitative/emotion-colors";
+import type { EmotionId } from "@/types/qualitative";
 
 const CONTEXT_CUES_BEFORE = 10;
 const CONTEXT_CUES_AFTER = 10;
@@ -14,7 +16,7 @@ export function QuoteContextModal({
   quoteId: string | null;
   onClose: () => void;
 }) {
-  const { bundle, allQuotes } = useQualitativeData();
+  const { bundle, allQuotes, affectByQuote } = useQualitativeData();
   const dialogRef = useRef<HTMLDivElement>(null);
 
   const quote = useMemo(() => allQuotes.find((q) => q.quoteId === quoteId) ?? null, [allQuotes, quoteId]);
@@ -35,6 +37,8 @@ export function QuoteContextModal({
   }, [quoteId]);
 
   if (!quote) return null;
+
+  const affect = affectByQuote(quote.quoteId);
 
   const transcript = bundle.transcripts[quote.participantId];
   const targetCueNumber = quote.citation.cueNumber;
@@ -88,17 +92,38 @@ export function QuoteContextModal({
 
         <div className="px-5 py-4 border-b border-neutral-200 shrink-0 bg-neutral-50">
           <div className="flex flex-wrap gap-1.5 mb-2">
-            {quote.codes.map((c) => (
-              <span
-                key={c.id}
-                className="text-xs px-2 py-0.5 rounded bg-neutral-900 text-white"
-                title={c.definition}
-              >
-                {c.name}
-              </span>
-            ))}
+            {quote.source === "uncoded" ? (
+              <span className="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-900">Uncoded observation</span>
+            ) : (
+              quote.codes.map((c) => (
+                <span
+                  key={c.id}
+                  className="text-xs px-2 py-0.5 rounded bg-neutral-900 text-white"
+                  title={c.definition}
+                >
+                  {c.name}
+                </span>
+              ))
+            )}
           </div>
-          {quote.rationale && <p className="text-xs text-neutral-600 italic">{quote.rationale}</p>}
+          {affect && (
+            <span className="text-xs text-neutral-600 inline-flex items-center gap-1.5 mt-1">
+              <span
+                className="inline-block w-2.5 h-2.5 rounded-sm"
+                style={{ backgroundColor: EMOTION_COLORS[affect.primaryEmotion as EmotionId] }}
+              />
+              {affect.primaryEmotion}
+              {affect.secondaryEmotion && ` · ${affect.secondaryEmotion}`}
+              <span className="text-neutral-400">
+                · intensity {affect.intensity.toFixed(2)} · stance {affect.stance > 0 ? "+" : ""}
+                {affect.stance.toFixed(2)}
+              </span>
+            </span>
+          )}
+          {quote.source === "coded" && quote.rationale && (
+            <p className="text-xs text-neutral-600 italic">{quote.rationale}</p>
+          )}
+          {quote.source === "uncoded" && <p className="text-xs text-neutral-600 mt-1">{quote.note}</p>}
         </div>
 
         <div className="px-5 py-4 overflow-y-auto flex-1">
