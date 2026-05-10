@@ -1,0 +1,458 @@
+{
+  "participantId": "INT004",
+  "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T02:24:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.511Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "the rebuild process, and getting everything together, and navigating all the things that you've mentioned is a lot, and I was doing that earlier today,",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Recovery tasks consume significant daily time and effort — he was actively doing them the morning of the interview.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "the rebuild process, and getting everything together, and navigating all the things that you've mentioned is a lot, and I was doing that earlier today,",
+          "flatCharStart": 1460,
+          "flatCharEnd": 1611,
+          "cueNumber": 13,
+          "startTime": "00:01:30.020",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "You know, a part-time job, that's a good way to describe it.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Explicitly affirms the part-time-job framing; confirms the recovery workload is equivalent to additional employment.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "You know, a part-time job, that's a good way to describe it.",
+          "flatCharStart": 2241,
+          "flatCharEnd": 2301,
+          "cueNumber": 20,
+          "startTime": "00:02:24.410",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "The things that we… that are different, or we miss out on are just our house, our yard, that community up there.",
+        "codeIds": [
+          "loss_of_home_anchor"
+        ],
+        "rationale": "Home, yard, and neighborhood community named together as the core of what was lost — the anchor, not merely shelter.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "The things that we… that are different, or we miss out on are just our house, our yard, that community up there.",
+          "flatCharStart": 622,
+          "flatCharEnd": 734,
+          "cueNumber": 6,
+          "startTime": "00:00:39.850",
+          "contextBefore": "",
+          "contextAfter": " So it's…"
+        }
+      },
+      {
+        "quoteVerbatim": "and anxiety, for sure, in the beginning, and I'm sure it's much worse for other people than it has been for us. I can totally imagine.",
+        "codeIds": [
+          "comparative_luck_appraisal"
+        ],
+        "rationale": "Describes acute early anxiety then immediately contextualizes it by comparison to worse-off others; the comparison is load-bearing for his emotional framing throughout the interview.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "and anxiety, for sure, in the beginning, and I'm sure it's much worse for other people than it has been for us. I can totally imagine.",
+          "flatCharStart": 9785,
+          "flatCharEnd": 9919,
+          "cueNumber": 93,
+          "startTime": "00:10:11.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "For me personally, it's always financial. It's, hey, how do we get back to what we had?",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "Names financial recovery as his single dominant challenge across all phases of recovery.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "For me personally, it's always financial. It's, hey, how do we get back to what we had?",
+          "flatCharStart": 13340,
+          "flatCharEnd": 13427,
+          "cueNumber": 128,
+          "startTime": "00:14:02.110",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "the SBA loan that we've been approved for, but now have to figure out that. So it's just, you know, it's a lot of stuff to try to figure out, and…",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "SBA loan navigation adds complexity on top of insurance escrow; illustrates pressure from multiple simultaneous financial instruments.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "the SBA loan that we've been approved for, but now have to figure out that. So it's just, you know, it's a lot of stuff to try to figure out, and…",
+          "flatCharStart": 1876,
+          "flatCharEnd": 2022,
+          "cueNumber": 17,
+          "startTime": "00:02:01.770",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I have my own hypothesis on the prices of what's going on right now. I think we're being taken advantage of quite a bit, but I could be wrong.",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "Perceives contractor pricing as exploitative during disaster recovery — above-market rebuild costs as ongoing financial pressure.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "I have my own hypothesis on the prices of what's going on right now. I think we're being taken advantage of quite a bit, but I could be wrong.",
+          "flatCharStart": 36098,
+          "flatCharEnd": 36240,
+          "cueNumber": 403,
+          "startTime": "00:37:44.550",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I don't know whether it would have been a class or something like that to go over, hey, this is all the steps of a rebuild process, and this is what it's going to take, and this is the timeline, and then this is the best way to go about it. We ended up figuring it out, I think, okay, in the end, but it took a while to get there.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Explicit desire for a structured guide to sequence the rebuild process from the start; had to piece together knowledge himself over many months.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "I don't know whether it would have been a class or something like that to go over, hey, this is all the steps of a rebuild process, and this is what it's going to take, and this is the timeline, and then this is the best way to go about it. We ended up figuring it out, I think, okay, in the end, but it took a while to get there.",
+          "flatCharStart": 5597,
+          "flatCharEnd": 5927,
+          "cueNumber": 54,
+          "startTime": "00:06:02.890",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "it was helpful to get a new place to stay, an apartment, fairly soon after",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "Housing stability was the most critical immediate need; securing an apartment quickly enabled resumption of routine and reduced acute cognitive load.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "it was helpful to get a new place to stay, an apartment, fairly soon after",
+          "flatCharStart": 10463,
+          "flatCharEnd": 10537,
+          "cueNumber": 100,
+          "startTime": "00:10:53.940",
+          "contextBefore": "You know, our… ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "it's just little… right now, we're just trying to, like, specifically right now, we're trying to navigate getting the funds released and get… just managing those. We have the resources, we do.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "At 14 months, the pressing need is navigating escrow release and SBA disbursement — the financial resource grind of the medium-to-long phase.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "it's just little… right now, we're just trying to, like, specifically right now, we're trying to navigate getting the funds released and get… just managing those. We have the resources, we do.",
+          "flatCharStart": 16621,
+          "flatCharEnd": 16813,
+          "cueNumber": 169,
+          "startTime": "00:17:40.080",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "App or anything like that that helped more so than other things.",
+        "codeIds": [
+          "tech_app_search_failure"
+        ],
+        "rationale": "States no specific app or platform stood out as more helpful; relied on general internet searches because nothing purpose-built for recovery complexity existed.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "App or anything like that that helped more so than other things.",
+          "flatCharStart": 18000,
+          "flatCharEnd": 18064,
+          "cueNumber": 183,
+          "startTime": "00:19:06.600",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I don't know, nothing more than, like I was saying, being able to pull information together in something cogent, as opposed to trying to find it in different spots.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Endorses AI specifically for information synthesis and consolidation — reducing the cognitive burden of aggregating scattered sources. Framed as the one use case he finds credible.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "I don't know, nothing more than, like I was saying, being able to pull information together in something cogent, as opposed to trying to find it in different spots.",
+          "flatCharStart": 19538,
+          "flatCharEnd": 19702,
+          "cueNumber": 201,
+          "startTime": "00:20:49.400",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Yeah, and now that you've mentioned it, yes, that would be very helpful.",
+        "codeIds": [
+          "mvp_endorse_executive_assistant"
+        ],
+        "rationale": "Strong positive response to the concept of an AI bot tracking rebuild steps and adjuster tasks, framed as exactly what he had needed.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "Yeah, and now that you've mentioned it, yes, that would be very helpful.",
+          "flatCharStart": 22821,
+          "flatCharEnd": 22893,
+          "cueNumber": 241,
+          "startTime": "00:24:17.270",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, that seems very helpful.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Affirms the community channel intelligence feature — aggregating contractor and recovery information from public group conversations for advocacy.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "Yeah, that seems very helpful.",
+          "flatCharStart": 27545,
+          "flatCharEnd": 27575,
+          "cueNumber": 300,
+          "startTime": "00:29:10.630",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, that would… that would be very helpful.",
+        "codeIds": [
+          "mvp_endorse_context"
+        ],
+        "rationale": "Endorses the context-aware bot that already knows the user's journey and disaster profile, contrasted favorably with simple auto-reply bots.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "Yeah, that would… that would be very helpful.",
+          "flatCharStart": 28395,
+          "flatCharEnd": 28440,
+          "cueNumber": 310,
+          "startTime": "00:30:09.820",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Mmm, it could be. I don't know, I haven't tried it, so… but I see how it could, sure.",
+        "codeIds": [
+          "mvp_hesitate_emotional_use"
+        ],
+        "rationale": "Measured, non-committed response to the box-breathing anxiety demo; does not reject emotional AI support but reserves judgment pending personal experience.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "Mmm, it could be. I don't know, I haven't tried it, so… but I see how it could, sure.",
+          "flatCharStart": 30165,
+          "flatCharEnd": 30250,
+          "cueNumber": 335,
+          "startTime": "00:31:59.650",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "they can compare, you know, hey, we're getting this… we're getting this price from this contractor. Hey, let me see everything else that's going on from, you know, this community, and…",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Concrete feature request: anonymous contractor bid comparison using community-pooled data, so survivors can evaluate whether their prices are fair without soliciting their own bids.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "they can compare, you know, hey, we're getting this… we're getting this price from this contractor. Hey, let me see everything else that's going on from, you know, this community, and…",
+          "flatCharStart": 33055,
+          "flatCharEnd": 33239,
+          "cueNumber": 370,
+          "startTime": "00:35:01.030",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "Advice, information, tips, everything on the rebuild process from the, you know, from the beginning, as opposed to us figuring it out as we go along, which has been okay, but that would have been helpful, just like, okay.",
+        "codeIds": [
+          "cross_timing_matters"
+        ],
+        "rationale": "Participant generalizes that guidance frontloaded from the very beginning beats learning through trial and error over months — a meta-observation about when support must arrive to be useful.",
+        "citation": {
+          "participantId": "INT004",
+          "transcriptPath": "data/qualitative/transcripts/INT004.md",
+          "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+          "quoteVerbatim": "Advice, information, tips, everything on the rebuild process from the, you know, from the beginning, as opposed to us figuring it out as we go along, which has been okay, but that would have been helpful, just like, okay.",
+          "flatCharStart": 4761,
+          "flatCharEnd": 4982,
+          "cueNumber": 48,
+          "startTime": "00:05:08.740",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements were abundant and clear in the back third: INT004 responded enthusiastically to the rebuild-tracking executive assistant concept (cues 241, 244–245, 347–349), the community intelligence and advocacy summary layer (cue 300), and the context-aware personalized bot (cue 310). The contractor bid comparison idea (cues 367–382, 399–400) was the single most animated and elaborated moment in the entire demo section. For hesitations: his one clear hesitation was a lukewarm, hedged response to the box-breathing anxiety demo ('I haven't tried it, so…', cue 335) — not rejection, but withheld judgment pending direct experience. His broader AI skepticism ('I haven't noticed its efficacy compared to all the hype around it', cue 214) was expressed before the demo began and is coded as aiAttitudesAndBeliefs, not mvpFeedback. During the demo itself, no concerns about accuracy, privacy, or emotional dependency were raised. The only hesitation is the measured neutrality toward the emotional support component."
+  },
+  "summary": "INT004 is a 47-year-old male Eaton Fire survivor whose home was completely destroyed. He and his wife relocated to a nearby apartment quickly after the fire and have maintained as much of their pre-fire routine as possible. At 14 months out, his recovery is centered almost entirely on the rebuild: navigating escrow funds, an SBA loan, and contractor selection while watching the project progress on-site. He reports his experience with Farmers Insurance has been relatively smooth compared to many neighbors, and attributes this partly to having a different carrier than the majority in his area.\n\nThe most challenging aspect of his recovery is financial — not the emotional weight of loss, though he did feel acute despair and anxiety in the immediate aftermath. He describes the recovery workload as a part-time job layered on top of normal life. The biggest systemic gap he identifies is the absence of early, sequenced guidance on the rebuild process: he had to learn contractor selection, permitting timelines, and bid evaluation through trial, error, and a community group that emerged organically from neighbors who shared his home style. He wished a structured crash course had existed from day one. Information came through Zoom meetings over months rather than being consolidated at the outset.\n\nEmotionally, his coping style is practical and forward-facing. He returned to routine quickly, worked as a team with his wife, and avoided dwelling on loss. He repeatedly frames his own situation as better than that of others more severely affected — a comparative orientation that functions as both gratitude and a way of keeping perspective. He does not describe intrusive trauma symptoms but recalls genuine despair and financial anxiety in the early weeks.\n\nHis relationship with technology for recovery was basic — internet searches rather than any dedicated app or platform. He is modestly familiar with AI tools through his work but skeptical of the hype, finding the practical uplift modest compared to prior technology.\n\nDuring the MVP demo, his reactions were most enthusiastic about practical features: AI that could track rebuild steps, draft communications with contractors or lawyers, and allow the community to anonymously compare contractor bids. The contractor price comparison idea was the most animated moment in the demo section. He was more neutral on the emotional support features — the anxiety reduction demo prompted a measured, hedged response rather than enthusiasm or resistance. He was open to being a future tester.\n\nTwo patterns stand out. First, his recovery orientation is relentlessly practical and future-focused: he subordinates emotional processing to rebuilding, and technology is only useful when it is actionable. Second, he perceives contractor pricing as exploitative, and this distrust of the commercial ecosystem around disaster recovery feels underserved by existing resources.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "aiAttitudesAndBeliefs",
+      "note": "General skepticism about AI hype/overpromise, not tied to specific risks like hallucination or emotional dependency. No existing code captures this 'show-me' or practical-skeptic stance toward AI claims.",
+      "citation": {
+        "participantId": "INT004",
+        "transcriptPath": "data/qualitative/transcripts/INT004.md",
+        "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+        "quoteVerbatim": "I haven't noticed its efficacy compared to all the hype around it.",
+        "flatCharStart": 20678,
+        "flatCharEnd": 20744,
+        "cueNumber": 214,
+        "startTime": "00:21:58.740",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "Acute forward-looking dread about financial and housing viability in the immediate aftermath. Distinct from grief over specific items, PTSD imagery, or delayed processing — no code captures situational existential anxiety about survival of the recovery itself.",
+      "citation": {
+        "participantId": "INT004",
+        "transcriptPath": "data/qualitative/transcripts/INT004.md",
+        "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+        "quoteVerbatim": "there's quite a bit of desperation in the beginning, for sure. Making… and then you're looking at the future, and like, well, what is it? I mean, are we going to be able to rebuild our home?",
+        "flatCharStart": 9468,
+        "flatCharEnd": 9658,
+        "cueNumber": 91,
+        "startTime": "00:09:55.020",
+        "contextBefore": "there's a little… ",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "note": "Perception of contractor price gouging during disaster recovery. Coded financial_strain for economic impact, but the injustice framing is adjacent to moral_injury; participant qualifies with 'I could be wrong,' making it too tentative for moral_injury coding.",
+      "citation": {
+        "participantId": "INT004",
+        "transcriptPath": "data/qualitative/transcripts/INT004.md",
+        "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+        "quoteVerbatim": "I think people are making a lot of money off this.",
+        "flatCharStart": 36254,
+        "flatCharEnd": 36304,
+        "cueNumber": 404,
+        "startTime": "00:37:53.980",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "lifeAndRoutineChanges",
+      "note": "Deliberate routine restoration as primary coping and protective strategy. Existing codes cover routine collapse but not this active, intentional rebuilding of normalcy as a recovery mechanism — a distinct and recurring pattern across survivor interviews.",
+      "citation": {
+        "participantId": "INT004",
+        "transcriptPath": "data/qualitative/transcripts/INT004.md",
+        "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+        "quoteVerbatim": "Yeah, I think the best thing to do… to do was to get back into a very similar routine after, as soon as we could afterwards, and so…",
+        "flatCharStart": 10302,
+        "flatCharEnd": 10434,
+        "cueNumber": 99,
+        "startTime": "00:10:45.790",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "aiAttitudesAndBeliefs",
+      "note": "Preference for natural/conversational AI tone over robotic or clinical. Distinct from ai_tone_over_affirming (which targets excess sycophancy). No code captures the 'too mechanical' axis of tone concern.",
+      "citation": {
+        "participantId": "INT004",
+        "transcriptPath": "data/qualitative/transcripts/INT004.md",
+        "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+        "quoteVerbatim": "Robotic stuff would probably turn you off, just… Just normal.",
+        "flatCharStart": 21064,
+        "flatCharEnd": 21125,
+        "cueNumber": 219,
+        "startTime": "00:22:22.930",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

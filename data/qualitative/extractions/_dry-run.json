@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-05-09T02:56:54.739Z",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "entries": [
+    {
+      "participantId": "INT001",
+      "transcriptPath": "data/qualitative/transcripts/INT001.md",
+      "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+      "flatTextLength": 40223,
+      "participantCueCount": 290,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 62544
+    },
+    {
+      "participantId": "INT002",
+      "transcriptPath": "data/qualitative/transcripts/INT002.md",
+      "transcriptSha256": "8e680c9d805802c1bfceba9515fda4734e2ba339c0278adf86b076a9ed4bc938",
+      "flatTextLength": 48320,
+      "participantCueCount": 320,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 70641
+    },
+    {
+      "participantId": "INT003",
+      "transcriptPath": "data/qualitative/transcripts/INT003.md",
+      "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+      "flatTextLength": 66872,
+      "participantCueCount": 333,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 89193
+    },
+    {
+      "participantId": "INT004",
+      "transcriptPath": "data/qualitative/transcripts/INT004.md",
+      "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
+      "flatTextLength": 37796,
+      "participantCueCount": 236,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 60117
+    },
+    {
+      "participantId": "INT005",
+      "transcriptPath": "data/qualitative/transcripts/INT005.md",
+      "transcriptSha256": "3af1c2b458df4965fff288d67234c8446dd9f73cf40bd9b897c8b47ccf315f09",
+      "flatTextLength": 50088,
+      "participantCueCount": 402,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 72409
+    },
+    {
+      "participantId": "INT006",
+      "transcriptPath": "data/qualitative/transcripts/INT006.md",
+      "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+      "flatTextLength": 54885,
+      "participantCueCount": 291,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 77206
+    },
+    {
+      "participantId": "INT007",
+      "transcriptPath": "data/qualitative/transcripts/INT007.md",
+      "transcriptSha256": "675786c15b423e4945e9546f59bf2a2aacf5ec8c1eedf8b210768da6e8b92b8d",
+      "flatTextLength": 49300,
+      "participantCueCount": 281,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 71621
+    },
+    {
+      "participantId": "INT008",
+      "transcriptPath": "data/qualitative/transcripts/INT008.md",
+      "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+      "flatTextLength": 42770,
+      "participantCueCount": 236,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 65091
+    },
+    {
+      "participantId": "INT009",
+      "transcriptPath": "data/qualitative/transcripts/INT009.md",
+      "transcriptSha256": "6a41c15d4635ee27e0c7ccfbd4eb5d057fbf05a6640040d1a616aad8d3d2321a",
+      "flatTextLength": 46446,
+      "participantCueCount": 224,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 68767
+    },
+    {
+      "participantId": "INT010",
+      "transcriptPath": "data/qualitative/transcripts/INT010.md",
+      "transcriptSha256": "b6097459b90c01b9adc80a8794f170f97857468bbc6b6990f6eec6d874d5bb8a",
+      "flatTextLength": 47971,
+      "participantCueCount": 351,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 70292
+    },
+    {
+      "participantId": "INT011",
+      "transcriptPath": "data/qualitative/transcripts/INT011.md",
+      "transcriptSha256": "b94e449fa75629ea5f5ad537afbb2a0029823f8684e6a0e9b212880ddcfb410d",
+      "flatTextLength": 53087,
+      "participantCueCount": 239,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 75408
+    },
+    {
+      "participantId": "INT012",
+      "transcriptPath": "data/qualitative/transcripts/INT012.md",
+      "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+      "flatTextLength": 30782,
+      "participantCueCount": 141,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 53103
+    },
+    {
+      "participantId": "INT013",
+      "transcriptPath": "data/qualitative/transcripts/INT013.md",
+      "transcriptSha256": "fa0b0b5d11594cd02777ffef9a82c9fc4c9296841fb1ae12aa3f97766e0861a1",
+      "flatTextLength": 45526,
+      "participantCueCount": 285,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 67847
+    },
+    {
+      "participantId": "INT014",
+      "transcriptPath": "data/qualitative/transcripts/INT014.md",
+      "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+      "flatTextLength": 42358,
+      "participantCueCount": 344,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 64679
+    },
+    {
+      "participantId": "INT015",
+      "transcriptPath": "data/qualitative/transcripts/INT015.md",
+      "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+      "flatTextLength": 51313,
+      "participantCueCount": 326,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 73634
+    },
+    {
+      "participantId": "INT016",
+      "transcriptPath": "data/qualitative/transcripts/INT016.md",
+      "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+      "flatTextLength": 48531,
+      "participantCueCount": 208,
+      "skillVersion": "v1.2.0",
+      "codebookVersion": "v1.2.0",
+      "codebookEntryCount": 51,
+      "promptCharacterEstimate": 70852
+    }
+  ]
+}

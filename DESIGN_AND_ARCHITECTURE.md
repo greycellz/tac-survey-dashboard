@@ -166,18 +166,50 @@ When adding fields: update **parser → types → compute (if surfaced in UI) �
 
 ## Qualitative interview workspace — data layer (foundations)
 
-This layer is **orthogonal to the survey path** (no **`SurveyDataProvider`** coupling). UI under **`/qualitative/*`** is deferred.
+This layer is **orthogonal to the survey path** (no **`SurveyDataProvider`** coupling). UI under **`/qualitative/*`** is deferred to a later milestone. **No LLM calls** are part of this phase—only TypeScript parsing, CSV loading, and a reproducible manifest.
+
+### Summary (what landed)
 
 | Artifact | Path / command |
-|----------|------------------|
-| Shared types | **`src/types/qualitative.ts`** |
-| VTT parser | **`scripts/qualitative/parse-transcript.ts`** — supports **`\-\-\>`** and Zoom **`\--\>`**; speaker heuristic: numeric label ⇒ participant, else interviewer. |
-| Notes loader | **`scripts/qualitative/load-notes.ts`** — optional **`data/qualitative/notes.csv`**. |
-| Manifest | **`npm run qualitative:build-manifest`** → **`data/qualitative/manifest.json`**. |
-| Transcripts | **`data/qualitative/transcripts/INT###.md`**. |
-| Tests | **`npm run qualitative:test`**. |
+|----------|----------------|
+| Shared types | **`src/types/qualitative.ts`** — participants, cues, **`ParsedTranscript`** (flat text + **`SpeakerSpan`** indices), **`Manifest`**, researcher notes shape, future **`Citation`**. |
+| VTT parser | **`scripts/qualitative/parse-transcript.ts`** — WebVTT blocks; speaker rule: **numeric label only** ⇒ participant, else interviewer (observers grouped with interviewer). |
+| Notes loader | **`scripts/qualitative/load-notes.ts`** — optional **`data/qualitative/notes.csv`** (Google Sheet export); header match by **prefix** (case- and space-insensitive); uses **Papa Parse** (same as survey CSV). |
+| Manifest builder | **`npm run qualitative:build-manifest`** → **`data/qualitative/manifest.json`** (`version: 1`, per-file **SHA-256**, parse counts, optional demographics from notes). |
+| Transcripts | **`data/qualitative/transcripts/INT###.md`** — canonical filenames; **16** interview files committed with this baseline. |
+| Tests | **`npm run qualitative:test`** — Vitest under **`scripts/qualitative/`**; full **`npm test`** also runs them via **`vitest.config.ts`** **`include`**. |
+| Tooling | **`tsx`** dev dependency; scripts are **Node** entrypoints ( **`import.meta.url`** guard for CLI vs import). |
+
+**Scripts reference:** **`README.md`** (scripts table); operational detail for inferential fixtures remains in **`scripts/README-fixture.md`** (different subsystem).
+
+### Review
+
+**Strengths**
+
+- **Isolation**: No changes to **`src/app`**, **`SurveyDataContext`**, **`csv-parser`**, **`compute`**, **`featurize`**, or **`inferential`**—survey behaviour and bundle are unchanged (`npm run build` verified).
+- **Determinism**: Parsed output + manifest are **regeneratable** from files on disk; SHA-256 supports **drift detection** when transcripts are edited.
+- **Testability**: Golden-style tests for **`classifySpeaker`**, filename rules, **minimal VTT fixture**, and a **Zoom-style `\--\>`** timestamp line.
+- **Real-world export**: Parser accepts both **triple-escaped** arrow forms from the prompt spec and **Zoom’s `\--\>`** form seen in production **`INT001`** exports.
+
+**Risks / limitations**
+
+- **Speaker heuristic is strict**: Only labels matching **`/^\d{1,4}$/`** (after trim) count as participant. Any transcript that uses **words** (“Participant”, pseudonyms) for the interviewee will show **`participantCueCount: 0`** for that file until the rule or labels are adjusted.
+- **Interviewer utterance count** is “**non-empty cues classified as interviewer**”—not necessarily comparable to hand-counted “turns” or a single interviewer’s lines if the brief used a different definition.
+- **Duplicate paths**: Legacy copies under **`data/001.md`**… (if present locally) are **not** what the manifest scans—only **`data/qualitative/transcripts/INT###.md`** are canonical; avoid editing both without syncing.
+
+### Clarifying questions (for research spec / upstream prompts)
+
+Resolve these before tightening acceptance criteria or layering **LLM extraction / validation**:
+
+1. **Interviewer counting benchmark** — Early guidance cited **~60–80** interviewer “utterances” for a sample file, while the implemented definition yields a **higher** count when every **non-empty interviewer cue line** is counted (split cues, multiple named speakers, etc.). Should the paper/dashboard standard be **per-cue lines**, **merged speaker turns**, **primary interviewer only**, or something else?
+
+2. **Participant labels in edge files** — Some transcripts (**e.g. INT007, INT010** in the baseline manifest) produced **zero** participant-classified lines under the numeric rule. Is that **expected** (e.g. different export convention), or should we add a **controlled exception** (alias map, second pattern, or manual **`participantSpeakerLabels`** per file)?
+
+3. **Single source of truth for raw VTT** — Should **`data/001.md`–`016.md`** (flat `data/`) remain as working copies, be **gitignored**, or be **removed** in favour of **`data/qualitative/transcripts/INT###.md`** only, to prevent silent divergence?
 
 ---
+
+## Future: qualitative analysis (different datasources)
 
 ## Future: qualitative analysis (different datasources)
 

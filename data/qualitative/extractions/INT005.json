@@ -1,0 +1,167 @@
+{
+  "participantId": "INT005",
+  "transcriptSha256": "3af1c2b458df4965fff288d67234c8446dd9f73cf40bd9b897c8b47ccf315f09",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:23:00.000Z",
+  "summary": "INT005 is a 57-year-old screenwriter and Eaton Fire total loss survivor from Altadena's Devonshire Lane cul-de-sac, still displaced 14–15 months post-fire at the time of the interview. He lives with his wife, an LAUSD teacher, and was parenting a high school senior son who was simultaneously auditioning for college theater programs during the initial displacement period. The family stayed briefly at his parents' home before moving to a hotel and eventually a rental apartment in Pasadena.\n\nHis recovery account centers almost entirely on the insurance battle with Mercury Insurance and Roundpoint Mortgage, which he describes as the dominant challenge. He arrived at his recovery approach through trial and error: handling everything himself first, then — once the insurance company's delay tactics became clear — hiring a public adjuster through a trusted referral from their builder. He frames this sequencing deliberately: exhaust all self-advocacy first to minimize the percentage later owed to the adjuster, then bring them in for the hardest final stretch.\n\nHe was a sophisticated and self-directed technology user. Without prompting from TAC, he had already used AI tools to analyze adjuster reports (identifying missing line items and code upgrade gaps), research California statutory codes for mortgage company obligations, draft formal letters of complaint, and find politicians and agencies to cite as leverage. Social media — Instagram for himself, Facebook for his wife — was critical for information sourcing in the acute phase. A physical notebook started at the hotel was the first tool for tracking contacts and claim numbers.\n\nEmotionally, he describes a months-long cognitive fog that impaired basic task sequencing. Grief arrived in increments, sometimes surfacing unexpectedly nearly a year later — realizing, for instance, that the family's copy of The Polar Express was gone. He describes himself as occupying an emotional middle position between his wife (who experienced the loss most heavily) and his son (who moved on quickly). Hope came primarily from visible rebuild progress via a live camera on the site, the CalAssist mortgage relief program, and the Devonshire Lane neighborhood text chain, all 10 households rebuilding together.\n\nHe is acutely aware that others in his community have fared worse — including people whose marriages broke, who sold their lots and left, and at least one person he believes may have ended their life. He credits his own relative luck to having a partner and to having been in therapy before the fire.\n\nThe MVP demo prompted him to endorse the community information hub concept and propose a specific feature: subcategorized channels filtered by insurer and by fire, so that survivors get real-time, situationally precise information from others in exactly their position rather than from a generic recovery audience.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "Thought, this is, like, having a full-time job, and then… A part-time job.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Participant explicitly describes the insurance/recovery workload as a second job layered on top of normal life."
+      },
+      {
+        "quoteVerbatim": "We were living in Altadena, so obviously just up the road. And we were in the hotel for a little over a week, I think. About a week, 7, 8, 9 days, I believe.",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Describes the initial hotel displacement following the fire, first step of an ongoing displacement still unresolved at interview time."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "Buzz and Woody are boxed up in a box, and they're gone forever, the artwork that your… your child made.",
+        "codeIds": ["grief_specific_loss"],
+        "rationale": "Named irreplaceable losses — childhood toys and a child's artwork — framed explicitly as beyond material value."
+      },
+      {
+        "quoteVerbatim": "he had turned 19, he was coming back home for, winter break, and I realized, I don't have that for him to read anymore, or for me to read to him.",
+        "codeIds": ["grief_specific_loss"],
+        "rationale": "Specific loss of the Polar Express ritual book — a named irreplaceable item whose absence disrupted a cherished family tradition."
+      },
+      {
+        "quoteVerbatim": "you know, month 7 or 8 or a year in, you're still mourning things and remembering things that you don't have. And you'd be surprised, like, a year later, something will hit you, and it might be at Christmas time, say, almost a year later.",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Grief surfacing in ongoing increments across many months — the classic delayed-processing pattern, not frontloaded."
+      },
+      {
+        "quoteVerbatim": "so these little steps… Start to add up to, like, a little more hope, a little more hope",
+        "codeIds": ["hope_via_progress"],
+        "rationale": "Tangible milestones — rebuild progress, funding approvals, contractor selection — restoring hope incrementally."
+      },
+      {
+        "quoteVerbatim": "And again, I just feel so blessed to have someone that can help.",
+        "codeIds": ["comparative_luck_appraisal"],
+        "rationale": "Frames own situation as exceptionally fortunate by implicit contrast with survivors who navigate recovery alone."
+      },
+      {
+        "quoteVerbatim": "corporate bullshit from mortgage and insurance companies and more empathy and compassion, which is something that is impossible to get and doesn't exist",
+        "codeIds": ["moral_injury"],
+        "rationale": "Frames institutional behavior as a systemic failure of empathy — injustice framing, not misfortune."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "you feel that insurance is going to be a big help to you, but it's just a facade. You know, they are saying things like, oh, well.",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Describes the gap between the insurer's stated empathy and its actual adversarial posture."
+      },
+      {
+        "quoteVerbatim": "everything that you get, you have to advocate for. No one's going to say, hey, send us this in a week, or send us receipts, or whatever. Like, if you're not, at least in our case, if you're not advocating for yourself with your insurance company.",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Insurance company requires constant self-advocacy; nothing is proactively offered or volunteered."
+      },
+      {
+        "quoteVerbatim": "And there's this thing that the insurance wants you to do is name… And list every single thing you owned.",
+        "codeIds": ["inventory_burden"],
+        "rationale": "The demand to itemize all lost possessions — described as a major burden layered on top of shock and grief."
+      },
+      {
+        "quoteVerbatim": "you're making the bed in one room, and then you realize, oh wait, I have to call the mortgage company, so you call them.",
+        "codeIds": ["exec_dysfunction"],
+        "rationale": "Concrete illustration of cognitive interruption: recovery tasks fracture basic daily task completion, described as months-long 'emotional fog'."
+      },
+      {
+        "quoteVerbatim": "That you can go, okay, get FEMA help here, get insurance help here, public adjusters help here, mental health.",
+        "codeIds": ["navigator_gap"],
+        "rationale": "Participant articulates desire for a centralized, categorized resource hub — the archetypal navigator gap."
+      },
+      {
+        "quoteVerbatim": "phone numbers, things like that, that you can… that people just start giving you, and it's really hard to take it in at first. You know, and instead of going, well, who sent that email?",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Resources and contacts arriving simultaneously from many channels — impossible to track or verify in the acute phase."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "A friend brought, some notebooks and pens to the hotel, and that really helped to start writing down everything.",
+        "codeIds": ["needs_immediate_logistics"],
+        "rationale": "Acute-phase need: a simple tracking tool for the flood of contacts, numbers, and claim information arriving in the first days."
+      },
+      {
+        "quoteVerbatim": "That you can go, okay, get FEMA help here, get insurance help here, public adjusters help here, mental health.",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Medium-term need: centralized, categorized access to recovery resources across agencies and domains — expressed as what was missing."
+      },
+      {
+        "quoteVerbatim": "Are using it, because you feel so overwhelmed with the amount of work that goes into it, as well as your life, that maybe they aren't seeking it.",
+        "codeIds": ["needs_emotional_normalization"],
+        "rationale": "Participant observes that mental health support exists but is underused because recovery labor crowds it out. 'It' refers to mental health support; context: many survivors are 'suffering' but can't reach it."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "A friend brought, some notebooks and pens to the hotel, and that really helped to start writing down everything.",
+        "codeIds": ["tech_spreadsheet_diy"],
+        "rationale": "Physical notebook adopted as a DIY tracking tool for contacts, claim numbers, and agency information from day one."
+      },
+      {
+        "quoteVerbatim": "I found that, I got a lot of information from Instagram. And my wife got a lot of information. I'm not on Facebook, but she got a lot of information from Facebook.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Instagram and Facebook were primary information hubs — participant and his wife divided the social media channels to maximize coverage."
+      },
+      {
+        "quoteVerbatim": "and ask an AI question like, are there any things missing or that they're not accounting for here that I could possibly dispute with them?",
+        "codeIds": ["tech_ai_advocacy"],
+        "rationale": "Used AI to analyze the insurer's adjuster report and identify omissions and missing line items to dispute — unprompted, self-directed AI advocacy."
+      },
+      {
+        "quoteVerbatim": "AI, if you look up, like, who are the, politicians that I can reach out to to help me?",
+        "codeIds": ["tech_ai_advocacy"],
+        "rationale": "Used AI to find politicians and government agencies to name as implicit pressure points in formal letters to the mortgage company."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I think so, I think that would be, helpful for people to be able to go to a place to get information from others, you know?",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Direct endorsement of the community information hub concept in response to Abhi's demo description."
+      },
+      {
+        "quoteVerbatim": "There's one that's only for people that are… not only, but specifically for people dealing with mercury insurance, specifically with people dealing with State Farm or whatever.",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Specific feature request: subcategorized channels filtered by insurer and by fire, so information is situationally precise rather than generic."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "you need time to process, so you don't know what you need when you… you sort of don't know what you don't know.",
+        "codeIds": ["cross_timing_matters"],
+        "rationale": "Participant's own meta-observation: support can't be absorbed before the shock phase passes — timing governs what help lands."
+      },
+      {
+        "quoteVerbatim": "And I think what's… what helps is if there are subcategories. for searches, like, if you're… if you had, like, just say something that you click on, insurance help, right?",
+        "codeIds": ["cross_relevance_over_volume"],
+        "rationale": "Participant generalizes: the problem isn't lack of information but lack of situationally filtered, precise information for one's exact recovery profile."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements found: one clear endorsement — the participant affirmed the community hub concept as helpful for getting information from others (cue 461). No hesitations found: re-reading the back third of the transcript (from cue ~315 onward, where technology use and the demo appear), the participant expressed no concerns about accuracy/hallucination, privacy, emotional AI risk, tone, or data handling in response to Abhi's demo. His response was entirely constructive — one endorsement and one feature request for subcategorization. Note: the mvpDemoShown field in the manifest is null, but the demo was shown by Abhi starting around cue 423; the participant responded substantively."
+  },
+  "uncodedObservations": [
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "There were some people in the community, I think someone… I don't know if they… Ended their life, purposely or not, and there were people that just…",
+      "note": "witnessing_burden content clearly present — participant references community members who couldn't cope, including a possible suicide and marriage breakdowns. Quote spans fragmented WebVTT cues and cannot be joined as a clean verbatim substring."
+    },
+    {
+      "category": "needsOverTime",
+      "quoteVerbatim": "I would hire a public adjuster immediately or right away. And that was… That was a little bit misleading",
+      "note": "Participant describes a staged strategy: exhaust self-advocacy first, then hire a public adjuster for the final stretch. No code captures this recovery-sequencing meta-strategy across time phases."
+    }
+  ]
+}

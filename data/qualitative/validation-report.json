@@ -1,0 +1,483 @@
+{
+  "generatedAt": "2026-05-10T01:44:46.542Z",
+  "totalExtractions": 16,
+  "missingExtractions": [],
+  "perParticipant": [
+    {
+      "participantId": "INT001",
+      "accepted": 30,
+      "rejected": 0,
+      "uncodedAccepted": 1,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 6,
+        "recoveryChallengesAndPainPoints": 6,
+        "needsOverTime": 4,
+        "technologyForRecovery": 2,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 5,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {}
+    },
+    {
+      "participantId": "INT002",
+      "accepted": 15,
+      "rejected": 1,
+      "uncodedAccepted": 4,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 2,
+        "emotionalImpact": 2,
+        "recoveryChallengesAndPainPoints": 3,
+        "needsOverTime": 2,
+        "technologyForRecovery": 3,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 3,
+        "crossCutting": 0
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 1,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT003",
+      "accepted": 30,
+      "rejected": 0,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 5,
+        "emotionalImpact": 5,
+        "recoveryChallengesAndPainPoints": 7,
+        "needsOverTime": 2,
+        "technologyForRecovery": 4,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 3,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {}
+    },
+    {
+      "participantId": "INT004",
+      "accepted": 18,
+      "rejected": 0,
+      "uncodedAccepted": 5,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 2,
+        "emotionalImpact": 2,
+        "recoveryChallengesAndPainPoints": 4,
+        "needsOverTime": 2,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 1,
+        "mvpFeedback": 5,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {}
+    },
+    {
+      "participantId": "INT005",
+      "accepted": 21,
+      "rejected": 4,
+      "uncodedAccepted": 0,
+      "uncodedRejected": 2,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 2,
+        "emotionalImpact": 5,
+        "recoveryChallengesAndPainPoints": 5,
+        "needsOverTime": 3,
+        "technologyForRecovery": 3,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 2,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 1,
+        "recoveryChallengesAndPainPoints": 1,
+        "needsOverTime": 0,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 1
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 4
+      }
+    },
+    {
+      "participantId": "INT006",
+      "accepted": 28,
+      "rejected": 2,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 8,
+        "needsOverTime": 2,
+        "technologyForRecovery": 3,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 3,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 1,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 1,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 2
+      }
+    },
+    {
+      "participantId": "INT007",
+      "accepted": 29,
+      "rejected": 1,
+      "uncodedAccepted": 3,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 4,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 4,
+        "needsOverTime": 3,
+        "technologyForRecovery": 3,
+        "aiAttitudesAndBeliefs": 4,
+        "mvpFeedback": 5,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 1,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT008",
+      "accepted": 20,
+      "rejected": 0,
+      "uncodedAccepted": 3,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 2,
+        "needsOverTime": 4,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 2,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {}
+    },
+    {
+      "participantId": "INT009",
+      "accepted": 26,
+      "rejected": 1,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 2,
+        "emotionalImpact": 6,
+        "recoveryChallengesAndPainPoints": 5,
+        "needsOverTime": 1,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 4,
+        "mvpFeedback": 6,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT010",
+      "accepted": 30,
+      "rejected": 1,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 1,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 5,
+        "recoveryChallengesAndPainPoints": 7,
+        "needsOverTime": 3,
+        "technologyForRecovery": 2,
+        "aiAttitudesAndBeliefs": 4,
+        "mvpFeedback": 4,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 1,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT011",
+      "accepted": 29,
+      "rejected": 1,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 1,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 6,
+        "needsOverTime": 3,
+        "technologyForRecovery": 5,
+        "aiAttitudesAndBeliefs": 2,
+        "mvpFeedback": 4,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 1,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT012",
+      "accepted": 22,
+      "rejected": 2,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 4,
+        "emotionalImpact": 3,
+        "recoveryChallengesAndPainPoints": 3,
+        "needsOverTime": 2,
+        "technologyForRecovery": 3,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 3,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 1,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 2
+      }
+    },
+    {
+      "participantId": "INT013",
+      "accepted": 24,
+      "rejected": 2,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 1,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 3,
+        "emotionalImpact": 5,
+        "recoveryChallengesAndPainPoints": 3,
+        "needsOverTime": 2,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 3,
+        "mvpFeedback": 6,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 1,
+        "needsOverTime": 1,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 2
+      }
+    },
+    {
+      "participantId": "INT014",
+      "accepted": 23,
+      "rejected": 1,
+      "uncodedAccepted": 5,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 7,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 1,
+        "needsOverTime": 3,
+        "technologyForRecovery": 1,
+        "aiAttitudesAndBeliefs": 1,
+        "mvpFeedback": 5,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 1,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT015",
+      "accepted": 24,
+      "rejected": 1,
+      "uncodedAccepted": 3,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 4,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 5,
+        "needsOverTime": 4,
+        "technologyForRecovery": 2,
+        "aiAttitudesAndBeliefs": 2,
+        "mvpFeedback": 2,
+        "crossCutting": 1
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 1,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {
+        "QUOTE_NOT_FOUND": 1
+      }
+    },
+    {
+      "participantId": "INT016",
+      "accepted": 29,
+      "rejected": 0,
+      "uncodedAccepted": 2,
+      "uncodedRejected": 0,
+      "perCategoryAccepted": {
+        "lifeAndRoutineChanges": 4,
+        "emotionalImpact": 4,
+        "recoveryChallengesAndPainPoints": 5,
+        "needsOverTime": 4,
+        "technologyForRecovery": 2,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 8,
+        "crossCutting": 2
+      },
+      "perCategoryRejected": {
+        "lifeAndRoutineChanges": 0,
+        "emotionalImpact": 0,
+        "recoveryChallengesAndPainPoints": 0,
+        "needsOverTime": 0,
+        "technologyForRecovery": 0,
+        "aiAttitudesAndBeliefs": 0,
+        "mvpFeedback": 0,
+        "crossCutting": 0
+      },
+      "rejectionsByReason": {}
+    }
+  ],
+  "totals": {
+    "accepted": 398,
+    "rejected": 17,
+    "uncodedAccepted": 40,
+    "uncodedRejected": 5
+  }
+}

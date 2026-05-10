@@ -1,0 +1,622 @@
+{
+  "participantId": "INT001",
+  "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+  "skillVersion": "v1.1.0",
+  "codebookVersion": "v1.1.0",
+  "generatedAt": "2026-05-09T02:10:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.502Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "you know, immediately after the fire, felt like my… the rug had been pulled out from under me, like, all my routines were… were done. I evacuated to, my sister's house in Lake Forest.",
+        "codeIds": [
+          "routine_collapse"
+        ],
+        "rationale": "Participant explicitly names the collapse of all pre-fire routines as the first experience of the fire's impact.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "you know, immediately after the fire, felt like my… the rug had been pulled out from under me, like, all my routines were… were done. I evacuated to, my sister's house in Lake Forest.",
+          "flatCharStart": 399,
+          "flatCharEnd": 582,
+          "cueNumber": 5,
+          "startTime": "00:00:28.730",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And, so, like, a big deal that was a lot of stress, was finding a place to live right afterwards, because everybody and their mother was looking. I went to one place.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Intense housing-market competition named as a primary early stressor; fifty families at a single property illustrates the scale.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "And, so, like, a big deal that was a lot of stress, was finding a place to live right afterwards, because everybody and their mother was looking. I went to one place.",
+          "flatCharStart": 14879,
+          "flatCharEnd": 15045,
+          "cueNumber": 153,
+          "startTime": "00:19:19.700",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So, and I would imagine for somebody who's not working, you know, I've talked to my friends, it's like having another full-time job. So, at least now, I have one full-time job, and that's, like, picking out all the… all the stuff that I have to do, going to",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Frames rebuild management as his single full-time occupation since retirement; relays that for working peers the same burden is a second job on top of employment.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "So, and I would imagine for somebody who's not working, you know, I've talked to my friends, it's like having another full-time job. So, at least now, I have one full-time job, and that's, like, picking out all the… all the stuff that I have to do, going to",
+          "flatCharStart": 17752,
+          "flatCharEnd": 18009,
+          "cueNumber": 187,
+          "startTime": "00:22:56.600",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "on this trip I just took, I couldn't say… I couldn't bring myself to say I'm going home, because I'm not.",
+        "codeIds": [
+          "loss_of_home_anchor"
+        ],
+        "rationale": "Inability to say 'going home' used as a concrete example of how the home functioned as an emotional anchor now absent.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "on this trip I just took, I couldn't say… I couldn't bring myself to say I'm going home, because I'm not.",
+          "flatCharStart": 5570,
+          "flatCharEnd": 5675,
+          "cueNumber": 56,
+          "startTime": "00:07:16.100",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And I'd see it going up in flames. And that was really traumatic.",
+        "codeIds": [
+          "ptsd_intrusive_imagery"
+        ],
+        "rationale": "Describes involuntary visual recall of specific objects burning — participant explicitly names the experience as traumatic.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "And I'd see it going up in flames. And that was really traumatic.",
+          "flatCharStart": 6149,
+          "flatCharEnd": 6214,
+          "cueNumber": 63,
+          "startTime": "00:08:06.370",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "that was furniture that was in the house where I grew up, and it's… No longer exists.",
+        "codeIds": [
+          "grief_specific_loss"
+        ],
+        "rationale": "Family furniture inherited from deceased parents named as a specific irreplaceable loss — the connection to childhood home and lost parents amplifies the grief.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "that was furniture that was in the house where I grew up, and it's… No longer exists.",
+          "flatCharStart": 6787,
+          "flatCharEnd": 6872,
+          "cueNumber": 70,
+          "startTime": "00:08:58.550",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I try to get back into Altadena at least once a week and do something. I volunteered with Habitat for Humanity a couple times on some of their houses. Now that I'm retired, I can do that a little bit more.",
+        "codeIds": [
+          "meaning_through_service"
+        ],
+        "rationale": "Volunteering with Habitat and attending community events described as active coping — returning to the space and contributing to others' recovery.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "I try to get back into Altadena at least once a week and do something. I volunteered with Habitat for Humanity a couple times on some of their houses. Now that I'm retired, I can do that a little bit more.",
+          "flatCharStart": 7769,
+          "flatCharEnd": 7974,
+          "cueNumber": 78,
+          "startTime": "00:10:14.040",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "tremendous amount of hope, you know? It looked like a place that a house could be built.",
+        "codeIds": [
+          "hope_via_progress"
+        ],
+        "rationale": "Debris removal transforming the lot into a buildable site is named as a concrete, hope-restoring milestone.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "tremendous amount of hope, you know? It looked like a place that a house could be built.",
+          "flatCharStart": 9807,
+          "flatCharEnd": 9895,
+          "cueNumber": 100,
+          "startTime": "00:12:48.640",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And on Monday, when I got back, I went to the lot, and so now the foundation is there, and it's all ready to build the framing. That was… that was a cool moment, too.",
+        "codeIds": [
+          "hope_via_progress"
+        ],
+        "rationale": "Foundation completion named as another tangible visual milestone that produced a positive emotional response.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "And on Monday, when I got back, I went to the lot, and so now the foundation is there, and it's all ready to build the framing. That was… that was a cool moment, too.",
+          "flatCharStart": 10070,
+          "flatCharEnd": 10236,
+          "cueNumber": 104,
+          "startTime": "00:13:12.280",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "I wasn't sure that I should be making that kind of decision when I was Such a mess.",
+        "codeIds": [
+          "exec_dysfunction"
+        ],
+        "rationale": "Rebuild-or-move decision impaired not by lack of information but by cognitive/emotional overwhelm — 'such a mess' indicates capacity collapse, not ambivalence.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "I wasn't sure that I should be making that kind of decision when I was Such a mess.",
+          "flatCharStart": 12066,
+          "flatCharEnd": 12149,
+          "cueNumber": 124,
+          "startTime": "00:15:38.880",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "We're also unsure of what all needed to be submitted, so there was a little bit of back and forth there.",
+        "codeIds": [
+          "permitting_complexity"
+        ],
+        "rationale": "Even the architect and builder were uncertain about submission requirements — illustrates how early-rebuilder permitting exceeded professional knowledge.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "We're also unsure of what all needed to be submitted, so there was a little bit of back and forth there.",
+          "flatCharStart": 13583,
+          "flatCharEnd": 13687,
+          "cueNumber": 138,
+          "startTime": "00:17:46.720",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "beforehand, so that it wasn't this big high at, oh, I've got my permits, and then this big letdown, like, oh, it's gonna be another 4 months.",
+        "codeIds": [
+          "permitting_complexity"
+        ],
+        "rationale": "Names the psychological cost of the multi-stage permitting timeline not being explained upfront — repeated high/letdown cycles.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "beforehand, so that it wasn't this big high at, oh, I've got my permits, and then this big letdown, like, oh, it's gonna be another 4 months.",
+          "flatCharStart": 27621,
+          "flatCharEnd": 27762,
+          "cueNumber": 293,
+          "startTime": "00:35:54.070",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "It took me several months to even start, because I'd sit down with my computer, and I'd start thinking about stuff and just shut down.",
+        "codeIds": [
+          "inventory_burden"
+        ],
+        "rationale": "Cognitive and emotional shutdown when attempting contents inventory — paralysis lasting months, not avoidance of paperwork.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "It took me several months to even start, because I'd sit down with my computer, and I'd start thinking about stuff and just shut down.",
+          "flatCharStart": 20350,
+          "flatCharEnd": 20484,
+          "cueNumber": 214,
+          "startTime": "00:26:23.440",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "some kind of help navigating and understanding what all that permitting process was.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Explicit articulation of wanting step-through navigation of the permitting sequence — not just documents, but guided sequencing.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "some kind of help navigating and understanding what all that permitting process was.",
+          "flatCharStart": 26902,
+          "flatCharEnd": 26986,
+          "cueNumber": 287,
+          "startTime": "00:34:47.280",
+          "contextBefore": "",
+          "contextAfter": " So my,"
+        }
+      },
+      {
+        "quoteVerbatim": "could, you know, look through their, their licenses and make sure all that's kosher, maybe? And, you know, I could say, I want a contractor that can do X, Y, and Z. Find me 3 people that I could… that I should talk to.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Articulates a vetting and matching function for contractors — wants a system to filter and surface the right options, not just a general contractor directory.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "could, you know, look through their, their licenses and make sure all that's kosher, maybe? And, you know, I could say, I want a contractor that can do X, Y, and Z. Find me 3 people that I could… that I should talk to.",
+          "flatCharStart": 30872,
+          "flatCharEnd": 31090,
+          "cueNumber": 329,
+          "startTime": "00:40:14.600",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "Yeah, so that first week was kind of learning about insurance and, you know, what did I have to do?",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "Explicitly marks week one as dominated by insurance orientation — acute-phase logistics.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "Yeah, so that first week was kind of learning about insurance and, you know, what did I have to do?",
+          "flatCharStart": 1729,
+          "flatCharEnd": 1828,
+          "cueNumber": 16,
+          "startTime": "00:02:15.170",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "you know, buying some stuff that I needed in order to get started again, and looking for a place, you know, a more medium-term place to live. I think I found this place…",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "Second week marked by basic supply acquisition and housing search — still the immediate logistics phase.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "you know, buying some stuff that I needed in order to get started again, and looking for a place, you know, a more medium-term place to live. I think I found this place…",
+          "flatCharStart": 1868,
+          "flatCharEnd": 2037,
+          "cueNumber": 18,
+          "startTime": "00:02:24.930",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So they… so the first people I talked to were Policyholders United, but then they told me who the second, third, and fourth people should… to talk to would be.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "The DRC referral chain describes what the medium phase required — sequential navigation through insurance and recovery aid resources, not just individual programs.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "So they… so the first people I talked to were Policyholders United, but then they told me who the second, third, and fourth people should… to talk to would be.",
+          "flatCharStart": 1538,
+          "flatCharEnd": 1697,
+          "cueNumber": 14,
+          "startTime": "00:02:00.510",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "made the decision whether I was going to rebuild or not, and, like, thinking about where I would live, and once I got the money and knew it would be possible, it would also be possible to move, and that decision became a lot easier to make.",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "The rebuild-or-relocate decision is a prototypical long-term planning need — insurance adequacy directly enabled or foreclosed it.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "made the decision whether I was going to rebuild or not, and, like, thinking about where I would live, and once I got the money and knew it would be possible, it would also be possible to move, and that decision became a lot easier to make.",
+          "flatCharStart": 9109,
+          "flatCharEnd": 9349,
+          "cueNumber": 94,
+          "startTime": "00:11:54.570",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "how much money I've spent in each of the categories for insurance, and, how much, is left in that. I made myself a spreadsheet, to help me with that, too.",
+        "codeIds": [
+          "tech_spreadsheet_diy"
+        ],
+        "rationale": "Describes creating a personal tracking spreadsheet alongside the insurer's app to monitor insurance category balances.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "how much money I've spent in each of the categories for insurance, and, how much, is left in that. I made myself a spreadsheet, to help me with that, too.",
+          "flatCharStart": 18809,
+          "flatCharEnd": 18963,
+          "cueNumber": 199,
+          "startTime": "00:24:08.620",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "what's it called? Discord. I'm on there every once in a while for news and stuff like that about the fires, and I'm real interested in the insurance reform, some of the things that they're pushing for. And,",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Uses EFSN Discord for real-time fire news and insurance reform advocacy — community-maintained information channel.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "what's it called? Discord. I'm on there every once in a while for news and stuff like that about the fires, and I'm real interested in the insurance reform, some of the things that they're pushing for. And,",
+          "flatCharStart": 21049,
+          "flatCharEnd": 21255,
+          "cueNumber": 223,
+          "startTime": "00:27:15.070",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I… I think AI could help for… for contents inventory.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Unprompted, first-reaction endorsement of AI for the specific high-burden task of contents inventory reconstruction.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "I… I think AI could help for… for contents inventory.",
+          "flatCharStart": 22603,
+          "flatCharEnd": 22656,
+          "cueNumber": 240,
+          "startTime": "00:28:52.290",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "you know, tell it to give me the things that are most important about this that I need to know, and understand, and then I can ask questions",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Articulates a concrete AI use case for insurance policy plain-language synthesis — upload document, extract key items, enable follow-up questions.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "you know, tell it to give me the things that are most important about this that I need to know, and understand, and then I can ask questions",
+          "flatCharStart": 22812,
+          "flatCharEnd": 22952,
+          "cueNumber": 244,
+          "startTime": "00:29:24.060",
+          "contextBefore": "",
+          "contextAfter": ", like, what is…"
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, I don't… I think you need to connect and talk to real people for that, really.",
+        "codeIds": [
+          "ai_emotional_skeptical"
+        ],
+        "rationale": "States preference for human connection over digital tools specifically for emotional processing — said before the demo, in response to the general question about AI for recovery.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "Yeah, I don't… I think you need to connect and talk to real people for that, really.",
+          "flatCharStart": 23524,
+          "flatCharEnd": 23608,
+          "cueNumber": 252,
+          "startTime": "00:30:28.640",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "stressed me out, still does a little bit, is all these companies that I have to give, like my social security number, all this really sensitive information.",
+        "codeIds": [
+          "mvp_hesitate_privacy"
+        ],
+        "rationale": "Immediate first reaction to the demo's form-filling feature: privacy concern about centralizing sensitive personal data with another party.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "stressed me out, still does a little bit, is all these companies that I have to give, like my social security number, all this really sensitive information.",
+          "flatCharStart": 35704,
+          "flatCharEnd": 35860,
+          "cueNumber": 388,
+          "startTime": "00:46:00.140",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, I like… actually, now I'm liking that idea. I don't know about the needing the block captain, like.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Participant reconsiders in real time and warms to the Slack-style community concept — 'now I'm liking that idea' — while flagging concern about block captain overhead.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "Yeah, I like… actually, now I'm liking that idea. I don't know about the needing the block captain, like.",
+          "flatCharStart": 36674,
+          "flatCharEnd": 36779,
+          "cueNumber": 400,
+          "startTime": "00:47:15.780",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "it helps me when I see, like, what are other people's questions. It's usually something that I haven't thought of, but it's a really good question, and one that I'd like to know the answer to as well.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Names the specific value of seeing peers' questions: they surface relevant information he would not have known to request.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "it helps me when I see, like, what are other people's questions. It's usually something that I haven't thought of, but it's a really good question, and one that I'd like to know the answer to as well.",
+          "flatCharStart": 36978,
+          "flatCharEnd": 37178,
+          "cueNumber": 405,
+          "startTime": "00:47:36.680",
+          "contextBefore": "you know, ",
+          "contextAfter": " All of these places that I've gone to,"
+        }
+      },
+      {
+        "quoteVerbatim": "I think it'd be nice… I like the idea that it's together with other people.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Reinforces preference for co-recovery format — the community aspect of the MVP is the feature that registers most positively.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "I think it'd be nice… I like the idea that it's together with other people.",
+          "flatCharStart": 37231,
+          "flatCharEnd": 37306,
+          "cueNumber": 406,
+          "startTime": "00:47:54.060",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "you know, breathing exercise, and when trying to relax, I don't… my first idea is not to sit in front of a computer, or, you know, iPad, something to do it.",
+        "codeIds": [
+          "mvp_hesitate_emotional_use"
+        ],
+        "rationale": "Specifically names the breathing exercise demo feature as not matching his stress-relief instinct — preference for non-screen modalities for emotional regulation.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "you know, breathing exercise, and when trying to relax, I don't… my first idea is not to sit in front of a computer, or, you know, iPad, something to do it.",
+          "flatCharStart": 38038,
+          "flatCharEnd": 38194,
+          "cueNumber": 418,
+          "startTime": "00:48:41.900",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "I think that might be different for everyone. Like, I've got a septic system, and most people don't have to submit their septic plans and inspections and stuff like that. And in fact, I have one neighbor who, you know, never submitted any of that paperwork, and he got his permits.",
+        "codeIds": [
+          "cross_relevance_over_volume"
+        ],
+        "rationale": "Participant observes that recovery guidance must match individual property specifics — same process (permitting) requires different documentation for different configurations.",
+        "citation": {
+          "participantId": "INT001",
+          "transcriptPath": "data/qualitative/transcripts/INT001.md",
+          "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+          "quoteVerbatim": "I think that might be different for everyone. Like, I've got a septic system, and most people don't have to submit their septic plans and inspections and stuff like that. And in fact, I have one neighbor who, you know, never submitted any of that paperwork, and he got his permits.",
+          "flatCharStart": 26285,
+          "flatCharEnd": 26566,
+          "cueNumber": 284,
+          "startTime": "00:34:04.730",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements pass: The participant responded warmly to the community/Slack layer concept across three successive cues, specifically valuing the ability to see other survivors' questions and describing the co-recovery format as appealing. Pre-demo, he also expressed unprompted interest in AI for practical tasks (inventory, insurance policy interpretation), indicating general openness. Hesitations pass: Two distinct hesitations found. First, the form-filling feature produced an immediate privacy concern about centralizing sensitive data (SSN) — he named this as 'a hurdle to overcome.' Second, the breathing exercise feature was rejected in favor of in-person modalities; his instinct when trying to relax is not to sit in front of a screen. No accuracy/hallucination concern was raised specifically about the demo. No tone concern was found. I could not find any mvp_hesitate_accuracy or mvp_hesitate_tone quotes in this transcript."
+  },
+  "summary": "INT001 is a retired male homeowner whose Altadena property was completely destroyed in the Eaton Fire. His recovery is distinguished by what did not happen: Allstate paid the full rebuild limit within weeks, reimbursed receipts without dispute, and covered extended rebuild costs with minimal friction. This insurance clarity freed him to focus on the logistical and procedural challenges that even well-resourced survivors face, while acknowledging repeatedly that his experience is exceptional rather than typical. In the first two weeks he paused work, moved to his sister's home in Lake Forest, and engaged the disaster recovery center, where United Policyholders directed him to the next resources he needed. He found a furnished rental near work by late January and has remained there. The housing search was stressful — he recalls roughly fifty families competing for a single property — but resolved quickly compared to what his neighbors and friends experienced. The hardest sustained challenges were irreversible loss and bureaucratic complexity. Hand-me-down furniture from deceased parents, genealogy archives, and objects carrying family memory were destroyed with no replacement path. He describes vivid intrusive imagery of specific objects burning for the first six months. The contents inventory was cognitively and emotionally paralyzing: he repeatedly sat down at his computer and shut down before being able to begin, resolving the problem only when a United Policyholders checklist reduced the task to crossing off items. Permitting was the dominant logistical challenge: he expected concept approval to mean rebuilding could begin, but architectural finalization took four months, county submission revealed missing documents including a septic connection drawing, and multiple county departments were navigating first-of-kind cases among early rebuilders. Framing had to stop briefly after a septic-positioning error was found during construction. He maintains emotional stability through weekly community engagement in Altadena — volunteering with Habitat for Humanity, attending ceremonies, and meeting with fire-survivor friends at his dog training class. Debris clearing, groundbreaking, and foundation completion each provided significant lifts in hope and forward momentum. On technology, he used a self-built spreadsheet alongside his insurer's app to track insurance spending, Discord for fire news and insurance reform advocacy, and Policyholders United Zoom sessions for insurance guidance. He sees AI as potentially useful for contents inventory reconstruction and insurance policy plain-language interpretation, but is skeptical about AI for emotional processing, preferring human connection. When shown the TAC MVP, he responded positively to the community Q&A concept but hesitated on the form-filling feature over sensitive data concerns and on the breathing exercise feature, preferring in-person stress relief over screen-based relaxation.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "emotionalImpact",
+      "note": "Secondary witnessing burden: weight of staying connected to survivors with worse outcomes while processing one's own loss. No code covers this direction — isolation_and_witnessing is about friction with the unaffected, not the over-affected.",
+      "citation": {
+        "participantId": "INT001",
+        "transcriptPath": "data/qualitative/transcripts/INT001.md",
+        "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
+        "quoteVerbatim": "It's heavy because they're going through a lot worse than me.",
+        "flatCharStart": 23772,
+        "flatCharEnd": 23833,
+        "cueNumber": 255,
+        "startTime": "00:30:52.330",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

@@ -1,0 +1,131 @@
+{
+  "participantId": "INT002",
+  "transcriptSha256": "8e680c9d805802c1bfceba9515fda4734e2ba339c0278adf86b076a9ed4bc938",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T02:24:00.000Z",
+  "summary": "INT002 is a 52-year-old Eaton Fire survivor whose home in western Altadena survived structurally but remains contaminated with asbestos and heavy metals. Rather than pursuing her own recovery through normal channels, she co-founded EFRU (Eaton Fire Residents United), a data-driven resident advocacy organization that has crowdsourced hundreds of independent industrial hygienist test reports, built interactive contamination maps, run press conferences, and lobbied California legislators around bills including AB 1642. She describes her work as 14 to 16 hours a day, seven days a week, for over a year — and is explicit that she does not emotionally process the experience; she just moves to the next task.\n\nThe central theme of the interview is contamination and the absence of standards. She explains that the Eaton Fire was a Wildland Urban Interface fire — a chemical conflagration, not a typical wildfire — and that public health agencies said nothing about contamination risks when residents were allowed to return. With no indoor threshold standards for most fire-related contaminants, and with insurance companies using outdated lead-chip and pre-existing asbestos thresholds rather than more sensitive dust-level tests, six out of ten remediated standing homes still fail clearance for lead or asbestos. She holds insurance accountable as an adversarial system that ends Additional Living Expenses and forces residents back into contaminated homes through systematic denials and delays rather than outright refusals.\n\nHer own situation is similarly blocked: her home has asbestos contamination and she has not rushed remediation, knowing the insurance offering is inadequate. She has delayed hiring an attorney despite recognizing it is likely necessary. Her 12-year-old son remains out of the home.\n\nOn technology, she is a pragmatic adopter: she used Facebook and WhatsApp primarily because survivors were already there, monitoring 20 WhatsApp groups not to engage but to track community sentiment. EFRU's data infrastructure was built through crowdsourcing IH test reports via Facebook and partnering with scientists, not through personal tech expertise.\n\nHer response to the TAC MVP demo was measured. She endorsed the crowdsourcing and community data layer, drawing explicit parallels to EFRU's model, and offered a concrete early-engagement suggestion: connect with survivors immediately post-disaster, provide something of immediate value, and build a longitudinal data relationship. Her main hesitation was structural: she argued that any tool, including the MVP, would fail survivors as long as the insurance system is designed to deny and delay. This is a policy-level critique, not a concern about model accuracy or tone.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "I probably spend 14 to 16 hours a day at my desk, 7 days a week, doing this, and I have for over a year. And so I am… I tell people I'm not the healthiest person, mentally, because…",
+        "codeIds": ["routine_collapse"],
+        "rationale": "All prior routines replaced by full-time EFRU activism; she names the mental health cost explicitly."
+      },
+      {
+        "quoteVerbatim": "So, as a result, I'm still not back in my home. My home hasn't received any remediation. And…",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Still displaced from her Altadena home 14+ months after the fire with no remediation pathway established; displacement is contamination-driven but the life-change consequence is the same."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "I'm not the healthiest person. I'm not gonna tell you I emotionally process things.",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Explicitly names the suppression of emotional processing as an ongoing pattern, not a temporary acute-phase response."
+      },
+      {
+        "quoteVerbatim": "I would have liked… number one, public health on day one, to acknowledge this was a WUI.",
+        "codeIds": ["moral_injury"],
+        "rationale": "Frames public health's silence on day one as a failure of institutional duty — injustice, not misfortune."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "Let's say this last sentence. I just… here's the bottom line. People who have done remediation, 6 out of 10 still aren't meeting clearance for asbestos and lead, because they're getting the improper version of remediation done.",
+        "codeIds": ["contamination_limbo"],
+        "rationale": "EFRU data showing majority of remediated standing homes remain unsafe; describes the absent-standards pathways gap central to her advocacy."
+      },
+      {
+        "quoteVerbatim": "My approach to this has not been to hurry up my return to my home.",
+        "codeIds": ["contamination_limbo"],
+        "rationale": "Personal choice not to return due to contamination awareness — her own home is in the same structural limbo she advocates against."
+      },
+      {
+        "quoteVerbatim": "You know, campaign is to say, nope, that's not true, and people are still returning back into contaminated homes when insurance is saying, no more, we're not paying anything more, you now have to return home.",
+        "codeIds": ["contamination_limbo", "insurance_adversarial"],
+        "rationale": "Insurance ending ALE forces residents back into homes still failing clearance; both contamination limbo and insurance coercion are explicit in the same utterance."
+      },
+      {
+        "quoteVerbatim": "you're trying to help them have a better experience with insurance, but insurance is set up to say… to a bunch of systems to say no, but they don't outright say no. They take you through a… system of denials and delays, as Joy will happily lay out for you.",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Describes the denial-and-delay playbook as a structural design feature of insurance, not individual adjuster behavior."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "And the only way to really get to a thorough, full recovery is to sue.",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Identifies litigation as the only viable recovery path when insurance fails; legal navigation is the medium-phase need for standing-home survivors."
+      },
+      {
+        "quoteVerbatim": "I have some heavy metals, but I don't have high heavy metals, just because of the way the smoke plume went, and I'm the very last street to the west of Altadena, and so two blocks from me is complete annihilation, but the way the winds blew, it blew primarily south rather than east-west. So, I'm on the skirt of it, and so I need to just kind of finally probably bite the bullet and just hire an attorney.",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Describes her personal contamination situation and names legal representation as the resource she still needs but has not yet obtained."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "initially, I needed to find community, and so, although I don't really like the politics of Facebook, that's what I utilized. Because it's very easy to put out, hey, I'm…",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Used Facebook pragmatically despite personal reservations — it was where survivors already were, enabling rapid community formation and EFRU's founding."
+      },
+      {
+        "quoteVerbatim": "That constantly flash up on my screen, and I can see what people are talking about. I don't open them most of the time, but I can see what the chatter is, and I want to know what that chatter is, because it tells me where people are in the recovery, where their minds are.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Monitors 20 WhatsApp groups as a real-time community intelligence feed — passive surveillance of recovery sentiment, not active participation."
+      },
+      {
+        "quoteVerbatim": "we started asking people in the community to send us their, industrial hygienist tests by uploading them to our Facebook… I mean, to our website, but we did that through Facebook.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Facebook used as distribution infrastructure for crowdsourcing IH test reports — social media as the data collection pipeline."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I hope so. I try not to be the harbinger of bad news. I will say this. Anything that can crowdsource information.",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Explicitly endorses crowdsourcing as the platform's key value proposition, grounding the endorsement in EFRU's own crowdsourcing success model."
+      },
+      {
+        "quoteVerbatim": "it really doesn't matter if they're calling tugboat, or they're, you know, hiring a public adjuster, or they're trying out this AI system.",
+        "codeIds": ["mvp_hesitate_accuracy"],
+        "rationale": "Expresses that no recovery tool — including the TAC MVP — can succeed when the surrounding insurance and legal system is structurally designed to fail survivors. Coded under mvp_hesitate_accuracy as the nearest available code; the concern is about real-world effectiveness in the legal/insurance domain rather than model reliability per se. See uncodedObservations for the gap."
+      },
+      {
+        "quoteVerbatim": "Like, tens of thousands of people, and it may be in the 100,000 level between those two communities. Can you imagine if you had figured out how to connect with fire survivors early on by giving them something that they needed early on? Maybe they don't realize all the things they need, but something immediate that they needed.",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Requests early-engagement capability: connect with survivors immediately post-disaster before they fully articulate their needs, then build a longitudinal data relationship."
+      }
+    ],
+    "crossCutting": []
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements pass: INT002 endorsed the platform's crowdsourcing and community data layer, explicitly paralleling it to EFRU's own model and framing crowdsourced data as the mechanism for changing systems. She followed with a strategic vision for early survivor engagement and longitudinal data collection, and expressed genuine interest in following the platform's development. Hesitations pass: INT002 expressed a significant structural hesitation — that no tool (including the TAC MVP) can deliver safe recovery outcomes when the surrounding insurance and legal system is structurally designed to fail. She named the AI system alongside public adjusters as instruments that will fail in this broken environment. This hesitation does not fit cleanly into existing mvp_hesitate_* codes (not about accuracy, emotional AI use, privacy, or tone); it is coded under mvp_hesitate_accuracy as the nearest available category and flagged in uncodedObservations."
+  },
+  "uncodedObservations": [
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "quoteVerbatim": "So, when the Army Corps came in and they started clearing, they only did 6 inches and left of the total destroyed lots, but because there was no testing, it couldn't inform all of us with standing homes what kind of contaminants we had covering our homes, either. And so, that's why there was absolutely no testing or any information.",
+      "note": "Describes absent government soil testing as the root cause of the information failure for standing-home survivors. Distinct from info_fragmentation (scattered but existing resources) — here the resources simply did not exist. Candidate for an 'absent standards / missing testing mandate' code."
+    },
+    {
+      "category": "mvpFeedback",
+      "quoteVerbatim": "it really doesn't matter if they're calling tugboat, or they're, you know, hiring a public adjuster, or they're trying out this AI system.",
+      "note": "Systemic futility hesitation: not about model hallucination, tone, or privacy, but about whether any tool can succeed in an insurance system structurally designed to deny and delay. Coded under mvp_hesitate_accuracy as closest fit; a dedicated code (e.g., mvp_hesitate_systemic_barrier) would better capture this recurring pattern from advocacy-oriented participants."
+    },
+    {
+      "category": "crossCutting",
+      "quoteVerbatim": "It's almost like the more distant you are from your recovery, and the more people you hire, the less you understand what's happening.",
+      "note": "Meta-observation about survivor agency: delegating recovery to professionals increases distance from one's own case without improving outcomes. Fits none of the existing cross_* codes. Candidate for a 'professional-distance disempowerment' code."
+    },
+    {
+      "category": "crossCutting",
+      "quoteVerbatim": "But that's because a lot of people have more money to pay for their own recovery while insurance isn't doing it.",
+      "note": "Explicit comparison of Altadena vs. Palisades recovery velocity attributed to socioeconomic difference. No existing code captures this cross-community recovery-rate-by-wealth observation. Candidate for a 'recovery inequity by socioeconomic status' code."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "participantId": "INT011",
+  "transcriptSha256": "b94e449fa75629ea5f5ad537afbb2a0029823f8684e6a0e9b212880ddcfb410d",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:16:00.000Z",
+  "summary": "INT011 is a 54-year-old male Eaton Fire survivor with children, still displaced and actively rebuilding. A tech professional at a gaming company, he brings a distinctive analytical, problem-solving orientation to his recovery. His home was completely destroyed.\n\nFrom the immediate aftermath, he describes entering a hyper-functional survival mode that allowed rapid triage — securing a rental within days, prioritizing the rebuild over insurance — but that came with a hidden cost. Two weeks in, having systematically cut off everyone who couldn't help, he found himself completely isolated, which was when he first broke down. This pattern of self-imposed exclusion from those unaffected by the fire is a prominent emotional theme in his account.\n\nRecovery has functioned as a literal second job, with weekends consistently dedicated to tasks like insurance negotiations, build coordination, and SBA paperwork. He and his wife deliberately stack-ranked their priorities, choosing to hyper-focus on the rebuild first and defer insurance disputes, which allowed them to be among the first hundred to receive a permit. He recognizes this was enabled by financial stability many survivors don't have.\n\nHis most pressing current challenge is financial planning: taxes, lawsuit proceeds, and optimizing the management of large insurance payouts received incrementally. He has reached the phase where the immediate logistical crisis has subsided but complex financial and legal tasks have replaced it.\n\nOn technology, he is one of the most sophisticated AI users in the study. He used AI (ChatGPT, Claude Desktop) extensively for content inventory, describing how improved models in late 2025 generated lists he would feel comfortable providing to lawyers. He used chatbots to navigate the opaque SBA loan process and to research tax implications, and wrote code assisted by AI to scrape Amazon for item pricing. He assessed Bevelmade as promising but not yet integrated enough for his workflow. Social media — especially Discord — was his primary recovery information channel, though he notes the painful exposure to others' trauma that comes with it.\n\nOn AI for emotional support, he draws a clear personal line: useful as a triage resource (pointing him toward the right counselor type, wellness planning), but not a substitute for human connection. He is aware of hallucination risks and observes others falling into them.\n\nThe MVP demo generated genuine enthusiasm. He immediately recognized the agentic, context-aware approach as something that maps well to the day-by-day variability of recovery needs. He suggested that daily check-ins and mental health tracking could serve a dual purpose for survivors involved in lawsuits against utility companies. His main substantive input was about platform demographics — Discord for younger users, WhatsApp for older, Slack for working professionals — and a cross-platform context aggregation request. No substantive hesitations about the MVP emerged.\n\nHe frames the diversity of survivor experiences as the central design challenge for any recovery tool: information and support need to match the specific profile of the person — tenure, financial situation, loss type — not a generalized survivor archetype.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "you basically have a second job. I mean, recovery is a second full-time job, so,",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Explicit framing of recovery as a full-time job; he notes this is a shared description among survivors he knows."
+      },
+      {
+        "quoteVerbatim": "It's been rare to have a weekend where we haven't been doing something related to recovery, like, super rare.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Confirms recovery tasks have colonized every weekend for over a year of displacement."
+      },
+      {
+        "quoteVerbatim": "We were worried about, like, the kids, and finding an apartment, and all that stuff, like, a GoFundMe wasn't on our radar.",
+        "codeIds": ["competing_caregiving"],
+        "rationale": "Children's needs competing with acute displacement logistics caused them to miss the GoFundMe fundraising window."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "I had to, almost by necessity, like, cut people out of my life that couldn't help. You were either, like, in my… on my side, you could help me, or you couldn't. If you couldn't, like… I don't hate you, I just don't have time for you. And what I noticed, it certainly took a toll, because I remember, like, distinctly, like.",
+        "codeIds": ["isolation_and_witnessing"],
+        "rationale": "Survival-mode-driven exclusion of non-impacted people; friction with those whose lives weren't disrupted is central to his emotional arc."
+      },
+      {
+        "quoteVerbatim": "That broke me. I never had really broken down until then, but that… that broke me. And then since then, what I've come to appreciate",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Two weeks of suppressed affect in survival mode before the first emotional collapse; grief deferred until the support system was exhausted."
+      },
+      {
+        "quoteVerbatim": "I don't know, would you rather… like, in a way, like, our… losing our home, it's a ghost. Like, we buried it, it's dead, we've moved on. He's gotta live with it, like, he could see it every day, and he can't. It's, it's a different kind of suffering that I wouldn't wish on anyone.",
+        "codeIds": ["witnessing_burden"],
+        "rationale": "Empathy for neighbor with contaminated standing home; explicitly names it as a distinct and unwishable form of suffering."
+      },
+      {
+        "quoteVerbatim": "at some point quit my job once we finished the rebuild, and kind of maybe work on… on your side of the fence, where it's like, I want to help people, because this was a thing that, like, it's good to help people on.",
+        "codeIds": ["meaning_through_service"],
+        "rationale": "Post-rebuild aspiration to pivot toward disaster recovery support work; fire experience converted to a sense of calling."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "trying to find information relevant to me was super hard, because everybody, like, there were renters who had a whole different ball of wax that they had to contend with that I just didn't appreciate.",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Mixed-profile communities scattered information across non-applicable contexts; renter vs. owner tracks don't cross-help."
+      },
+      {
+        "quoteVerbatim": "I'm not going to deal with this insurance adjuster who's been ghosting me anyways",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Adjuster non-responsiveness — ghosting — confirmed the adversarial dynamic he had already decided to sidestep."
+      },
+      {
+        "quoteVerbatim": "the list for insurance. Like, I have to list all my contents. I don't know what I have in my closet.",
+        "codeIds": ["inventory_burden"],
+        "rationale": "Confronts the contents-listing requirement without any prior documentation; closet-level granularity expected by insurer."
+      },
+      {
+        "quoteVerbatim": "finding someone to build your house, applying for SBA loans, like, just the whole gambit of stuff. So we basically had to take all of these different things that we knew that we'd have to do, and for our situation, stack rank them.",
+        "codeIds": ["exec_dysfunction"],
+        "rationale": "Cognitive overload from simultaneous recovery fronts required deliberate prioritization to avoid paralysis."
+      },
+      {
+        "quoteVerbatim": "finding the things that we should be doing, because we didn't have a checklist, and then once we knew those things, like, what's the most efficient way to do this thing properly?",
+        "codeIds": ["navigator_gap"],
+        "rationale": "Two-level gap: (1) knowing which tasks exist, and (2) executing them efficiently — both absent without a navigator or checklist."
+      },
+      {
+        "quoteVerbatim": "And that Uncle Sam doesn't take an inordinate cut of that. So that, like, that's, like, legitimately, like, financial planning stuff related to fires is something that's, like, on my radar. It's like, I probably need to worry about this sooner than later.",
+        "codeIds": ["financial_strain"],
+        "rationale": "Tax complexity and financial planning around lawsuit proceeds and insurance payouts pressing at the one-year mark."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "people were reaching out to us, like, the day after, but by then, we were already looking at apartments.",
+        "codeIds": ["needs_immediate_logistics"],
+        "rationale": "Housing search began within 24 hours; speed of acute logistics outpaced friends' ability to offer meaningful help."
+      },
+      {
+        "quoteVerbatim": "determining that we had to do that, and then actually getting that filed, it was super complicated, as it turned out. Like, that became, like, I want to say a solid week of Carrie's life, is just making sure SBA got",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "SBA loan navigation consumed a solid week and required significant effort to understand situation-specific eligibility rules."
+      },
+      {
+        "quoteVerbatim": "the thing that I should have anticipated but didn't is, like, now we've got a really… I'm sure I put this in the thing, it caught me off guard, we have to file taxes, and that's super complicated, as it turns out. I'm going to use a tax professional. I think I need to use one for the first time in my life.",
+        "codeIds": ["needs_long_term_planning"],
+        "rationale": "Tax complexity as an unanticipated long-term need; first-time use of a tax professional driven by fire-related financial complications."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "On social media. That was, like, good, but also painful, because you've got to, like, you're dealing with your own trauma, then you're just hearing, like, all… like, it's good in a way, it's therapeutic to know that you're not alone, but it's also, like, why expose yourself to, like, unnecessary mental anguish,",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Social media named as best recovery information source overall, but explicitly double-edged due to vicarious trauma exposure."
+      },
+      {
+        "quoteVerbatim": "Discord, which has probably been the best, honestly.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Discord singled out as the best platform among options he observed for real-time, community-sourced recovery information."
+      },
+      {
+        "quoteVerbatim": "first pass got it, like, really well… got it to a point where, like, yeah, actually, I wouldn't feel bad giving this to a lawyer, because it is a pretty accurate representation of what we would call like-kind. You don't have to get it exact, but it has to be, like, like-kind, so I think, yeah, it did a pretty good job, so…",
+        "codeIds": ["tech_ai_inventory"],
+        "rationale": "AI-generated contents list (closet-level) reached lawyer-ready quality after iterative refinement; explicit standard used is 'like-kind.'"
+      },
+      {
+        "quoteVerbatim": "And, like, nobody could achieve… like, the conditions for you using it are seemingly impossible, so that's clearly something where… so we had to kind of deal with that, and the chatbot was really good at, like, framing, oh, yeah, here's why it's wacky that way, here's what you should talk about to resolve it, and it was… it was accurate.",
+        "codeIds": ["tech_ai_advocacy"],
+        "rationale": "Chatbot used to decode a structurally impossible SBA process contradiction and generate actionable resolution guidance."
+      },
+      {
+        "quoteVerbatim": "Yeah, I think, so that's… that's a… it's been helpful for some. I've personally not found a lot of value in it. I think there's an opportunity for that tool,",
+        "codeIds": ["tech_app_search_failure"],
+        "rationale": "Bevelmade tried but found inadequate for his workflow; acknowledges improvement potential without endorsing current implementation."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "this is a personal thing. I… I'm not gonna pour my heart up to a bot. I think humans are great at this. I think,",
+        "codeIds": ["ai_emotional_skeptical"],
+        "rationale": "Clear personal boundary against AI-as-therapist; preference for human emotional support stated as a firm personal value."
+      },
+      {
+        "quoteVerbatim": "there's a lot of people misusing the tech, not realizing that they're… insurance policy broke the context of the window, and that, like, they were gonna hallucinate.",
+        "codeIds": ["ai_hallucination_concern"],
+        "rationale": "Context window overflow named as mechanism for insurance document hallucinations; observes uneducated users hitting this failure mode."
+      },
+      {
+        "quoteVerbatim": "For example, taxes. Like, what should I do with taxes? It's been pretty good that way.",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "Endorses AI chatbot for practical, knowledge-heavy queries — taxes during recovery named as a successful use case."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I like that, the approach, it maps well. This, I mean, looking at this in particular made me realize, like, how handy this could have been.",
+        "codeIds": ["mvp_endorse_context"],
+        "rationale": "Strong endorsement of the agentic, context-aware approach after seeing the demo; explicitly maps it to the day-by-day variability of his recovery."
+      },
+      {
+        "quoteVerbatim": "this would provide data, right? If it's like… and there's incentive, because, like, again, not everybody needs to go through a lawsuit like we are, but for those who do, that's incentive, like a tool like this, like, I would have loved to have something that just every day asks me how I was doing, or other, like.",
+        "codeIds": ["mvp_endorse_executive_assistant"],
+        "rationale": "Daily check-in log endorsed for dual use: wellness tracking and lawsuit documentation of pain and suffering over time."
+      },
+      {
+        "quoteVerbatim": "a tool like this that just checks in how you're feeling, how's your stress level, I can almost see it saying, hey, you know what? A lot of survivors get high blood pressure, you should really think more about, like, taking care of yourself, because you don't realize, like, you're headed on a path until, like… I mean, I caught it on my annual physical, but not everybody does that.",
+        "codeIds": ["mvp_endorse_executive_assistant"],
+        "rationale": "Proactive health monitoring feature endorsed based on his own experience of stress-induced blood pressure spike going undetected until a physical."
+      },
+      {
+        "quoteVerbatim": "for a user like me, like, I would use one of these, but… so let's say I'm a Discord person, I'm gonna interact with it there. Is it still able to glean information from the other platforms that might be helpful to me on Discord?",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Specific request for cross-platform context aggregation: information from other platforms available within his preferred single platform."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "I was reading through their stuff, but it wasn't really helping me, and they're reading through my stuff, and it's not really helping them, so I think, like, just… that really struck me once… once I, like, kind of hit my low point and started, like, opening my eyes and just seeing what was going on, like, just the diversity of experience was… was pretty broad.",
+        "codeIds": ["cross_relevance_over_volume"],
+        "rationale": "Participant's own articulation of the relevance problem: volume exists but profile-mismatched information is useless to both sides."
+      },
+      {
+        "quoteVerbatim": "I see where you're going, like, the agentic approach, and what I mean by agency is, like, literally, like, based on your life, like, today you're dealing with insurance, tomorrow you're…",
+        "codeIds": ["cross_timing_matters"],
+        "rationale": "Participant articulates the principle that a tool's value must shift with daily context — insurance today, stress management tomorrow."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements were abundant in the demo section: participant immediately validated the agentic/contextual approach ('it maps well'), generated his own concrete use cases unprompted (daily health check-ins, lawsuit documentation), and expressed retrospective enthusiasm ('how handy this could have been'). Hesitations were nearly absent. The only critical commentary during the demo concerned platform reach — Slack may not cover the full survivor demographic range across age groups — which is a deployment concern, not a product hesitation. No concerns about accuracy, hallucination, emotional safety, AI tone, or privacy were raised during or after the demo. Privacy had been explicitly pre-addressed before the demo began (cues 226–235), where the participant expressed no concerns."
+  },
+  "uncodedObservations": [
+    {
+      "category": "needsOverTime",
+      "quoteVerbatim": "if I would have read a story about this before a fire and said, oh, okay, these are the things that you'll have to cope with, it struck me that, like, if I had a list, like, hey, I can go to my friend, Jennifer, who's in Glendale, and say, Jen, if I'm ever in a fire, here are the things I could use help with on day one.",
+      "note": "Pre-disaster support-delegation: a curated list of needs given to named friends before a disaster occurs. Distinct from navigator_gap (missing support during recovery) — this is pre-loading social capital before the event. No existing code covers pre-disaster preparedness planning."
+    },
+    {
+      "category": "technologyForRecovery",
+      "quoteVerbatim": "here are my goals for, like, my well-being, my mental well-being, and, like, physical, like, can you give me an exercise regimen and a meditation regimen? So it's been good that way, but I wouldn't say I've used it as, like, a substitute counselor.",
+      "note": "AI used for wellness coaching (exercise and meditation regimen) during recovery — distinct from emotional processing. No existing tech_* code covers AI for physical/wellness self-care. Closest would be a 'tech_ai_wellness' code."
+    },
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "my whole life had great blood pressure, never a concern. And then my doctor's like, oh man, your blood pressure is way up, like, what's up with that? I'm like, I don't know, and so she asked a bunch of questions. Turns out it's all psychological. It's just, like, from a year of living in survival mode, it was nothing physiological",
+      "note": "Somatic stress manifestation: blood pressure elevation from sustained survival-mode functioning detected only at annual physical. Not captured by ptsd_intrusive_imagery (no vivid recall or nightmares). Suggests a 'chronic_physiological_stress' code might be valuable for the codebook."
+    }
+  ]
+}

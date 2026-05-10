@@ -1,0 +1,198 @@
+{
+  "participantId": "INT007",
+  "transcriptSha256": "675786c15b423e4945e9546f59bf2a2aacf5ec8c1eedf8b210768da6e8b92b8d",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:24:00.000Z",
+  "summary": "Amy is a 52-year-old Eaton Fire survivor whose home was completely destroyed. At the time of the fire she was barely one quarter into an MFT graduate program — a major career change after 30 years in marketing — making the timing doubly destabilizing. Her partner had received a throat cancer diagnosis less than a month before the fire, a compounding stressor she navigated alongside displacement and recovery. She describes the first three to four months as very confusing, marked by dissociation, constant bouncing between her parents' home in San Juan Capistrano and hotels in LA, and the cognitive weight of recovery layered on top of full-time graduate study.\n\nAmy's primary coping scaffold was already in place before the fire: she had an established therapist and a strong social network. She credits time, medication, and visible environmental progress — particularly plants re-emerging in her yard — as the milestones that shifted her emotional state toward hope. The debris clearance of her neighborhood and seeing her Bougainvillea re-sprout were concrete symbols of regeneration. She pushed through school without a leave of absence, though she recalls the first quarter as a blur.\n\nOn recovery logistics, Amy was frustrated by fragmented resources: FEMA hotel rooms had to be hunted by phone, aid offers from brands were invisible unless you were already in a community loop, and the inventory process was emotionally exhausting. She identified impaired executive functioning during the acute phase and flagged the absence of psychoeducation about what to expect at three, six, and twelve months as a meaningful gap — one she recognized from her coursework. She also noted a structural gap in mental health care continuity: the triage offered at disaster centers is rarely connected to longer-term therapeutic support.\n\nTechnology played an active role in her recovery. She and her partner used ChatGPT and later Claude for inventory work, framing items in insurance language, and sourcing practical information. She also relied on curated community voices on social platforms and a WeChat group with neighbors living on-property.\n\nOn AI in recovery, Amy is pragmatically enthusiastic but carries a precise caution around mental health applications. She sees genuine value in AI for synthesis, psychoeducation, coping skill delivery, and normalizing symptoms. She is concerned about AI-enabled dependency and the risks of unguarded mental health interactions, and advocates strongly for a human accountability layer — a standard she frames in terms of professional ethics as a therapist-in-training.\n\nIn the demo session, Amy responded warmly to the multi-level structure, the executive-assistant tracker concept, and the community channel digest. She offered a specific feature request for a running conversation log and proactively suggested cross-disaster scope expansion. She raised no specific hesitations about the MVP; her hallucination concern was stated in the pre-demo general AI discussion.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "routine has been difficult, I think. Routine's, like, constantly disrupted, right? It's… it changes all the time, depending on where we are",
+        "codeIds": ["routine_collapse"],
+        "rationale": "Explicit, repeated description of pre-fire routines breaking down across the full displacement period."
+      },
+      {
+        "quoteVerbatim": "I also am in school full-time, so, like, that layer was another thing to navigate, because it's not like I have this one job, and I'm doing it every day, and I know how to do it, and, you know, so there was… there was a lot of, like, extra kind of, pressure, I felt like.",
+        "codeIds": ["career_disruption"],
+        "rationale": "Graduate school mid-career transition adds professional pressure on top of displacement; fire struck after only one quarter of a new program."
+      },
+      {
+        "quoteVerbatim": "we rented a house in Glendale. So that was able to, you know, establish more of a routine for… for us, in terms of, like, okay, this is what my morning looks like, this is what studying looks like. I felt more grounded once I was there, because prior to that, we had been bouncing around to.",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Hotel and parents' house bouncing described as destabilizing; the Glendale rental is framed as the first stabilizing moment."
+      },
+      {
+        "quoteVerbatim": "as we are… get further along in the rebuild process, you know, we'll have, like, proximity up there, and then we'll have a place down here. But again, it's like, your routine is constantly disrupted.",
+        "codeIds": ["displacement_instability", "routine_collapse"],
+        "rationale": "Still splitting time between Airstream on property and parents' pool house months into recovery; ongoing multi-location displacement sustaining routine disruption."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "I don't remember much of it, you know, a lot of dissociation, a lot of, sort of, like.",
+        "codeIds": ["ptsd_intrusive_imagery"],
+        "rationale": "Participant describes dissociation during the acute phase — a recognized acute trauma response."
+      },
+      {
+        "quoteVerbatim": "yes, I will mourn the loss of these things forever, you know, the… the things that you can't replace, right?",
+        "codeIds": ["grief_specific_loss"],
+        "rationale": "Explicit framing of irreplaceable losses (contextually the grandmother's silver and other items) as permanent grief, not just practical inconvenience."
+      },
+      {
+        "quoteVerbatim": "that was really helpful for me, because that was sort of like, nature comes back. You can come back. Like, there was a weird message in that for me, that I really hung on to, you know, just to see some of my beloved plants, beginning to thrive again.",
+        "codeIds": ["hope_via_progress"],
+        "rationale": "Plants re-emerging in the undamaged section of yard served as a concrete, tangible symbol of regeneration and hope."
+      },
+      {
+        "quoteVerbatim": "how can I take what I went through and help others? Because that's… that's the key, you know?",
+        "codeIds": ["meaning_through_service"],
+        "rationale": "Explicitly frames contributing to TAC research and future fire survivor support as converting her own experience into purpose."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "a lot of it was pushed on to the survivor, right? There was no… yes, FEMA had negotiated all these, but there wasn't any, like, book it through FEMA site that was available.",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "FEMA hotel list required individual phone calls per property; resources existed but were not centrally actionable for the survivor."
+      },
+      {
+        "quoteVerbatim": "It's something that no one should ever have to go through, because you're, you know, you're inventorying everything that you ever owned that was in that house. And, you know, for expensive items, for example, I had silver, a set of silver that my grandmother had given me.",
+        "codeIds": ["inventory_burden", "grief_specific_loss"],
+        "rationale": "Describes inventory labor as emotionally unbearable; grandmother's silver (estate sale, no receipt, no photos) is a named irreplaceable loss embedded in the inventory burden."
+      },
+      {
+        "quoteVerbatim": "Unless you were in some kind of loop, you… you often didn't hear about them. So there was, like, no consolidation of all that going on",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Aid offers and donation pop-ups were invisible to survivors not already plugged into community networks."
+      },
+      {
+        "quoteVerbatim": "in my mind, very tangled, because also, you know, your executive functioning is sort of offline.",
+        "codeIds": ["exec_dysfunction"],
+        "rationale": "Directly names executive functioning impairment as a barrier to navigating resources in the acute phase."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "Just understanding what's available, what grants are available, what, you know, financial aid is available, what…",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Identifies resource navigation (FEMA, grants, financial aid) as the primary medium-phase need."
+      },
+      {
+        "quoteVerbatim": "And even some psychoeducation, you know? Like, this is sort of what I should be thinking of now, or this is what I should expect to happen now.",
+        "codeIds": ["needs_emotional_normalization"],
+        "rationale": "Explicitly calls for phase-aware psychoeducation — knowing what to anticipate emotionally at each stage of recovery."
+      },
+      {
+        "quoteVerbatim": "Am I… am I permanently damaged, or whatever, you know, just to, like, normalize maybe some of the symptoms they're experiencing, some of the experiences that are happening for them. Normalizing that and, you know, reinforcing, like, this is… this is common, you know?",
+        "codeIds": ["needs_emotional_normalization"],
+        "rationale": "Articulates the need for symptom normalization — especially for survivors without prior mental health literacy."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "that is… that's helpful, like, in so many ways, right? Like, I just asked it, like, okay, what are the best times to buy, major kitchen appliances so that I can capitalize on the sales? We… we have, our inventory that we're doing for our insurance, we run it through to help put it in the language of, like, you know, insurance… what insurance",
+        "codeIds": ["tech_ai_advocacy", "tech_ai_inventory"],
+        "rationale": "Describes active ChatGPT/Claude use for inventory-to-insurance-language translation (advocacy) and recovery research (appliance timing)."
+      },
+      {
+        "quoteVerbatim": "we also followed, you know, there were a couple voices on social that had gone through this that were really, centralizing resources, and like, do this this day, and there's this call that day, and, you know, so having those, those, like, few voices that just rise out of nowhere.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Relied on informal community curators on social platforms to surface timely, action-oriented recovery information."
+      },
+      {
+        "quoteVerbatim": "We're part of a group on WeChat that is all of the, people that are living on their property.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "WeChat group with on-property neighbors used to share information about permits, propane, and logistical needs."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I think it can be really helpful in terms of sourcing information, in terms of synthesizing information, you know, in terms of personalizing things.",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "General endorsement of AI for information synthesis and personalization, stated before the demo."
+      },
+      {
+        "quoteVerbatim": "I'm a little hesitant about the use of AI for mental health, just because all the bad stories you're hearing about it, you know, all the… the,",
+        "codeIds": ["ai_emotional_skeptical"],
+        "rationale": "Expresses hesitation specifically about AI for mental health, citing public harms and dependency risks; framed before the demo as a general concern."
+      },
+      {
+        "quoteVerbatim": "a real person is going to be really key. You know, there's a lot of talk about the people who have lost their lives to AI, you know, has encouraged them to commit suicide, and there should be an accountability layer to AI that is the same accountability layer that we",
+        "codeIds": ["ai_human_tether"],
+        "rationale": "Frames the need for human oversight as equivalent to the professional ethics standards she is learning as an MFT-in-training."
+      },
+      {
+        "quoteVerbatim": "if you kept getting questionable information from it, you know, if you felt like you were being led down the wrong path, I know that all these LLMs can do that right now. They can hallucinate, they can send you information that is like, that is not right.",
+        "codeIds": ["ai_hallucination_concern"],
+        "rationale": "Identifies hallucination and misinformation as the primary usage stop-condition, especially dangerous when users don't know what they don't know."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Of what it is, you know, whatever that task you have to do, that makes a ton of sense, because then you're not beholden to one of them, and, you know, you can use sort of the best in breed for… for whatever it is that you want this",
+        "codeIds": ["mvp_endorse_context"],
+        "rationale": "Direct reaction to Abhi's description of multi-model, context-aware approach; endorses task-specific contextual AI design."
+      },
+      {
+        "quoteVerbatim": "having it be able to prompt you, like, how was that conversation, so that you can input it, and you can have sort of, like, an ongoing… tracker, if you will, of conversations specific to different entities might be really helpful.",
+        "codeIds": ["mvp_request_feature", "mvp_endorse_executive_assistant"],
+        "rationale": "Specific feature request for a prompted conversation log (inspired by Marshall Fire friend's notebook advice); simultaneously endorses tracker concept."
+      },
+      {
+        "quoteVerbatim": "Yeah, that would be, I think, incredibly helpful. Because a lot of these things have deadlines, or dates, and, you know, you're not always paying attention to all those things. So, like, having that dashboard that was tracking",
+        "codeIds": ["mvp_endorse_executive_assistant"],
+        "rationale": "Enthusiastic endorsement of the progress dashboard, specifically citing deadline-tracking as the key value."
+      },
+      {
+        "quoteVerbatim": "So, something like that, that can provide you with, like, oh, here are the couple things that you should know.",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Endorses the community channel digest concept — surfacing the most important updates from otherwise overwhelming group channels."
+      },
+      {
+        "quoteVerbatim": "No, no, I love that you're thinking about it in terms of individual, in terms of, like, of, you know, kind of a household structure with the joint things being, you know, able to be centralized, and then also the broader community. Like, those… those are…",
+        "codeIds": ["mvp_endorse_centralization"],
+        "rationale": "Explicitly endorses the multi-level architecture (individual / household / community) as 'incredibly functional.'"
+      },
+      {
+        "quoteVerbatim": "I would imagine that you're going to look beyond fires. It'll be more of, like, disasters across the board, tornadoes, hurricanes, floods, you know, everything that seems to be happening every other month or so,",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Proactively suggests cross-disaster scope expansion to other natural disasters."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "talking to somebody who's been through it, who understands the emotional impact, you know, the physical impact, the cognitive impact.",
+        "codeIds": ["cross_human_irreplaceable"],
+        "rationale": "Participant generalizes from her Marshall Fire friend's peer support to a broader principle: lived experience makes support irreplaceable."
+      },
+      {
+        "quoteVerbatim": "3 months, 6 months, a year, you know? I think that would be of value, especially to people that aren't necessarily, you know, fluent in that, right?",
+        "codeIds": ["cross_timing_matters"],
+        "rationale": "Meta-observation that phase-calibrated support — knowing what to expect at specific intervals — has broad value across survivor profiles."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "I re-read the back third of the transcript from cue 259 onward (when Abhi begins describing the MVP's context-aware features) looking for both polarities. Endorsements were abundant: the participant enthusiastically affirmed the multi-model context-aware approach, the executive-assistant tracker, the community digest, and the multi-level architecture. She also offered an unsolicited feature request for a conversation log and cross-disaster scope, and volunteered to participate as a collaborator. On the hesitation pass, I could not find a single moment in the demo section where she expressed concern, hesitation, or pushback about a specific MVP feature. Her hallucination concern (cue 230) was raised during the pre-demo general AI discussion and is coded as aiAttitudesAndBeliefs rather than mvpFeedback per Boundary Rule B. The post-demo section contained only affirming statements."
+  },
+  "uncodedObservations": [
+    {
+      "category": "lifeAndRoutineChanges",
+      "quoteVerbatim": "My partner was, he had been diagnosed with throat cancer the month before, so… so it was like, whoa.",
+      "note": "Partner's concurrent cancer diagnosis is a compounding acute stressor not captured by any existing code. Distinct from competing_caregiving — partner remained functional and was actually helpful in navigating paperwork."
+    },
+    {
+      "category": "lifeAndRoutineChanges",
+      "quoteVerbatim": "I had only been, like, one quarter into my program when the fire happened, so I didn't even have my feet wet, it felt like, you know, in school.",
+      "note": "Fire struck at a particularly vulnerable transitional moment — career change barely begun, not an established career disrupted. career_disruption doesn't fully capture instability-on-top-of-instability of being brand-new to a training program."
+    },
+    {
+      "category": "aiAttitudesAndBeliefs",
+      "quoteVerbatim": "I'm getting my MFT, right? So it's therapy school.",
+      "note": "Participant's MFT training gives her distinctive meta-literacy about trauma response and professional ethics. Her AI caution and psychoeducation framing throughout reflect professional knowledge, not only lived experience — a dual survivor/clinician perspective not captured by any code."
+    }
+  ]
+}

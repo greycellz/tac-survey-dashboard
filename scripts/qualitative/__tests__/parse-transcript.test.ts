@@ -32,6 +32,18 @@ describe("classifySpeaker", () => {
     expect(classifySpeaker("Adrienne Heinz, Ph.D.")).toBe("interviewer");
     expect(classifySpeaker("Abhi Jha")).toBe("interviewer");
   });
+
+  it("treats numeric labels with pronoun annotations as participant", () => {
+    expect(classifySpeaker("007 (she/her)")).toBe("participant");
+    expect(classifySpeaker("007  (she/her)")).toBe("participant"); // double space — real example from INT007
+    expect(classifySpeaker("010 (he/him)")).toBe("participant");
+    expect(classifySpeaker("123 (they/them)")).toBe("participant");
+  });
+
+  it("rejects malformed alphanumeric labels (does not silently accept)", () => {
+    expect(classifySpeaker("007abc")).toBe("interviewer");
+    expect(classifySpeaker("P001")).toBe("interviewer");
+  });
 });
 
 describe("participantIdFromFilename", () => {
@@ -53,8 +65,8 @@ describe("parseTranscriptFromString", () => {
   });
 
   it("classifies speakers correctly", () => {
-    expect(parsed.participantUtteranceCount).toBe(2);
-    expect(parsed.interviewerUtteranceCount).toBe(2);
+    expect(parsed.participantCueCount).toBe(2);
+    expect(parsed.interviewerCueCount).toBe(2);
   });
 
   it("strips escaped arrows and timestamps from text", () => {

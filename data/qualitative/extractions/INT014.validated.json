@@ -1,0 +1,565 @@
+{
+  "participantId": "INT014",
+  "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T07:22:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.536Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "We were evacuated twice, once to La Canada, but then La Canata was evacuated too, so we ended up in Manhattan Beach.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Double evacuation — first to La Cañada (itself evacuated), then Manhattan Beach — captures the instability of the acute displacement phase before landing in an RV and later a rental.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "We were evacuated twice, once to La Canada, but then La Canata was evacuated too, so we ended up in Manhattan Beach.",
+          "flatCharStart": 809,
+          "flatCharEnd": 925,
+          "cueNumber": 10,
+          "startTime": "00:00:56.780",
+          "contextBefore": "trauma, you know, in the… during the evacuation. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And, and before the fire, I was my wife's sole caretaker, but reaching my limit, really.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "Pre-fire solo caregiving for an Alzheimer's wife becoming incontinent; participant was already researching memory care, so fire hit an already maxed-out caregiver.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "And, and before the fire, I was my wife's sole caretaker, but reaching my limit, really.",
+          "flatCharStart": 939,
+          "flatCharEnd": 1027,
+          "cueNumber": 11,
+          "startTime": "00:01:10.810",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "But still, it was slow moving, and but the fire precipitated everything. She did not do well in the evacuation.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "The fire directly precipitated his wife's medical crisis — evacuation trauma triggered the hospitalization cascade that ended his in-home caregiving role entirely.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "But still, it was slow moving, and but the fire precipitated everything. She did not do well in the evacuation.",
+          "flatCharStart": 1466,
+          "flatCharEnd": 1577,
+          "cueNumber": 18,
+          "startTime": "00:01:55.250",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And I feel, you know, I should… I should visit her more often.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "Ongoing caregiving burden transformed: daily in-home care replaced by guilt and geographic distance; memory care facility is over an hour away in Murrieta.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "And I feel, you know, I should… I should visit her more often.",
+          "flatCharStart": 30667,
+          "flatCharEnd": 30729,
+          "cueNumber": 348,
+          "startTime": "00:36:26.670",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Well, of course, being laid off, last October, doesn't feel good, didn't feel good at all.",
+        "codeIds": [
+          "career_disruption"
+        ],
+        "rationale": "17-year JPL career ended involuntarily — the first time in his life he did not choose to leave — compounding recovery stress with professional identity loss.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Well, of course, being laid off, last October, doesn't feel good, didn't feel good at all.",
+          "flatCharStart": 9782,
+          "flatCharEnd": 9872,
+          "cueNumber": 112,
+          "startTime": "00:11:46.880",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Personally, I'd say, I, I sleep a lot. I just can't get enough sleep.",
+        "codeIds": [
+          "routine_collapse"
+        ],
+        "rationale": "Day starts at noon; 10+ hours plus naps; participant attributes this to exhaustion — a complete inversion of his pre-fire work rhythm.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Personally, I'd say, I, I sleep a lot. I just can't get enough sleep.",
+          "flatCharStart": 8153,
+          "flatCharEnd": 8222,
+          "cueNumber": 89,
+          "startTime": "00:09:55.490",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "retirement business, let's call it, you know. All the… all this paperwork I have to do, you know, reconfiguring insurance,",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Business-hours block consumed by post-layoff and post-fire administrative tasks — insurance reconfiguration, deadlines — functioning as a second job during his 'short day'.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "retirement business, let's call it, you know. All the… all this paperwork I have to do, you know, reconfiguring insurance,",
+          "flatCharStart": 13040,
+          "flatCharEnd": 13162,
+          "cueNumber": 151,
+          "startTime": "00:15:52.300",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "I mentioned that in the beginning, I was, you know, I was adrenaline-driven, but once that went away, things were kind of stabilized.",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Classic acute-phase adrenaline mask: participant functioned at high capacity in the first weeks; emotional weight emerged only once logistics stabilized.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I mentioned that in the beginning, I was, you know, I was adrenaline-driven, but once that went away, things were kind of stabilized.",
+          "flatCharStart": 6536,
+          "flatCharEnd": 6669,
+          "cueNumber": 70,
+          "startTime": "00:07:56.960",
+          "contextBefore": "Good question. You know, ",
+          "contextAfter": " I guess my wife was in the hospital, and I could, you know, she was being taken"
+        }
+      },
+      {
+        "quoteVerbatim": "They pulled that rug from us under our feet. They said, no, no more physical access with your badge. Your retiree badge is just a token for your service. We thank you very much.",
+        "codeIds": [
+          "moral_injury"
+        ],
+        "rationale": "JPL revoked retirees' on-campus badge access to the disaster support group after the layoff; participant experienced this as institutional betrayal during active recovery.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "They pulled that rug from us under our feet. They said, no, no more physical access with your badge. Your retiree badge is just a token for your service. We thank you very much.",
+          "flatCharStart": 14658,
+          "flatCharEnd": 14835,
+          "cueNumber": 166,
+          "startTime": "00:17:54.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And, I thought that was really, you know, adding insult to injury, frankly. And, and why do they do that? To align with other NASA centers.",
+        "codeIds": [
+          "moral_injury"
+        ],
+        "rationale": "Explicit injustice framing: an arbitrary alignment policy stripped him of his one organized peer-support structure at the worst possible time — for bureaucratic conformity.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "And, I thought that was really, you know, adding insult to injury, frankly. And, and why do they do that? To align with other NASA centers.",
+          "flatCharStart": 14849,
+          "flatCharEnd": 14988,
+          "cueNumber": 167,
+          "startTime": "00:18:08.400",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I only decided to rebuild, you know, on the condition that it would be fun.",
+        "codeIds": [
+          "hope_via_progress"
+        ],
+        "rationale": "Rebuild decision framed as an act of positive agency; choosing to rebuild only if it would be enjoyable signals the participant converting crisis into forward momentum.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I only decided to rebuild, you know, on the condition that it would be fun.",
+          "flatCharStart": 20701,
+          "flatCharEnd": 20776,
+          "cueNumber": 235,
+          "startTime": "00:24:57.460",
+          "contextBefore": "d they came with others. And, you know, it's gonna be great, frankly, you know. ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "So I just, I guess basically I'm exhausted.",
+        "codeIds": [
+          "exec_dysfunction"
+        ],
+        "rationale": "Persistent exhaustion — 10+ hours sleep, day starting at noon — signals capacity depletion that reduces decision bandwidth; participant names it plainly as his functional state.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "So I just, I guess basically I'm exhausted.",
+          "flatCharStart": 8634,
+          "flatCharEnd": 8677,
+          "cueNumber": 96,
+          "startTime": "00:10:31.700",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "And there's deadlines for all that stuff, and so I, you know, it keeps me… you know, going.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Medium-term grind: post-layoff insurance reconfiguration and retirement paperwork with concrete deadlines fill his afternoons; staying ahead of them is what keeps him functioning.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "And there's deadlines for all that stuff, and so I, you know, it keeps me… you know, going.",
+          "flatCharStart": 13176,
+          "flatCharEnd": 13267,
+          "cueNumber": 152,
+          "startTime": "00:16:00.310",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Participant identifies in-person therapy as his medium-term emotional need but has not yet acted on it — covered by insurance, blocked by time and competing recovery priorities.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+          "flatCharStart": 16960,
+          "flatCharEnd": 17195,
+          "cueNumber": 188,
+          "startTime": "00:20:31.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Long term, I do want to, you know, get her into a closer place, but that's… that's something maybe that AI can help me with",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "Finding closer memory care for his wife — currently over an hour away in Murrieta — is his explicit long-term goal, deferred until he has more capacity and spare time.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Long term, I do want to, you know, get her into a closer place, but that's… that's something maybe that AI can help me with",
+          "flatCharStart": 31137,
+          "flatCharEnd": 31260,
+          "cueNumber": 352,
+          "startTime": "00:37:00.100",
+          "contextBefore": "d she's in good hands, frankly. I trust the people that are taking care of her. ",
+          "contextAfter": " when I, you know, I…"
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "I didn't… I didn't mention one thing that you, you know, triggered, which is I do use WhatsApp.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Uses a WhatsApp group with neighbors on a nearby street — a community he was 'inducted into' through dog walks — as a neighborhood recovery information channel.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I didn't… I didn't mention one thing that you, you know, triggered, which is I do use WhatsApp.",
+          "flatCharStart": 24489,
+          "flatCharEnd": 24584,
+          "cueNumber": 282,
+          "startTime": "00:29:27.360",
+          "contextBefore": "I mentioned… ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "Yeah, yeah, they, yeah, because there's already stories out there of, you know, of people who, you know, get hooked, kind of, on their bots, you know?",
+        "codeIds": [
+          "ai_emotional_skeptical"
+        ],
+        "rationale": "General concern about unhealthy AI attachment; participant has read about dependency risks and regards them as real and serious, independent of the specific TAC MVP being discussed.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Yeah, yeah, they, yeah, because there's already stories out there of, you know, of people who, you know, get hooked, kind of, on their bots, you know?",
+          "flatCharStart": 40627,
+          "flatCharEnd": 40777,
+          "cueNumber": 470,
+          "startTime": "00:48:07.340",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+        "codeIds": [
+          "mvp_hesitate_emotional_use"
+        ],
+        "rationale": "Immediate response to the AI coach concept: emotional needs require in-person human presence; AI is not the right medium for this participant's therapeutic goals.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+          "flatCharStart": 16960,
+          "flatCharEnd": 17195,
+          "cueNumber": 188,
+          "startTime": "00:20:31.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Well, I certainly… I would believe it's a… it could be work, and be helpful for what you call the practical things, you know.",
+        "codeIds": [
+          "mvp_endorse_centralization"
+        ],
+        "rationale": "Endorses the MVP for practical recovery tasks in direct response to Abhi's question about practical vs. emotional AI use; 'practical things' is the participant's own framing.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Well, I certainly… I would believe it's a… it could be work, and be helpful for what you call the practical things, you know.",
+          "flatCharStart": 18739,
+          "flatCharEnd": 18864,
+          "cueNumber": 211,
+          "startTime": "00:22:41.340",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, pardon me, it could have been maybe a little quicker, you know, and I'd be a little further in the process.",
+        "codeIds": [
+          "mvp_endorse_executive_assistant"
+        ],
+        "rationale": "Retrospective endorsement: a decision-support tool during contractor selection would have accelerated his rebuild process — participant agrees it would have made a difference.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Yeah, pardon me, it could have been maybe a little quicker, you know, and I'd be a little further in the process.",
+          "flatCharStart": 23029,
+          "flatCharEnd": 23142,
+          "cueNumber": 263,
+          "startTime": "00:27:36.190",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Let's say a decision support kind of tool.",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Participant names his preferred feature precisely — a tool that synthesizes contractor meeting notes into a decision matrix. Borderline in length but semantically specific and unprompted.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "Let's say a decision support kind of tool.",
+          "flatCharStart": 23186,
+          "flatCharEnd": 23228,
+          "cueNumber": 265,
+          "startTime": "00:27:48.250",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "again, I'll say it again, it sounds like a good idea for practical things related to the rebuild and to insurance.",
+        "codeIds": [
+          "mvp_endorse_centralization"
+        ],
+        "rationale": "Deliberate repetition ('I'll say it again') signals confident, settled endorsement of the MVP's practical scope — rebuild logistics and insurance navigation specifically.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "again, I'll say it again, it sounds like a good idea for practical things related to the rebuild and to insurance.",
+          "flatCharStart": 36532,
+          "flatCharEnd": 36646,
+          "cueNumber": 419,
+          "startTime": "00:43:26.470",
+          "contextBefore": "",
+          "contextAfter": " Personally, you know, I have no complaints."
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+        "codeIds": [
+          "cross_human_irreplaceable"
+        ],
+        "rationale": "Participant draws a clean line between what AI can provide (practical logistics) and what only a human can provide (therapeutic emotional support); this distinction runs through his entire engagement with the MVP concept.",
+        "citation": {
+          "participantId": "INT014",
+          "transcriptPath": "data/qualitative/transcripts/INT014.md",
+          "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+          "quoteVerbatim": "I guess when I just think about it, I think it's in person that it really should happen, you know. And in my mind, I was thinking, you know, I have to find time to, you know, to, you know, get into maybe some kind of therapy, you know.",
+          "flatCharStart": 16960,
+          "flatCharEnd": 17195,
+          "cueNumber": 188,
+          "startTime": "00:20:31.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [
+    {
+      "category": "emotionalImpact",
+      "raw": {
+        "quoteVerbatim": "And, and, you know, I have no complaints about my insurance. They really covered everything, delivered everything without too much, work on my side, so… And that's not the case for everyone.",
+        "codeIds": [
+          "comparative_luck_appraisal"
+        ],
+        "rationale": "Participant explicitly anchors his positive insurance experience against the known reality that others have not been as fortunate — the comparison is the load-bearing element."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    }
+  ],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements found: multiple and unprompted. Participant said 'sounds like a good idea' at first mention and deliberately repeated it for emphasis later; endorsed the practical scope (rebuild, insurance) at two separate moments; explicitly affirmed that a decision-support tool during contractor selection would have accelerated his process; and named a specific feature ('decision support kind of tool') without prompting. Hesitations found: initial 'I'm skeptical' at first mention of the AI coach; persistent preference for human in-person therapy over AI for emotional support; concern about people getting 'hooked' on bots (a general AI risk cited independently of the TAC tool); and an unprompted question about whether the bot would impersonate a human in group conversations. Both polarities are genuine and well-represented. The practical-vs-emotional divide is consistent and clear: this participant endorses the MVP as a practical logistics tool and rejects it for therapeutic use."
+  },
+  "summary": "INT014 is a 73-year-old Eaton Fire survivor whose recovery is dominated by three compounding crises: total home loss, a JPL layoff after 17 years, and the fire-triggered medical deterioration of his wife, who has late-stage Alzheimer's. When the fires hit he was already his wife's sole caregiver approaching his limits; evacuation trauma so severely destabilized her that she required successive hospitalizations, a convalescent stay, and ultimately permanent memory care placement now over an hour away in Murrieta. This transformation of his caregiving role brought both relief and guilt — she is professionally cared for, but he cannot visit as often as he would like. In the acute phase he ran on adrenaline; once things stabilized, profound exhaustion set in — he now sleeps ten-plus hours a day and starts afternoons around noon. Housing displacement moved from a FEMA hotel to a donated RV parked in Northridge to a rental that works well for him and his pets. Insurance was smooth — he explicitly notes this as fortunate compared to others. He contracted with a rebuild team he trusts, made the decision to rebuild only on the condition it would be fun, and anticipates stressful moments ahead. His JPL layoff — the first time in his career he did not choose to leave a job — is an ongoing wound, though retirement income provides financial stability. He continues working on science papers and conference abstracts from a personal laptop as an intellectual lifeline. Technology use for recovery has been modest: a WhatsApp group with neighbors on a nearby street, and the JPL Disaster Recovery Support Group via Zoom (initially in-person access was revoked with a retiree badge, which he experienced as institutional insult, before being readmitted virtually). He has never used AI and is genuinely skeptical of it for emotional support — he wants human in-person therapy — but sees real potential for practical AI assistance in contractor comparison, rebuild logistics, and eventually locating closer memory care for his wife. When the MVP concept was described, he endorsed it for practical recovery tasks, named a decision support tool as his specific feature wish, and drew a firm line at AI for emotional processing. He closes with a generational observation: younger survivors, more comfortable with voice assistants, would likely find the tool more naturally useful.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "technologyForRecovery",
+      "note": "JPL's Disaster Recovery Support Group (hybrid Zoom + mailing list, with expert speakers) was participant's primary tech-mediated peer support structure. No existing tech code covers formal employer-organized video/email support groups — distinct from crowdsourced social media hubs.",
+      "citation": {
+        "participantId": "INT014",
+        "transcriptPath": "data/qualitative/transcripts/INT014.md",
+        "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+        "quoteVerbatim": "Well, I'm back on the… I'm still on the, you know, the mailing list, if you want. And they made it, I guess, accessible for non-employees, you know.",
+        "flatCharStart": 15589,
+        "flatCharEnd": 15737,
+        "cueNumber": 173,
+        "startTime": "00:18:56.180",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "Post-fire loneliness from simultaneous family dispersal: sons at college, wife in distant memory care. Does not fit isolation_and_witnessing (which requires friction with an unaffected world) but is a distinct and significant emotional pattern in this transcript.",
+      "citation": {
+        "participantId": "INT014",
+        "transcriptPath": "data/qualitative/transcripts/INT014.md",
+        "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+        "quoteVerbatim": "But now he's off, so I have an empty house.",
+        "flatCharStart": 3590,
+        "flatCharEnd": 3633,
+        "cueNumber": 38,
+        "startTime": "00:04:39.730",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "Retrospective guilt about not recognizing wife's early Alzheimer's symptoms before diagnosis. Caregiver self-blame for missed warning signs is not institutional injustice (moral_injury) and not grief over lost objects (grief_specific_loss). Codebook gap for grief over a partner's medical decline.",
+      "citation": {
+        "participantId": "INT014",
+        "transcriptPath": "data/qualitative/transcripts/INT014.md",
+        "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+        "quoteVerbatim": "I should have noticed I was in denial, you know?",
+        "flatCharStart": 28990,
+        "flatCharEnd": 29038,
+        "cueNumber": 328,
+        "startTime": "00:34:22.290",
+        "contextBefore": "I mean, she had symptoms before that, and I… ",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "mvpFeedback",
+      "note": "Concern about AI honesty and transparency in multi-user group contexts — whether the bot's identity is clearly disclosed at all times. Does not map to mvp_hesitate_privacy (data handling) or mvp_hesitate_accuracy (hallucination). Distinct AI-identity transparency pattern.",
+      "citation": {
+        "participantId": "INT014",
+        "transcriptPath": "data/qualitative/transcripts/INT014.md",
+        "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+        "quoteVerbatim": "kind of try to pretend to be a person, or is it programmed to pretend to be a person, or is… you're always going to know in a conversation, with multiple people, you'll always know what the… who's the bot.",
+        "flatCharStart": 39608,
+        "flatCharEnd": 39813,
+        "cueNumber": 454,
+        "startTime": "00:47:11.830",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "crossCutting",
+      "note": "Unprompted age-based digital-literacy observation: participant frames the recovery AI tool as more natural for younger users already habituated to voice assistants. Cross-generational adoption pattern not captured by any existing crossCutting code.",
+      "citation": {
+        "participantId": "INT014",
+        "transcriptPath": "data/qualitative/transcripts/INT014.md",
+        "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
+        "quoteVerbatim": "Especially for people that are, well, maybe younger people. They're more used to, you know, using Alexa.",
+        "flatCharStart": 36984,
+        "flatCharEnd": 37088,
+        "cueNumber": 423,
+        "startTime": "00:44:00.000",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

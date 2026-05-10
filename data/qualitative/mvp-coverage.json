@@ -1,0 +1,19 @@
+{
+  "_comment": "Manual annotation of which transcripts had the MVP demo shown. Update as you confirm by reviewing each transcript. Default: null (unknown). Manifest builder reads this; extractions can be interpreted accordingly.",
+  "INT001": true,
+  "INT002": true,
+  "INT003": true,
+  "INT004": true,
+  "INT005": null,
+  "INT006": null,
+  "INT007": true,
+  "INT008": null,
+  "INT009": null,
+  "INT010": null,
+  "INT011": null,
+  "INT012": null,
+  "INT013": null,
+  "INT014": null,
+  "INT015": null,
+  "INT016": null
+}

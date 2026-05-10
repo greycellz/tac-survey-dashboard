@@ -1,0 +1,203 @@
+{
+  "participantId": "INT010",
+  "transcriptSha256": "b6097459b90c01b9adc80a8794f170f97857468bbc6b6990f6eec6d874d5bb8a",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:55:00.000Z",
+  "summary": "INT010 is a 67-year-old architect who lost his home and office in the Palisades Fire and remains displaced while planning a multi-year rebuild. His partner Linda also lost her home, cars, and generational family possessions, compounding the scope of loss. His recovery arc has been unusually active and purposeful: hotel to house-sitting to apartment in rapid succession, with an 8–10-year horizon before the new home is built and life is reconstituted on the other side.\n\nThe dominant pain point throughout is the quality and consistency of information. As a professional who has managed post-fire rebuilds since the 2018 Woolsey Fire, he draws on direct comparative experience: Malibu, despite official promises of expedited permitting, took three and a half years to issue a single permit and left most Woolsey homes unbuilt seven years later. He observes the same institutional patterns repeating in LA and Altadena now. Insurance adds its own burden — he is required to explain his situation anew on a biweekly call, which he explicitly names as not trauma-informed. The cumulative picture is of a survivor who must continuously triple-check information across fractured, unreliable sources with no single authoritative guide.\n\nEmotionally, INT010 coped through action and outward purpose. He describes a deliberate delay in emotional processing during the first months, when logistics dominated. His primary channel has been converting distress into service — helping survivor-clients through his architecture practice, speaking publicly on resilience, and participating in weekly community gatherings including Monday morning coffee groups and Monday evening block captain Zoom calls. He has sought personal therapy and recommends it universally. He notes his adult daughter's secondary suffering — grief at her inability to help him — as a layer of emotional complexity that took time to recognize.\n\nHis vision for systemic improvement is a pre-established resilience hub: a coordinated network of public and private actors who know their roles before a disaster strikes and can rapidly deploy expertise as a single authoritative source. This framing closely matched his enthusiasm for the TAC demo, where he endorsed AI-powered channel summarization for block captains, private collaborative channels for insurance and rebuild work, and longitudinal decision tracking to enable knowledge transfer to future disaster communities. He expressed privacy caution about inputting client-specific data into AI, and personal hesitation about emotional disclosure to a chatbot, while remaining broadly enthusiastic about AI for practical synthesis and information work. He closed the interview by offering to connect the team with two Palisades community leaders and expressing strong interest in prototype follow-up.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "In this apartment. And so, you know, we found ourselves in these cycles of… feels a little like we're creating some patterns, some habits, a little bit of… a little bit towards normalcy, only to realize now there's the next step.",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Each temporary housing move creates a false sense of settling, immediately disrupted by the next required transition — the defining rhythm of extended displacement."
+      },
+      {
+        "quoteVerbatim": "our days are, like, 3 times full between the regular plus, you know, dealing with these people, dealing with those people, trying to create life again. And that went on for a while. And that went on for a couple of months, 3 months, 4 months maybe.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Recovery tasks stacked multiplicatively on top of normal work and life for months — canonical second-job recovery load."
+      },
+      {
+        "quoteVerbatim": "You know, that's, like, probably 3 years down the road. And then we're gonna have 5 years of creating a life.",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Displacement horizon extends 3 years until rebuild completion, followed by 5 more years of life reconstitution — a self-aware but sobering long-range estimate."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "And then it's that… then it's this process, and you're moving, and it's going fast, and making decisions, and, you know, purchasing this and that. The emotional side of it was put aside, right? It was sort of delayed, like, we have to do these things first.",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Explicitly names the delay mechanism: logistics demanded priority and emotional processing was consciously deferred."
+      },
+      {
+        "quoteVerbatim": "Well, the most thing, as I said from the beginning, the biggest thing for me has been helping others.",
+        "codeIds": ["meaning_through_service"],
+        "rationale": "Participant names helping others as his primary coping strategy and the single most important source of emotional grounding."
+      },
+      {
+        "quoteVerbatim": "I was able to take my emotional state and apply it towards helping others, so I could get very positive feedback by helping people.",
+        "codeIds": ["meaning_through_service"],
+        "rationale": "Describes the mechanism: converting emotional distress into outward service generates reciprocal positive feedback — a self-sustaining coping loop."
+      },
+      {
+        "quoteVerbatim": "You know, and I thought, that is the wor… right, that's the worst possible title for whatever that was. Like, how could they even think to use this phrase in Los Angeles? Fire and Ashes?",
+        "codeIds": ["ptsd_intrusive_imagery"],
+        "rationale": "Acute distress response triggered by a fire-adjacent phrase heard on the radio — environmental hyperreactivity consistent with trauma response."
+      },
+      {
+        "quoteVerbatim": "And I don't believe you go back at all, right? So there's that unknown of, we're in a growth mode, but we're going to a different place, and we don't really know where that is. So there's an uncertainty factor with that that you kind of have to get comfortable with. I don't know what this town's going to look like.",
+        "codeIds": ["loss_of_home_anchor"],
+        "rationale": "The home community as anchor is irrevocably destabilized — no return is possible, the future neighborhood is undefined, and the uncertainty is explicitly named."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "it's been very, very challenging to get good information, consistent.",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Direct statement naming information quality and consistency as the primary external hardship across all recovery domains."
+      },
+      {
+        "quoteVerbatim": "the cities hadn't gone through this issue, right? So, the challenges have really been about quality of information that you can act on.",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Identifies the structural cause of fragmented information: institutional inexperience. Actionability vs. raw volume is the key distinction."
+      },
+      {
+        "quoteVerbatim": "And they will not believe me when I say, it's gonna be 3 years.",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Insurer refuses to accept the participant's realistic rebuild timeline, forcing repeated justification of the same facts across biweekly calls."
+      },
+      {
+        "quoteVerbatim": "Right, it's not trauma-informed at all to have to re… right, to replay that every two weeks.",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Biweekly insurer check-ins require retelling the trauma narrative — a systemic process the participant explicitly names as not trauma-informed."
+      },
+      {
+        "quoteVerbatim": "And that was just so awful, but so typical. Most of the homes in Malibu are still not rebuilt 7 years later.",
+        "codeIds": ["permitting_complexity"],
+        "rationale": "Draws on Woolsey Fire precedent: official promises of expedited permits routinely fail, with multi-year delays being typical rather than exceptional."
+      },
+      {
+        "quoteVerbatim": "It's hard as an architect not to look at it and say, alright, this is going to be 2 or 3 more years before people can even get through the process.",
+        "codeIds": ["permitting_complexity"],
+        "rationale": "Professional forecast based on Woolsey precedent: current LA/Altadena permitting will produce the same multi-year delays despite official optimism."
+      },
+      {
+        "quoteVerbatim": "That, right, that did multi-source the question, and brought it back, and found what was common, and found what was unclear. And then we could go, okay, we know all these pieces of this, that's great, but here are three questions that we need to find out. Because these are the ones that didn't come back clear enough.",
+        "codeIds": ["navigator_gap"],
+        "rationale": "Explicit articulation of a desired navigator system: aggregate, cross-check, surface inconsistencies, and return actionable clarity — the case-manager function described as an ideal tool."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "deeply connected into the process of dealing with all aspects of an event like this. It might be an earthquake next time, it could be something entirely different, but this group of people and agencies, organizations, know how they bring their expertise to the table in that moment quickly.",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Describes the medium-phase need: a coordinated network that can rapidly resource all recovery domains — the institutional infrastructure that was absent."
+      },
+      {
+        "quoteVerbatim": "My own, you know, counseling therapy, so, you know, the personal dive into it has been really important to do. I recommend it to everybody, so…",
+        "codeIds": ["needs_emotional_normalization"],
+        "rationale": "Endorses therapy as essential for long-term emotional integration and recommends it universally — normalization of psychological support as a recovery need."
+      },
+      {
+        "quoteVerbatim": "You know, that's, like, probably 3 years down the road. And then we're gonna have 5 years of creating a life.",
+        "codeIds": ["needs_long_term_planning"],
+        "rationale": "Frames full recovery across two distinct long-term phases — rebuild (3 years) and life reconstitution (5 years) — an explicit long-horizon planning posture."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "Absolutely impossible, because I will look at WhatsApp, and if I look right now, I will probably have 500 posts.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Uses WhatsApp (and Slack) as the primary recovery information channels, but finds the message volume completely unmanageable."
+      },
+      {
+        "quoteVerbatim": "So those are the two tools. I'm not sure they do any good, really, or maybe I'm just on the periphery of it.",
+        "codeIds": ["tech_app_search_failure"],
+        "rationale": "Explicit verdict that the two available digital tools (WhatsApp, Slack) may not be serving recovery information needs — no fit-for-purpose tool found."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I mean, let's say you have to trust it, first of all. Let's say, you know, let's assume that, right, the level of information is trustable, and you can count on it.",
+        "codeIds": ["ai_hallucination_concern"],
+        "rationale": "Trust and information reliability are framed as prerequisites before endorsement — an implicit accuracy concern that must be stipulated away before proceeding."
+      },
+      {
+        "quoteVerbatim": "What we're finding is, we collectively, as architects, and we talk, is that, yes, we embrace it, yes, there's advantages in having this, it does not solve everything, but the more we begin to go that route, the faster we can get a lot of things out of the way",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "Collective professional endorsement of AI for practical efficiency — using AI to clear tractable work frees human attention for higher-judgment tasks."
+      },
+      {
+        "quoteVerbatim": "Although I… although you can probably tell, I mean, I don't… I don't mind talking about, all this. I've had a lot, like, what… you know, whatever, but I still think I would be a little hesitant about that.",
+        "codeIds": ["ai_emotional_skeptical"],
+        "rationale": "Despite being verbally open in person, participant would be cautious about personal emotional disclosure to an AI chatbot specifically."
+      },
+      {
+        "quoteVerbatim": "When should we just be talking with our spouse, with our family, with our community? Because that'll give you not just an answer, but, you know, a warm embrace.",
+        "codeIds": ["ai_human_tether"],
+        "rationale": "Explicitly distinguishes what AI provides (information) from what humans provide (warmth, relational presence) — endorses AI within a broader human support ecosystem."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Oh, I like it. I like that it's, I like seeing that, you know, everything is kind of on screen, you know, it's categorized, it's, it's very clear,",
+        "codeIds": ["mvp_endorse_centralization"],
+        "rationale": "Positive first reaction to the structured, categorized interface — values the visual clarity and organization of a centralized recovery system."
+      },
+      {
+        "quoteVerbatim": "be able to invite others into it. I'm curious what that looks like, but I like the sound that, you know, we can have… it's not just myself coming into an app.",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Endorses the private collaborative channel concept — values the ability to bring in trusted parties rather than navigating recovery in isolation."
+      },
+      {
+        "quoteVerbatim": "like you just also pointed out, if I don't have to read 300 messages, but I can get this information, core of it.",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Direct endorsement of AI channel summarization — maps exactly onto his stated pain point with WhatsApp volume overload."
+      },
+      {
+        "quoteVerbatim": "If I want to go in and read the messages, sure, but if I just want… if all I have time for is to do something that I can do a takeaway, and then act on it, that's fantastic. Whether it's for myself, personally, or if I was in that position to, you know, be then able to offer this",
+        "codeIds": ["mvp_endorse_executive_assistant"],
+        "rationale": "Endorses the digest/takeaway function for both personal use and block captain coordination — AI that produces actionable summaries rather than raw information feeds."
+      },
+      {
+        "quoteVerbatim": "back over the course of time, how an issue was very unclear at first. It might have had solutions that were going in certain directions, and that was apparent, but as time has gone by and decisions have evolved.",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Requests longitudinal decision tracking — a feature that would let future communities trace how key issues evolved, enabling structured knowledge transfer across disaster events."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "the cities hadn't gone through this issue, right? So, the challenges have really been about quality of information that you can act on.",
+        "codeIds": ["cross_relevance_over_volume"],
+        "rationale": "Participant's own meta-generalization: the problem is not information volume but actionability and situational precision — a structural insight the participant arrives at independently."
+      },
+      {
+        "quoteVerbatim": "When should we just be talking with our spouse, with our family, with our community? Because that'll give you not just an answer, but, you know, a warm embrace.",
+        "codeIds": ["cross_human_irreplaceable"],
+        "rationale": "Participant's own articulation of the irreplaceable human layer: some needs require warmth and relational presence that no information system can substitute."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements pass: Multiple clear endorsements found in the demo section — centralized categorized interface, private collaborative channels, AI channel summarization, and actionable takeaway digests. The participant was consistently enthusiastic throughout the demo, volunteering unsolicited endorsements. Hesitations pass: No explicit hesitations or pushback about the TAC product itself were found in the demo section. Privacy and accuracy concerns were expressed earlier in the interview as general AI attitudes (before Abhi began the demo), and are coded as aiAttitudesAndBeliefs. In direct response to the demo features, the participant offered no qualifications or concerns; his acknowledgment in cue 400 that the system 'is very secure and, you know, protected' reads as endorsement of a design choice rather than a hesitation."
+  },
+  "uncodedObservations": [
+    {
+      "category": "aiAttitudesAndBeliefs",
+      "quoteVerbatim": "I think that that's the worry I have with it, is how do we do this in a way that's secure?",
+      "note": "Explicit AI data-security concern expressed before the demo. No ai_privacy_concern code exists; ai_hallucination_concern covers accuracy/fabrication, not data handling. Potential codebook gap for privacy-specific AI concern."
+    },
+    {
+      "category": "technologyForRecovery",
+      "quoteVerbatim": "I use meditation apps every day, and, and so I just, so I think that, that part's great.",
+      "note": "Daily use of wellness/meditation apps as a stress management tool during recovery. No code covers non-recovery-specific digital wellness tools. Distinct from tech_social_media_hub and tech_app_search_failure."
+    },
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "it hurts, because it happened, and she feels it, and she sees friends, and she sees Dad, who's lost everything. And so her inability to help in any great way, right, is where her feelings and suffering exist.",
+      "note": "Participant describes his adult daughter's secondary grief and helplessness — not a survivor herself, but suffering from inability to assist. Does not fit witnessing_burden (survivor-to-survivor). Suggests a codebook gap for non-evacuee family members' emotional experience."
+    }
+  ]
+}

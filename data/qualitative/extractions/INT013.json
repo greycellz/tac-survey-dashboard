@@ -1,0 +1,178 @@
+{
+  "participantId": "INT013",
+  "transcriptSha256": "fa0b0b5d11594cd02777ffef9a82c9fc4c9296841fb1ae12aa3f97766e0861a1",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:16:00.000Z",
+  "summary": "INT013 is a 52-year-old woman employed at JPL whose Altadena home was completely destroyed in the Eaton Fire. At the time of the interview, roughly thirteen months after the fire, she was living in a townhouse owned by an uncle who had begun showing signs of cognitive decline. This created a layered situation: on top of fire recovery paperwork and her full-time job, she had taken on informal legal and financial management of her uncle's affairs, including power of attorney, bill oversight, and unfiled taxes she had not previously known about. She describes the combined weight of these demands as constant time pressure with no clear ceiling.\n\nHer recovery style is explicitly logistics-first and emotionally deferred. She describes focusing on task lists and checking off items, with emotional responses surfacing unexpectedly — typically when she is forced to articulate the experience, as in this interview. She participates actively in multiple online support communities, including a JPL-specific Slack group, insurance-based Facebook groups, and neighborhood channels, primarily to scan for deadlines and grants she might otherwise miss. She frames this as a hedge against unknown unknowns — the worry is less about information volume and more about information she does not yet know to look for.\n\nThe inventory process weighs on her both logistically and emotionally. She was fortunate to have extensive online purchase records from pandemic-era shopping, which helped partially reconstruct item lists, but the process remains incomplete and is loaded with memory and grief. Her overall insurance relationship has been relatively cooperative compared to others she knows, and she repeatedly frames her own situation as comparatively fortunate while acknowledging that watching other survivors struggle in worse circumstances carries its own emotional weight.\n\nA secondary financial challenge involves the tax liability on settlement funds. A federal law protecting disaster victims from income taxation on settlements expired at the end of 2025, and she is now anxious about receiving a payout that would be taxed as income, effectively reducing its recovery value.\n\nA notable psychological shift she describes is a post-fire detachment from material possessions — a recalibration in which ordinary frustrations no longer register and attachment to things has been emotionally guarded. She also reports a meaningful identity challenge in becoming a recipient of financial aid after years of being a donor, eventually deciding that qualifying for assistance justified accepting it.\n\nOn technology, she is a complete newcomer to AI but sees real potential in the non-judgmental quality of talking to a machine, reporting she would be more likely to be honest with an AI than with a person she might fear judging her. She has significant concerns about hallucination and would only trust a tool with visible human oversight. During the demo, she responded positively to the contextual and community-layer features embedded in a familiar platform like Slack, endorsed the executive assistant function for managing overwhelm and memory loss, and specifically requested a visual or multimedia format rather than text for relaxation exercises. Her primary concern about the product tone is verbosity and over-affirmation, which she says would turn her off.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "Trying to recover from the fire, trying to come to work, and trying to deal with family issues.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Recovery, employment, and caregiving for uncle running concurrently; participant explicitly names all three as competing demands consuming her time."
+      },
+      {
+        "quoteVerbatim": "his… I'm not his caretaker, but I'm… I have power of attorney, I have to clean up all of the things, make sure all his bills are being paid. At the same time, you know, in my own interest, I'm doing it so that I don't lose my lodging. But…",
+        "codeIds": ["competing_caregiving"],
+        "rationale": "Managing uncle's financial and legal affairs on top of own recovery — multi-front burden, with housing security as added stake."
+      },
+      {
+        "quoteVerbatim": "the things that we did automatically, or the things that I did automatically on a daily basis, just kind of went away.",
+        "codeIds": ["routine_collapse"],
+        "rationale": "Automatic daily habits (hygiene, routine tasks) ceased functioning after the fire; framed as PTSD-adjacent disruption."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "25%. They want the whole list, which is a lot of emotions, because it's a lot of memories attached to our stuff, you know, just going through what we had and what all those beverages were, is a heavy burden.",
+        "codeIds": ["grief_specific_loss"],
+        "rationale": "Itemizing belongings is emotionally costly because each item carries memory weight beyond replacement value."
+      },
+      {
+        "quoteVerbatim": "It's a weird… it's just a weird situation, and just feeling like you want to go home, but there's no home to go to.",
+        "codeIds": ["loss_of_home_anchor"],
+        "rationale": "Home named as absent anchor; 'wanting to go home' is the explicit affective frame for the hardest part of displacement."
+      },
+      {
+        "quoteVerbatim": "Which just come out once in a while in the middle of nowhere. Usually when I have to talk about it.",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Emotions are suppressed during logistics-focused recovery and surface only unexpectedly or when narrating the experience."
+      },
+      {
+        "quoteVerbatim": "you know, for the most part, I can't complain. My insurance has been responsive, and it seems to be fair. But, you know.",
+        "codeIds": ["comparative_luck_appraisal"],
+        "rationale": "Frames own insurance situation as relatively fortunate by implicit contrast with others whose insurers are adversarial."
+      },
+      {
+        "quoteVerbatim": "Yeah, and I'm not the only one. I know everybody, you know, other survivors are going through a lot more than just the fact that they lost their house.",
+        "codeIds": ["witnessing_burden", "comparative_luck_appraisal"],
+        "rationale": "Centering others' compound losses as heavier (witnessing_burden); simultaneously framing own situation as lucky by comparison (comparative_luck_appraisal)."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "And that just takes a long time. It just… it doesn't seem to ever end.",
+        "codeIds": ["inventory_burden"],
+        "rationale": "The itemization process is described as interminable — the emotional and logistical weight of inventory without a clear endpoint."
+      },
+      {
+        "quoteVerbatim": "there are a lot of deadlines that come up that maybe I know about, or maybe I don't know about, and I worry if there are other deadlines that I'm just not paying attention to.",
+        "codeIds": ["exec_dysfunction", "info_fragmentation"],
+        "rationale": "Cognitive bandwidth insufficient to track unknown deadlines (exec_dysfunction); scattered information landscape means critical obligations may be invisible (info_fragmentation)."
+      },
+      {
+        "quoteVerbatim": "Because then it's like, well, what's… what's… what's it really helping us do? Nothing. It just… it doesn't help us recover. It's supposed to help us recover, and it… it doesn't, because half of it will go to…",
+        "codeIds": ["financial_strain"],
+        "rationale": "Settlement funds taxed as income undercut their recovery purpose; expiration of tax-exemption law leaves participant anxious about financial net of any payout."
+      },
+      {
+        "quoteVerbatim": "I don't know what to do, I wouldn't know what to do, and I'm like, I know, I don't know what to do! Like, I don't know who to tell. Obviously, the first thing I did was tell my insurance company, I don't have a house.",
+        "codeIds": ["navigator_gap"],
+        "rationale": "In the acute phase, no sequencing guide existed; participant did not know who to contact or in what order — classic navigator gap."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "what are you supposed to do? Immediately I had to, you know, I turned off all of my utilities because I didn't have utilities. Things like that,",
+        "codeIds": ["needs_immediate_logistics"],
+        "rationale": "First-week logistics: utilities, basic paperwork, figuring out where to start — acute phase needs."
+      },
+      {
+        "quoteVerbatim": "something I should be doing, or an opportunity, like, maybe there's a grant out there that I don't know about, or…",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Ongoing need in medium phase: scanning multiple groups to surface grant opportunities and required actions she might not know exist."
+      },
+      {
+        "quoteVerbatim": "You didn't have to pay taxes on that… on that income… that money as income, and that law expired at the end of 2025.",
+        "codeIds": ["needs_long_term_planning"],
+        "rationale": "Tax strategy around settlement funds is an active long-term planning need — participant is uncertain whether accepting payout now is financially wise."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "just a whole bunch of groups. I'm just in a whole bunch of groups, and I try to pay attention to what everybody's talking about, so I don't miss…",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Participant actively monitors multiple Slack/Facebook/online groups as an information-scanning strategy to avoid missing deadlines and opportunities."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "when you're talking to AI, just because you're not talking to a person, you don't feel like",
+        "codeIds": ["ai_judgment_free"],
+        "rationale": "Participant identifies absence of perceived judgment as the appealing feature of AI interaction — would be more honest with a machine than a human."
+      },
+      {
+        "quoteVerbatim": "I don't know how many people have told me that AI lies, or hallucinates, or, you know,",
+        "codeIds": ["ai_hallucination_concern"],
+        "rationale": "Skepticism grounded in secondhand reports of hallucination; cited before the demo as a general AI concern."
+      },
+      {
+        "quoteVerbatim": "It's helpful to me to know that there are humans behind the tool…",
+        "codeIds": ["ai_human_tether"],
+        "rationale": "Human oversight is explicitly named as a prerequisite for trust — someone ensuring the AI does not give harmful guidance."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Absolutely, I'm the type that likes more information, and then I just decide what's most appropriate for myself.",
+        "codeIds": ["mvp_endorse_context"],
+        "rationale": "Positive response to bot providing contextualized, personalized information — participant values access to synthesized data and trusts herself to filter it."
+      },
+      {
+        "quoteVerbatim": "Yeah, I think that would be very useful, especially because we start to get overwhelmed with everything.",
+        "codeIds": ["mvp_endorse_context"],
+        "rationale": "Endorses the layered contextual feature set (disaster, community, individual) as directly addressing overwhelm."
+      },
+      {
+        "quoteVerbatim": "And remembering things is really difficult. Firebrain is a thing.",
+        "codeIds": ["mvp_endorse_executive_assistant"],
+        "rationale": "In context of Abhi describing the checklist/tracker feature, participant affirms the cognitive need it addresses — firebrain as explicit rationale for wanting a memory aid."
+      },
+      {
+        "quoteVerbatim": "help me a little bit more, especially… well, just for this example, it's, you know, trying to relax, and if I'm constantly reading the screen, I'm not gonna relax.",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Explicit feature request: visual or multimedia content (cartoon, animation) rather than text-only for relaxation exercises — reading is incompatible with relaxing."
+      },
+      {
+        "quoteVerbatim": "Yeah, I think that sounds great, because again, just keeping all the information together, if you're not reading it con- your Slack channel constantly, you might miss something that people were talking about, maybe while you were sleeping or something, so…",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Endorses the public-channel summarization feature; explicitly names the asynchronous information gap it would solve (missing conversations while away)."
+      },
+      {
+        "quoteVerbatim": "Prefer something that's more direct, and not as… Verbose.",
+        "codeIds": ["mvp_hesitate_tone"],
+        "rationale": "In direct response to tone/style question about the coach: preference for directness and brevity; verbosity is named as a deterrent."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "I think it depends on the timing, too, right? .",
+        "codeIds": ["cross_timing_matters"],
+        "rationale": "Participant's own generalization that when support arrives matters — made in context of discussing what the AI coach would do and how mood/timing would affect its utility."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements found for contextual/personalized AI (cues 370, 381), community layer summarization (cue 441), and executive assistant/checklist functionality (cue 383). One substantive hesitation identified: preference for direct, non-verbose tone with over-affirming style named as a turn-off (cue 454, coded as mvp_hesitate_tone). A mild source-credibility concern about where the bot pulls information from emerged (cue 354) but did not meet the threshold for mvp_hesitate_accuracy — it reads more as a question than a hesitation, and is logged in uncodedObservations instead. No privacy, strong accuracy, or emotional-use hesitations specific to the demo were expressed; hallucination concerns appeared in the general AI section before demo onset and were coded under aiAttitudesAndBeliefs."
+  },
+  "uncodedObservations": [
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "I think that was the hardest thing to get over.",
+      "note": "Participant names accepting financial aid as the hardest emotional hurdle — identity transition from habitual giver to recipient. No code captures aid-acceptance as an emotional or identity challenge distinct from grief or moral injury."
+    },
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "I think we're afraid to put too much emotion into our things, because… Tangible things, because… Obviously, it can just go away.",
+      "note": "Post-fire protective detachment from material possessions as a coping strategy — emotional withdrawal from objects to guard against future loss. Distinct from grief_specific_loss (which codes attachment to lost items); this codes a forward-looking emotional numbing toward new possessions."
+    },
+    {
+      "category": "mvpFeedback",
+      "quoteVerbatim": "you know, relevant questions, and so I… I take the, advice from my JPL group more heavily than I would some of these other outside neighborhood groups. So I guess my… my con… my thought is that it will depend on where this,",
+      "note": "Participant applies a trust hierarchy to information sources based on perceived methodological rigor (JPL vs. neighborhood groups). MVP adoption may depend on demonstrating credible, vetted source provenance rather than crowd-sourced community content alone. No existing code captures perceived source credibility as a trust determinant."
+    }
+  ]
+}

@@ -7,9 +7,16 @@ import type { ParsedTranscript, Cue, SpeakerSpan, SpeakerRole, ParticipantId } f
 // Pure functions, no side effects beyond fs.readFileSync.
 // =====================================================================
 
-/** Match `001`, `123`, etc. — numeric speaker labels are participants. */
+/** Participant labels start with a numeric ID (e.g. "001", "007"),
+ *  optionally followed by whitespace and annotations like pronouns
+ *  ("007 (she/her)" or "007  (he/him)"). Interviewer labels start with
+ *  a name (letter), so anything not matching digits-then-boundary
+ *  is treated as interviewer.
+ */
 export function classifySpeaker(speakerLabelRaw: string): SpeakerRole {
-  return /^\d{1,4}$/.test(speakerLabelRaw.trim()) ? "participant" : "interviewer";
+  return /^\d{1,4}(\s|$)/.test(speakerLabelRaw.trim())
+    ? "participant"
+    : "interviewer";
 }
 
 /** "INT001.md" → "INT001"; throws if filename doesn't match the convention. */
@@ -160,10 +167,10 @@ export function parseTranscriptFromString(body: string, participantId: Participa
     if (cue) cues.push(cue);
   }
   const { flatText, speakerSpans } = buildFlatText(cues);
-  const participantUtteranceCount = cues.filter(
+  const participantCueCount = cues.filter(
     (c) => c.speakerRole === "participant" && c.text !== "",
   ).length;
-  const interviewerUtteranceCount = cues.filter(
+  const interviewerCueCount = cues.filter(
     (c) => c.speakerRole === "interviewer" && c.text !== "",
   ).length;
   return {
@@ -172,8 +179,8 @@ export function parseTranscriptFromString(body: string, participantId: Participa
       cues,
       flatText,
       speakerSpans,
-      participantUtteranceCount,
-      interviewerUtteranceCount,
+      participantCueCount,
+      interviewerCueCount,
     },
     warnings,
   };

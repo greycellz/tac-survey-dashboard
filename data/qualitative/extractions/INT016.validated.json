@@ -1,0 +1,618 @@
+{
+  "participantId": "INT016",
+  "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:55:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.541Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "Yeah, so when we had to find somewhere new to be after the fire, we originally were staying with some friends in Pasadena, very close by, and those first few months were a lot of not working and just trying to, like, make it through.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Describes immediate post-fire displacement to a friend's home and the destabilizing uncertainty of early housing.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, so when we had to find somewhere new to be after the fire, we originally were staying with some friends in Pasadena, very close by, and those first few months were a lot of not working and just trying to, like, make it through.",
+          "flatCharStart": 2029,
+          "flatCharEnd": 2262,
+          "cueNumber": 16,
+          "startTime": "00:02:19.780",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I was really worried about having to find somewhere to live that's, like, hours away, having to commute, and making my life a lot harder, so we really prioritized, like, staying close. But because of that, we are in a small ADU in the back of someone's property.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Constrained housing search led to cramped ADU; proximity trade-off illustrates ongoing displacement instability.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "I was really worried about having to find somewhere to live that's, like, hours away, having to commute, and making my life a lot harder, so we really prioritized, like, staying close. But because of that, we are in a small ADU in the back of someone's property.",
+          "flatCharStart": 2472,
+          "flatCharEnd": 2734,
+          "cueNumber": 18,
+          "startTime": "00:02:48.170",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "trying to balance all the fire recovery stuff on the side, be it, like, insurance and checking in with my partner who I live with, like, the conversations he's called the bank, or the mortgage company, or the insurance person, and, like, staying on top of that.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Evening hours consumed by insurance, mortgage, and recovery logistics stacked on top of full-time work.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "trying to balance all the fire recovery stuff on the side, be it, like, insurance and checking in with my partner who I live with, like, the conversations he's called the bank, or the mortgage company, or the insurance person, and, like, staying on top of that.",
+          "flatCharStart": 857,
+          "flatCharEnd": 1118,
+          "cueNumber": 9,
+          "startTime": "00:01:05.459",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So it was just, like, constant just monitoring of, like, every social media, every group, every network, every community had information, and just trying to distill it was, like, a full-time job.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Explicitly frames information monitoring across all channels as a second full-time job.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "So it was just, like, constant just monitoring of, like, every social media, every group, every network, every community had information, and just trying to distill it was, like, a full-time job.",
+          "flatCharStart": 4944,
+          "flatCharEnd": 5139,
+          "cueNumber": 32,
+          "startTime": "00:05:07.290",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "Yeah, and so I think that's been, like, the real main focus of the emotional recovery, and I haven't really gotten around to feeling all the rest of it, because it's just so, like, omnipresent.",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Participant explicitly states she has not yet processed the emotional weight of the loss; survival mode has deferred it.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, and so I think that's been, like, the real main focus of the emotional recovery, and I haven't really gotten around to feeling all the rest of it, because it's just so, like, omnipresent.",
+          "flatCharStart": 7241,
+          "flatCharEnd": 7434,
+          "cueNumber": 48,
+          "startTime": "00:07:31.660",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "to think about other things, so, like, getting back into reading, or starting pottery, watching TV, video games, like, immersing myself in another world, something creative, or… or less attached to the struggles that are going on.",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Describes deliberate escapism into hobbies as a mechanism to avoid processing ongoing stress — avoidance as coping.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "to think about other things, so, like, getting back into reading, or starting pottery, watching TV, video games, like, immersing myself in another world, something creative, or… or less attached to the struggles that are going on.",
+          "flatCharStart": 7742,
+          "flatCharEnd": 7972,
+          "cueNumber": 52,
+          "startTime": "00:08:09.670",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And like, everyone's situation is so different that you can connect on some things, but then on other things, it just feels like you're having wildly different experiences.",
+        "codeIds": [
+          "isolation_and_witnessing"
+        ],
+        "rationale": "Expresses difficulty finding people who truly share her specific experience; community overlap is insufficient for real connection.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "And like, everyone's situation is so different that you can connect on some things, but then on other things, it just feels like you're having wildly different experiences.",
+          "flatCharStart": 10624,
+          "flatCharEnd": 10796,
+          "cueNumber": 77,
+          "startTime": "00:11:43.420",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "We finally figure out how to navigate some insurance issue we've been working with, and then it gets resolved, or we finally start, looking into, like, the fun part of rebuilding, and, like, architecture and design, and kind of, like, refocusing on that very specific, like.",
+        "codeIds": [
+          "hope_via_progress"
+        ],
+        "rationale": "Hope restored through concrete milestones: resolved insurance standoffs and engaging with architectural design for the rebuild.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "We finally figure out how to navigate some insurance issue we've been working with, and then it gets resolved, or we finally start, looking into, like, the fun part of rebuilding, and, like, architecture and design, and kind of, like, refocusing on that very specific, like.",
+          "flatCharStart": 9174,
+          "flatCharEnd": 9448,
+          "cueNumber": 66,
+          "startTime": "00:10:10.370",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "policies, and just, like, some new form would come out we'd have to fill out, and then they would change the form 3 days later, but we'd already filled out the earlier version of the form, and then they made a web form, so our paper form got lost, and it was just constantly trying to, like, figure out, okay, like.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Rapidly changing forms and submission channels created a fragmented, error-prone information environment in early recovery.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "policies, and just, like, some new form would come out we'd have to fill out, and then they would change the form 3 days later, but we'd already filled out the earlier version of the form, and then they made a web form, so our paper form got lost, and it was just constantly trying to, like, figure out, okay, like.",
+          "flatCharStart": 4171,
+          "flatCharEnd": 4486,
+          "cueNumber": 29,
+          "startTime": "00:04:29.240",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, that's one of them, but it's, like, one of many, so yeah, it's, like, staying on top of that, and Facebook, and this group, and that group, with different anecdotes, and different stories, and trying to remember, oh yeah, someone else talked about that, which one was that on, and…",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Multiple overlapping community channels (Discord, Facebook, Slack) blur together; recall of where specific information lived is difficult.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, that's one of them, but it's, like, one of many, so yeah, it's, like, staying on top of that, and Facebook, and this group, and that group, with different anecdotes, and different stories, and trying to remember, oh yeah, someone else talked about that, which one was that on, and…",
+          "flatCharStart": 13671,
+          "flatCharEnd": 13958,
+          "cueNumber": 103,
+          "startTime": "00:14:58.800",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Again, like, everyone's situation's a little bit different, with, like, a different mortgage lender, a different insurance company, a different adjuster, a different someone, and, like, your experience and interactions with these people, and the policies, and the emails, and trying to get what you need is not the same as the person next door.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Variability across insurers, adjusters, and lenders means peer advice doesn't transfer; each person must pathfind independently.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Again, like, everyone's situation's a little bit different, with, like, a different mortgage lender, a different insurance company, a different adjuster, a different someone, and, like, your experience and interactions with these people, and the policies, and the emails, and trying to get what you need is not the same as the person next door.",
+          "flatCharStart": 11819,
+          "flatCharEnd": 12163,
+          "cueNumber": 88,
+          "startTime": "00:13:01.110",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Reading, like, the details of our policy and really understanding it for the first time was a huge challenge.",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "Policy language was opaque and required significant effort to decode — a key friction in the insurance process.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Reading, like, the details of our policy and really understanding it for the first time was a huge challenge.",
+          "flatCharStart": 11664,
+          "flatCharEnd": 11773,
+          "cueNumber": 86,
+          "startTime": "00:12:48.710",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So kind of, again, like, floating in the middle of different things, but not having, like, one direct source or, like, advocate.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "No single block captain or advocate; floated between three block email lists without a dedicated point of contact.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "So kind of, again, like, floating in the middle of different things, but not having, like, one direct source or, like, advocate.",
+          "flatCharStart": 14357,
+          "flatCharEnd": 14485,
+          "cueNumber": 108,
+          "startTime": "00:15:41.710",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "And so if we had, like, a guide that was, like, if you live in this county, this is, like, the details that you need, would have been so helpful.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Acute-to-medium phase need: a county-specific, situation-specific navigation guide to cut through generic resources.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "And so if we had, like, a guide that was, like, if you live in this county, this is, like, the details that you need, would have been so helpful.",
+          "flatCharStart": 15274,
+          "flatCharEnd": 15419,
+          "cueNumber": 115,
+          "startTime": "00:16:45.180",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "kind of this middle part was just, like, languishing and anxiety and waiting and kind of figuring out, like, what the right path was. So I feel like in that time period is more, like, a very much, like, emotional need of, like, making it through to the next milestone or step.",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Describes the mid-recovery phase as emotionally dominated — languishing, uncertainty, and milestone-to-milestone survival rather than logistics.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "kind of this middle part was just, like, languishing and anxiety and waiting and kind of figuring out, like, what the right path was. So I feel like in that time period is more, like, a very much, like, emotional need of, like, making it through to the next milestone or step.",
+          "flatCharStart": 16709,
+          "flatCharEnd": 16985,
+          "cueNumber": 124,
+          "startTime": "00:18:19.100",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "of, okay, like, how do I rebuild? How do I navigate my architect and my builder, and all these details that people started mentioning 6 months ago, and I just, like, put that on a shelf, like, not ready for it yet, and now it's time, and everyone's at a different part in their process, and so…",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "At one-year mark, shelved rebuild logistics (architect, builder, process sequencing) have become the current pressing need.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "of, okay, like, how do I rebuild? How do I navigate my architect and my builder, and all these details that people started mentioning 6 months ago, and I just, like, put that on a shelf, like, not ready for it yet, and now it's time, and everyone's at a different part in their process, and so…",
+          "flatCharStart": 17184,
+          "flatCharEnd": 17478,
+          "cueNumber": 126,
+          "startTime": "00:18:48.550",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Not paying attention to, like, the emotional and mental health, like, aspects of it, and need more support there as we start rebuilding.",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Anticipates needing emotional support during the rebuild phase — explicitly names the risk of neglecting mental health when logistics ramp up.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Not paying attention to, like, the emotional and mental health, like, aspects of it, and need more support there as we start rebuilding.",
+          "flatCharStart": 17676,
+          "flatCharEnd": 17812,
+          "cueNumber": 129,
+          "startTime": "00:19:15.770",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "So a lot of it's just, like, using search history, or the search features, and the Facebook group, or the Discord, or our Slack channel.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Describes active use of multiple social platforms (Facebook, Discord, Slack) to crowdsource and retrieve recovery information.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "So a lot of it's just, like, using search history, or the search features, and the Facebook group, or the Discord, or our Slack channel.",
+          "flatCharStart": 19826,
+          "flatCharEnd": 19962,
+          "cueNumber": 148,
+          "startTime": "00:21:45.480",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, like, we… I tried it a few times, or I thought about it, but then… there's, like, not one single thing that, like, worked or made sense, or it felt too much like work, or…",
+        "codeIds": [
+          "tech_app_search_failure"
+        ],
+        "rationale": "Tried recovery or task-management apps but found none adequate — too effortful, no single tool fit.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, like, we… I tried it a few times, or I thought about it, but then… there's, like, not one single thing that, like, worked or made sense, or it felt too much like work, or…",
+          "flatCharStart": 20560,
+          "flatCharEnd": 20737,
+          "cueNumber": 157,
+          "startTime": "00:22:37.690",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I'm not a huge fan of AI for a lot of the, like, ethical reasons of the training data, and just the, hallucinations, and you can't trust the accuracy of the data if you don't know, like, where it's pulling it from.",
+        "codeIds": [
+          "mvp_hesitate_accuracy"
+        ],
+        "rationale": "First reaction to the MVP concept: concerns about hallucinations and opaque training data undermine trust in AI-provided recovery information.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "I'm not a huge fan of AI for a lot of the, like, ethical reasons of the training data, and just the, hallucinations, and you can't trust the accuracy of the data if you don't know, like, where it's pulling it from.",
+          "flatCharStart": 24089,
+          "flatCharEnd": 24303,
+          "cueNumber": 185,
+          "startTime": "00:26:36.080",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And I've heard, like, the warning stories of people, like, trying to use ChatGPT for, like, therapy, and having mixed results with that, and there's, like, a lot of downsides there.",
+        "codeIds": [
+          "mvp_hesitate_emotional_use"
+        ],
+        "rationale": "Cites known downsides of using LLMs for emotional/therapeutic support as a hesitation toward the recovery coach concept.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "And I've heard, like, the warning stories of people, like, trying to use ChatGPT for, like, therapy, and having mixed results with that, and there's, like, a lot of downsides there.",
+          "flatCharStart": 24317,
+          "flatCharEnd": 24498,
+          "cueNumber": 186,
+          "startTime": "00:26:52.870",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "reviewed and verified and has some, like, validity to it, that is really powerful to, like, have a way to on-demand, like, access the reminders you need, or check in with, like, oh yeah, I feel like I need to be regulating somehow right now, but I can't remember, like, how do I do that, like, in this situation?",
+        "codeIds": [
+          "mvp_endorse_executive_assistant"
+        ],
+        "rationale": "Conditional endorsement: if content is evidence-based and verified, on-demand nervous-system regulation reminders would be highly valuable.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "reviewed and verified and has some, like, validity to it, that is really powerful to, like, have a way to on-demand, like, access the reminders you need, or check in with, like, oh yeah, I feel like I need to be regulating somehow right now, but I can't remember, like, how do I do that, like, in this situation?",
+          "flatCharStart": 24978,
+          "flatCharEnd": 25290,
+          "cueNumber": 190,
+          "startTime": "00:27:30.630",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "voice of, like, being very positive, and oh, yeah, you're right, like, I just messed this up, here's the real answer, and it feels, like, very performative, and, like, it has an angle that is, like, trying to get you to feel a certain way, and…",
+        "codeIds": [
+          "mvp_hesitate_tone"
+        ],
+        "rationale": "Standard LLM voice is off-putting — perceived as performatively positive and angled to produce a feeling rather than honest.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "voice of, like, being very positive, and oh, yeah, you're right, like, I just messed this up, here's the real answer, and it feels, like, very performative, and, like, it has an angle that is, like, trying to get you to feel a certain way, and…",
+          "flatCharStart": 30506,
+          "flatCharEnd": 30750,
+          "cueNumber": 233,
+          "startTime": "00:33:55.440",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, I like how there's, like, the two options where, like, one is kind of the private, you're just talking with the bot yourself.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Positive reaction to seeing the private-interaction model in the Slack demo; values having that mode available.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, I like how there's, like, the two options where, like, one is kind of the private, you're just talking with the bot yourself.",
+          "flatCharStart": 36941,
+          "flatCharEnd": 37072,
+          "cueNumber": 311,
+          "startTime": "00:41:20.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So I liked your example of, yeah, like, starting a channel that, like, my partner could be a part of, and we could collaborate and work on it together, versus also having, like, a more private, separate conversation.",
+        "codeIds": [
+          "mvp_endorse_community_layer"
+        ],
+        "rationale": "Explicitly endorses the collaborative Slack channel model for involving a partner in the recovery process alongside a private mode.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "So I liked your example of, yeah, like, starting a channel that, like, my partner could be a part of, and we could collaborate and work on it together, versus also having, like, a more private, separate conversation.",
+          "flatCharStart": 37166,
+          "flatCharEnd": 37382,
+          "cueNumber": 313,
+          "startTime": "00:41:33.390",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "some kind of, like, yeah, on-demand tool to be like, yeah, in the moment, like, if I were to talk to my therapist, like, what would I say, or what do I want to remember to bring up later? And kind of, like, fill in those in-between moments, apart from, like, the other types of…",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Requests a therapy-bridge use case: capturing in-the-moment feelings and reflections to surface at the next therapy session.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "some kind of, like, yeah, on-demand tool to be like, yeah, in the moment, like, if I were to talk to my therapist, like, what would I say, or what do I want to remember to bring up later? And kind of, like, fill in those in-between moments, apart from, like, the other types of…",
+          "flatCharStart": 32118,
+          "flatCharEnd": 32396,
+          "cueNumber": 245,
+          "startTime": "00:35:45.840",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "say, okay, I'm in this mode or this mode, that makes sense, but I think it could also make just as much sense to, like, separate them, because if I'm starting the conversation, I know which one I need in the moment, and I could open up a different bot, or…",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Requests separate emotional and practical bots rather than a single combined tool — she knows which mode she needs when she starts a conversation.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "say, okay, I'm in this mode or this mode, that makes sense, but I think it could also make just as much sense to, like, separate them, because if I'm starting the conversation, I know which one I need in the moment, and I could open up a different bot, or…",
+          "flatCharStart": 46330,
+          "flatCharEnd": 46586,
+          "cueNumber": 420,
+          "startTime": "00:53:15.290",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "this is what helped me, and just having kind of that, like, personal, dedicated person to help went, like, a long way. They're just being that, like, emotional support of, like, yeah, it makes sense what you're going through, or…",
+        "codeIds": [
+          "cross_human_irreplaceable"
+        ],
+        "rationale": "Offered as general advice to others: the Marshall Fire acquaintance's lived-experience support was irreplaceable in a way that no resource or channel replicated.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "this is what helped me, and just having kind of that, like, personal, dedicated person to help went, like, a long way. They're just being that, like, emotional support of, like, yeah, it makes sense what you're going through, or…",
+          "flatCharStart": 29243,
+          "flatCharEnd": 29472,
+          "cueNumber": 224,
+          "startTime": "00:32:22.690",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, or even just, like, the range of possibilities, like, if this type of fire, then A. If this type of fire, then maybe B is more similar to you. Yeah, just trying to, like, figure out, like, okay, like, where does my specifics fit into this whole landscape?",
+        "codeIds": [
+          "cross_relevance_over_volume"
+        ],
+        "rationale": "Participant articulates the core problem as situational fit, not information volume — recovery guidance must map to one's specific fire profile.",
+        "citation": {
+          "participantId": "INT016",
+          "transcriptPath": "data/qualitative/transcripts/INT016.md",
+          "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+          "quoteVerbatim": "Yeah, or even just, like, the range of possibilities, like, if this type of fire, then A. If this type of fire, then maybe B is more similar to you. Yeah, just trying to, like, figure out, like, okay, like, where does my specifics fit into this whole landscape?",
+          "flatCharStart": 15469,
+          "flatCharEnd": 15730,
+          "cueNumber": 117,
+          "startTime": "00:17:00.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Hesitations: three clear hesitations found. (1) Accuracy/hallucination concern — her opening reaction to the MVP was skepticism about training data and hallucinations. (2) Emotional-use concern — she cited known downsides of ChatGPT for therapy. (3) Tone concern — she described standard LLM voices as performatively positive and off-putting. Endorsements: three endorsements found. (1) On-demand regulation reminders — enthusiastically endorsed the idea of verified, on-demand access to nervous-system regulation tools. (2) Dual private/collaborative Slack model — explicitly liked both the private and partner-collaborative channel options shown in the demo. (3) Therapy-bridge feature — proposed and endorsed a specific use case of capturing in-the-moment reflections between therapy sessions. All three hesitations and endorsements have clean verbatim quote support."
+  },
+  "summary": "INT016 is a 34-year-old JPL engineer who lost her home in the Eaton Fire and remains displaced, living with her partner and senior dog in a small nearby ADU. At the one-year mark she is just beginning to transition from a waiting period into active rebuild planning.\n\nDaily life remains work-centered, with evenings split between fire recovery logistics and deliberate normalcy — pottery, trivia, reading, and video games as escapism. She describes this coping pattern with self-awareness: she has not yet gotten around to fully processing the grief of the loss, because omnipresent logistics and uncertainty have kept emotion on hold.\n\nHer primary emotional challenge is the compounding polycrisis nature of recovery. The fire arrived alongside economic uncertainty, potential job insecurity, and broader political instability, making it impossible to isolate and process one strand at a time. Hope has come from visible progress milestones: resolving insurance issues, beginning to envision architecture and design for the rebuild.\n\nThe dominant practical challenge was information fragmentation. She monitored seven-plus communities — Discord, Facebook groups, Slack, block email lists — with no way to aggregate what she had seen or remember where specific advice lived. She lacked a single navigator or advocate, floating between three adjacent block lists without a block captain. Insurance felt overwhelming primarily because every person's experience varied by insurer and adjuster, making peer guidance hard to generalize.\n\nHer needs have shifted in three phases: acute information triage in the early weeks; a middle period of emotional languishing while deciding whether to rebuild at all; and now, at one year, concrete rebuild logistics alongside sustained emotional support, which she fears will be crowded out by logistical demands.\n\nFor technology, she relied on social media communities to crowdsource information and tried no recovery-specific apps — nothing fit her needs. Mental health apps were theoretically appealing before the fire but she could not build the habit, and the fire made starting a new routine even harder.\n\nOn AI, she arrived skeptical — concerned about hallucinations, training data ethics, and LLM-for-therapy downsides — but warmed when an evidence-based framing was introduced. She endorsed on-demand regulation reminders, the Slack-embedded dual private/collaborative model, and proposed a therapy-bridge use case: capturing in-the-moment feelings between sessions to bring to the next therapist appointment. She hesitated on standard LLM cheerfulness, preferred separate emotional and practical bots, and wanted encouragement that is honest rather than performatively positive.\n\nThe clearest through-line: the person who helped her most was a Marshall Fire survivor who reached out proactively with credible lived-experience guidance. This conditions her conditional trust in the TAC MVP: it could scale that kind of support, but only if content is genuinely curated and verified.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "emotionalImpact",
+      "note": "Participant frames her emotional struggle as structural entanglement — recovery is inseparable from economic uncertainty, job risk, and political instability. No existing code captures this compounding polycrisis dimension; closest is moral_injury but she doesn't frame it as injustice.",
+      "citation": {
+        "participantId": "INT016",
+        "transcriptPath": "data/qualitative/transcripts/INT016.md",
+        "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+        "quoteVerbatim": "The hard part to navigate through emotionally was everything is so connected, and you can't isolate it. You have to recover from, like, everything all at once.",
+        "flatCharStart": 6768,
+        "flatCharEnd": 6927,
+        "cueNumber": 44,
+        "startTime": "00:07:01.370",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "technologyForRecovery",
+      "note": "Describes a digital-versus-analog tension in emotional self-care tools: physical journaling lacks structure, apps feel like more screen time. Neither satisfies. No existing code captures this modality friction as a barrier to mental health tech adoption.",
+      "citation": {
+        "participantId": "INT016",
+        "transcriptPath": "data/qualitative/transcripts/INT016.md",
+        "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
+        "quoteVerbatim": "I'm gravitating towards, like, oh, I should start a journal, and I have my, like, handwritten, like, pen and pencil kind of, like, thing, but then you don't have the structure and the reminders of the app, but then, like, I also don't want to be on my phone, so…",
+        "flatCharStart": 22988,
+        "flatCharEnd": 23250,
+        "cueNumber": 177,
+        "startTime": "00:25:22.560",
+        "contextBefore": "eah, and then I think it's also hard with, like, digital versus physical, like, ",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

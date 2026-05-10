@@ -36,3 +36,7 @@ Vitest converts `fire_eaton` / `fire_palisade` to `is_eaton` / `is_palisade` in 
 **Mann–Whitney / Wilcoxon:** References include R’s `$statistic` from `wilcox.test`. The dashboard uses summed ranks for the predictor’s level-0 group; with `exact=FALSE, correct=FALSE` the asymptotic **p** is what we tighten against R, not the raw `W` label.
 
 **Fisher (C1/C2):** Two-sided **p** is asserted vs `fisher.test`. Odds ratios and CIs follow different implementations (conditional MLE in R vs Haldane + log-envelope in this app)—tests intentionally do not gold-check OR vs R while `inferential.ts` stays as-is.
+
+## Repo context
+
+Higher-level runtime architecture (providers, dashboards vs inferential path, onboarding): root [**DESIGN_AND_ARCHITECTURE.md**](../DESIGN_AND_ARCHITECTURE.md).

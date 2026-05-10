@@ -1,0 +1,512 @@
+{
+  "participantId": "INT012",
+  "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:30:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.531Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "I have twins that are 12\\. They're just about to turn 13, and they lost their school in this as well, so for them, their immediate friend group that they have known since kindergarten completely imploded.",
+        "codeIds": [
+          "school_disruption"
+        ],
+        "rationale": "Children lost both school and entire social network in the fire, disrupting educational continuity and peer relationships simultaneously.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "I have twins that are 12\\. They're just about to turn 13, and they lost their school in this as well, so for them, their immediate friend group that they have known since kindergarten completely imploded.",
+          "flatCharStart": 5296,
+          "flatCharEnd": 5500,
+          "cueNumber": 40,
+          "startTime": "00:04:44.030",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So there wasn't a lot of support for me to try to figure out where do my kids go to school for that time. So they were out for a little over a month.",
+        "codeIds": [
+          "school_disruption"
+        ],
+        "rationale": "School placement was navigated with almost no institutional guidance; children were out of school for over a month.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "So there wasn't a lot of support for me to try to figure out where do my kids go to school for that time. So they were out for a little over a month.",
+          "flatCharStart": 16668,
+          "flatCharEnd": 16817,
+          "cueNumber": 123,
+          "startTime": "00:15:04.870",
+          "contextBefore": "at time. So I just felt like there was a manipulation of the… the system there. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "we have two kids, right? So we needed to be strong for them, and get this problem solved for them, and make their lives very quickly back to as much of a routine as possible. So those were our priorities, and our own emotional well-being just got kind of pushed to the back there.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "Children's stabilization was the explicit priority; participant's own emotional wellbeing was systematically displaced.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "we have two kids, right? So we needed to be strong for them, and get this problem solved for them, and make their lives very quickly back to as much of a routine as possible. So those were our priorities, and our own emotional well-being just got kind of pushed to the back there.",
+          "flatCharStart": 3767,
+          "flatCharEnd": 4047,
+          "cueNumber": 28,
+          "startTime": "00:03:28.370",
+          "contextBefore": "There isn't. And also, ",
+          "contextAfter": " So that was the immediate, right after the fire, was very much in problem-solvi"
+        }
+      },
+      {
+        "quoteVerbatim": "there's gonna be a run on rentals. There was all kinds of free Airbnb for two weeks here and there, and we're like, no, we need to find a rental now, or we're gonna get stuck with not finding a good place or a very expensive place, and things like that.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Immediate housing scarcity after fire drove urgent rental search within days, with clear awareness of displacement pressure.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "there's gonna be a run on rentals. There was all kinds of free Airbnb for two weeks here and there, and we're like, no, we need to find a rental now, or we're gonna get stuck with not finding a good place or a very expensive place, and things like that.",
+          "flatCharStart": 2187,
+          "flatCharEnd": 2440,
+          "cueNumber": 18,
+          "startTime": "00:02:10.130",
+          "contextBefore": "",
+          "contextAfter": " So, we kind of went immediately into problem-solving mode, and put… tried to pu"
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "It was such a low priority that, you know, I never… I haven't got to it. I'm just now, a year later, starting to think, okay, maybe… maybe there's some breathing room, not right now, but maybe in a couple of months?",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Her own emotional processing was explicitly deferred for over a year in favor of logistics and children.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "It was such a low priority that, you know, I never… I haven't got to it. I'm just now, a year later, starting to think, okay, maybe… maybe there's some breathing room, not right now, but maybe in a couple of months?",
+          "flatCharStart": 8362,
+          "flatCharEnd": 8577,
+          "cueNumber": 64,
+          "startTime": "00:07:24.980",
+          "contextBefore": "re out how do I get help in a fiscally responsible way, given in the situation. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I guess this sounds terrible, it could be way worse. I could be in a much worse situation than I am, and I'm quite lucky. So, it's terrible, but it could be a lot worse. And then that sort of tries to pull me out of it a little bit.",
+        "codeIds": [
+          "comparative_luck_appraisal"
+        ],
+        "rationale": "Comparative framing is explicitly her primary coping mechanism — the comparison itself carries the emotional load.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "I guess this sounds terrible, it could be way worse. I could be in a much worse situation than I am, and I'm quite lucky. So, it's terrible, but it could be a lot worse. And then that sort of tries to pull me out of it a little bit.",
+          "flatCharStart": 10861,
+          "flatCharEnd": 11093,
+          "cueNumber": 82,
+          "startTime": "00:10:01.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "That, for some reason, helped me feel a lot more in control, so that gave me more hope. Like, now, if things are slow, it's gonna be in part due to me.",
+        "codeIds": [
+          "hope_via_progress"
+        ],
+        "rationale": "Lot clearance and transition to active rebuild restored sense of agency, which participant explicitly names as the source of renewed hope.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "That, for some reason, helped me feel a lot more in control, so that gave me more hope. Like, now, if things are slow, it's gonna be in part due to me.",
+          "flatCharStart": 12126,
+          "flatCharEnd": 12277,
+          "cueNumber": 92,
+          "startTime": "00:11:08.030",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "And I still, to this day, am fighting to get coverage out of my policies to be able to afford to rebuild my life. And I just feel like that's completely unnecessary.",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "Over a year post-fire, still fighting State Farm for policy limits; the struggle framed as avoidable and unjust.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "And I still, to this day, am fighting to get coverage out of my policies to be able to afford to rebuild my life. And I just feel like that's completely unnecessary.",
+          "flatCharStart": 17668,
+          "flatCharEnd": 17833,
+          "cueNumber": 127,
+          "startTime": "00:16:12.920",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "and deny, and eventually they're gonna pay… I think, I hope eventually they're gonna pay out all of it. But the fact that it's over a year, and just the amount of hoops we have to jump through, it just seems like a very broken and inhumane process.",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "Describes insurance process as 'broken and inhumane' — delay and denial as deliberate friction, not bureaucratic error.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "and deny, and eventually they're gonna pay… I think, I hope eventually they're gonna pay out all of it. But the fact that it's over a year, and just the amount of hoops we have to jump through, it just seems like a very broken and inhumane process.",
+          "flatCharStart": 17938,
+          "flatCharEnd": 18186,
+          "cueNumber": 130,
+          "startTime": "00:16:30.500",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "there was resources being thrown everywhere at you, and it was overwhelming.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Abundance of resources without organization or situational precision made early navigation harder, not easier.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "there was resources being thrown everywhere at you, and it was overwhelming.",
+          "flatCharStart": 8093,
+          "flatCharEnd": 8169,
+          "cueNumber": 63,
+          "startTime": "00:07:09.080",
+          "contextBefore": "n you're triggering all these thoughts at the very beginning, what it was like, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "And they have, from, like, the first month, been able to know, this is the amount of money I have to rebuild, whereas we're still fighting with State Farm, to get our policy limit.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Contrast with friends who received fast payouts reveals the ongoing medium-term grind of insurance navigation as a core unmet need.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "And they have, from, like, the first month, been able to know, this is the amount of money I have to rebuild, whereas we're still fighting with State Farm, to get our policy limit.",
+          "flatCharStart": 18538,
+          "flatCharEnd": 18718,
+          "cueNumber": 135,
+          "startTime": "00:17:01.450",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So, I have two kids in therapy once a week. So, that's a big bill. So, I've kind of put them on as the priority, and then I'll deal with myself later,",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Emotional support for herself identified as a later-phase need, deferred due to cost and competing priorities.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "So, I have two kids in therapy once a week. So, that's a big bill. So, I've kind of put them on as the priority, and then I'll deal with myself later,",
+          "flatCharStart": 7142,
+          "flatCharEnd": 7292,
+          "cueNumber": 53,
+          "startTime": "00:06:27.670",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "So we're using AI, especially in our property inventory list, giving it prompts like, this was our income, this was the type of sports we liked, or this is the reading style we liked, and then telling… having it help us try to remember what was in our… in our house.",
+        "codeIds": [
+          "tech_ai_inventory"
+        ],
+        "rationale": "AI used to extrapolate lost household contents from lifestyle and income profile prompts — specific use with described outcome.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "So we're using AI, especially in our property inventory list, giving it prompts like, this was our income, this was the type of sports we liked, or this is the reading style we liked, and then telling… having it help us try to remember what was in our… in our house.",
+          "flatCharStart": 20583,
+          "flatCharEnd": 20849,
+          "cueNumber": 149,
+          "startTime": "00:18:51.950",
+          "contextBefore": "So that helps speed stuff up. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "he was able to use AI and code to go in and have it query Amazon and find the price that we would have to pay, the non-sale price, you know, that only happens once in a while, and then just feed that into the spreadsheet. So we didn't have to manually go in with every product.",
+        "codeIds": [
+          "tech_ai_inventory"
+        ],
+        "rationale": "Custom AI scripts queried Amazon for current replacement prices and auto-populated inventory spreadsheet.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "he was able to use AI and code to go in and have it query Amazon and find the price that we would have to pay, the non-sale price, you know, that only happens once in a while, and then just feed that into the spreadsheet. So we didn't have to manually go in with every product.",
+          "flatCharStart": 20178,
+          "flatCharEnd": 20455,
+          "cueNumber": 147,
+          "startTime": "00:18:23.800",
+          "contextBefore": "es in the sale price, or the equivalent MSRP, or, you know, what it is now. And ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Insurance. Tackling the insurance, which is a lot of paperwork and spreadsheets.",
+        "codeIds": [
+          "tech_spreadsheet_diy"
+        ],
+        "rationale": "Spreadsheets used to track and manage insurance paperwork — DIY organizational tool for adversarial system.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "Insurance. Tackling the insurance, which is a lot of paperwork and spreadsheets.",
+          "flatCharStart": 21286,
+          "flatCharEnd": 21366,
+          "cueNumber": 154,
+          "startTime": "00:19:39.240",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "a little bit, maybe some critical things that it could acknowledge, like, maybe it seemed too positive to me. I'm like, I don't need an echo chamber, I want someone to tell me some of the hard truths sometimes.",
+        "codeIds": [
+          "ai_tone_over_affirming"
+        ],
+        "rationale": "After experimenting with ChatGPT for emotional reflection, found the affirming tone insufficient and actively unwanted.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "a little bit, maybe some critical things that it could acknowledge, like, maybe it seemed too positive to me. I'm like, I don't need an echo chamber, I want someone to tell me some of the hard truths sometimes.",
+          "flatCharStart": 23444,
+          "flatCharEnd": 23654,
+          "cueNumber": 167,
+          "startTime": "00:21:33.530",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I worry that with AI, it's… it's… that coaching, it's too positive, and I need to know that if I'm doing something that I should change, or not handling something well, that it will give me that feedback.",
+        "codeIds": [
+          "ai_tone_over_affirming"
+        ],
+        "rationale": "Generalizes the over-affirming concern to AI coaching as a category — not just one experience, a belief about how AI behaves.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "I worry that with AI, it's… it's… that coaching, it's too positive, and I need to know that if I'm doing something that I should change, or not handling something well, that it will give me that feedback.",
+          "flatCharStart": 23824,
+          "flatCharEnd": 24028,
+          "cueNumber": 168,
+          "startTime": "00:21:44.930",
+          "contextBefore": "ould have approached it differently, you know, or whatever. But not having the… ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I saw some ad with some little guy, someone was talking to him and venting or something, and I thought, oh, I need that, because I do it with my husband all the time. And he just kind of, like, he takes it, because he knows that's his job.",
+        "codeIds": [
+          "ai_judgment_free"
+        ],
+        "rationale": "Instinctive appeal to AI as a venting outlet, framed against the one-sided dynamic of venting to a human partner.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "I saw some ad with some little guy, someone was talking to him and venting or something, and I thought, oh, I need that, because I do it with my husband all the time. And he just kind of, like, he takes it, because he knows that's his job.",
+          "flatCharStart": 22688,
+          "flatCharEnd": 22927,
+          "cueNumber": 164,
+          "startTime": "00:20:54.140",
+          "contextBefore": "You know, it's funny you say that. ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "if you had an AI agent where you can ping, okay, this is where I am, what's the next step that I should be thinking about? Give me a schedule, right? Like, we do this in mission work, I work at JPL, and we've been using AI to say, here's a mission archetype, here's the science we're doing, here's our budget, can you work out a schedule for us?",
+        "codeIds": [
+          "mvp_endorse_executive_assistant",
+          "mvp_request_feature"
+        ],
+        "rationale": "Strong endorsement of a recovery scheduling function; concrete feature request drawn explicitly from her professional AI use at JPL.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "if you had an AI agent where you can ping, okay, this is where I am, what's the next step that I should be thinking about? Give me a schedule, right? Like, we do this in mission work, I work at JPL, and we've been using AI to say, here's a mission archetype, here's the science we're doing, here's our budget, can you work out a schedule for us?",
+          "flatCharStart": 26462,
+          "flatCharEnd": 26807,
+          "cueNumber": 185,
+          "startTime": "00:24:14.130",
+          "contextBefore": " and the… what you're seeing on Discord, and you're learning from everyone, but ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I would love a resource. That would have been great at the very beginning. What should I do next? Like, what's, you know, I've done this, what's my next thing? Oh, you gotta cancel your utilities, or they're going to end up continuing to bill you your gas bill.",
+        "codeIds": [
+          "mvp_endorse_centralization",
+          "mvp_request_feature"
+        ],
+        "rationale": "Endorses centralized guidance hub with a specific feature request: fire-specific nuanced task prompts survivors don't know to look for.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "I would love a resource. That would have been great at the very beginning. What should I do next? Like, what's, you know, I've done this, what's my next thing? Oh, you gotta cancel your utilities, or they're going to end up continuing to bill you your gas bill.",
+          "flatCharStart": 27430,
+          "flatCharEnd": 27691,
+          "cueNumber": 188,
+          "startTime": "00:25:04.790",
+          "contextBefore": "getting potentially inaccurate information from someone. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "an AI interface where they really, truly felt safe in saying some of the things they didn't want to say to a human.",
+        "codeIds": [
+          "mvp_endorse_context"
+        ],
+        "rationale": "Endorses a personalized, contextual AI interface as a judgment-free space for her tech-oriented teenagers — specific use case for the TAC MVP.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "an AI interface where they really, truly felt safe in saying some of the things they didn't want to say to a human.",
+          "flatCharStart": 28488,
+          "flatCharEnd": 28603,
+          "cueNumber": 194,
+          "startTime": "00:26:06.130",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "because every fire, the response, the steps that you have to go through are going to be very similar. Like, okay, you've lost everything, first thing you gotta do is make an insurance claim, you have to reach out to your insurance, you have to do all these things. There's going to be some things that are very standard across all fires, and when it happens to you.",
+        "codeIds": [
+          "cross_relevance_over_volume"
+        ],
+        "rationale": "Participant observes that standard recovery steps exist and are knowable — the problem is not lack of information but unavailability of the right information at the moment of need.",
+        "citation": {
+          "participantId": "INT012",
+          "transcriptPath": "data/qualitative/transcripts/INT012.md",
+          "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+          "quoteVerbatim": "because every fire, the response, the steps that you have to go through are going to be very similar. Like, okay, you've lost everything, first thing you gotta do is make an insurance claim, you have to reach out to your insurance, you have to do all these things. There's going to be some things that are very standard across all fires, and when it happens to you.",
+          "flatCharStart": 25927,
+          "flatCharEnd": 26292,
+          "cueNumber": 184,
+          "startTime": "00:23:55.330",
+          "contextBefore": "Actually, now that you say that, I can imagine a world in which… ",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [
+    {
+      "category": "technologyForRecovery",
+      "raw": {
+        "quoteVerbatim": "rather than me having to ping Facebook pages and Discord channels and getting potentially inaccurate information from someone.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Implies active use of Facebook and Discord as primary information sources during recovery; accuracy limitations acknowledged."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    },
+    {
+      "category": "mvpFeedback",
+      "raw": {
+        "quoteVerbatim": "These are the things you need to focus on now. Here are the things coming down in the next, like, couple of weeks or months that you need to start thinking about. And directing you to the resources for those things would be extremely helpful.",
+        "codeIds": [
+          "mvp_endorse_centralization",
+          "mvp_endorse_executive_assistant"
+        ],
+        "rationale": "Endorses both centralized resource access and a forward-looking phase tracker as complementary features of the MVP."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    }
+  ],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements were numerous and enthusiastic — the participant strongly embraced the concept of a recovery-scheduling AI agent, drawing explicit analogies to AI scheduling tools she uses professionally at JPL. Four endorsement quotes were coded covering executive assistant, centralization, contextual personalization, and feature requests. For hesitations, I re-read the back third of the transcript from Abhi's first concrete feature description at cue 178 onwards, looking for pushback, privacy concern, accuracy concern, or tone concern directed at the TAC MVP specifically. I found none. Her concern about AI coaching being too positive (cues 167–168) was expressed during the general AI discussion before the demo and is coded in aiAttitudesAndBeliefs. In the demo section she expresses only enthusiasm and concrete feature requests."
+  },
+  "summary": "INT012 is a 48-year-old astrophysicist with twin 12-year-old children whose home was completely destroyed in the Eaton Fire. Both she and her husband — also a scientist and now an AI/ML director at a video game company — processed the disaster through an explicitly problem-solving lens, adopting a mantra of \"stay ahead of the wave.\" They found a rental within a week of the fire, promptly engaged an architect, and are now in active rebuild, aiming to be back in their home by Christmas under their self-declared \"Project One Christmas\" goal.\n\nThe emotional dimension of recovery was consistently deferred. With children to stabilize and logistics to manage, her own emotional needs were pushed to the back, and now, over a year later, she is only beginning to consider making space for her own processing. Her primary coping mechanism is comparative reframing — repeatedly reminding herself things could be worse — and goal-setting to sustain momentum through difficult periods.\n\nHer twin children faced a compounding loss: not only their home but their school, their closest friend group, and their social identity at a pivotal developmental stage (beginning middle school). School placement after the fire was disorganized, with almost no clear guidance available; the children were out of school for over a month before an improvised solution emerged. Both are now in weekly therapy, which the participant prioritizes financially above her own mental health care.\n\nInsurance has been the most corrosive systemic obstacle. State Farm has delayed and denied for over a year, and she is still fighting for her policy limits. She contrasts her experience with friends whose insurers paid out within two weeks — a comparison that underscores the arbitrariness of the process and deepens her sense of injustice.\n\nTechnologically, INT012 and her husband are among the most sophisticated users in the corpus. He wrote custom scripts using AI to query Amazon purchase history for current replacement prices, feeding them into spreadsheets for the property inventory. She uses AI to extrapolate household contents by prompting with lifestyle and income profiles, and separately uses AI for rebuild design visualization. She explored ChatGPT for emotional reflection but found it too affirming and insufficiently critical.\n\nWhen Abhi described the concept of a TAC recovery agent, her response was immediate and enthusiastic. She drew direct analogies to AI scheduling tools she uses professionally at JPL, envisioning an agent that could generate a recovery timeline, surface what to focus on at each phase, and handle nuanced fire-specific tasks that no one tells survivors about. She also suggested her tech-oriented teenagers might find particular value in an AI interface as a judgment-free space to process things they would not tell adults.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "technologyForRecovery",
+      "note": "AI used for rebuild design visualization and iteration — no existing tech_* code covers generative AI for architectural or interior design during the rebuild phase.",
+      "citation": {
+        "participantId": "INT012",
+        "transcriptPath": "data/qualitative/transcripts/INT012.md",
+        "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+        "quoteVerbatim": "In the recovery, I mean, I'm using it to help me when I'm rebuilding. So, if I have a picture of my old house, or the new design, and I ask it to tweak things, I'm using it that way.",
+        "flatCharStart": 20907,
+        "flatCharEnd": 21089,
+        "cueNumber": 151,
+        "startTime": "00:19:15.080",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "Participant's grief about her children's disrupted identity formation at a critical developmental stage (onset of middle school) — no existing emotionalImpact code captures parental grief over children's psychosocial displacement as distinct from logistics or named object loss.",
+      "citation": {
+        "participantId": "INT012",
+        "transcriptPath": "data/qualitative/transcripts/INT012.md",
+        "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
+        "quoteVerbatim": "They lost their whole life, and I, you know, you can never pick a great time for something like this to happen, but I felt like for them being in the seventh… starting seventh grade, middle school, and their identities are… this is when they're trying to figure out who they are, and friendships are so key, that to just have that taken away from them, and they have to reestablish all of that was just really hard for them.",
+        "flatCharStart": 6302,
+        "flatCharEnd": 6726,
+        "cueNumber": 47,
+        "startTime": "00:05:37.760",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

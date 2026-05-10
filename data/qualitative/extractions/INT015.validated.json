@@ -1,0 +1,552 @@
+{
+  "participantId": "INT015",
+  "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:33:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.539Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "I just don't have very much routine. I don't even have a sleep routine, because sleep is wildly… you know, sometimes I stay up till 7.30 in the morning and get a couple hours sleep",
+        "codeIds": [
+          "routine_collapse"
+        ],
+        "rationale": "Complete collapse of daily rhythms including sleep, meals, and work; no stable baseline one year after the fire.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I just don't have very much routine. I don't even have a sleep routine, because sleep is wildly… you know, sometimes I stay up till 7.30 in the morning and get a couple hours sleep",
+          "flatCharStart": 726,
+          "flatCharEnd": 906,
+          "cueNumber": 8,
+          "startTime": "00:00:46.080",
+          "contextBefore": "",
+          "contextAfter": ", and wake up at 11\\. Sometimes I wake up at 1.30. This morning, I… last night, "
+        }
+      },
+      {
+        "quoteVerbatim": "I slept in the car for 3 nights, and then I moved into another friend's house for where I stayed for 3 weeks before I got the apartment.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Multi-stop acute displacement: car → friend's house → apartment, illustrating the logistical instability of the first weeks.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I slept in the car for 3 nights, and then I moved into another friend's house for where I stayed for 3 weeks before I got the apartment.",
+          "flatCharStart": 6504,
+          "flatCharEnd": 6640,
+          "cueNumber": 57,
+          "startTime": "00:07:10.810",
+          "contextBefore": "So ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "the front house was rental income, too. I had income. My income has been cut in half.",
+        "codeIds": [
+          "career_disruption"
+        ],
+        "rationale": "Destruction of her rental unit and art studio eliminated roughly half her income, fundamentally reshaping her financial life.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "the front house was rental income, too. I had income. My income has been cut in half.",
+          "flatCharStart": 14391,
+          "flatCharEnd": 14476,
+          "cueNumber": 122,
+          "startTime": "00:16:00.410",
+          "contextBefore": "Yeah, well, ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "it's no longer an equal relationship. It's now become a relationship that I have to manage, and that's… that's really exhausting.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "A close friend's onset of dementia has layered a caregiving role on top of her own active recovery demands.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "it's no longer an equal relationship. It's now become a relationship that I have to manage, and that's… that's really exhausting.",
+          "flatCharStart": 24498,
+          "flatCharEnd": 24627,
+          "cueNumber": 215,
+          "startTime": "00:27:02.730",
+          "contextBefore": "You know, it's like… ",
+          "contextAfter": " But, you know, I care about her so much that"
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "I want my mother, and I want to go home.",
+        "codeIds": [
+          "loss_of_home_anchor"
+        ],
+        "rationale": "Stripped-down articulation of the home as central emotional anchor; the longing surfaces spontaneously when describing her emotional state.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I want my mother, and I want to go home.",
+          "flatCharStart": 9142,
+          "flatCharEnd": 9182,
+          "cueNumber": 84,
+          "startTime": "00:10:27.050",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "But I do kind of have images of, you know, disasters happening. I'm driving, and I, you know, the car is gonna smash into me, or, you know, something, you know, that… they cross my mind. Disaster crosses my mind.",
+        "codeIds": [
+          "ptsd_intrusive_imagery"
+        ],
+        "rationale": "Unprompted intrusive disaster imagery while driving, reported as more frequent in the post-fire year.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "But I do kind of have images of, you know, disasters happening. I'm driving, and I, you know, the car is gonna smash into me, or, you know, something, you know, that… they cross my mind. Disaster crosses my mind.",
+          "flatCharStart": 8726,
+          "flatCharEnd": 8938,
+          "cueNumber": 78,
+          "startTime": "00:09:52.120",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I know that when I go over that list, I'm going to have… I'm going to have a depression episode. I know that that's going to happen.",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "She has deferred the artwork portion of the inventory because she knows it will trigger grief; the emotion is being held in reserve until logistics force engagement.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I know that when I go over that list, I'm going to have… I'm going to have a depression episode. I know that that's going to happen.",
+          "flatCharStart": 13137,
+          "flatCharEnd": 13269,
+          "cueNumber": 112,
+          "startTime": "00:14:43.260",
+          "contextBefore": "And ",
+          "contextAfter": " The times that I did fill out lost belonging lists for my insurance company, ea"
+        }
+      },
+      {
+        "quoteVerbatim": "I… I… it's like I've come to terms with the idea that loneliness is something that I… I just have to learn to live with.",
+        "codeIds": [
+          "isolation_and_witnessing"
+        ],
+        "rationale": "Loneliness framed as a permanent condition to manage rather than a temporary state, reflecting reduced social bandwidth against the expectation of connection.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I… I… it's like I've come to terms with the idea that loneliness is something that I… I just have to learn to live with.",
+          "flatCharStart": 22827,
+          "flatCharEnd": 22947,
+          "cueNumber": 200,
+          "startTime": "00:25:13.190",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "You know, I'm out on the street again. I thought by this time in my life, I would… you know, I did… I had myself set up pretty well, very… pretty comfortably.",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "Loss of rental property and art studio, combined with high temporary housing costs, has dismantled the financial stability she spent decades building.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "You know, I'm out on the street again. I thought by this time in my life, I would… you know, I did… I had myself set up pretty well, very… pretty comfortably.",
+          "flatCharStart": 15106,
+          "flatCharEnd": 15264,
+          "cueNumber": 129,
+          "startTime": "00:16:44.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Every time I went to the Disaster Resource Center, which I spent a lot of time doing in the first 6 months, I would stop at a table, and they would give me a pile of papers.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Each resource agency produced a separate pile of documents; the information landscape was distributed and unintegrated.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "Every time I went to the Disaster Resource Center, which I spent a lot of time doing in the first 6 months, I would stop at a table, and they would give me a pile of papers.",
+          "flatCharStart": 30481,
+          "flatCharEnd": 30654,
+          "cueNumber": 271,
+          "startTime": "00:33:36.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And each time, I went into a deep depression afterwards. But, like I say, I, you know, I mean, they're not fun, they are scary.",
+        "codeIds": [
+          "inventory_burden"
+        ],
+        "rationale": "Each session completing lost-belongings forms triggered a depressive episode, capturing the severe emotional weight of the itemization task.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "And each time, I went into a deep depression afterwards. But, like I say, I, you know, I mean, they're not fun, they are scary.",
+          "flatCharStart": 13406,
+          "flatCharEnd": 13533,
+          "cueNumber": 113,
+          "startTime": "00:14:59.660",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And I can't organize it. Yeah, I can't organize it. It's like I'm always wandering around saying, what am I looking for?",
+        "codeIds": [
+          "exec_dysfunction"
+        ],
+        "rationale": "Self-described inability to sequence or prioritize recovery tasks; she explicitly frames this as a capacity issue, not motivation.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "And I can't organize it. Yeah, I can't organize it. It's like I'm always wandering around saying, what am I looking for?",
+          "flatCharStart": 32708,
+          "flatCharEnd": 32828,
+          "cueNumber": 288,
+          "startTime": "00:36:18.640",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I need a bookkeeper. You know, it keeps running through my mind to get it, and so Vera's going to help me do that, and if I need to hire somebody, I'm getting ready to do that, even though it costs money.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Explicit desire to offload financial organization to a human navigator; the need has been on her mind repeatedly but not yet resolved.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I need a bookkeeper. You know, it keeps running through my mind to get it, and so Vera's going to help me do that, and if I need to hire somebody, I'm getting ready to do that, even though it costs money.",
+          "flatCharStart": 15732,
+          "flatCharEnd": 15936,
+          "cueNumber": 134,
+          "startTime": "00:17:24.550",
+          "contextBefore": "You know, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "I think that's probably the most… I need… I need to just not talk.",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "In the acute phase, her primary need was space and silence—not information or services—marking a sharp contrast with later logistical needs.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I think that's probably the most… I need… I need to just not talk.",
+          "flatCharStart": 6895,
+          "flatCharEnd": 6961,
+          "cueNumber": 60,
+          "startTime": "00:07:40.250",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I seem to upload documents, they don't seem to be the right documents, so there's this kind of repetition, and to keep these… keep these guys separated, you know, that's SBA, that's for my home disaster loan.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Documents the medium-phase grind of navigating multiple parallel bureaucratic processes (SBA home loan, SBA business loan, disaster unemployment).",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I seem to upload documents, they don't seem to be the right documents, so there's this kind of repetition, and to keep these… keep these guys separated, you know, that's SBA, that's for my home disaster loan.",
+          "flatCharStart": 16798,
+          "flatCharEnd": 17006,
+          "cueNumber": 145,
+          "startTime": "00:18:35.630",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I need… I need money. Part of what I need is to organize my money.",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "At the one-year mark the pressing need is financial clarity: auditing disbursements and creating a sustainable budget.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I need… I need money. Part of what I need is to organize my money.",
+          "flatCharStart": 15642,
+          "flatCharEnd": 15708,
+          "cueNumber": 133,
+          "startTime": "00:17:19.650",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Oh, I'm looking for a nice psychiatrist, you know?",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Mental health support is recognized as a current need at the one-year mark but access barriers (cost, finding trusted providers) remain unresolved.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "Oh, I'm looking for a nice psychiatrist, you know?",
+          "flatCharStart": 32893,
+          "flatCharEnd": 32943,
+          "cueNumber": 290,
+          "startTime": "00:36:29.680",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "I'm just now beginning to actually know the people on my street. You know, we've been in a WhatsApp group since the beginning",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Street WhatsApp group described as a continuous real-time information and community channel since day one of the fire.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I'm just now beginning to actually know the people on my street. You know, we've been in a WhatsApp group since the beginning",
+          "flatCharStart": 3909,
+          "flatCharEnd": 4034,
+          "cueNumber": 33,
+          "startTime": "00:04:16.470",
+          "contextBefore": "",
+          "contextAfter": ", and Andrew King has just been, you know, he's…"
+        }
+      },
+      {
+        "quoteVerbatim": "ChatGBT, I've learned how to use it and ask them questions, though I can't get them to make a list of all the things I ever bought this last year, or the two years before, from Amazon.",
+        "codeIds": [
+          "tech_ai_inventory"
+        ],
+        "rationale": "Attempted to use ChatGPT to reconstruct Amazon purchase history for the lost-belongings insurance claim; found the output unusable because prices were not tied to product names.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "ChatGBT, I've learned how to use it and ask them questions, though I can't get them to make a list of all the things I ever bought this last year, or the two years before, from Amazon.",
+          "flatCharStart": 26186,
+          "flatCharEnd": 26370,
+          "cueNumber": 231,
+          "startTime": "00:28:44.890",
+          "contextBefore": "its technology has been extremely helpful, and I… and ",
+          "contextAfter": " It… it just… it flummoxes Amazon."
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I ask them everything. If I have a question about something, I'll ask ChatGPT before I'll Google it.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Endorses AI for practical information retrieval; ChatGPT has replaced web search as her default first-pass tool.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "I ask them everything. If I have a question about something, I'll ask ChatGPT before I'll Google it.",
+          "flatCharStart": 26702,
+          "flatCharEnd": 26802,
+          "cueNumber": 235,
+          "startTime": "00:29:19.810",
+          "contextBefore": "member the… I can't remember the list of the projects that I've asked them, but ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Just that it's not flesh. I don't see it as an emotional support person.",
+        "codeIds": [
+          "ai_emotional_skeptical"
+        ],
+        "rationale": "Clear, unprompted statement that AI cannot fulfill the human-contact dimension of emotional support.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "Just that it's not flesh. I don't see it as an emotional support person.",
+          "flatCharStart": 33088,
+          "flatCharEnd": 33160,
+          "cueNumber": 293,
+          "startTime": "00:36:43.960",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Of course I'm stressed out, and it's none of your effin' business. So, just… I just want the list. Okay, so don't help me. In fact, I say that to… to… to technology a lot. Don't do me any favors.",
+        "codeIds": [
+          "mvp_hesitate_tone"
+        ],
+        "rationale": "Sharp pushback when the demo bot offered relaxation guidance instead of executing her task request; she generalizes the objection explicitly to all technology.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "Of course I'm stressed out, and it's none of your effin' business. So, just… I just want the list. Okay, so don't help me. In fact, I say that to… to… to technology a lot. Don't do me any favors.",
+          "flatCharStart": 42086,
+          "flatCharEnd": 42281,
+          "cueNumber": 413,
+          "startTime": "00:47:07.410",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "you know, what's your relationship to these other… these… these, you know, barons, these AI barons, these technology barons? And everybody says they don't get the information, but of course they do.",
+        "codeIds": [
+          "mvp_hesitate_privacy"
+        ],
+        "rationale": "Unprompted concern about data ownership directed at TAC's tool; she does not accept stated assurances that user data is not shared with major platforms.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "you know, what's your relationship to these other… these… these, you know, barons, these AI barons, these technology barons? And everybody says they don't get the information, but of course they do.",
+          "flatCharStart": 42493,
+          "flatCharEnd": 42691,
+          "cueNumber": 416,
+          "startTime": "00:47:37.740",
+          "contextBefore": "",
+          "contextAfter": " It's like, you know, how can they not get the information?"
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "this is a very highly sensitive area to me, and I think it's… it's about people, being in a room with people.",
+        "codeIds": [
+          "cross_human_irreplaceable"
+        ],
+        "rationale": "Participant generalizes from her own emotional needs to a broader claim: physical human co-presence provides something technology cannot replicate.",
+        "citation": {
+          "participantId": "INT015",
+          "transcriptPath": "data/qualitative/transcripts/INT015.md",
+          "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+          "quoteVerbatim": "this is a very highly sensitive area to me, and I think it's… it's about people, being in a room with people.",
+          "flatCharStart": 49625,
+          "flatCharEnd": 49734,
+          "cueNumber": 514,
+          "startTime": "00:55:36.730",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [
+    {
+      "category": "mvpFeedback",
+      "raw": {
+        "quoteVerbatim": "It wants me to relax. I don't want to relax!",
+        "codeIds": [
+          "mvp_hesitate_tone"
+        ],
+        "rationale": "Second instance of tone rejection: the bot's affective framing was experienced as an obstacle rather than a feature."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    }
+  ],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Hesitation pass: the back third (cues 314–530) yielded three distinct hesitations — two instances of sharp pushback against the bot's over-helpful tone (cues 413 and 422) and one clear data-privacy concern directed at the TAC tool (cue 416). Endorsement pass: no verbatim participant statement endorsing a specific MVP feature was found. She said 'it makes sense' (cue 361) but immediately pivoted to asking why she needs a new platform; Abhi's clarification that it could run on WhatsApp resolved the friction without generating a feature endorsement. She agreed to test a future version ('Sure,' cue 506) and said 'That was fun' (cue 507), but neither meets the quote threshold for a feature endorsement. No mvp_endorse_* codes are applied."
+  },
+  "summary": "Annabelle (INT015) is a 78-year-old artist displaced by the Eaton Fire whose home—including a front rental unit and her art studio—was completely destroyed. The fire severed her primary income stream, placing her on mortgage forbearance while paying significantly higher rent, and left her navigating overlapping SBA loans, disaster unemployment, and insurance paperwork under a brain fog she describes as markedly worse since the fire. She entered the post-fire period in profound shock, preferring not to speak at all, and moved through her car, a friend's house, and ultimately a Pasadena apartment. A persistent longing for home—not merely the structure but the stability and identity it anchored—runs throughout the interview, alongside heightened intrusive imagery of disasters. She anticipates a depressive episode when she eventually catalogs her lost artwork for the insurance inventory, a task she has been deferring.\n\nDespite cognitive difficulties, Annabelle is a practiced ChatGPT user who turns to it before Google for practical questions and attempted to use it to reconstruct Amazon purchase records for her lost-belongings claim. Her street WhatsApp group and block captain have been crucial information hubs. Her primary stated need at the one-year mark is financial clarity; she describes feeling out on the street again after building a comfortable independent life, and is actively seeking a bookkeeper to organize her funds.\n\nHer reaction to the TAC MVP demo was pointed. When the bot responded to a practical task request with an invitation to relax, she pushed back emphatically, articulating that she wants AI to execute tasks rather than infer emotional needs. She characterizes AI as a logistics tool, not a therapeutic companion, and explicitly stated she does not see it as an emotional support person. She also raised direct data-privacy concerns about who controls AI systems and whether they share user information. No specific feature endorsements emerged during the demo session. Annabelle agreed to give feedback on a future version.\n\nSocially, she describes an unexpected openness to people that deepened since the fire, though loneliness remains a daily management challenge. She has lost some friendships due to reduced capacity for phone conversations and is now managing a close friend entering dementia—an added caregiving burden on top of her own recovery. Her deepest conviction about emotional recovery is that it requires physical human presence in a group setting.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "technologyForRecovery",
+      "note": "Disaster-to-disaster adaptive preparedness: she pre-staged evacuation supplies after the prior Bobcat Fire. No existing code captures learning transferred across disaster events.",
+      "citation": {
+        "participantId": "INT015",
+        "transcriptPath": "data/qualitative/transcripts/INT015.md",
+        "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+        "quoteVerbatim": "ever since the Bobcat fire 3 years ago, I've kept a sleeping bag and my Therm-A-Rest in the back of my car in case I have to leave",
+        "flatCharStart": 7160,
+        "flatCharEnd": 7290,
+        "cueNumber": 64,
+        "startTime": "00:07:57.720",
+        "contextBefore": "My car is my happy place. So, ",
+        "contextAfter": ", and I did, at that time, pack a go bag."
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "Lifelong anxiety and depression history makes it difficult to disentangle fire-specific effects from baseline. No code captures the layering of disaster trauma over a pre-existing mental health history.",
+      "citation": {
+        "participantId": "INT015",
+        "transcriptPath": "data/qualitative/transcripts/INT015.md",
+        "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+        "quoteVerbatim": "I have a foundational anxiety, which I've always had in my life.",
+        "flatCharStart": 8568,
+        "flatCharEnd": 8632,
+        "cueNumber": 76,
+        "startTime": "00:09:38.280",
+        "contextBefore": "Well, ",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "mvpFeedback",
+      "note": "Participant surfaces a design implication: over-warm AI responses can be counterproductive, analogous to how unexpected kindness can cause emotional dysregulation in distressed people. Related to mvp_hesitate_tone but more generalizable and not tied to a specific demo moment.",
+      "citation": {
+        "participantId": "INT015",
+        "transcriptPath": "data/qualitative/transcripts/INT015.md",
+        "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
+        "quoteVerbatim": "kindness isn't sometimes not the right thing to do to people.",
+        "flatCharStart": 50629,
+        "flatCharEnd": 50690,
+        "cueNumber": 525,
+        "startTime": "00:56:42.330",
+        "contextBefore": "You know, ",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

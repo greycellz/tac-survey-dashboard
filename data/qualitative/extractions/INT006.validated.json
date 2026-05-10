@@ -1,0 +1,624 @@
+{
+  "participantId": "INT006",
+  "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:40:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.517Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "when I… the second evacuation from La Canada, I went to Mount Washington to her house, where I stayed until the end of August.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Successive evacuations to three different locations before settling at a friend's home for months — protracted housing instability before the August rental.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "when I… the second evacuation from La Canada, I went to Mount Washington to her house, where I stayed until the end of August.",
+          "flatCharStart": 1967,
+          "flatCharEnd": 2093,
+          "cueNumber": 15,
+          "startTime": "00:01:57.010",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "At minimum, a couple of hours every day, whether it's returning an email, calling somebody, researching another contractor, reviewing documents, whatever it is.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Describes daily minimum hours on recovery tasks, with heavier days when meeting attorneys twice each and managing SBA calls in the same week.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "At minimum, a couple of hours every day, whether it's returning an email, calling somebody, researching another contractor, reviewing documents, whatever it is.",
+          "flatCharStart": 11080,
+          "flatCharEnd": 11240,
+          "cueNumber": 93,
+          "startTime": "00:10:58.530",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I have not refilled them, because I… I can't. I can't… I'm… I'm working probably two-thirds time at this point with clients, because I have to spend a lot of time doing this other stuff.",
+        "codeIds": [
+          "career_disruption"
+        ],
+        "rationale": "Has reduced professional caseload to two-thirds capacity because recovery and legal work crowd out time for clinical practice.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I have not refilled them, because I… I can't. I can't… I'm… I'm working probably two-thirds time at this point with clients, because I have to spend a lot of time doing this other stuff.",
+          "flatCharStart": 12161,
+          "flatCharEnd": 12347,
+          "cueNumber": 105,
+          "startTime": "00:12:08.240",
+          "contextBefore": "changed plans, or, you know, spaces have opened up, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "for 2 weeks, I sat like a zombie in front of the TV, not knowing what to do, but I finally felt like, well, you know, at least I know what to do in my job, so I'll try that.",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Two-week dissociated/frozen state before finding an anchor in returning to work — emotion pushed aside to survive the acute phase.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "for 2 weeks, I sat like a zombie in front of the TV, not knowing what to do, but I finally felt like, well, you know, at least I know what to do in my job, so I'll try that.",
+          "flatCharStart": 5143,
+          "flatCharEnd": 5316,
+          "cueNumber": 36,
+          "startTime": "00:05:05.090",
+          "contextBefore": "you know, ",
+          "contextAfter": " So I went and bought some clothes, because all I left with was my dog, my work "
+        }
+      },
+      {
+        "quoteVerbatim": "I feel like I've been held hostage by my insurance company.",
+        "codeIds": [
+          "moral_injury"
+        ],
+        "rationale": "Frames the insurance relationship as coercive captivity rather than institutional failure — distress coded explicitly as injustice.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I feel like I've been held hostage by my insurance company.",
+          "flatCharStart": 6815,
+          "flatCharEnd": 6874,
+          "cueNumber": 51,
+          "startTime": "00:06:47.920",
+          "contextBefore": "that I'll, you know, I'll pay back later, but I just… ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I did start with a therapist as well. I just was recently diagnosed with PTSD",
+        "codeIds": [
+          "ptsd_intrusive_imagery"
+        ],
+        "rationale": "Clinical PTSD diagnosis confirmed; she is gathering documentation for the bad faith lawsuit. Confirms acute trauma sequelae beyond the frozen state she described in the first weeks.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I did start with a therapist as well. I just was recently diagnosed with PTSD",
+          "flatCharStart": 17258,
+          "flatCharEnd": 17335,
+          "cueNumber": 146,
+          "startTime": "00:17:26.099",
+          "contextBefore": "Yep, yeah, so that's been helpful. I mean, ",
+          "contextAfter": ", so she's…"
+        }
+      },
+      {
+        "quoteVerbatim": "I think now people understand that. In the beginning, people were… would say, oh, you're so lucky your house didn't burn. I'm like, not really. But, now people understand the complicating factors. There's been enough good reporting on it.",
+        "codeIds": [
+          "isolation_and_witnessing"
+        ],
+        "rationale": "Early friction with the unaffected world projecting a 'lucky' framing onto her standing-home situation, requiring active correction — friction that faded only as journalism covered this survivor profile.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I think now people understand that. In the beginning, people were… would say, oh, you're so lucky your house didn't burn. I'm like, not really. But, now people understand the complicating factors. There's been enough good reporting on it.",
+          "flatCharStart": 23116,
+          "flatCharEnd": 23354,
+          "cueNumber": 221,
+          "startTime": "00:23:36.160",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "For 5 months, I paid my mortgage and my rent. The rent is double the mortgage.",
+        "codeIds": [
+          "insurance_adversarial",
+          "financial_strain"
+        ],
+        "rationale": "Insurer agreed to housing coverage then withheld reimbursement for five months, forcing her to carry double housing costs simultaneously — adversarial delay creating direct financial harm.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "For 5 months, I paid my mortgage and my rent. The rent is double the mortgage.",
+          "flatCharStart": 4778,
+          "flatCharEnd": 4856,
+          "cueNumber": 32,
+          "startTime": "00:04:42.580",
+          "contextBefore": "They didn't. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And, it was only after then that they started actually investigating the claim and doing what they should have been doing all along.",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "The insurer only began good-faith investigation after she filed suit in October — systemic delay requiring legal action to trigger basic compliance.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "And, it was only after then that they started actually investigating the claim and doing what they should have been doing all along.",
+          "flatCharStart": 4915,
+          "flatCharEnd": 5047,
+          "cueNumber": 34,
+          "startTime": "00:04:52.470",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "to figure out how to make them more money, and there was, like, a playbook. You make more money by delaying and denying, and you'll have an attrition rate of whatever, 80%. People will either go away or accept less, and they're all doing it. And they're still doing it.",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "Participant describes the McKinsey delay-and-deny playbook she learned from a congressional hearing — frames her personal experience as a systemic industry pattern, not an isolated bad actor.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "to figure out how to make them more money, and there was, like, a playbook. You make more money by delaying and denying, and you'll have an attrition rate of whatever, 80%. People will either go away or accept less, and they're all doing it. And they're still doing it.",
+          "flatCharStart": 25149,
+          "flatCharEnd": 25418,
+          "cueNumber": 233,
+          "startTime": "00:25:42.510",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "There's no electricity, there's no water, there's no gas. The director of the LA County Health Department said it's not safe to live there until Phase 1 cleaning is complete, or Phase 2 cleaning is complete. That will be 12 to 18 months.",
+        "codeIds": [
+          "contamination_limbo"
+        ],
+        "rationale": "Standing home lacks utilities and is officially declared unsafe by health authorities for up to 18 months, yet the insurer continued pressing her to return — the defining condition of standing-home limbo.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "There's no electricity, there's no water, there's no gas. The director of the LA County Health Department said it's not safe to live there until Phase 1 cleaning is complete, or Phase 2 cleaning is complete. That will be 12 to 18 months.",
+          "flatCharStart": 3773,
+          "flatCharEnd": 4010,
+          "cueNumber": 25,
+          "startTime": "00:03:44.390",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And that testing said the only way to restore the house is to take it down to the studs and rebuild it.",
+        "codeIds": [
+          "contamination_limbo"
+        ],
+        "rationale": "Toxin testing she paid for confirmed full gut rehabilitation is required; the insurer has neither reimbursed the test nor acknowledged receipt — pathways blocked and unclear.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "And that testing said the only way to restore the house is to take it down to the studs and rebuild it.",
+          "flatCharStart": 7185,
+          "flatCharEnd": 7288,
+          "cueNumber": 55,
+          "startTime": "00:07:13.040",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "If I had a personal assistant where I could just tell them, please do this for me.",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Explicit wish for a human or system that can receive verbal delegation and execute without requiring her to set up and manage the system herself.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "If I had a personal assistant where I could just tell them, please do this for me.",
+          "flatCharStart": 27619,
+          "flatCharEnd": 27701,
+          "cueNumber": 255,
+          "startTime": "00:28:17.770",
+          "contextBefore": "ve to learn how to manage it or something, and that feels like too much for me. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "on this, social media a couple days after the fire, somebody said, everybody should be applying to FEMA. Well, I wouldn't have thought of that.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Key recovery information (FEMA application) surfaced only via community social media, not official channels — participant had no reason to know it existed without a peer posting it.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "on this, social media a couple days after the fire, somebody said, everybody should be applying to FEMA. Well, I wouldn't have thought of that.",
+          "flatCharStart": 30793,
+          "flatCharEnd": 30936,
+          "cueNumber": 278,
+          "startTime": "00:31:26.830",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I just… I paid a company to come into my house to photograph everything and then write out an inventory, and I have to go back and add in valuations to send to the insurance company, so I'm about to look through a Google spreadsheet of, you know, 500 pages, or whatever it is for every item in my house.",
+        "codeIds": [
+          "inventory_burden"
+        ],
+        "rationale": "Even after outsourcing item capture to a professional company, she still faces reviewing a ~500-row spreadsheet to add valuations — the burden is not eliminated by hiring help.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I just… I paid a company to come into my house to photograph everything and then write out an inventory, and I have to go back and add in valuations to send to the insurance company, so I'm about to look through a Google spreadsheet of, you know, 500 pages, or whatever it is for every item in my house.",
+          "flatCharStart": 34778,
+          "flatCharEnd": 35081,
+          "cueNumber": 311,
+          "startTime": "00:35:45.100",
+          "contextBefore": "I'm about to start, like, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "Then after that, I just decided I would try to do what I could on my own, so I'm getting, hopefully in the next couple of weeks, a larger SBA loan that I can start to rebuild with.",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "A year into recovery, pivoting to SBA-financed self-directed rebuild because the ongoing lawsuit blocks insurance-funded repair — moved into long-term planning despite lawsuit still unresolved.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "Then after that, I just decided I would try to do what I could on my own, so I'm getting, hopefully in the next couple of weeks, a larger SBA loan that I can start to rebuild with.",
+          "flatCharStart": 6567,
+          "flatCharEnd": 6747,
+          "cueNumber": 50,
+          "startTime": "00:06:33.790",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "those kind of, like, reminders, it's an executive function coach, is what it is, and that's what I do.",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Names the specific type of support she needs for medium-term navigation: an executive function coach to sequence and track tasks she cannot hold in her head while managing two lawsuits and a practice.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "those kind of, like, reminders, it's an executive function coach, is what it is, and that's what I do.",
+          "flatCharStart": 33084,
+          "flatCharEnd": 33186,
+          "cueNumber": 297,
+          "startTime": "00:33:48.220",
+          "contextBefore": "know, the Lendistry grant? Did you get it? Follow up. You know, whatever it is, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "Those have been the most helpful resources, all those little subgroups, the social media groups, because most of the information that we've gotten through there would have been impossible to find through other resources.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Facebook groups and Discord subgroups — including a standing-structure-specific subgroup — were her primary and often only source of actionable recovery information.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "Those have been the most helpful resources, all those little subgroups, the social media groups, because most of the information that we've gotten through there would have been impossible to find through other resources.",
+          "flatCharStart": 8275,
+          "flatCharEnd": 8495,
+          "cueNumber": 66,
+          "startTime": "00:08:18.380",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Well, one of the first things I did at Skip's suggestion was I uploaded my full insurance policy into chat and just asked it questions about what my coverage was and where I could find it in it, because I wasn't going to read through a 90-page document.",
+        "codeIds": [
+          "tech_ai_advocacy"
+        ],
+        "rationale": "Used ChatGPT to parse and query a 90-page insurance policy, enabling her to understand coverage limits and specific provisions before engaging the insurer adversarially.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "Well, one of the first things I did at Skip's suggestion was I uploaded my full insurance policy into chat and just asked it questions about what my coverage was and where I could find it in it, because I wasn't going to read through a 90-page document.",
+          "flatCharStart": 26045,
+          "flatCharEnd": 26298,
+          "cueNumber": 239,
+          "startTime": "00:26:39.270",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I cannot spend my time doing this, so I hired a company to do it, but I think I'm still going to use Bevel to get the price.",
+        "codeIds": [
+          "tech_ai_inventory"
+        ],
+        "rationale": "Tried BevelMade (photo-to-value AI tool) for inventory, abandoned item-capture due to cognitive load and error-checking burden, but plans to use it for pricing the company's item list.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "I cannot spend my time doing this, so I hired a company to do it, but I think I'm still going to use Bevel to get the price.",
+          "flatCharStart": 35572,
+          "flatCharEnd": 35696,
+          "cueNumber": 318,
+          "startTime": "00:36:29.150",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "if there was, like, I don't know, like, the menu is, like, what kind of disaster have you been in? And then it opens up another one, you know, oh, if it's flood, this. If it's hurricane, this. If it's fire, this. You know, these are the kind of resources you should think of, and, you know, that sort of thing.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Endorses AI as a disaster-type-specific triage and resource-routing tool — practical information architecture with contextual branching.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "if there was, like, I don't know, like, the menu is, like, what kind of disaster have you been in? And then it opens up another one, you know, oh, if it's flood, this. If it's hurricane, this. If it's fire, this. You know, these are the kind of resources you should think of, and, you know, that sort of thing.",
+          "flatCharStart": 30162,
+          "flatCharEnd": 30472,
+          "cueNumber": 272,
+          "startTime": "00:30:54.520",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And I think people in a vulnerable position, whether it's PTSD from a veteran's point of view, or after a disaster, can more easily be sucked into something like that. So that would concern me.",
+        "codeIds": [
+          "ai_emotional_skeptical"
+        ],
+        "rationale": "Concern centers on vulnerable users' susceptibility to parasocial attachment, not AI competence — draws explicitly on veteran and disaster survivor populations.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "And I think people in a vulnerable position, whether it's PTSD from a veteran's point of view, or after a disaster, can more easily be sucked into something like that. So that would concern me.",
+          "flatCharStart": 29822,
+          "flatCharEnd": 30015,
+          "cueNumber": 269,
+          "startTime": "00:30:32.450",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Maybe it's the developers of the app who are not vetting it closely enough, looking for flags.",
+        "codeIds": [
+          "ai_human_tether"
+        ],
+        "rationale": "Wants human oversight actively built into the development process — not passive guardrails but proactive flag-monitoring by developers, referencing the Battle Buddy app as a model.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "Maybe it's the developers of the app who are not vetting it closely enough, looking for flags.",
+          "flatCharStart": 29116,
+          "flatCharEnd": 29210,
+          "cueNumber": 265,
+          "startTime": "00:29:54.270",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "And then, as you click, it opens something else, because this is, for me, even now, more than a year later, it's like, that's too… I feel like that would be too much for me to try and sort through and see what's useful to me, so I probably wouldn't use it.",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Reinforces UX concern: even more than a year post-fire she would disengage from the current interface complexity — the overwhelm is not acute-phase-specific.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "And then, as you click, it opens something else, because this is, for me, even now, more than a year later, it's like, that's too… I feel like that would be too much for me to try and sort through and see what's useful to me, so I probably wouldn't use it.",
+          "flatCharStart": 43876,
+          "flatCharEnd": 44132,
+          "cueNumber": 414,
+          "startTime": "00:45:52.680",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "where does it glean its information? Because, like, chat just, like, searches the web, right? Where does this get information?",
+        "codeIds": [
+          "mvp_hesitate_accuracy"
+        ],
+        "rationale": "Probes the data sourcing model — explicitly contrasts with ChatGPT's open-web search to understand what distinguishes the platform's information provenance.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "where does it glean its information? Because, like, chat just, like, searches the web, right? Where does this get information?",
+          "flatCharStart": 50341,
+          "flatCharEnd": 50467,
+          "cueNumber": 479,
+          "startTime": "00:52:49.260",
+          "contextBefore": "But ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "where does it get its curated information? I'm trying to really… Be very specific about that.",
+        "codeIds": [
+          "mvp_hesitate_accuracy"
+        ],
+        "rationale": "Second, more pointed sourcing question — she has high standards for information provenance and wants to understand curation methodology before trusting the tool for recovery decisions.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "where does it get its curated information? I'm trying to really… Be very specific about that.",
+          "flatCharStart": 50883,
+          "flatCharEnd": 50976,
+          "cueNumber": 485,
+          "startTime": "00:53:24.910",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "Nobody thinks you're gonna live through a disaster, and then when you do, you don't know what to think about.",
+        "codeIds": [
+          "cross_relevance_over_volume"
+        ],
+        "rationale": "Participant's generalization about post-disaster information needs: the problem is not lack of information but not knowing what questions to ask — unknown unknowns dominate the acute phase.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "Nobody thinks you're gonna live through a disaster, and then when you do, you don't know what to think about.",
+          "flatCharStart": 30561,
+          "flatCharEnd": 30670,
+          "cueNumber": 274,
+          "startTime": "00:31:14.560",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "It's been a week, it's been a month. Have you thought about this? Have you checked on your application for this?",
+        "codeIds": [
+          "cross_timing_matters"
+        ],
+        "rationale": "Articulates a meta-principle: timed, phase-specific prompts are what recovery support should look like — not a resource dump but staged check-ins calibrated to elapsed time.",
+        "citation": {
+          "participantId": "INT006",
+          "transcriptPath": "data/qualitative/transcripts/INT006.md",
+          "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+          "quoteVerbatim": "It's been a week, it's been a month. Have you thought about this? Have you checked on your application for this?",
+          "flatCharStart": 32680,
+          "flatCharEnd": 32792,
+          "cueNumber": 295,
+          "startTime": "00:33:33.520",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "raw": {
+        "quoteVerbatim": "I was literally a zombie. just, like, crying 24-7, watching the news, which was probably a terrible thing to do, but that's all I could do. I couldn't do anything.",
+        "codeIds": [
+          "exec_dysfunction"
+        ],
+        "rationale": "Describes complete cognitive shutdown in the acute phase — capacity collapse, not motivation failure. Relevant to her framing of why a timed, prompting system would have helped."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    },
+    {
+      "category": "mvpFeedback",
+      "raw": {
+        "quoteVerbatim": "It's very visually overwhelming. And I probably wouldn't dive in to learn more, because I would say it's too much for me, and I would turn away, because it's too visually overstimulating. I would narrow it down to fewer choices first.",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Immediate reaction to Slack demo UI: too many simultaneous options for a cognitively depleted survivor; requests progressive disclosure design with fewer first-level choices."
+      },
+      "reason": "QUOTE_NOT_FOUND"
+    }
+  ],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsement pass: I found no strong explicit endorsements of specific MVP features during the demo section (cues 344 onward). The closest was a tentative 'Potentially' when asked if the tool would have helped from day one, immediately qualified by uncertainty about how the interface worked. She engaged curiously with the cross-platform aggregation concept — asking whether it pulls from Discord and Slack simultaneously — but this was an information-gathering question, not an endorsement. No mvp_endorse_* codes were applied. Hesitation pass: Two clear hesitations emerged. First, the Slack demo UI was too visually overwhelming for a survivor in a cognitively depleted state; she said she 'probably wouldn't use it.' Second, she probed information sourcing in two distinct turns, wanting to know exactly where curated data comes from and how this differs from a generic ChatGPT search. These are substantive product questions, not dismissals, but they represent genuine accuracy-related hesitations about information quality and provenance."
+  },
+  "summary": "INT006 is an educational therapist in her early 60s whose home was partially burned in the Eaton Fire, leaving her as the sole standing structure on one side of her street amid total losses. She evacuated twice on the night of the fire, spent months at a friend's home, and did not secure a rental until August after a protracted battle with her insurer. Her recovery is defined by two concurrent lawsuits — one against the utility company and one against her insurer for bad faith — and the grinding cognitive load of managing both while maintaining a reduced client practice.\n\nThe insurance experience is the central thread of the interview. Her insurer delayed an initial payment, attempted to limit housing support to three months in a hotel despite official health department guidance making the home uninhabitable for 12 to 18 months, and failed to reimburse rent for five consecutive months after agreeing to cover it. She paid both mortgage and rent simultaneously — rent double the mortgage — before suing in October. Even after filing, the company ignored toxin testing she commissioned that showed the house must be gutted to the studs. She connects her experience to a McKinsey-sourced insurance industry playbook of delay and denial she describes as systemic and decades-old.\n\nThe standing-home situation created a distinctive form of erasure. Public resources and municipal communications were designed for total-loss households, and early on people told her she was lucky her house did not burn — a misperception she repeatedly had to correct. She describes herself and roughly a thousand others in similar positions as omitted from the conversation.\n\nPractical recovery has relied heavily on Facebook groups and Discord, which she calls a lifeline and the only realistic way to locate grants, vet contractors, and learn what other survivors have discovered. She uploaded her insurance policy to ChatGPT to understand coverage without reading a 90-page document, and tried a photo-based inventory tool called BevelMade before concluding she lacked the cognitive bandwidth to quality-check its output.\n\nHer AI views are clinically informed and sharp. She sees AI as excellent for practical research and synthesis but worries deeply about emotional dependency among cognitively depleted survivors, referencing teen suicide cases and her friend's careful safety work building the Battle Buddy app for veterans. She wants AI tools that function as an executive function coach — timed check-ins keyed to recovery milestones — rather than general chatbots. She explicitly frames the recovery problem as one of sequencing and prompting, not information volume.\n\nDuring the MVP demo, she found the Slack interface too visually complex for a survivor in the acute phase and said she would not have engaged with it. She probed the information sourcing question in two distinct turns, wanting to know exactly where curated data comes from and how the platform differs from ChatGPT — substantive product questions the team left partially answered. She expressed conditional interest in contributing to future iterations.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "emotionalImpact",
+      "note": "Inverse of comparative_luck_appraisal: others projected a 'lucky' framing onto standing-home survivors that the participant actively disputed. The codebook codes self-applied luck appraisal; there is no code for externally-imposed misperception of luck that the survivor must correct. Distinctive to partial-damage or standing-home survivor profiles — a potential codebook gap for future revisions.",
+      "citation": {
+        "participantId": "INT006",
+        "transcriptPath": "data/qualitative/transcripts/INT006.md",
+        "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+        "quoteVerbatim": "In the beginning, people were… would say, oh, you're so lucky your house didn't burn. I'm like, not really.",
+        "flatCharStart": 23152,
+        "flatCharEnd": 23259,
+        "cueNumber": 221,
+        "startTime": "00:23:36.160",
+        "contextBefore": "I think now people understand that. ",
+        "contextAfter": " But, now people understand the complicating factors. There's been enough good r"
+      }
+    },
+    {
+      "category": "mvpFeedback",
+      "note": "Her only near-endorsement of the MVP concept was conditional and immediately hedged with interface confusion. No existing mvp_endorse_* code captures hesitant, contingent interest that depends on better understanding the product before forming a view. Her overall demo posture was critical-curious rather than endorsing or rejecting.",
+      "citation": {
+        "participantId": "INT006",
+        "transcriptPath": "data/qualitative/transcripts/INT006.md",
+        "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
+        "quoteVerbatim": "Potentially, I guess I'm not entirely sure how this interfaces with other platforms.",
+        "flatCharStart": 43417,
+        "flatCharEnd": 43501,
+        "cueNumber": 410,
+        "startTime": "00:45:19.140",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

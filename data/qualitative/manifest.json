@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T23:15:20.820Z",
+  "generatedAt": "2026-05-09T02:56:14.051Z",
   "entries": [
     {
       "id": "INT001",
@@ -8,10 +8,46 @@
       "transcriptPath": "data/qualitative/transcripts/INT001.md",
       "transcriptSha256": "5bf92da6bca77df2e79997f48072f0111f35df452f34bb95c79f9bd6246218b8",
       "cueCount": 445,
-      "participantUtteranceCount": 290,
-      "interviewerUtteranceCount": 155,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.804Z"
+      "participantCueCount": 290,
+      "interviewerCueCount": 155,
+      "demographics": {
+        "age": 59,
+        "gender": "Male",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Good",
+        "hasSoughtMentalHealthSupport": "Yes, from a support group or peer network",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "Somewhat interested",
+        "fireImpactTypes": [
+          "Home completely destroyed"
+        ],
+        "challengingAreas": [
+          "Emotional or mental health stress",
+          "Finding clear information and resources"
+        ],
+        "mentalHealthBarriers": [
+          "Lack of time",
+          "Not sure it would help"
+        ],
+        "helpNeededNow": [
+          "Information and updates about community recovery"
+        ],
+        "mostOverwhelming": "The loss of photographs, family heirlooms and cherished items",
+        "mostHelpful": "The disaster recovery center and United Policyholders (whom I met at the DRC). My insurance has been very helpful too.",
+        "whatWouldHaveHelped": "I can't think of anything.",
+        "copingMechanisms": "I meet with fellow fire survivors weekly and exercise almost daily. I try to stay connected to the community even though I'm living far away.",
+        "aiCoachWish": "Advice about building decisions",
+        "additionalSharing": "AI to help fill out forms might have been helpful early on.",
+        "adviceForOthers": "Hopefully the community stands up a disaster recovery center. If so, go to the DRC right away. If there are representatives from United Policyholders you should visit them first and listen to what they have to say."
+      },
+      "mvpDemoShown": true,
+      "builtAt": "2026-05-09T02:56:14.024Z"
     },
     {
       "id": "INT002",
@@ -19,10 +55,58 @@
       "transcriptPath": "data/qualitative/transcripts/INT002.md",
       "transcriptSha256": "8e680c9d805802c1bfceba9515fda4734e2ba339c0278adf86b076a9ed4bc938",
       "cueCount": 438,
-      "participantUtteranceCount": 320,
-      "interviewerUtteranceCount": 118,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.805Z"
+      "participantCueCount": 320,
+      "interviewerCueCount": 118,
+      "demographics": {
+        "age": 52,
+        "gender": "Female",
+        "hasChildrenUnder18": true,
+        "isCaregiverForRelative": true,
+        "hasPet": false,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Still trying to meet basic needs",
+        "emotionalWellbeing": "Poor",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "Somewhat interested",
+        "fireImpactTypes": [
+          "Smoke damage only",
+          "Evacuated but home unharmed",
+          "Lost a pet",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Emotional or mental health stress",
+          "Helping children or family cope",
+          "Feeling forgotten or unsupported",
+          "Finding clear information and resources",
+          "Other: Currently there are no standards on testing a home or thresholds on contaminants from a WUI fire in indoor environments. Insurance companies are forcing people back in their homes by cutting off their ALE, not testing their home properly for contamination, or refusing testing altogether.,"
+        ],
+        "mentalHealthBarriers": [
+          "Cost",
+          "Lack of time"
+        ],
+        "helpNeededNow": [
+          "Housing / rebuilding support",
+          "Financial aid or grants",
+          "Legal guidance",
+          "Insurance guidance",
+          "Emotional / mental health support",
+          "Other: Government agencies to recognize the contamination and to provide a real response in requiring insurance companies to properly recover our standing homes and government needs to come out with a real systematic and funded plan on how to recover our soil."
+        ],
+        "mostOverwhelming": "Trying to navigate how we we return home when there is so much contamination in the soil that is going unaddressed by the federal and state governments. Furthermore insurance is forcing people back into contaminated homes by claiming their homes can be cleaned of wildfire debris but the contamination remains, EFRU, a resident led data driven organization holding the most data on WUI impacted standing homes in the nation, reports 96% of homes still have lead and 36% of homes still have asbestos after remediation. Insurance companies are ending ALE and effectively forcing people back into contaminated homes because they have nowhere else to live. Currently there are no regulations on thresholds for contamination in standing homes caused by a WUI, so insurance companies claim they're not responsible for removing the contamination caused by smoke and ash in people's homes which includes asbestos, lead, arsenic, chromium, thallium, beryllium, lithium, and more. People are having to choose between being financially ruined or their health. 7 out of 10 residents remain displaced according to Dept of Angels. You can learn more about the contamination found in the wildfire that infiltrated residents' homes by going to www.efru.la.",
+        "mostHelpful": "The community providing information for one another on facebook pages, discord, and through community meetings.",
+        "whatWouldHaveHelped": "If there were standards for indoor contamination for asbestos dust, lead dust, and all the other CAM-17 metals, if insurance companies didn't try to overturn independent industrial hygienist tests by sending in their own contractors who report much less contamination impact (but don't test HVACs, behind walls, or attics), and if the state and the federal government actually provided funds and a systematic approach to soil remediation, thousands of us with standing homes could be home by now. We all face exposing ourselves to extremely high contamination levels, but there are no protections for us currently. AB 1642 provides some protections from contamination if it passes. \n \n\n Learn more by going to www.EFRU.LA.",
+        "copingMechanisms": "I talk to other fire survivors",
+        "aiCoachWish": "Not sure.",
+        "additionalSharing": "Government needs to recognize our contamination levels and come up with resources and oversight in which to remove it. Otherwise there will be significant health impacts on our community in the next few years.",
+        "adviceForOthers": "Connect with your community and advocate together. Government is slow or reluctant to provide resources or address safety."
+      },
+      "mvpDemoShown": true,
+      "builtAt": "2026-05-09T02:56:14.027Z"
     },
     {
       "id": "INT003",
@@ -30,10 +114,59 @@
       "transcriptPath": "data/qualitative/transcripts/INT003.md",
       "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
       "cueCount": 491,
-      "participantUtteranceCount": 333,
-      "interviewerUtteranceCount": 158,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.807Z"
+      "participantCueCount": 333,
+      "interviewerCueCount": 158,
+      "demographics": {
+        "age": 41,
+        "gender": "Non-binary / another identity",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Still trying to meet basic needs; Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "Somewhat interested",
+        "fireImpactTypes": [
+          "Smoke damage only",
+          "Home partially damaged",
+          "Knew someone who died in the fire",
+          "Health issues from smoke",
+          "Health issues from stress",
+          "Lost a car"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Dealing with financial strain",
+          "Emotional or mental health stress",
+          "Physical health issues",
+          "Feeling forgotten or unsupported"
+        ],
+        "mentalHealthBarriers": [
+          "Hard to find trusted providers",
+          "Cost",
+          "Other: Providers don't know how to handle this kind of trauma. Health providers don't understand the effects of smoke and contamination on our health."
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Insurance guidance",
+          "Legal guidance",
+          "Community connection and peer support",
+          "Housing / rebuilding support"
+        ],
+        "mostOverwhelming": "The insurance battle, the David vs. Goliath nature of it. It's over a year later and my heavily contaminated home is still untouched and no closer to agreeing to a remediation plan with my insurance company. I've had to hire lawyers to try and sue for what I'm owed so I can begin fixing my home.",
+        "mostHelpful": "Altadena Facebook groups, the Disaster Recovery Center (now the Collaboratory), and neighbors/friends.",
+        "whatWouldHaveHelped": "If there was recognition from Day 1 that smoke-damaged homes don't necessarily have it easier and if we weren't constantly excluded from recovery efforts. Even this survey is hard to fill out — my home is so contaminated that it may need to be completely demolished and rebuilt, so it feels a bit dismissive to choose \"smoke damage only,\" as if that's not as bad. The insurance company won't pay for anything because it's \"just smoke damage,\" on the DINS map my house is listed as \"0% damaged\" which is laughably far from the truth and that map has been used by government and other organizations to approve or deny recovery services, etc. My home will likely be excluded from the permit fee waivers that were granted to total loss victims. It's extremely, extremely frustrating to have all the smoke-damage professionals telling me in no uncertain terms that my home and all my belongings are essentially a total loss but without any of the support.",
+        "copingMechanisms": "Go to therapy, try to spend time with friends, exercise, take time off from recovery work, dark humor",
+        "aiCoachWish": "Inventory. And there isn't a spot for this but I want to share a hesitancy with an AI tool for recovery. Through this process we have all become experts and our situations are nuanced. Each person's recovery is different, which is what makes resources difficult in general; of course they need to be designed for the \"average\" but in recovery there is so much variation and nuance and specificity. I would have a hard time trusting an AI tool right now because we have been pathfinding our way through this recovery and I only really trust information that I have personally experienced or verified. It's too risky to assume that AI is providing the right answer to something.",
+        "additionalSharing": "Centralize resources in a physical location",
+        "adviceForOthers": "Say yes to help and accept it all when it floods in the beginning, especially financial. It stops after a while and you'll need it. If you know you or your neighbors were in the middle of the disaster, just sign a 1-year lease on an temporary living situation (with understanding of the fee for breaking the lease). If you don't need to be displaced for a year, great! You can break your lease and move home. But most likely you'll need it, and you will save yourself a significant amount of stress by having a stable living situation."
+      },
+      "mvpDemoShown": true,
+      "builtAt": "2026-05-09T02:56:14.029Z"
     },
     {
       "id": "INT004",
@@ -41,10 +174,52 @@
       "transcriptPath": "data/qualitative/transcripts/INT004.md",
       "transcriptSha256": "263d6f6e4ae8266ff285fd56dc5eaf9f7b2134744fbbb1ffedff77bcae62a0d8",
       "cueCount": 423,
-      "participantUtteranceCount": 236,
-      "interviewerUtteranceCount": 187,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.808Z"
+      "participantCueCount": 236,
+      "interviewerCueCount": 187,
+      "demographics": {
+        "age": 47,
+        "gender": "Male",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "Yes, from a support group or peer network",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Lost a car",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Emotional or mental health stress",
+          "Dealing with financial strain",
+          "Managing insurance and rebuilding paperwork"
+        ],
+        "mentalHealthBarriers": [
+          "Not sure it would help"
+        ],
+        "helpNeededNow": [
+          "Housing / rebuilding support",
+          "Financial aid or grants",
+          "Legal guidance",
+          "Insurance guidance",
+          "Information and updates about community recovery"
+        ],
+        "mostOverwhelming": "The amount of work and time necessary to navigate a new place to stay, new household items, insurance, finances and our rebuild",
+        "mostHelpful": "The generosity of friends and charitable organizations",
+        "whatWouldHaveHelped": "Money from Edison to rebuild or lives and home",
+        "copingMechanisms": "Spend time with my wife, family and friends",
+        "aiCoachWish": "AI assistance with forms and generating personalized resources",
+        "additionalSharing": "Things do get better as time goes along",
+        "adviceForOthers": "Stay busy and begin early on completing tasks towards recovery - try not to put too much stuff off for later"
+      },
+      "mvpDemoShown": true,
+      "builtAt": "2026-05-09T02:56:14.031Z"
     },
     {
       "id": "INT005",
@@ -52,10 +227,47 @@
       "transcriptPath": "data/qualitative/transcripts/INT005.md",
       "transcriptSha256": "3af1c2b458df4965fff288d67234c8446dd9f73cf40bd9b897c8b47ccf315f09",
       "cueCount": 501,
-      "participantUtteranceCount": 402,
-      "interviewerUtteranceCount": 99,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.809Z"
+      "participantCueCount": 402,
+      "interviewerCueCount": 99,
+      "demographics": {
+        "age": 57,
+        "gender": "Male",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Emotional or mental health stress"
+        ],
+        "mentalHealthBarriers": [
+          "Hard to find trusted providers"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Insurance guidance",
+          "Information and updates about community recovery"
+        ],
+        "mostOverwhelming": "Mercury Insurance and Roundpoint Mortgage have been total assholes. Neither is acting in Good Faith. They are actively withholding funds.",
+        "mostHelpful": "Friends, family, Red Cross, CalAssist, and our recently hired Public Adjuster.",
+        "whatWouldHaveHelped": "Competent and compassionate insurance company would have helped. Also not having to inventory every single item we lost in order to release funds.",
+        "copingMechanisms": "Therapy, meditation, time with friends and family.",
+        "aiCoachWish": "Dealing with mortgage company to release our funds.",
+        "additionalSharing": "I would tell future victims to get a public adjuster referral as soon as possible.",
+        "adviceForOthers": "Get a public adjuster to fight for you right away. The money you spend will save your mental health."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.033Z"
     },
     {
       "id": "INT006",
@@ -63,10 +275,54 @@
       "transcriptPath": "data/qualitative/transcripts/INT006.md",
       "transcriptSha256": "19899b2cb514d4745196ac1edf20e0bb4965844cab8c603930028b0ca1b49e3b",
       "cueCount": 523,
-      "participantUtteranceCount": 291,
-      "interviewerUtteranceCount": 232,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.811Z"
+      "participantCueCount": 291,
+      "interviewerCueCount": 232,
+      "demographics": {
+        "age": 61,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Other: Currently engaged in a bad faith lawsuit against my insurance company, living in a temporary rental, in the process of securing a loan from SBA to begin rebuilding my home while the lawsuit against my insurance company drags on",
+        "emotionalWellbeing": "Poor",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home partially damaged",
+          "Smoke damage only",
+          "Health issues from smoke",
+          "Health issues from stress",
+          "Knew someone who died in the fire"
+        ],
+        "challengingAreas": [
+          "Emotional or mental health stress",
+          "Managing insurance and rebuilding paperwork",
+          "Other: Having a partially burned home, only one left on my street, surrounded by total losses, my specific situation feels forgotten. Very little support out there for those of us in this position."
+        ],
+        "mentalHealthBarriers": [
+          "Cost",
+          "Hard to find trusted providers"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Emotional / mental health support",
+          "Community connection and peer support",
+          "Housing / rebuilding support"
+        ],
+        "mostOverwhelming": "Everything",
+        "mostHelpful": "Good friends who understand and provide both emotional and physical support. Being there to just talk. Over and over.",
+        "whatWouldHaveHelped": "If my insurance company was not dealing in bad faith and they paid on my claim as they should have without forcing me to sue them.",
+        "copingMechanisms": "Cry a lot. Exercise. Rest. Not pushing beyond my limits.",
+        "aiCoachWish": "Sequencing the rebuilding steps, including all the choices that need to be made like layout/design, flooring, cabinets, colors, etc.",
+        "additionalSharing": "Don't expect your insurance company to be your advocate, even though you have paid for the coverage. They immediately become your adversary because they don't care about you personally. They do not want to pay on your claim. Secure as much support as you can, as soon as you can, to navigate your claim with insurance. Put everything in writing/email rather than talking on the phone.",
+        "adviceForOthers": "First, take a breath and know that recovery is likely to take longer than you imagine. Pay attention to the people who step up and support you. Lean on them, even if it's friends instead of family. Prepare for emotions to hit at unexpected times and allow them to come. Give yourself grace, space, and time. Lots of all of them."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.035Z"
     },
     {
       "id": "INT007",
@@ -74,10 +330,48 @@
       "transcriptPath": "data/qualitative/transcripts/INT007.md",
       "transcriptSha256": "675786c15b423e4945e9546f59bf2a2aacf5ec8c1eedf8b210768da6e8b92b8d",
       "cueCount": 508,
-      "participantUtteranceCount": 0,
-      "interviewerUtteranceCount": 508,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.812Z"
+      "participantCueCount": 281,
+      "interviewerCueCount": 227,
+      "demographics": {
+        "age": 52,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": false,
+        "livingSituation": "Other: Splitting time between my parent's home and an airstream on our property",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Good",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Evacuated but home unharmed"
+        ],
+        "challengingAreas": [
+          "Finding clear information and resources",
+          "Dealing with financial strain",
+          "Emotional or mental health stress"
+        ],
+        "mentalHealthBarriers": [
+          "Cost"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Insurance guidance"
+        ],
+        "mostOverwhelming": "Directly after the fire, learning how to navigate FEMA, insurance, etc was jarring while trying to process the volume of loss and function in my daily life.",
+        "mostHelpful": "My partner, who was able to step in and navigate the trail of paperwork, despite having been diagnosed with throat cancer less than a month prior.",
+        "whatWouldHaveHelped": "I'm not sure what could have. Every disaster is different from a infrastructure perspective.",
+        "copingMechanisms": "I'm in a master's program for my MFT degree, with a specialization in trauma, which helps from an intellectual perspective to understand what is happening. I also turned to psychopharma when the anxiety was too much and take lexapro. I have a therapist i see weekly and a self-care practice. And I have a strong social network of family and friends.",
+        "aiCoachWish": "Understanding how to work with the insurance company to bridge the gap between the payout and current cost to rebuild, with materials only growing higher by the day.",
+        "additionalSharing": "An AI approach sounds interesting, provided it is human supported, particularly if it is providing any sort of mental health care. AI is brilliant at scouring for information and synthesizing it quickly. Which is much needed in these situations.",
+        "adviceForOthers": "Get granular. Try to stay in the present moment. Don't look at tomorrow, next week or next month. Look at the next 5 minutes. When you can tolerate that, look at the next 10 minutes. Eventually you will be able to look at tomorrow and then the next week and then the next month. But likely not right away. Listen to your body. Rest when you need to rest. Cry when you need to cry. And maybe try to embrace gallows humor. It can be surprisingly healthy at this point."
+      },
+      "mvpDemoShown": true,
+      "builtAt": "2026-05-09T02:56:14.037Z"
     },
     {
       "id": "INT008",
@@ -85,10 +379,56 @@
       "transcriptPath": "data/qualitative/transcripts/INT008.md",
       "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
       "cueCount": 408,
-      "participantUtteranceCount": 236,
-      "interviewerUtteranceCount": 172,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.813Z"
+      "participantCueCount": 236,
+      "interviewerCueCount": 172,
+      "demographics": {
+        "age": 43,
+        "gender": "Female",
+        "hasChildrenUnder18": true,
+        "isCaregiverForRelative": false,
+        "hasPet": false,
+        "livingSituation": "Other: own home",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Re-settled but still dealing with emotional or financial impacts",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed"
+        ],
+        "challengingAreas": [
+          "Dealing with financial strain",
+          "Emotional or mental health stress",
+          "Physical health issues",
+          "Helping children or family cope",
+          "Feeling forgotten or unsupported",
+          "Finding clear information and resources"
+        ],
+        "mentalHealthBarriers": [
+          "Cost",
+          "Lack of time",
+          "Don’t know where to start",
+          "Hard to find trusted providers"
+        ],
+        "helpNeededNow": [
+          "Emotional / mental health support",
+          "Information and updates about community recovery",
+          "Community connection and peer support",
+          "Legal guidance",
+          "Insurance guidance"
+        ],
+        "mostOverwhelming": "Navigating aging parent's displacement while trying to live my own life. The lack of easily accessible, approachable, continuous mental health support for elderly fire victims and their unwillingness to seek mental health support, despite desperately needing it.",
+        "mostHelpful": "Neighbors, friends and family. Natural networks continue to be what matters most, from the night of the fire, the chaotic days, weeks and months after the fire and even one year later. all the aid and resource fairs were great but nothing beats a good neighbor.",
+        "whatWouldHaveHelped": "more mental health support",
+        "copingMechanisms": "writing, talking, crying, quality time with people I don't have to explain myself to",
+        "aiCoachWish": "consolidation and translation of all the resources available to ensure I am taking full advantage of what is available to fire victims.\n \n\n insurance proceeds audit to ensure we received what we were contracted to receive.",
+        "additionalSharing": "consistent care.\n recovery tends to be everything at once then nothing at all.\n neither extreme is helpful post trauma.",
+        "adviceForOthers": "i am so sorry this happened.\n you will never be the same and you will be ok.\n feel everything and allow those around you to feel everything too. the good, the bad and the ugly. \n the road out of here is not linear. be patient with yourself and be patient with others.\n eat the cake."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.038Z"
     },
     {
       "id": "INT009",
@@ -96,21 +436,96 @@
       "transcriptPath": "data/qualitative/transcripts/INT009.md",
       "transcriptSha256": "6a41c15d4635ee27e0c7ccfbd4eb5d057fbf05a6640040d1a616aad8d3d2321a",
       "cueCount": 396,
-      "participantUtteranceCount": 224,
-      "interviewerUtteranceCount": 172,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.814Z"
+      "participantCueCount": 224,
+      "interviewerCueCount": 172,
+      "demographics": {
+        "age": 71,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In my rebuilt or original home",
+        "fireAffectedMost": "Palisade Fire",
+        "displacementDuration": "1–6 months",
+        "recoveryStage": "Feel mostly recovered",
+        "emotionalWellbeing": "Excellent",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Smoke damage only"
+        ],
+        "challengingAreas": [
+          "Helping children or family cope",
+          "Managing insurance and rebuilding paperwork"
+        ],
+        "mentalHealthBarriers": [
+          "Other: none of the above. I am a mental health professional."
+        ],
+        "helpNeededNow": [
+          "Information and updates about community recovery"
+        ],
+        "mostOverwhelming": "The loss of our town and everything associated with it. Both of our children lost their homes and moved to other locations in southern CA. We see our children and grandchildren less often. Our friends have moved to other ocmmunities and many of our neighbors sold their homes and left. It is hard to accept the degree of destruction and the time it will take to rebuild PP.",
+        "mostHelpful": "Connecting with others- family, friends, neighbors, and community members.",
+        "whatWouldHaveHelped": "If my family were living closer.",
+        "copingMechanisms": "I talk to others",
+        "aiCoachWish": "updates on community rebuilding and ways we can get involved with supporting community redevelopment",
+        "additionalSharing": "no",
+        "adviceForOthers": "Connect with others and community organizations to remain engaged. Information is key to feeling to being more secure and confident."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.040Z"
     },
     {
       "id": "INT010",
       "transcriptFilename": "INT010.md",
       "transcriptPath": "data/qualitative/transcripts/INT010.md",
-      "transcriptSha256": "dfb156f11a6add6df93541992b14a8b3a244dea076c0bbe2b97689552992e5be",
+      "transcriptSha256": "b6097459b90c01b9adc80a8794f170f97857468bbc6b6990f6eec6d874d5bb8a",
       "cueCount": 499,
-      "participantUtteranceCount": 0,
-      "interviewerUtteranceCount": 499,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.815Z"
+      "participantCueCount": 351,
+      "interviewerCueCount": 148,
+      "demographics": {
+        "age": 67,
+        "gender": "Male",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Palisade Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Excellent",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Other: Lost office, lost GF’s home, her cars and … most all personal and generational family items. More importantly, I was impacted by the imposed reset of what is important in my life."
+        ],
+        "challengingAreas": [
+          "Finding clear information and resources",
+          "Dealing with financial strain",
+          "Other: Witnessing how slow the process of rebuilding home and life is and how this affects family and friends"
+        ],
+        "mentalHealthBarriers": [
+          "Cost"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Housing / rebuilding support",
+          "Legal guidance",
+          "Insurance guidance"
+        ],
+        "mostOverwhelming": "The lack of clear, reliable and actionable information from insurance companies and city agencies.",
+        "mostHelpful": "Family and my community. My adult children, siblings and relatives all have been great support. My community support includes our neighborhood and the weekly calls we do, information and support offered.",
+        "whatWouldHaveHelped": "If there had been a “resilience hub” offering coordinated resources, information, support and guidance in place, the recovery process would probably be much further along … and, I think, people would have felt much better supported.",
+        "copingMechanisms": "I connect with family, friends and community. I exercise and sleep at least 7 hours a day. I help others going through the rebuild process, through the design work I do and the information I can share. I speak openly about what it has been like to go through this. I try to be vulnerable with others about my feelings and find commonality with them.",
+        "aiCoachWish": "Information search",
+        "additionalSharing": "The most positive aspect of my own recovery process is that I have been able to help others through the architecture work I do. It is something I can offer and the exchange with others feels mutually supportive. I believe the social connection, along with a feeling of purpose and progress is very healing. I would love to see more ways people can actively engage with each other and to make use of resources and organizations that facilitate this.",
+        "adviceForOthers": "Do not feel alone. Be with and rely on family and friends. Connect with community. Pay little attention to negative news and focus on advice, solutions and pathways to health and recovery. Find your “tribe”, so to speak, and engage consistently."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.042Z"
     },
     {
       "id": "INT011",
@@ -118,10 +533,51 @@
       "transcriptPath": "data/qualitative/transcripts/INT011.md",
       "transcriptSha256": "b94e449fa75629ea5f5ad537afbb2a0029823f8684e6a0e9b212880ddcfb410d",
       "cueCount": 381,
-      "participantUtteranceCount": 239,
-      "interviewerUtteranceCount": 142,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.816Z"
+      "participantCueCount": 239,
+      "interviewerCueCount": 142,
+      "demographics": {
+        "age": 54,
+        "gender": "Male",
+        "hasChildrenUnder18": true,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Good",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "3 (Very interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Lost a car",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Emotional or mental health stress",
+          "Helping children or family cope",
+          "Finding clear information and resources"
+        ],
+        "mentalHealthBarriers": [
+          "Lack of time",
+          "Not sure it would help",
+          "Other: It probably would help honestly but there are no real shortcuts to processing the experience."
+        ],
+        "helpNeededNow": [
+          "Other: Tax and financial planning."
+        ],
+        "mostOverwhelming": "Nothing in particular. It is a second full time job, so the weight of all the spinning plates between work and real life is omnipresent",
+        "mostHelpful": "Friends family, and an open mind.",
+        "whatWouldHaveHelped": "Guidance specific to our unique situation. We're not special though...everyone was impacted in different ways. When searching for answers one first has to wade through guidance meant for different profiles of impacted families.  \n \n\n Compounding this...to find and distill this information often means high exposure to social media as it is the impacted people pushing to get answers and sharing in those spaces. Unfortunately that means exposure to the more toxic elements of social media and the combined mental anguish of thousands of people.",
+        "copingMechanisms": "Exercise, gaming, outdoor time.",
+        "aiCoachWish": "Complete home inventory with evidence or reasonable research that would hold up in a lawsuit. If you asked me this after the fire I would have answered more generally with \"guided recommendations based on our specific life/family situation\".",
+        "additionalSharing": "My advice to people would be to find friends or family that can activate during a crisis and help. For impacted families there is no time for anything but survival. By the time friends asked if they could help we were already steps ahead so couldn't benefit. Some of the things the friend/family member could do:\n 1. start looking for rental units...the sooner you find a place the sooner you avoid price gouging and location constraints.\n 2. start a go fund me. We would never have thought of this, and the sooner it is up the more folk will support. It is human nature to move on quickly, so people will start to turn their attention away within a couple weeks of the disaster.\n 3. Find anchors to normalcy. It's a disaster but not a shared one. The vast majority of the planet is still normal. It's important to be reminded what that looks like.\n \n\n This would need to be done ahead of time, and ideally the friend would be given details that would be helpful when they operate on their behalf.",
+        "adviceForOthers": "Force yourself to find time to evaluate your state of mind. Survival instincts take a toll and you will break down at some point."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.043Z"
     },
     {
       "id": "INT012",
@@ -129,10 +585,50 @@
       "transcriptPath": "data/qualitative/transcripts/INT012.md",
       "transcriptSha256": "95764d139a4a3e627b583effbed3e29d376fc544c96228d0e3d5cee224dfe1ef",
       "cueCount": 217,
-      "participantUtteranceCount": 141,
-      "interviewerUtteranceCount": 76,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.817Z"
+      "participantCueCount": 141,
+      "interviewerCueCount": 76,
+      "demographics": {
+        "age": 48,
+        "gender": "Female",
+        "hasChildrenUnder18": true,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Poor",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "3 (Very interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Lost a car",
+          "Other: Kids schools was also lost to the fire"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Emotional or mental health stress",
+          "Helping children or family cope"
+        ],
+        "mentalHealthBarriers": [
+          "Cost",
+          "Other: I have both kids in weekly therpy since the fire. it's just too expensive to go as parents as well."
+        ],
+        "helpNeededNow": [
+          "Insurance guidance",
+          "Emotional / mental health support"
+        ],
+        "mostOverwhelming": "insurance not paying us our policy limits. Even at our limits we are over 1M in the hole, but they operate in bad faith and claim we can rebuild our custom home for only $270/sq foot, which is not realistic anywhere in the US let alone LA! Their cheating us has caused so much stress.",
+        "mostHelpful": "my friends and family",
+        "whatWouldHaveHelped": "not having to fight with insurance",
+        "copingMechanisms": "quietly, by myself. just keep pushing forward, probably not the best way.",
+        "aiCoachWish": "I am already using AI right now, for insurance, property list, rebuilding etc.",
+        "additionalSharing": "I lose sleep worrying that even if I rebuild our home we won't be able to afford to live there because our insurance cost will be too high.  having reassuarnce that there is plan for reasonable coverage are a reasonable cost would be a huge help! I hear nothing about this.\n \n\n stop entities from taking advantage of people who are down. One example - our water company has decided that our pool house we are rebuilding needs its own meter and charged us 12K just for the meter. it seems like a money grab in a time we don't have money. make it optional. I'm never renting it out. \n Having a group push back on all these companies charging us to foot the bill for their rebuild costs would be nice.",
+        "adviceForOthers": "This is very person dependent. Our philosophy right after 7K people lost their homes was to stay ahead of the wave. Get a rental quick, start rebuilding fast. There will be a run on rentals, contractors, supplies, permit timelines will grow etc. That's a very pragmatic approach but being ahead of the wave, and moving forward quickly has helped us feel empowered."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.044Z"
     },
     {
       "id": "INT013",
@@ -140,10 +636,54 @@
       "transcriptPath": "data/qualitative/transcripts/INT013.md",
       "transcriptSha256": "fa0b0b5d11594cd02777ffef9a82c9fc4c9296841fb1ae12aa3f97766e0861a1",
       "cueCount": 506,
-      "participantUtteranceCount": 285,
-      "interviewerUtteranceCount": 221,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.818Z"
+      "participantCueCount": 285,
+      "interviewerCueCount": 221,
+      "demographics": {
+        "age": 52,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "Living with family/friends",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "No",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Lost a pet",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Emotional or mental health stress",
+          "Finding clear information and resources",
+          "Dealing with financial strain"
+        ],
+        "mentalHealthBarriers": [
+          "Lack of time",
+          "Not sure it would help",
+          "Don’t know where to start"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Legal guidance",
+          "Insurance guidance",
+          "Emotional / mental health support"
+        ],
+        "mostOverwhelming": "Deciding if we should rebuild",
+        "mostHelpful": "Friends",
+        "whatWouldHaveHelped": "Not having added stress of family issues and uncertainty of work status",
+        "copingMechanisms": "Eating and mindless tv",
+        "aiCoachWish": "Taxes",
+        "additionalSharing": "Join many peer groups that are in the same position. The discussions will be timely and I learned about things to do or ask about just by being a fly-on-the-wall. You don't have to participate unless you feel up to it. Disaster Recovery Center was very helpful.",
+        "adviceForOthers": "Try to stay organized. Keep a journal to document what you do daily. Keep time/deadlines in focus and keep receipts and such. Take things one day at a time and remember to take care of yourself."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.046Z"
     },
     {
       "id": "INT014",
@@ -151,10 +691,51 @@
       "transcriptPath": "data/qualitative/transcripts/INT014.md",
       "transcriptSha256": "56452556170bb843aa2d8a4a12bbc5793501cbd4d54b15edbc6906ea5885da51",
       "cueCount": 494,
-      "participantUtteranceCount": 344,
-      "interviewerUtteranceCount": 150,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.819Z"
+      "participantCueCount": 344,
+      "interviewerCueCount": 150,
+      "demographics": {
+        "age": 73,
+        "gender": "Male",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": true,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork",
+        "emotionalWellbeing": "Poor",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "No",
+        "aiChatbotInterest": "2 (Somewhat interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Health issues from stress",
+          "Other: My wife, who already has early-onset Alzheimer's, suffered serious trauma during the evacuation. Has not recovered at all."
+        ],
+        "challengingAreas": [
+          "Emotional or mental health stress",
+          "Feeling forgotten or unsupported",
+          "Physical health issues"
+        ],
+        "mentalHealthBarriers": [
+          "Don’t know where to start",
+          "Lack of time",
+          "Not sure it would help"
+        ],
+        "helpNeededNow": [
+          "Emotional / mental health support",
+          "Community connection and peer support"
+        ],
+        "mostOverwhelming": "Being laid-off from my job at JPL (with 550 other employees).",
+        "mostHelpful": "My twin 19 year-old sons, and other family members.",
+        "whatWouldHaveHelped": "1) Not being laid-off. \n 2) If my wife had already been settled into a (fire-safe) memory-care facility before the fire. I was her sole caretaker at the time of the fire, but reaching my limits. She is now in a facility, but really far away. So, I feel I had no control over that important life transition, and have a lot of guilt about not doing it sooner. Right after the evacuation, she was clearly traumatized and had to be hospitalized for months, and now she's still in that network.",
+        "copingMechanisms": "Sleep. Much more that the ~8 hours I would normally need.",
+        "aiCoachWish": "Emotional support. Help to get out of the slump.",
+        "additionalSharing": "With my twin sons in college, and my wife in a distant memory-care facility, I feel really lonely. Pets help, but are limited.",
+        "adviceForOthers": "Don't lose hope."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.047Z"
     },
     {
       "id": "INT015",
@@ -162,10 +743,51 @@
       "transcriptPath": "data/qualitative/transcripts/INT015.md",
       "transcriptSha256": "5e25a453cf0f934de4aa88f1c2ae8ed1ffcdc2a132ea99bbfa99a349b901edac",
       "cueCount": 530,
-      "participantUtteranceCount": 326,
-      "interviewerUtteranceCount": 204,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.820Z"
+      "participantCueCount": 326,
+      "interviewerCueCount": 204,
+      "demographics": {
+        "age": 78,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": false,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Actively rebuilding / navigating paperwork; Re-settled but still dealing with emotional or financial impacts",
+        "emotionalWellbeing": "Poor",
+        "hasSoughtMentalHealthSupport": "No, but I would like to",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "3 (Very interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Health issues from smoke",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Managing insurance and rebuilding paperwork",
+          "Dealing with financial strain",
+          "Emotional or mental health stress",
+          "Physical health issues"
+        ],
+        "mentalHealthBarriers": [
+          "Cost",
+          "Other: Access to sources"
+        ],
+        "helpNeededNow": [
+          "Financial aid or grants",
+          "Emotional / mental health support"
+        ],
+        "mostOverwhelming": "financial management",
+        "mostHelpful": "Friends, family, Street WhatsApp group",
+        "whatWouldHaveHelped": "Mor money",
+        "copingMechanisms": "Sleep, eat, try to MOVE",
+        "aiCoachWish": "Find free money for rebuild",
+        "additionalSharing": "no idea",
+        "adviceForOthers": "one step at a time"
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.049Z"
     },
     {
       "id": "INT016",
@@ -173,10 +795,53 @@
       "transcriptPath": "data/qualitative/transcripts/INT016.md",
       "transcriptSha256": "2be18e2cc04e43e8ddd5b6bfe7cbc5ece01eb564ccd025beb3410a6f3394668a",
       "cueCount": 448,
-      "participantUtteranceCount": 208,
-      "interviewerUtteranceCount": 240,
-      "demographics": null,
-      "builtAt": "2026-05-08T23:15:20.820Z"
+      "participantCueCount": 208,
+      "interviewerCueCount": 240,
+      "demographics": {
+        "age": 34,
+        "gender": "Female",
+        "hasChildrenUnder18": false,
+        "isCaregiverForRelative": false,
+        "hasPet": true,
+        "livingSituation": "In temporary housing (rental, hotel, trailer, etc.)",
+        "fireAffectedMost": "Eaton Fire",
+        "displacementDuration": "Still displaced",
+        "recoveryStage": "Other: Deciding whether or not to rebuild, relocate, etc.",
+        "emotionalWellbeing": "Fair",
+        "hasSoughtMentalHealthSupport": "Yes, from a therapist or counselor",
+        "hasUsedAiBefore": "Yes",
+        "aiChatbotInterest": "3 (Very interested)",
+        "fireImpactTypes": [
+          "Home completely destroyed",
+          "Health issues from stress"
+        ],
+        "challengingAreas": [
+          "Emotional or mental health stress",
+          "Finding clear information and resources",
+          "Managing insurance and rebuilding paperwork"
+        ],
+        "mentalHealthBarriers": [
+          "Lack of time",
+          "Hard to find trusted providers",
+          "Cost"
+        ],
+        "helpNeededNow": [
+          "Emotional / mental health support",
+          "Community connection and peer support",
+          "Housing / rebuilding support",
+          "Financial aid or grants",
+          "Legal guidance"
+        ],
+        "mostOverwhelming": "Compounding challenges and factors intersecting with the fire recovery - political, economic, career, governmental factors. It’s never just one thing, it’s everything together that’s intrinsically connected to everything else. Everyone is dealing with a different combination of so many things.",
+        "mostHelpful": "Feeling seen by fellow fire survivors and support from an acquaintance who went through the Marshall Fire in CO. A support group of 200 total loss survivors at work.",
+        "whatWouldHaveHelped": "More accessible and diverse support groups for navigating the emotional and mental aspects of the experience. The work support group of engineers focuses on problem solving, plans, data, etc. I craved connecting with neighbors in a similar situation but was never able to find them - support and community varies from block to block, and the divide between older vs younger, families vs couples vs individuals, total loss vs smoke damage, Altadena natives vs new transplants, etc. makes true connection difficult.",
+        "copingMechanisms": "Distraction and escapism through hobbies and media (reading, crafting/art, TV and movies, video games)",
+        "aiCoachWish": "In-the-moment support, tips, and reminders for nervous system regulation tools, dealing with stress and emotional challenges, support and encouragement when navigating challenges - while being able to trust that the training material and sources are vetted and accurate, and with the specific context of fire recovery.",
+        "additionalSharing": "One thing that a fellow survivor mentioned to me was going to a group therapy session, and hearing audible gasps when explaining why she was there (fire + other) and the deep intersection and interplay of all the challenges being faced. It feels hard to find support or resources that “get it” outside of fire survivor communities - it feels like the standard avenues of support don’t know how to best help fire survivors specifically, and the most valuable resources are those who have navigated similar experiences. I also recall going to yoga classes and feeling uncomfortable with the casual metaphors and language around fire; there aren’t yoga classes being offered that cater towards or understand our specific trauma, even in neighbouring communities 10 minutes from Altadena. \n I think having this kind of specific resource for those recovering from fires, created by those with direct experience and understanding, will be incredibly powerful and helpful. \n \n\n Ideas: personalized journaling prompts or reflection questions related to fire recovery; encouragement that is grounded in research and evidence and acknowledges the difficulties without “toxic positivity” or platitudes",
+        "adviceForOthers": "Lean on someone who has direct experience / is also part of this awful club of fire survivors to help you navigate it all."
+      },
+      "mvpDemoShown": null,
+      "builtAt": "2026-05-09T02:56:14.051Z"
     }
   ]
 }

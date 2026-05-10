@@ -10,7 +10,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "qualitative:build-manifest": "tsx scripts/qualitative/build-manifest.ts",
-    "qualitative:test": "vitest run scripts/qualitative"
+    "qualitative:dry-run": "tsx scripts/qualitative/extract-batch.ts",
+    "qualitative:test": "vitest run scripts/qualitative",
+    "qualitative:validate": "tsx scripts/qualitative/validate-quotes.ts"
   },
   "dependencies": {
     "@types/papaparse": "^5.5.2",
@@ -26,6 +28,7 @@
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^16.3.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -1,0 +1,178 @@
+{
+  "participantId": "INT009",
+  "transcriptSha256": "6a41c15d4635ee27e0c7ccfbd4eb5d057fbf05a6640040d1a616aad8d3d2321a",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T06:14:00.000Z",
+  "summary": "INT009 is a 71-year-old retired mental health professional living in Pacific Palisades whose home sustained smoke damage in the January 2025 Palisades Fire. Her household was displaced for three months while she managed remediation, insurance negotiations, and contamination concerns largely on her own, as her husband continued working. Both adult children lost their homes, adding a secondary layer of grief as she witnessed their struggles from an already-stressed position.\n\nThe immediate post-evacuation period was marked by shock and disorientation — a sense that the world had collapsed. Key stressors included deep uncertainty about invisible contaminants inside the home and extensive self-advocacy against an insurance company that sent underpaid assessors and resisted covering the full scope of remediation needed. Without a guide or case manager, she pieced together her entitlements by gathering information from neighbors and community Zoom calls.\n\nAlongside these logistical burdens, she carried moral anger at government failures — the Fire Department's initial response, withheld FEMA funds, and what she perceived as politically motivated neglect of her community. She also articulated frustration at the fragmented information landscape: dozens of Zoom calls and organizations with no centralizing hub, and a Block Captain program that accepted her sign-up multiple times but never followed through.\n\nCommunity connection emerged as the most sustaining resource throughout her recovery. She actively engaged returning neighbors, shared information about insurance and remediation strategies, and sought hope in visible signs of the town's rebirth — new homes going up in her daughter's neighborhood, the coming reopening of the commercial center. She describes herself as mostly recovered and back in her original home, though contamination anxiety persists.\n\nOn technology, she actively uses AI tools to search for information more quickly. She holds a measured but generally positive view of AI for practical tasks, while expressing strong caution about AI for emotional support given her professional background — she has witnessed the risks with vulnerable young people. She wants any AI recovery tool to be genuinely intelligent, non-generic, and able to go deep on specific questions.\n\nHer reaction to the TAC MVP concept was broadly enthusiastic, particularly for its community-channel summarization feature and its potential to consolidate the overwhelming information landscape. She raised a clear privacy concern about data sharing, and wanted depth and specificity rather than repetitive or superficial guidance. Her core message: a tool that empowers people with actionable, specific steps rather than generic encouragement would fill a real and ongoing gap.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "So, we, we, we were out of our house for 3 months, and and…",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Three-month displacement period; characteristic of the instability and interim-housing labor of smoke-damage recovery."
+      },
+      {
+        "quoteVerbatim": "you know, it just is a whole… just, it was a whole different thing, and it consumed… for me, that was my job in our household, because my husband was working, and I was doing that, and and and so the, you know.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Participant explicitly frames recovery management as her full-time household job while husband worked — consumed all available bandwidth."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "the picture I want to… is just this smoke that was coming and overwhelming. I mean, I still obviously get very emotional about it, because it was… felt like the world was going to just collapse.",
+        "codeIds": ["ptsd_intrusive_imagery"],
+        "rationale": "Vivid involuntary visual recall of the advancing smoke; strong emotional re-activation surfacing a year later when describing the image."
+      },
+      {
+        "quoteVerbatim": "And it felt like, you know, a bomb had dropped that… that didn't exist anymore.",
+        "codeIds": ["loss_of_home_anchor"],
+        "rationale": "The neighborhood ceasing to exist expressed as annihilation of an anchor — classic loss-of-home-as-anchor language."
+      },
+      {
+        "quoteVerbatim": "And that there's a sense of hope and rebirth and, and community coming back. And that's something… the commercial district is not happening, but homes are coming back, and then, that… that…",
+        "codeIds": ["hope_via_progress"],
+        "rationale": "Visible recovery milestones — new homes appearing in daughter's neighborhood — named as a direct source of hope and rebirth."
+      },
+      {
+        "quoteVerbatim": "you know, we're back. We're… those of us who've moved back in, we're back, and we realize how fortunate we are, and fortunate not only to live here, but also to have",
+        "codeIds": ["comparative_luck_appraisal"],
+        "rationale": "Frames own return as fortunate by implicit contrast with neighbors who have not or could not come back; comparative structure is the load-bearing element."
+      },
+      {
+        "quoteVerbatim": "we just feel like our government, our local and federal government, has failed us.",
+        "codeIds": ["moral_injury"],
+        "rationale": "Distress framed explicitly as institutional betrayal and failure of government duty — not misfortune but injustice."
+      },
+      {
+        "quoteVerbatim": "had her family history, and she dates back to the daughters of the American, you know, and she said, it's all gone, and she doesn't have any other family members who can provide family history for her. And that, you know, those are…",
+        "codeIds": ["witnessing_burden"],
+        "rationale": "Participant carries emotional weight from witnessing a neighbor's total loss of irreplaceable generational history — distinct from her own losses."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "what we can't see. I mean, it's one thing, you know, you can clean all you want, but what really is there, and what is… is this gonna kill us, coming back into here? Are we gonna get cancer? You know, and and, you know, I've… we both thought about, should we move somewhere, or, you know, where would be better, and",
+        "codeIds": ["contamination_limbo"],
+        "rationale": "Uncertainty about invisible toxins drove serious consideration of permanent relocation; the home is structurally intact but chemically suspect — classic standing-home contamination limbo."
+      },
+      {
+        "quoteVerbatim": "supposedly experts to test what's on your walls. They're paid by the insurance company to do the minimal amount, and… and that is, you know, the discovery when, you know, you know that there's more there, and I…",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Insurance-paid assessors explicitly framed as incentivized to minimize findings — adversarial dynamic with insurer controlling its own oversight."
+      },
+      {
+        "quoteVerbatim": "I knew there was stuff here that they didn't get, and they did find some more things, but, I wanted them to do more remediation, and even with our pool and all that stuff, they fought it, but, eventually we got them to cover things, but they, you know, they don't want to…",
+        "codeIds": ["insurance_adversarial"],
+        "rationale": "Persistent self-advocacy required at every step to extract full remediation coverage; insurer resisted each request, eventually yielding only after repeated pushback."
+      },
+      {
+        "quoteVerbatim": "source of information, and that was something that, continues. I mean, there's so many organizations and so many different, you know, the community, Zoom meetings, this, that, and it was just…",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Proliferation of Zoom calls and organizations without a centralizing hub — information exists but is scattered, still overwhelming at the time of the interview."
+      },
+      {
+        "quoteVerbatim": "that's… that was a frustration that I had, because I was willing, and I had to engage and do things, and it was lost. It was lost in whatever the process was with that, and",
+        "codeIds": ["navigator_gap"],
+        "rationale": "Multiple attempts to join Block Captain program all fell through — willing participant with no one managing follow-through on the system's side."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "it just… there's so much that's unknown, and I think any kind of information to help with steps to take that are just basic, and that then could lead to,",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Articulates a medium-phase need for a structured step-by-step navigation guide — actionable, sequenced information to reduce overwhelm and restore a sense of agency."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "Yeah, no, that was the WhatsApp for… it wasn't our immediate street, but the whole area that it was… really helpful. It was, you know, of telling where some of the fire engines were stationed, and what was going on, and, sending pictures of, you know, we were all over the… scattered all over the place, so the WhatsApp was, yes.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "WhatsApp described as the primary real-time information hub for the broader neighborhood during displacement — tracking fire engines and sharing situational pictures while people were scattered."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "what something might be. And yeah, I think AI is terrific, and, you know, everything depends on the user.",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "Direct endorsement of AI's utility for information and synthesis; caveat 'everything depends on the user' hedges rather than negates the endorsement."
+      },
+      {
+        "quoteVerbatim": "Because somebody can get involved in a relationship with a computer and not realize that it's a computer.",
+        "codeIds": ["ai_emotional_skeptical"],
+        "rationale": "Concern about users developing emotional attachment to AI without recognizing it as non-human — dependency and misattribution risk."
+      },
+      {
+        "quoteVerbatim": "I just think there needs to be a human connection associated with that conversation with AI, of,",
+        "codeIds": ["ai_human_tether"],
+        "rationale": "Explicit call for AI to be paired with human connection rather than used in isolation — stated as a condition for safe emotional use."
+      },
+      {
+        "quoteVerbatim": "the, you know, following what, you know, kids who are depressed, suicidal, things like that, that they follow directions that they assume means to kill yourself or to do something against another person, and so I just think there's caution, a lot of caution.",
+        "codeIds": ["ai_emotional_skeptical"],
+        "rationale": "Mental health professional raises safety-specific concern grounded in professional observation: vulnerable users may follow harmful AI suggestions uncritically."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "if it kept repeating the same thing over and over again, and I couldn't dig deeper. I, you know, I… what would get me annoyed is,",
+        "codeIds": ["mvp_hesitate_tone"],
+        "rationale": "Articulates a specific failure mode: chatbot giving repetitive, shallow responses rather than allowing progressive depth of inquiry."
+      },
+      {
+        "quoteVerbatim": "If, if it was just superficial also, and didn't say, you know, for example, if my, like, with this toxic, testing of,",
+        "codeIds": ["mvp_hesitate_tone", "mvp_request_feature"],
+        "rationale": "Superficiality hesitation paired with implicit feature request: the tool should provide specific actionable guidance (e.g., how to challenge insurance on toxic testing), not surface-level responses."
+      },
+      {
+        "quoteVerbatim": "Yeah, yeah. I think the… my concern is personal information of how much to share, because of…",
+        "codeIds": ["mvp_hesitate_privacy"],
+        "rationale": "Direct statement of privacy concern about data sharing; notes this is a shared reservation among her peer group."
+      },
+      {
+        "quoteVerbatim": "Because they are the channel for information, and… Right, no, so much of what you're talking about, I mean, is really… it would consolidate and be very helpful, and not only for, you know, their… that block, but every… because they're all… it's so overlapping, and all the information that you can consolidate into this",
+        "codeIds": ["mvp_endorse_centralization", "mvp_endorse_community_layer"],
+        "rationale": "Enthusiastic endorsement of both the consolidation concept and the community-channel layer — 'would consolidate and be very helpful' said in direct response to the Slack demo."
+      },
+      {
+        "quoteVerbatim": "That was wonderful. That was a wonder… even for me to follow my daughter's network, which was completely different than mine, because everything was gone in her neighborhood. But what to do, how to centralize it, and also, as you, you know, even with the relaxation and breathing exercises, because, you know, I… for me, that's my background in mental health, but",
+        "codeIds": ["mvp_endorse_community_layer"],
+        "rationale": "Strong endorsement ('That was wonderful') of community-channel summarization via personal example; also approves breathing exercise feature while noting most people lack the professional background to access these tools on their own."
+      },
+      {
+        "quoteVerbatim": "we live in a state that there will be more situations that need this kind of network of support, both in terms of resources and community and emotional support, so…",
+        "codeIds": ["mvp_endorse_centralization"],
+        "rationale": "Explicit endorsement of the combined resource-community-emotional-support concept, framed as a scalable need for future California disasters — broader than just the current fire."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "of support, of knowing that you're not alone, and and getting information from one another, and that is something that… I mean, that's the greatest loss, is when you lose your community, your people, your family, all that.",
+        "codeIds": ["cross_human_irreplaceable"],
+        "rationale": "Participant frames community connection as both the primary healing mechanism and the deepest loss — nothing substitutes for it; human contact is irreplaceable."
+      },
+      {
+        "quoteVerbatim": "would be, you know, just… I mean, that's… that was my frustration, is there's so much out there, but where can I find a central factor that would help me, see that this, you know, this is how you approach something, or this is what my neighbor's doing, and they're able to resolve it with",
+        "codeIds": ["cross_relevance_over_volume"],
+        "rationale": "Participant's own generalization: the problem is not lack of information but lack of situationally precise, navigable information — volume is there, relevance and centrality are not."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Ran both passes on cues 154–389 (from Adrienne's first feature description through the end of the interview). Endorsements were clearly present: participant called the community-channel summarization feature 'wonderful' (cue 373), endorsed the consolidation concept enthusiastically in direct response to the Slack demo (cue 363), and offered broad support for the combined resource-community-emotional-support vision framed as a need for future California disasters (cue 378). Hesitations were also present: she flagged superficiality and the inability to drill deeper as a specific failure mode (cues 180, 182) and explicitly raised a privacy and data-destination concern that she expected her peers to share (cue 261). No clean single-cue quote emerged for a hallucination or accuracy hesitation specifically about the demo; cues 193–194 gestured at a trust concern ('that you can trust… that this isn't just taking things without the full…') but were too fragmented to code. The balance in this transcript tilts clearly toward endorsement; hesitations are UX-quality and privacy concerns rather than fundamental opposition to the concept."
+  },
+  "uncodedObservations": [
+    {
+      "category": "technologyForRecovery",
+      "quoteVerbatim": "Well, I'm googling, and now I'm using a lot of the AI stuff, because, I just… I… if I want information faster, I will do that.",
+      "note": "Describes using AI as a general-purpose information accelerator during recovery. Does not fit tech_ai_inventory (household reconstruction) or tech_ai_advocacy (dispute letters). A pattern of AI-as-search-upgrade deserves its own tech code."
+    },
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "quoteVerbatim": "you know, the problem of density in our town, and not considering evacuation routes. We, you know, we couldn't get out of town, and now they want to add density to town.",
+      "note": "Civic and infrastructure concern: post-fire planning adding density without addressing evacuation capacity first. No existing code for survivor policy advocacy or systemic preparedness critique."
+    }
+  ]
+}

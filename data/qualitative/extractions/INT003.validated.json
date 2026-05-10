@@ -1,0 +1,640 @@
+{
+  "participantId": "INT003",
+  "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T02:24:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.508Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "So I was probably off work for maybe, like, a month, just, just, you know, in, like, total, disorganized chaos.",
+        "codeIds": [
+          "routine_collapse"
+        ],
+        "rationale": "First weeks after the fire described as complete breakdown of normal functioning.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "So I was probably off work for maybe, like, a month, just, just, you know, in, like, total, disorganized chaos.",
+          "flatCharStart": 6872,
+          "flatCharEnd": 6983,
+          "cueNumber": 53,
+          "startTime": "00:06:31.910",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I stayed with friends for a little while, I stayed at an Airbnb for a little while, and then eventually I found this place that I'm living now, and I've been there since, like, February of last year.",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Multiple temporary moves (friends, Airbnb) before finding stable housing.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I stayed with friends for a little while, I stayed at an Airbnb for a little while, and then eventually I found this place that I'm living now, and I've been there since, like, February of last year.",
+          "flatCharStart": 18841,
+          "flatCharEnd": 19040,
+          "cueNumber": 124,
+          "startTime": "00:18:06.590",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "This insurance fight is truly… and the fire recovery is a full-time job.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Participant explicitly uses 'full-time job' framing for recovery workload.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "This insurance fight is truly… and the fire recovery is a full-time job.",
+          "flatCharStart": 7241,
+          "flatCharEnd": 7313,
+          "cueNumber": 55,
+          "startTime": "00:06:55.220",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I mean, truly a full-time job, and I'm trying to work full-time, and I'm getting calls from my adjuster in the middle of the day, I'm getting… I'm having to call, you know, there… there are things I need to deal with that are only open 9 to 5, or whatever, right? There's just so much that needed to get done in a day.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Concrete detail of recovery tasks encroaching on paid work hours, ultimately forcing a reduction to part-time.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I mean, truly a full-time job, and I'm trying to work full-time, and I'm getting calls from my adjuster in the middle of the day, I'm getting… I'm having to call, you know, there… there are things I need to deal with that are only open 9 to 5, or whatever, right? There's just so much that needed to get done in a day.",
+          "flatCharStart": 7327,
+          "flatCharEnd": 7645,
+          "cueNumber": 56,
+          "startTime": "00:06:59.650",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "it just doesn't feel quite as… it feels like a step down. It's like, well, I was doing what I loved, I had, like, my dream job, so everything else kind of feels like a little bit of a step down, so I'm kind of figuring out what's next.",
+        "codeIds": [
+          "career_disruption"
+        ],
+        "rationale": "JPL layoff entangled with fire disruption left participant unable to return to meaningful work; describes loss of dream career trajectory.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "it just doesn't feel quite as… it feels like a step down. It's like, well, I was doing what I loved, I had, like, my dream job, so everything else kind of feels like a little bit of a step down, so I'm kind of figuring out what's next.",
+          "flatCharStart": 4084,
+          "flatCharEnd": 4319,
+          "cueNumber": 32,
+          "startTime": "00:03:56.280",
+          "contextBefore": "",
+          "contextAfter": " I've honestly been really…"
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "that's a moral injury to your sense of safety and the systems that are supposedly there to protect us, right?",
+        "codeIds": [
+          "moral_injury"
+        ],
+        "rationale": "Participant explicitly names moral injury from institutional failures; uses the term precisely.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "that's a moral injury to your sense of safety and the systems that are supposedly there to protect us, right?",
+          "flatCharStart": 24985,
+          "flatCharEnd": 25094,
+          "cueNumber": 172,
+          "startTime": "00:23:43.120",
+          "contextBefore": "",
+          "contextAfter": " And…"
+        }
+      },
+      {
+        "quoteVerbatim": "They called 911 several times, and no one ever came to help them evacuate.",
+        "codeIds": [
+          "moral_injury"
+        ],
+        "rationale": "Disabled neighbors' deaths through 911 non-response; participant carries this as emblematic of systemic injustice.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "They called 911 several times, and no one ever came to help them evacuate.",
+          "flatCharStart": 24813,
+          "flatCharEnd": 24887,
+          "cueNumber": 168,
+          "startTime": "00:23:35.430",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "my community in Altadena was so, so important to me. Like, I got divorced a few years ago, and the community is really where I, like, found my home, right?",
+        "codeIds": [
+          "loss_of_home_anchor"
+        ],
+        "rationale": "Community was the emotional home rebuilt after divorce; displacement threatened this anchor in a way physical loss alone would not.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "my community in Altadena was so, so important to me. Like, I got divorced a few years ago, and the community is really where I, like, found my home, right?",
+          "flatCharStart": 21688,
+          "flatCharEnd": 21843,
+          "cueNumber": 147,
+          "startTime": "00:20:38.230",
+          "contextBefore": "like, ",
+          "contextAfter": " And my block in particular, like, our street was already really tight-knit befo"
+        }
+      },
+      {
+        "quoteVerbatim": "I can't tell you how many times I've said, like, if I had to go through this, I kind of wish my house would just burn down. To that, like, switch has also been real disorienting, just going from, like, wow, you're so lucky, like.",
+        "codeIds": [
+          "comparative_luck_appraisal"
+        ],
+        "rationale": "Initially framed as lucky (house survived), now inverts that appraisal by comparison with total-loss neighbors who had a clearer path; the comparison itself is the emotional content.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I can't tell you how many times I've said, like, if I had to go through this, I kind of wish my house would just burn down. To that, like, switch has also been real disorienting, just going from, like, wow, you're so lucky, like.",
+          "flatCharStart": 30646,
+          "flatCharEnd": 30875,
+          "cueNumber": 211,
+          "startTime": "00:28:55.790",
+          "contextBefore": " I guess… I guess that's good, right? My house is there. And, like, now, again, ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "since the fire, I have felt really pulled to do more work in the community and get a, you know, I've been doing a lot of community advocacy and stuff like that",
+        "codeIds": [
+          "meaning_through_service"
+        ],
+        "rationale": "Fire catalyzed shift toward community advocacy; participant describes this as purposeful pull, not mere distraction.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "since the fire, I have felt really pulled to do more work in the community and get a, you know, I've been doing a lot of community advocacy and stuff like that",
+          "flatCharStart": 4421,
+          "flatCharEnd": 4580,
+          "cueNumber": 33,
+          "startTime": "00:04:08.880",
+          "contextBefore": "Since the fire, it's hard to disentangle the two for me, but ",
+          "contextAfter": ", so…"
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "they'll go find a green couch from Walmart and give you $200 and call it good, but if your couch was a $2,000 couch from West Elm, then you better write that down, because then you'll get the amount that you're owed, right?",
+        "codeIds": [
+          "insurance_adversarial"
+        ],
+        "rationale": "Documentation specificity as the only defense against lowballing; the burden of proof is placed entirely on the claimant.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "they'll go find a green couch from Walmart and give you $200 and call it good, but if your couch was a $2,000 couch from West Elm, then you better write that down, because then you'll get the amount that you're owed, right?",
+          "flatCharStart": 35553,
+          "flatCharEnd": 35776,
+          "cueNumber": 247,
+          "startTime": "00:33:41.820",
+          "contextBefore": "",
+          "contextAfter": " Or at least you're more likely to, so it's… it's the…"
+        }
+      },
+      {
+        "quoteVerbatim": "Even with all of that, I'm still getting sick every time I go into my house, so I go in and I spend a few hours taking pictures of stuff, and then I end up with, like, respiratory symptoms for, like, a week or two.",
+        "codeIds": [
+          "contamination_limbo"
+        ],
+        "rationale": "Health consequences from entering contaminated home create a hard cap on inventory progress; participant cannot fully remediate or fully abandon the home.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "Even with all of that, I'm still getting sick every time I go into my house, so I go in and I spend a few hours taking pictures of stuff, and then I end up with, like, respiratory symptoms for, like, a week or two.",
+          "flatCharStart": 37337,
+          "flatCharEnd": 37551,
+          "cueNumber": 254,
+          "startTime": "00:35:22.920",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "part of the problem, not only is that a massive amount of work, I mean, I've… I can't even… I've put hundreds of hours into this document already, and I'm not getting paid for any of that, right? Like, that's, like, hours of time, right?",
+        "codeIds": [
+          "inventory_burden"
+        ],
+        "rationale": "Hundreds of uncompensated hours; participant identifies themselves as the sole responsible party for completion.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "part of the problem, not only is that a massive amount of work, I mean, I've… I can't even… I've put hundreds of hours into this document already, and I'm not getting paid for any of that, right? Like, that's, like, hours of time, right?",
+          "flatCharStart": 36464,
+          "flatCharEnd": 36701,
+          "cueNumber": 251,
+          "startTime": "00:34:34.380",
+          "contextBefore": "",
+          "contextAfter": " And it's… yeah, I'm not getting paid to do that."
+        }
+      },
+      {
+        "quoteVerbatim": "I was losing memories, and I couldn't even, like, add two numbers together, right? Like, having so much brain fog, and I… and friends would come in and help, but having somebody where I could kind of just rely on them to say, like, okay, this is the thing I'm currently struggling with, like, what resources are available, right?",
+        "codeIds": [
+          "exec_dysfunction",
+          "navigator_gap"
+        ],
+        "rationale": "First half describes cognitive impairment (exec_dysfunction); second half the explicit wish for a designated navigator to offload decision-making.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I was losing memories, and I couldn't even, like, add two numbers together, right? Like, having so much brain fog, and I… and friends would come in and help, but having somebody where I could kind of just rely on them to say, like, okay, this is the thing I'm currently struggling with, like, what resources are available, right?",
+          "flatCharStart": 32277,
+          "flatCharEnd": 32606,
+          "cueNumber": 221,
+          "startTime": "00:30:36.070",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I don't know. I mean, I did actually look at, like, hiring an assistant for a while. I had, like, interviewed a couple people, and then I lost my job, and I was like, okay, well, now I have time, so I guess I don't need an assistant",
+        "codeIds": [
+          "navigator_gap"
+        ],
+        "rationale": "Severity of navigator gap demonstrated by actually interviewing personal assistants before the layoff freed up time.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I don't know. I mean, I did actually look at, like, hiring an assistant for a while. I had, like, interviewed a couple people, and then I lost my job, and I was like, okay, well, now I have time, so I guess I don't need an assistant",
+          "flatCharStart": 32620,
+          "flatCharEnd": 32852,
+          "cueNumber": 222,
+          "startTime": "00:30:55.550",
+          "contextBefore": "",
+          "contextAfter": ", but… But I was looking at, like, hiring somebody, because I just… the amount o"
+        }
+      },
+      {
+        "quoteVerbatim": "the resources were so scattered, right? There were just… there were people who wanted to help who were up in the valley, who were an hour away, and they were having an amazing giveaway with, you know, clothing and all sorts of stuff that they collected from the community, which was so incredible, but it was an hour drive to get up there.",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Well-intentioned resources existed but were geographically and logistically distributed; participant had to search and travel to aggregate them.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "the resources were so scattered, right? There were just… there were people who wanted to help who were up in the valley, who were an hour away, and they were having an amazing giveaway with, you know, clothing and all sorts of stuff that they collected from the community, which was so incredible, but it was an hour drive to get up there.",
+          "flatCharStart": 14861,
+          "flatCharEnd": 15200,
+          "cueNumber": 103,
+          "startTime": "00:14:15.980",
+          "contextBefore": "And, ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "So eventually I cut my hours back to part-time, and… which JPL was supportive of, of, you know, like, okay, I can't sustain this forever, but, like, I've gotten some grants, I've gotten some, like, financial support from friends and stuff, so let me, like, cut back my hours for a few months and try to…",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "Required grants and friend support to remain solvent while reducing work hours; recovery costs plus potential job loss created ongoing financial pressure.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "So eventually I cut my hours back to part-time, and… which JPL was supportive of, of, you know, like, okay, I can't sustain this forever, but, like, I've gotten some grants, I've gotten some, like, financial support from friends and stuff, so let me, like, cut back my hours for a few months and try to…",
+          "flatCharStart": 7962,
+          "flatCharEnd": 8265,
+          "cueNumber": 58,
+          "startTime": "00:07:30.560",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "So yeah, it just… there just… there was just so much in the logistics. And especially those first few weeks, you know, the National Guard was… was blocking access to the neighborhood, so even if I… even if my house had been safe, I couldn't go back and grab my meds or whatever. I had to just, like, figure it all out.",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "First weeks dominated by blocked neighborhood access, medication refills, and supply procurement — classic acute logistical phase.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "So yeah, it just… there just… there was just so much in the logistics. And especially those first few weeks, you know, the National Guard was… was blocking access to the neighborhood, so even if I… even if my house had been safe, I couldn't go back and grab my meds or whatever. I had to just, like, figure it all out.",
+          "flatCharStart": 17307,
+          "flatCharEnd": 17625,
+          "cueNumber": 115,
+          "startTime": "00:16:33.410",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "what I've been kind of spending my time doing is, probably 50% of the time, I'm still working on insurance, and just all of that, all the recovery work, and then the other half the time, I'm trying to develop a business plan for new business",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "More than a year out, participant is splitting time between ongoing recovery and long-range career and financial planning.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "what I've been kind of spending my time doing is, probably 50% of the time, I'm still working on insurance, and just all of that, all the recovery work, and then the other half the time, I'm trying to develop a business plan for new business",
+          "flatCharStart": 11016,
+          "flatCharEnd": 11257,
+          "cueNumber": 73,
+          "startTime": "00:10:20.250",
+          "contextBefore": "But yeah, ",
+          "contextAfter": ", so…"
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "it was a lifeline, because people were posting, like, hey, this, this, distribution site has Tyvek suits, right? Or, they're giving away air purifiers at the grocery outlet on Lake Avenue, right? So it was a lot of, kind of, like, peer-to-peer information that was, able to be disseminated really quickly.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Facebook groups as real-time peer supply network; specific use case (PPE location) described with outcome (information reached people quickly).",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "it was a lifeline, because people were posting, like, hey, this, this, distribution site has Tyvek suits, right? Or, they're giving away air purifiers at the grocery outlet on Lake Avenue, right? So it was a lot of, kind of, like, peer-to-peer information that was, able to be disseminated really quickly.",
+          "flatCharStart": 16265,
+          "flatCharEnd": 16570,
+          "cueNumber": 111,
+          "startTime": "00:15:35.000",
+          "contextBefore": "And, you know, and ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I have, like, a massive Google Drive that has every single document related to the fire. It's where I keep research papers and all of my insurance documents, photos of all of my stuff.",
+        "codeIds": [
+          "tech_spreadsheet_diy"
+        ],
+        "rationale": "Self-built Google Drive system as central recovery hub for all documentation; accessible anywhere via mobile.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I have, like, a massive Google Drive that has every single document related to the fire. It's where I keep research papers and all of my insurance documents, photos of all of my stuff.",
+          "flatCharStart": 38961,
+          "flatCharEnd": 39145,
+          "cueNumber": 263,
+          "startTime": "00:36:50.150",
+          "contextBefore": "Yeah, so, basics first. ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "I do use, ChatGPT or Gemini, or some of the other AI tools a little bit. I've used it for, like, I'll take a picture of a bookshelf, and I will ask it to make a list of all the books that are on the bookshelf.",
+        "codeIds": [
+          "tech_ai_inventory"
+        ],
+        "rationale": "Photo-to-inventory use described with concrete task (bookshelf) and implicit outcome (gets about half way there, then manual review needed).",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "I do use, ChatGPT or Gemini, or some of the other AI tools a little bit. I've used it for, like, I'll take a picture of a bookshelf, and I will ask it to make a list of all the books that are on the bookshelf.",
+          "flatCharStart": 40321,
+          "flatCharEnd": 40530,
+          "cueNumber": 269,
+          "startTime": "00:38:09.320",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "trying to write a letter to my insurance agent, and here are the… here are the four things I'm trying to get across, and I need to reference this insurance code, and I need to make sure this phrase is in there, right? And we'll have it kind of pull together something for me, which has been really, really helpful, because",
+        "codeIds": [
+          "tech_ai_advocacy"
+        ],
+        "rationale": "AI used to draft legally assertive insurance correspondence; participant supplies objectives and AI produces the document.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "trying to write a letter to my insurance agent, and here are the… here are the four things I'm trying to get across, and I need to reference this insurance code, and I need to make sure this phrase is in there, right? And we'll have it kind of pull together something for me, which has been really, really helpful, because",
+          "flatCharStart": 58392,
+          "flatCharEnd": 58714,
+          "cueNumber": 417,
+          "startTime": "00:56:24.480",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "my only hesitancy sometimes, is like, again, like, ChatGPT has been great, but it's not, like, perfect, right?",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Despite hedging with noted imperfections, the explicit 'has been great' is a genuine endorsement of AI for practical load-bearing tasks.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "my only hesitancy sometimes, is like, again, like, ChatGPT has been great, but it's not, like, perfect, right?",
+          "flatCharStart": 43718,
+          "flatCharEnd": 43828,
+          "cueNumber": 293,
+          "startTime": "00:41:17.330",
+          "contextBefore": "Yeah, or… and that's, like, ",
+          "contextAfter": " I'll give another example. I… early on, I was trying to find…"
+        }
+      },
+      {
+        "quoteVerbatim": "extending out to 2 years, can you find that insurance code for me? And it made one up.",
+        "codeIds": [
+          "ai_hallucination_concern"
+        ],
+        "rationale": "Firsthand experience of ChatGPT fabricating an insurance code, confirmed by independent verification.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "extending out to 2 years, can you find that insurance code for me? And it made one up.",
+          "flatCharStart": 44469,
+          "flatCharEnd": 44555,
+          "cueNumber": 296,
+          "startTime": "00:42:00.450",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "If I was maybe less tech-savvy, I either would have just cited the thing that ChatGPT gave me without double-checking it, or, right,",
+        "codeIds": [
+          "ai_hallucination_concern"
+        ],
+        "rationale": "Explicit concern that fabricated legal/regulatory citations could harm less tech-literate survivors who cannot independently verify.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "If I was maybe less tech-savvy, I either would have just cited the thing that ChatGPT gave me without double-checking it, or, right,",
+          "flatCharStart": 45725,
+          "flatCharEnd": 45857,
+          "cueNumber": 305,
+          "startTime": "00:42:59.490",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "Because, again, things happen so quickly, so I'd, you know, I… my concern would be, like, again, like, yeah, this is great information, like, is it the actual most latest? Right? Obviously, there's always going to be some lag, but yeah.",
+        "codeIds": [
+          "mvp_hesitate_accuracy"
+        ],
+        "rationale": "Proactively raised information timeliness concern during concept description, before the Slack demo was shown; grounded in acute experience of rapid resource churn.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "Because, again, things happen so quickly, so I'd, you know, I… my concern would be, like, again, like, yeah, this is great information, like, is it the actual most latest? Right? Obviously, there's always going to be some lag, but yeah.",
+          "flatCharStart": 50858,
+          "flatCharEnd": 51094,
+          "cueNumber": 352,
+          "startTime": "00:48:43.140",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "That would… that would be… very nice.",
+        "codeIds": [
+          "mvp_endorse_executive_assistant"
+        ],
+        "rationale": "Direct reaction to Abhi's demo of AI compiling emails and filling 90% of forms. Quote is 7 words — borderline — but the context is unambiguous and the hesitation in speech ('that would… that would be…') suggests genuine relief.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "That would… that would be… very nice.",
+          "flatCharStart": 55692,
+          "flatCharEnd": 55729,
+          "cueNumber": 389,
+          "startTime": "00:53:41.900",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Does that mean that, like, you could be having conversation with other humans, and then at some point, could you just, like, tag the bot and be like, hey bot, we're wondering about this thing? Okay. Yeah, because that would be really cool, to just be like.",
+        "codeIds": [
+          "mvp_endorse_community_layer",
+          "mvp_request_feature"
+        ],
+        "rationale": "Enthusiastic endorsement of a bot embedded in group conversations (community layer) and specific request for @-tagging functionality within existing human channels.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "Does that mean that, like, you could be having conversation with other humans, and then at some point, could you just, like, tag the bot and be like, hey bot, we're wondering about this thing? Okay. Yeah, because that would be really cool, to just be like.",
+          "flatCharStart": 59412,
+          "flatCharEnd": 59668,
+          "cueNumber": 424,
+          "startTime": "00:57:22.810",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "it got, you know, fractured in that way, which was… which was good, because then total loss folks could focus on their own things, we could focus on what we needed.",
+        "codeIds": [
+          "cross_relevance_over_volume"
+        ],
+        "rationale": "Participant observes that community self-sorting into specific sub-groups (standing structures vs. total loss) improved information relevance over large general groups — a meta-observation about situational precision beating breadth.",
+        "citation": {
+          "participantId": "INT003",
+          "transcriptPath": "data/qualitative/transcripts/INT003.md",
+          "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+          "quoteVerbatim": "it got, you know, fractured in that way, which was… which was good, because then total loss folks could focus on their own things, we could focus on what we needed.",
+          "flatCharStart": 53426,
+          "flatCharEnd": 53590,
+          "cueNumber": 370,
+          "startTime": "00:51:11.290",
+          "contextBefore": "now that this is where I want to find all the latest information, and ",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsements pass: participant reacted with visible relief to the document-compilation/form-filling feature (cue 389) and was enthusiastic about tagging the bot in group channels (cue 424). General affect throughout the demo section was positive. Hesitations pass: one clear concern was raised proactively — information timeliness/accuracy (cue 352), before the Slack demo was even shown. No hesitations about privacy, AI tone, or AI for emotional support were expressed in response to the demo. Post-demo engagement was consistently curious and constructive. The one hesitation found is task-accuracy-based, not AI-skepticism-based."
+  },
+  "summary": "INT003 is a non-binary, 41-year-old Altadena resident whose home sustained smoke and chemical contamination severe enough to require discarding nearly all contents, yet without the clarity of a total loss. This liminal status — structurally standing but chemically uninhabitable — defines their recovery. More than a year after the Eaton Fire, they remain displaced in a Highland Park rental found through community connections, and are locked in an adversarial legal battle with State Farm that has required hiring lawyers.\n\nA former JPL engineer who worked on the Europa Clipper mission, INT003 was laid off in October 2025 due to federal budget cuts compounded by the fire's disruption. They describe the two events as inseparable: the combination of losing neighborhood, home usability, and career produced acute disorientation and identity loss. They are now exploring starting a community-focused business in Altadena — the first thing to spark genuine interest since the disaster.\n\nEmotionally, INT003 frames the experience in terms of moral injury rather than mere misfortune. Two disabled neighbors perished after calling 911 multiple times and receiving no evacuation assistance. Combined with insurance failures and government inaction on contamination, this has produced deep anger at institutional betrayal that INT003 explicitly distinguishes from individual grief. The Altadena community — its tight-knit block culture, Facebook groups, and peer networks — has been the central emotional anchor and is central to why they chose to stay in the area rather than relocate.\n\nPractically, inventory is the dominant ongoing burden: documenting every contaminated item for insurance and litigation purposes, hundreds of uncompensated hours, with physical health consequences (respiratory symptoms for a week or two after each visit) that limit how often INT003 can enter the home. Executive functioning impairment during peak recovery made simultaneous full-time work and recovery unsustainable, eventually leading to reduced hours and then the layoff.\n\nTechnology use is sophisticated and varied: Google Drive as comprehensive document hub, Facebook groups as real-time information lifeline, and AI tools (ChatGPT, Gemini) deployed for photo-based inventory, assertive insurance letter drafting, and pre-call anxiety scaffolding. INT003 is a careful AI user who independently verified a hallucinated insurance code and explicitly names the risk to less tech-savvy survivors.\n\nThe MVP response was engaged and largely positive. The primary concern was information timeliness, raised proactively before the Slack demo was shown. INT003 was especially excited by the prospect of tagging the bot within existing group conversations. Notably, without any prompting, they raised an equity concern about tech tools being designed for already-resourced users while the most marginalized Altadena survivors may have no access at all.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "technologyForRecovery",
+      "note": "AI used as pre-task anxiety scaffolding before stressful insurance calls — distinct from inventory use or letter drafting. No tech code captures AI as an in-the-moment emotional preparation and task-structuring tool.",
+      "citation": {
+        "participantId": "INT003",
+        "transcriptPath": "data/qualitative/transcripts/INT003.md",
+        "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+        "quoteVerbatim": "I'm, like, really nervous about making this phone call, right? Or something, and here's what I'm worried about, and, you know, does a good job of kind of, like, okay, yeah, reminding me to, like.",
+        "flatCharStart": 57817,
+        "flatCharEnd": 58012,
+        "cueNumber": 413,
+        "startTime": "00:55:53.580",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "crossCutting",
+      "note": "Unprompted equity observation about tech accessibility gap for the most marginalized survivors; no existing code captures differential access to digital recovery tools by economic or housing status.",
+      "citation": {
+        "participantId": "INT003",
+        "transcriptPath": "data/qualitative/transcripts/INT003.md",
+        "transcriptSha256": "4ccec0ee90159217ce2d3476219410674e7c708b9cec54936e78366b2f414e1f",
+        "quoteVerbatim": "somebody who lost their house is now living in their car, and they don't have access to Slack or whatever, right? And I know that those are situations where sometimes technology can't help, but",
+        "flatCharStart": 63775,
+        "flatCharEnd": 63968,
+        "cueNumber": 454,
+        "startTime": "01:01:13.240",
+        "contextBefore": "you know, developed, maybe aren't meeting the needs because, ",
+        "contextAfter": ","
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}

@@ -1,0 +1,148 @@
+{
+  "participantId": "INT008",
+  "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:50:00.000Z",
+  "summary": "INT008 is a 43-year-old adult child whose parents lost their Altadena home in the Eaton Fire. As an only child living in Healdsburg, she became the primary coordinator of her parents' recovery while managing her own household, career, and a young daughter. The first two to three months were dominated by acute logistics: housing placements, insurance paperwork, replacing basic belongings, and flying back to Los Angeles every other week. Her mother's Alzheimer's diagnosis — received just three weeks after the fire — compounded the caregiving demands substantially, as it impaired her ability to participate in planning decisions and caused repeated distress when those decisions were finalized without her apparent understanding. Her parents cycled through a cousin's home, an evacuation hotel, and eventually a temporary apartment before purchasing a house one block from their original Altadena neighborhood — a decision the participant opposed but which visibly improved their mental state, demonstrating the powerful pull of place identity in recovery.\n\nA distinctive feature of her account was the role she occupied as a non-primary survivor. Because she had not personally lost a home, she felt unable to grieve openly alongside her parents, whose distress consumed the available emotional space. Over time she developed a practice of suppressing her own grief entirely in their presence — what she called a 'ballet' of expression and non-expression — to protect them and to guard herself against enmeshing family dynamics. This prolonged suppression, combined with increasing parental resistance to her help, led her to consciously disengage from active caregiving around the summer, after a rupture during a family vacation. She observed that public attention had shifted away from the fires within a month, a cycle she recognized from prior losses, which compounded her parents' sense of abandonment.\n\nThe most significant unmet need she identified was accessible mental health support for elderly survivors. Her father's breakdown in the spring, followed by a flat rejection of a therapy suggestion she compared to being asked to learn Russian, crystallized her view: for older generations, emotional support needs to be woven into existing recovery touchpoints — resource fairs, clothing drives, community anchors — rather than presented as a separate, stigmatized service. Technology played a supporting role in her own navigation: social media surfaced time-sensitive information, while a neighbor who had survived prior California fires provided invaluable structured checklists organized by recovery phase. Her insurance outcome was notably smooth relative to peers, and she explicitly flagged her parents' relative luck on that front.\n\nHer AI use was light but pragmatic; she valued speed and synthesis while worrying primarily about misinformation and the correction burden it creates. During the demo she engaged thoughtfully with the contextual-specificity question and flagged that her parents would only access such a tool via text, highlighting an important design consideration for older, non-platform-native survivors. She expressed no explicit hesitations about the demo features and closed warmly, offering to connect the team with other Eaton Fire survivors.",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "pretty immediately within that week was, like, having to cancel work calls and, personal commitments and all that, so, and flying down to LA, you know, like, every other week in the immediate aftermath.",
+        "codeIds": ["second_job_recovery"],
+        "rationale": "Recovery coordination consumed work time and required repeated long-distance travel, functioning as a second job on top of her existing life."
+      },
+      {
+        "quoteVerbatim": "Yeah, and I think the other thing that was really hard is my mom is also… we already knew she had, some cognitive impairment, but was diagnosed officially with Alzheimer's 3 weeks after the fire.",
+        "codeIds": ["competing_caregiving"],
+        "rationale": "Managing her parents' fire recovery simultaneously with her mother's Alzheimer's diagnosis created a compounding multi-front caregiving burden."
+      },
+      {
+        "quoteVerbatim": "And, so they ended up going to my cousin's house, yeah, just down the road. They got evacuated from there, went to a hotel, and then…",
+        "codeIds": ["displacement_instability"],
+        "rationale": "Parents moved from cousin's home to evacuation hotel to hotel and later to a temporary apartment — a classic multi-stop displacement the participant coordinated."
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "you can't, like, I can't really… I don't really feel like I can show emotion with them, because they're so prone to emotion with it, and it's all they think and talk about, so it's…",
+        "codeIds": ["delayed_processing"],
+        "rationale": "Participant actively suppresses her own grief in the presence of her parents to maintain their emotional stability, deferring her processing indefinitely."
+      },
+      {
+        "quoteVerbatim": "Anyway, I just try not to grieve at all around them to kind of protect myself as a result. So that has been painful, that has been difficult to navigate as, like…",
+        "codeIds": ["delayed_processing"],
+        "rationale": "A second explicit statement of grief suppression — framed here as self-protection rather than other-protection, showing both dimensions of the dynamic."
+      },
+      {
+        "quoteVerbatim": "with fulfilling this, you know, this dream that they've had to just be back in Altadena and walking the same streets they've walked for the last four decades.",
+        "codeIds": ["loss_of_home_anchor"],
+        "rationale": "Participant articulates her parents' deep identity attachment to Altadena specifically — the streets, not just the structure — as the primary driver of their improved mental state after repurchasing nearby."
+      },
+      {
+        "quoteVerbatim": "they were lucky to get, their, you know, what they did, what, you know, their full insurance proceeds.",
+        "codeIds": ["comparative_luck_appraisal"],
+        "rationale": "Participant explicitly marks her parents' quick, complete insurance payout as exceptional relative to other survivors she observed — a luck framing that functions as a coping anchor."
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "cross-check it with some… with another fire victim, just to kind of, like, say, like, have you heard of this, or have you engaged with this at all?",
+        "codeIds": ["info_fragmentation"],
+        "rationale": "Participant cannot trust online information without peer verification from survivors on the ground — a direct behavioral signature of fragmented information landscape."
+      },
+      {
+        "quoteVerbatim": "my parents were underinsured, as were most people that had owned their home for as long as they had, so just kind of navigating that.",
+        "codeIds": ["financial_strain"],
+        "rationale": "Underinsurance is named as a widespread structural problem for long-term homeowners, creating financial complexity the participant had to help manage."
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "the, I would say, maybe 6 to… no, probably more like 8 to 12 weeks after that was pretty, just really trying to address the immediate needs, kind of…",
+        "codeIds": ["needs_immediate_logistics"],
+        "rationale": "Participant clearly demarcates an acute phase of 8–12 weeks focused entirely on immediate logistics, naming it explicitly as a distinct period."
+      },
+      {
+        "quoteVerbatim": "it was contacts in some regards, but it was also just, like, a list of tasks, like, here's something you should do the week of, like, the loss. The… you know, it was broken down from, like, a project management standpoint, and…",
+        "codeIds": ["needs_navigation_resources"],
+        "rationale": "Describes the exact form that medium-phase resource navigation took: structured, phase-sequenced task lists from a peer survivor who had navigated prior fires."
+      },
+      {
+        "quoteVerbatim": "as things started to get sorted, my priority was more kind of helping them think through, like, a long-term plan, and what, you know, where they wanted to be, which they were, and still are, kind of.",
+        "codeIds": ["needs_long_term_planning"],
+        "rationale": "Participant marks the transition from logistics to long-term planning as a distinct recovery phase, and notes her parents remain stuck in this phase."
+      },
+      {
+        "quoteVerbatim": "Like, at the clothing drives, there's, like, you know, just more integrated into the whole process, so it doesn't… it's not just one more line item on the task list, you know?",
+        "codeIds": ["needs_emotional_normalization"],
+        "rationale": "Participant articulates a specific design principle: emotional support must be embedded in existing recovery activities for older survivors who reject it as a standalone item."
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "A lot, you know, social media has been great for getting information out quickly, especially about, like, this upcoming mattress drive, or whatever it is.",
+        "codeIds": ["tech_social_media_hub"],
+        "rationale": "Social media used as a real-time information channel for time-sensitive recovery resources — a described use with a specific example."
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I do think… I do find that it's really useful for kind of consolidating concepts.",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "Clear endorsement of AI for synthesis and cognitive consolidation tasks."
+      },
+      {
+        "quoteVerbatim": "Even mis… misuse of the language around it, to make it more of a boogeyman than it needs to be.",
+        "codeIds": ["ai_practical_yes"],
+        "rationale": "Participant implicitly endorses AI's practical value by pushing back on what she sees as an unfair 'boogeyman' narrative, especially among her parents' generation."
+      },
+      {
+        "quoteVerbatim": "Misinformation, or, you know, getting it wrong, and really losing any… losing credibility, and…",
+        "codeIds": ["ai_hallucination_concern"],
+        "rationale": "Names misinformation and credibility loss as her primary worry about AI — the downstream cost of a near-right answer that creates more work."
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I think my parents would only engage with it by text, if at all, but, so it would… I don't know how that would change on a different platform, like an SMS or, you know, text message.",
+        "codeIds": ["mvp_request_feature"],
+        "rationale": "Identifies SMS/text as the only realistic access channel for her elderly parents — a concrete platform-access feature request with user-specific rationale."
+      },
+      {
+        "quoteVerbatim": "whatever legislation, or, you know, XYZ fire, but, you know, like, very specific to this one incident, and this one experience, right?",
+        "codeIds": ["mvp_endorse_context"],
+        "rationale": "Engaged question about contextual specificity directly after Abhi describes curated, fire-specific data — signals she sees this feature as valuable and wants to understand it."
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "And it really… within a month, like, no one was asking about the fires. And, you know, that's… I've experienced that before with other losses and…",
+        "codeIds": ["cross_timing_matters"],
+        "rationale": "Participant generalizes from multiple loss experiences to describe a predictable arc in social attention: dense at first, rapidly dissipating — a timing pattern with direct implications for when support is available vs. needed."
+      }
+    ]
+  },
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsement pass (demo section, cues 279–408): participant said 'it all sounds really cool' as a general positive reaction and engaged with the contextual-specificity concept in a way that implied she valued it, coded as mvp_endorse_context. Her closing statement ('I'm excited to see how it progresses') is social pleasantry, not coded. No strong feature-specific endorsements beyond the feature request and context question. Hesitation pass: no explicit hesitations about the MVP features during the demo itself. Her concern about misinformation and credibility loss (cues 244–247) predates Abhi's first feature description and is correctly coded in aiAttitudesAndBeliefs per Boundary Rule B. The demo section produced no hesitation codes."
+  },
+  "uncodedObservations": [
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "quoteVerbatim": "And I suggested they get therapy, and it was as if I was suggesting they learn how to speak Russian, you know? Like, they just have never done it, they've never…",
+      "note": "Therapy stigma among elderly survivors is a structural barrier distinct from cost or access. No existing code captures generational reluctance to seek mental health support specifically. Relevant to MVP design for older users."
+    },
+    {
+      "category": "emotionalImpact",
+      "quoteVerbatim": "The ballet that has to happen around the grief and the expression of it, and the lack of expression of it, so…",
+      "note": "The relational grief-suppression dynamic experienced by adult-child caregivers of fire-survivor parents is only partially captured by delayed_processing. The 'ballet' metaphor describes a managed performance of non-grief for the benefit of primary survivors — a distinct caregiver archetype not addressed by current codes."
+    },
+    {
+      "category": "needsOverTime",
+      "quoteVerbatim": "Really quickly provided, like, full checklists of, like, here's what you need to do, you know, here are the agencies you have to talk to, you know, here's what you have to do for insurance.",
+      "note": "Peer survivor knowledge transfer via structured, phase-sequenced checklists from neighbors who survived prior California fires was among the most valued resources. Not captured by tech_social_media_hub (person-to-person, not platform-mediated) or tech_spreadsheet_diy (created by another person, not the participant). Suggests a distinct mode of experiential knowledge transmission worth tracking."
+    }
+  ]
+}

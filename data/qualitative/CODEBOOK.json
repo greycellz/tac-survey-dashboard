@@ -1,0 +1,329 @@
+{
+  "version": "v1.2.0",
+  "generatedAt": "2026-05-09T02:20:00.000Z",
+  "entries": [
+    {
+      "id": "routine_collapse",
+      "category": "lifeAndRoutineChanges",
+      "name": "Routine collapse",
+      "definition": "Participant describes pre-fire routines breaking down or becoming impossible to maintain — sleep, work, parenting, exercise, social rhythms.",
+      "examples": ["all my routines were… were done"]
+    },
+    {
+      "id": "displacement_instability",
+      "category": "lifeAndRoutineChanges",
+      "name": "Displacement instability",
+      "definition": "Multiple moves, hotel-hopping, uncertainty about temporary housing, or the practical labor of finding a place to live."
+    },
+    {
+      "id": "second_job_recovery",
+      "category": "lifeAndRoutineChanges",
+      "name": "Recovery as second job",
+      "definition": "Participant describes recovery tasks (insurance, paperwork, contractors) consuming hours equivalent to a job on top of normal life or paid work."
+    },
+    {
+      "id": "competing_caregiving",
+      "category": "lifeAndRoutineChanges",
+      "name": "Competing caregiving demands",
+      "definition": "Participant managing recovery while also caring for children, aging parents, ill partners, or pets — multi-front burden."
+    },
+    {
+      "id": "career_disruption",
+      "category": "lifeAndRoutineChanges",
+      "name": "Career or education disruption",
+      "definition": "Job loss, role change, leaving school, going part-time, or feeling unable to function professionally because of recovery demands."
+    },
+    {
+      "id": "school_disruption",
+      "category": "lifeAndRoutineChanges",
+      "name": "Children's schooling disruption",
+      "definition": "Loss of school, difficulty placing children, navigating educational continuity for kids during displacement."
+    },
+    {
+      "id": "grief_specific_loss",
+      "category": "emotionalImpact",
+      "name": "Grief over irreplaceable items",
+      "definition": "Specific, named losses that carry symbolic or emotional weight — heirlooms, photographs, art, family archives — beyond their replacement value."
+    },
+    {
+      "id": "loss_of_home_anchor",
+      "category": "emotionalImpact",
+      "name": "Loss of home as anchor",
+      "definition": "The home itself, or 'going home', as an emotional/identity anchor whose absence is destabilizing."
+    },
+    {
+      "id": "ptsd_intrusive_imagery",
+      "category": "emotionalImpact",
+      "name": "Intrusive imagery / acute trauma response",
+      "definition": "Vivid involuntary recall, nightmares, hypervigilance, dissociation, or other acute trauma responses."
+    },
+    {
+      "id": "moral_injury",
+      "category": "emotionalImpact",
+      "name": "Moral injury / systemic injustice",
+      "definition": "Distress framed as injustice rather than misfortune — institutional failures, inequity, neglect of vulnerable neighbors."
+    },
+    {
+      "id": "delayed_processing",
+      "category": "emotionalImpact",
+      "name": "Delayed emotional processing",
+      "definition": "Participant describes pushing emotion aside to function during acute phase, or grief surfacing only later when logistics ease."
+    },
+    {
+      "id": "hope_via_progress",
+      "category": "emotionalImpact",
+      "name": "Hope from visible progress",
+      "definition": "Tangible recovery milestones (debris cleared, foundation, plants regrowing, neighbors returning) restoring hope."
+    },
+    {
+      "id": "isolation_and_witnessing",
+      "category": "emotionalImpact",
+      "name": "Isolation / friction with un-affected world",
+      "definition": "Difficulty being around people whose lives weren't disrupted, or feeling forgotten as public attention moves on."
+    },
+    {
+      "id": "meaning_through_service",
+      "category": "emotionalImpact",
+      "name": "Meaning through helping others",
+      "definition": "Volunteering, advocacy, mentoring other survivors as a way to convert pain into purpose."
+    },
+    {
+      "id": "comparative_luck_appraisal",
+      "category": "emotionalImpact",
+      "name": "Comparative luck appraisal",
+      "definition": "Participant repeatedly frames their own recovery as exceptionally fortunate by reference to worse-off others. Functions as both a coping mechanism and acknowledgment of inequity in disaster outcomes. Distinct from gratitude or relief — the comparison itself is the load-bearing element.",
+      "examples": [
+        "I'm lucky compared to most people",
+        "we got off easy compared to what our neighbors are dealing with"
+      ]
+    },
+    {
+      "id": "witnessing_burden",
+      "category": "emotionalImpact",
+      "name": "Witnessing burden / secondary load",
+      "definition": "Emotional weight from witnessing the suffering of other survivors, distinct from one's own grief and from friction with the un-affected world. Often co-occurs with comparative_luck_appraisal but the two can be separated by who the participant is centering: oneself (luck appraisal) vs. others (witnessing burden).",
+      "examples": [
+        "it's heavy because they're going through a lot worse than me"
+      ]
+    },
+    {
+      "id": "insurance_adversarial",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Insurance as adversarial system",
+      "definition": "Insurer behavior that requires constant self-advocacy: delays, denials, lowballing, repeated retelling of trauma, demands for documentation."
+    },
+    {
+      "id": "permitting_complexity",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Permitting and rebuild bureaucracy",
+      "definition": "County permitting, code compliance, contractor coordination, septic/utility complexity that participants feel unprepared for."
+    },
+    {
+      "id": "info_fragmentation",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Fragmented information landscape",
+      "definition": "Resources exist but are scattered across agencies, channels, and groups; participant must aggregate and verify themselves."
+    },
+    {
+      "id": "exec_dysfunction",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Executive functioning impairment",
+      "definition": "Cognitive overload that collapses sequencing, prioritization, and decision bandwidth — not motivation, but capacity."
+    },
+    {
+      "id": "contamination_limbo",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Contamination / standing-home limbo",
+      "definition": "Specific to homes that survived structurally but are chemically contaminated. Pathways unclear, insurance pushes return, no standards."
+    },
+    {
+      "id": "inventory_burden",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Inventory burden",
+      "definition": "The labor and emotional weight of itemizing lost belongings, often hundreds or thousands of items, often without receipts."
+    },
+    {
+      "id": "financial_strain",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Financial strain and tax complexity",
+      "definition": "Pressure from underinsurance, SBA loans, mortgage relief paperwork, tax implications of settlements."
+    },
+    {
+      "id": "navigator_gap",
+      "category": "recoveryChallengesAndPainPoints",
+      "name": "Lack of a case manager / navigator",
+      "definition": "Explicit desire for a single human (or system) to offload the cognitive and logistical burden of sequencing recovery tasks."
+    },
+    {
+      "id": "needs_immediate_logistics",
+      "category": "needsOverTime",
+      "name": "Immediate logistics (acute phase)",
+      "definition": "Housing, basic supplies, paperwork, utilities — first weeks."
+    },
+    {
+      "id": "needs_navigation_resources",
+      "category": "needsOverTime",
+      "name": "Resource navigation (medium phase)",
+      "definition": "FEMA, insurance, aid programs, legal — the medium-term grind."
+    },
+    {
+      "id": "needs_emotional_normalization",
+      "category": "needsOverTime",
+      "name": "Emotional normalization (later phase)",
+      "definition": "Anticipatory psychoeducation about what to expect at 3/6/12 months, grief processing, integration."
+    },
+    {
+      "id": "needs_long_term_planning",
+      "category": "needsOverTime",
+      "name": "Long-term planning",
+      "definition": "Tax strategy, financial planning, identity reconstruction, decisions about staying or leaving."
+    },
+    {
+      "id": "tech_social_media_hub",
+      "category": "technologyForRecovery",
+      "name": "Social media as information hub",
+      "definition": "Facebook groups, Discord, WeChat, WhatsApp, Slack used to crowdsource real-time, situationally relevant recovery information."
+    },
+    {
+      "id": "tech_spreadsheet_diy",
+      "category": "technologyForRecovery",
+      "name": "Self-built spreadsheets / docs",
+      "definition": "Participant created or adopted DIY tools (Google Drive, spreadsheets, notebooks) to track inventory, contacts, deadlines."
+    },
+    {
+      "id": "tech_ai_inventory",
+      "category": "technologyForRecovery",
+      "name": "AI-assisted inventory",
+      "definition": "Using LLMs or photo-recognition tools to reconstruct lost household contents, often by extrapolating from purchase history or photos."
+    },
+    {
+      "id": "tech_ai_advocacy",
+      "category": "technologyForRecovery",
+      "name": "AI as advocacy tool",
+      "definition": "Using AI to draft dispute letters, decode adjuster reports, identify code violations, or strengthen leverage in adversarial systems."
+    },
+    {
+      "id": "tech_app_search_failure",
+      "category": "technologyForRecovery",
+      "name": "No fit-for-purpose app",
+      "definition": "Participant tried productivity or recovery apps and found none adequate for the complexity and cross-domain nature of recovery."
+    },
+    {
+      "id": "ai_practical_yes",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "AI useful for practical/cognitive load",
+      "definition": "Endorses AI for synthesis, paperwork, sourcing information, reducing executive load."
+    },
+    {
+      "id": "ai_emotional_skeptical",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "Skeptical of AI for emotional support",
+      "definition": "Prefers human connection for emotional processing; concerned about over-reliance, dependency, or unsafe attachment."
+    },
+    {
+      "id": "ai_hallucination_concern",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "Hallucination / accuracy concern",
+      "definition": "Verification burden, fabricated regulatory or insurance claims, distrust without human oversight."
+    },
+    {
+      "id": "ai_human_tether",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "Wants human accountability layer",
+      "definition": "Endorses AI only when tethered to a real human, professional oversight, or visible safety guardrails."
+    },
+    {
+      "id": "ai_judgment_free",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "Judgment-free disclosure",
+      "definition": "Finds AI easier to talk to honestly than humans because of reduced fear of judgment."
+    },
+    {
+      "id": "ai_tone_over_affirming",
+      "category": "aiAttitudesAndBeliefs",
+      "name": "Tone too affirming / sycophantic",
+      "definition": "Off-the-shelf LLM tone is too 'nice' and lacks the grounded honesty survivors need."
+    },
+    {
+      "id": "mvp_endorse_centralization",
+      "category": "mvpFeedback",
+      "name": "Endorses centralized resource hub",
+      "definition": "Positive response to one-stop / centralized recovery information.",
+      "polarity": "endorsement"
+    },
+    {
+      "id": "mvp_endorse_context",
+      "category": "mvpFeedback",
+      "name": "Endorses contextual / personalized AI",
+      "definition": "Positive response to AI having context on the user's specific recovery journey.",
+      "polarity": "endorsement"
+    },
+    {
+      "id": "mvp_endorse_community_layer",
+      "category": "mvpFeedback",
+      "name": "Endorses community / public-channel layer",
+      "definition": "Positive response to summarizing public group chats, surfacing relevant items.",
+      "polarity": "endorsement"
+    },
+    {
+      "id": "mvp_endorse_executive_assistant",
+      "category": "mvpFeedback",
+      "name": "Endorses tracker / captain's-log function",
+      "definition": "Positive response to AI maintaining a recovery log, deadlines, reminders.",
+      "polarity": "endorsement"
+    },
+    {
+      "id": "mvp_hesitate_accuracy",
+      "category": "mvpFeedback",
+      "name": "Concern about accuracy / hallucination",
+      "definition": "Hesitation about model reliability, especially for legal/insurance use.",
+      "polarity": "hesitation"
+    },
+    {
+      "id": "mvp_hesitate_emotional_use",
+      "category": "mvpFeedback",
+      "name": "Concern about AI mental-health use",
+      "definition": "Hesitation about AI for emotional support, dependency, or unsafe attachment.",
+      "polarity": "hesitation"
+    },
+    {
+      "id": "mvp_hesitate_privacy",
+      "category": "mvpFeedback",
+      "name": "Privacy / data concern",
+      "definition": "Hesitation about data handling, confidentiality, where information goes.",
+      "polarity": "hesitation"
+    },
+    {
+      "id": "mvp_hesitate_tone",
+      "category": "mvpFeedback",
+      "name": "Tone / over-affirming concern",
+      "definition": "Hesitation that AI feedback is too soothing, generic, or non-critical.",
+      "polarity": "hesitation"
+    },
+    {
+      "id": "mvp_request_feature",
+      "category": "mvpFeedback",
+      "name": "Specific feature request",
+      "definition": "Concrete suggestion: e.g. cross-disaster scope, tracker fields, multimodal access, integration with X.",
+      "polarity": "feature_request"
+    },
+    {
+      "id": "cross_relevance_over_volume",
+      "category": "crossCutting",
+      "name": "Relevance beats volume",
+      "definition": "Recurring observation that the issue isn't lack of information but lack of *situationally precise* information for one's exact recovery profile."
+    },
+    {
+      "id": "cross_timing_matters",
+      "category": "crossCutting",
+      "name": "Timing of support matters",
+      "definition": "Different needs at different phases; emotional support may not land in the acute phase, where logistics dominate."
+    },
+    {
+      "id": "cross_human_irreplaceable",
+      "category": "crossCutting",
+      "name": "Human contact remains irreplaceable",
+      "definition": "Across many forms of help, participant explicitly distinguishes what AI can do from what only a human can."
+    }
+  ]
+}

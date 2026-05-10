@@ -1,0 +1,464 @@
+{
+  "participantId": "INT008",
+  "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+  "skillVersion": "v1.2.0",
+  "codebookVersion": "v1.2.0",
+  "generatedAt": "2026-05-09T05:50:00.000Z",
+  "validatedAt": "2026-05-10T01:44:46.522Z",
+  "codedQuotes": {
+    "lifeAndRoutineChanges": [
+      {
+        "quoteVerbatim": "pretty immediately within that week was, like, having to cancel work calls and, personal commitments and all that, so, and flying down to LA, you know, like, every other week in the immediate aftermath.",
+        "codeIds": [
+          "second_job_recovery"
+        ],
+        "rationale": "Recovery coordination consumed work time and required repeated long-distance travel, functioning as a second job on top of her existing life.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "pretty immediately within that week was, like, having to cancel work calls and, personal commitments and all that, so, and flying down to LA, you know, like, every other week in the immediate aftermath.",
+          "flatCharStart": 1025,
+          "flatCharEnd": 1227,
+          "cueNumber": 8,
+          "startTime": "00:01:20.500",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Yeah, and I think the other thing that was really hard is my mom is also… we already knew she had, some cognitive impairment, but was diagnosed officially with Alzheimer's 3 weeks after the fire.",
+        "codeIds": [
+          "competing_caregiving"
+        ],
+        "rationale": "Managing her parents' fire recovery simultaneously with her mother's Alzheimer's diagnosis created a compounding multi-front caregiving burden.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "Yeah, and I think the other thing that was really hard is my mom is also… we already knew she had, some cognitive impairment, but was diagnosed officially with Alzheimer's 3 weeks after the fire.",
+          "flatCharStart": 3907,
+          "flatCharEnd": 4102,
+          "cueNumber": 34,
+          "startTime": "00:04:36.250",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "And, so they ended up going to my cousin's house, yeah, just down the road. They got evacuated from there, went to a hotel, and then…",
+        "codeIds": [
+          "displacement_instability"
+        ],
+        "rationale": "Parents moved from cousin's home to evacuation hotel to hotel and later to a temporary apartment — a classic multi-stop displacement the participant coordinated.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "And, so they ended up going to my cousin's house, yeah, just down the road. They got evacuated from there, went to a hotel, and then…",
+          "flatCharStart": 1600,
+          "flatCharEnd": 1733,
+          "cueNumber": 12,
+          "startTime": "00:01:56.510",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "emotionalImpact": [
+      {
+        "quoteVerbatim": "you can't, like, I can't really… I don't really feel like I can show emotion with them, because they're so prone to emotion with it, and it's all they think and talk about, so it's…",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "Participant actively suppresses her own grief in the presence of her parents to maintain their emotional stability, deferring her processing indefinitely.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "you can't, like, I can't really… I don't really feel like I can show emotion with them, because they're so prone to emotion with it, and it's all they think and talk about, so it's…",
+          "flatCharStart": 14434,
+          "flatCharEnd": 14615,
+          "cueNumber": 122,
+          "startTime": "00:16:49.710",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Anyway, I just try not to grieve at all around them to kind of protect myself as a result. So that has been painful, that has been difficult to navigate as, like…",
+        "codeIds": [
+          "delayed_processing"
+        ],
+        "rationale": "A second explicit statement of grief suppression — framed here as self-protection rather than other-protection, showing both dimensions of the dynamic.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "Anyway, I just try not to grieve at all around them to kind of protect myself as a result. So that has been painful, that has been difficult to navigate as, like…",
+          "flatCharStart": 16000,
+          "flatCharEnd": 16162,
+          "cueNumber": 135,
+          "startTime": "00:18:34.680",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "with fulfilling this, you know, this dream that they've had to just be back in Altadena and walking the same streets they've walked for the last four decades.",
+        "codeIds": [
+          "loss_of_home_anchor"
+        ],
+        "rationale": "Participant articulates her parents' deep identity attachment to Altadena specifically — the streets, not just the structure — as the primary driver of their improved mental state after repurchasing nearby.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "with fulfilling this, you know, this dream that they've had to just be back in Altadena and walking the same streets they've walked for the last four decades.",
+          "flatCharStart": 7963,
+          "flatCharEnd": 8121,
+          "cueNumber": 65,
+          "startTime": "00:09:15.689",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "they were lucky to get, their, you know, what they did, what, you know, their full insurance proceeds.",
+        "codeIds": [
+          "comparative_luck_appraisal"
+        ],
+        "rationale": "Participant explicitly marks her parents' quick, complete insurance payout as exceptional relative to other survivors she observed — a luck framing that functions as a coping anchor.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "they were lucky to get, their, you know, what they did, what, you know, their full insurance proceeds.",
+          "flatCharStart": 10097,
+          "flatCharEnd": 10199,
+          "cueNumber": 85,
+          "startTime": "00:11:33.250",
+          "contextBefore": "nd of put my mind back in that headspace, but I've been pretty checked out, and ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "recoveryChallengesAndPainPoints": [
+      {
+        "quoteVerbatim": "cross-check it with some… with another fire victim, just to kind of, like, say, like, have you heard of this, or have you engaged with this at all?",
+        "codeIds": [
+          "info_fragmentation"
+        ],
+        "rationale": "Participant cannot trust online information without peer verification from survivors on the ground — a direct behavioral signature of fragmented information landscape.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "cross-check it with some… with another fire victim, just to kind of, like, say, like, have you heard of this, or have you engaged with this at all?",
+          "flatCharStart": 20017,
+          "flatCharEnd": 20164,
+          "cueNumber": 174,
+          "startTime": "00:23:11.920",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "my parents were underinsured, as were most people that had owned their home for as long as they had, so just kind of navigating that.",
+        "codeIds": [
+          "financial_strain"
+        ],
+        "rationale": "Underinsurance is named as a widespread structural problem for long-term homeowners, creating financial complexity the participant had to help manage.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "my parents were underinsured, as were most people that had owned their home for as long as they had, so just kind of navigating that.",
+          "flatCharStart": 21430,
+          "flatCharEnd": 21563,
+          "cueNumber": 190,
+          "startTime": "00:24:41.450",
+          "contextBefore": "ing, like, on the insurance side, and kind of navigating that. They were, like, ",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "needsOverTime": [
+      {
+        "quoteVerbatim": "the, I would say, maybe 6 to… no, probably more like 8 to 12 weeks after that was pretty, just really trying to address the immediate needs, kind of…",
+        "codeIds": [
+          "needs_immediate_logistics"
+        ],
+        "rationale": "Participant clearly demarcates an acute phase of 8–12 weeks focused entirely on immediate logistics, naming it explicitly as a distinct period.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "the, I would say, maybe 6 to… no, probably more like 8 to 12 weeks after that was pretty, just really trying to address the immediate needs, kind of…",
+          "flatCharStart": 467,
+          "flatCharEnd": 616,
+          "cueNumber": 4,
+          "startTime": "00:00:34.290",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "it was contacts in some regards, but it was also just, like, a list of tasks, like, here's something you should do the week of, like, the loss. The… you know, it was broken down from, like, a project management standpoint, and…",
+        "codeIds": [
+          "needs_navigation_resources"
+        ],
+        "rationale": "Describes the exact form that medium-phase resource navigation took: structured, phase-sequenced task lists from a peer survivor who had navigated prior fires.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "it was contacts in some regards, but it was also just, like, a list of tasks, like, here's something you should do the week of, like, the loss. The… you know, it was broken down from, like, a project management standpoint, and…",
+          "flatCharStart": 23197,
+          "flatCharEnd": 23424,
+          "cueNumber": 208,
+          "startTime": "00:26:59.360",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "as things started to get sorted, my priority was more kind of helping them think through, like, a long-term plan, and what, you know, where they wanted to be, which they were, and still are, kind of.",
+        "codeIds": [
+          "needs_long_term_planning"
+        ],
+        "rationale": "Participant marks the transition from logistics to long-term planning as a distinct recovery phase, and notes her parents remain stuck in this phase.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "as things started to get sorted, my priority was more kind of helping them think through, like, a long-term plan, and what, you know, where they wanted to be, which they were, and still are, kind of.",
+          "flatCharStart": 2820,
+          "flatCharEnd": 3019,
+          "cueNumber": 24,
+          "startTime": "00:03:15.590",
+          "contextBefore": "You know, ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Like, at the clothing drives, there's, like, you know, just more integrated into the whole process, so it doesn't… it's not just one more line item on the task list, you know?",
+        "codeIds": [
+          "needs_emotional_normalization"
+        ],
+        "rationale": "Participant articulates a specific design principle: emotional support must be embedded in existing recovery activities for older survivors who reject it as a standalone item.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "Like, at the clothing drives, there's, like, you know, just more integrated into the whole process, so it doesn't… it's not just one more line item on the task list, you know?",
+          "flatCharStart": 17943,
+          "flatCharEnd": 18118,
+          "cueNumber": 154,
+          "startTime": "00:20:52.030",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "technologyForRecovery": [
+      {
+        "quoteVerbatim": "A lot, you know, social media has been great for getting information out quickly, especially about, like, this upcoming mattress drive, or whatever it is.",
+        "codeIds": [
+          "tech_social_media_hub"
+        ],
+        "rationale": "Social media used as a real-time information channel for time-sensitive recovery resources — a described use with a specific example.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "A lot, you know, social media has been great for getting information out quickly, especially about, like, this upcoming mattress drive, or whatever it is.",
+          "flatCharStart": 20332,
+          "flatCharEnd": 20486,
+          "cueNumber": 177,
+          "startTime": "00:23:34.350",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "aiAttitudesAndBeliefs": [
+      {
+        "quoteVerbatim": "I do think… I do find that it's really useful for kind of consolidating concepts.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Clear endorsement of AI for synthesis and cognitive consolidation tasks.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "I do think… I do find that it's really useful for kind of consolidating concepts.",
+          "flatCharStart": 25712,
+          "flatCharEnd": 25793,
+          "cueNumber": 228,
+          "startTime": "00:29:46.810",
+          "contextBefore": "capability, but, ",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Even mis… misuse of the language around it, to make it more of a boogeyman than it needs to be.",
+        "codeIds": [
+          "ai_practical_yes"
+        ],
+        "rationale": "Participant implicitly endorses AI's practical value by pushing back on what she sees as an unfair 'boogeyman' narrative, especially among her parents' generation.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "Even mis… misuse of the language around it, to make it more of a boogeyman than it needs to be.",
+          "flatCharStart": 25867,
+          "flatCharEnd": 25962,
+          "cueNumber": 230,
+          "startTime": "00:30:05.730",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "Misinformation, or, you know, getting it wrong, and really losing any… losing credibility, and…",
+        "codeIds": [
+          "ai_hallucination_concern"
+        ],
+        "rationale": "Names misinformation and credibility loss as her primary worry about AI — the downstream cost of a near-right answer that creates more work.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "Misinformation, or, you know, getting it wrong, and really losing any… losing credibility, and…",
+          "flatCharStart": 27457,
+          "flatCharEnd": 27552,
+          "cueNumber": 245,
+          "startTime": "00:32:06.770",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "mvpFeedback": [
+      {
+        "quoteVerbatim": "I think my parents would only engage with it by text, if at all, but, so it would… I don't know how that would change on a different platform, like an SMS or, you know, text message.",
+        "codeIds": [
+          "mvp_request_feature"
+        ],
+        "rationale": "Identifies SMS/text as the only realistic access channel for her elderly parents — a concrete platform-access feature request with user-specific rationale.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "I think my parents would only engage with it by text, if at all, but, so it would… I don't know how that would change on a different platform, like an SMS or, you know, text message.",
+          "flatCharStart": 37164,
+          "flatCharEnd": 37346,
+          "cueNumber": 355,
+          "startTime": "00:43:13.360",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      },
+      {
+        "quoteVerbatim": "whatever legislation, or, you know, XYZ fire, but, you know, like, very specific to this one incident, and this one experience, right?",
+        "codeIds": [
+          "mvp_endorse_context"
+        ],
+        "rationale": "Engaged question about contextual specificity directly after Abhi describes curated, fire-specific data — signals she sees this feature as valuable and wants to understand it.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "whatever legislation, or, you know, XYZ fire, but, you know, like, very specific to this one incident, and this one experience, right?",
+          "flatCharStart": 38304,
+          "flatCharEnd": 38438,
+          "cueNumber": 366,
+          "startTime": "00:44:32.400",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ],
+    "crossCutting": [
+      {
+        "quoteVerbatim": "And it really… within a month, like, no one was asking about the fires. And, you know, that's… I've experienced that before with other losses and…",
+        "codeIds": [
+          "cross_timing_matters"
+        ],
+        "rationale": "Participant generalizes from multiple loss experiences to describe a predictable arc in social attention: dense at first, rapidly dissipating — a timing pattern with direct implications for when support is available vs. needed.",
+        "citation": {
+          "participantId": "INT008",
+          "transcriptPath": "data/qualitative/transcripts/INT008.md",
+          "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+          "quoteVerbatim": "And it really… within a month, like, no one was asking about the fires. And, you know, that's… I've experienced that before with other losses and…",
+          "flatCharStart": 6734,
+          "flatCharEnd": 6880,
+          "cueNumber": 56,
+          "startTime": "00:07:52.200",
+          "contextBefore": "",
+          "contextAfter": ""
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "mvpAdversarialAudit": {
+    "endorsementsAttempted": true,
+    "hesitationsAttempted": true,
+    "notes": "Endorsement pass (demo section, cues 279–408): participant said 'it all sounds really cool' as a general positive reaction and engaged with the contextual-specificity concept in a way that implied she valued it, coded as mvp_endorse_context. Her closing statement ('I'm excited to see how it progresses') is social pleasantry, not coded. No strong feature-specific endorsements beyond the feature request and context question. Hesitation pass: no explicit hesitations about the MVP features during the demo itself. Her concern about misinformation and credibility loss (cues 244–247) predates Abhi's first feature description and is correctly coded in aiAttitudesAndBeliefs per Boundary Rule B. The demo section produced no hesitation codes."
+  },
+  "summary": "INT008 is a 43-year-old adult child whose parents lost their Altadena home in the Eaton Fire. As an only child living in Healdsburg, she became the primary coordinator of her parents' recovery while managing her own household, career, and a young daughter. The first two to three months were dominated by acute logistics: housing placements, insurance paperwork, replacing basic belongings, and flying back to Los Angeles every other week. Her mother's Alzheimer's diagnosis — received just three weeks after the fire — compounded the caregiving demands substantially, as it impaired her ability to participate in planning decisions and caused repeated distress when those decisions were finalized without her apparent understanding. Her parents cycled through a cousin's home, an evacuation hotel, and eventually a temporary apartment before purchasing a house one block from their original Altadena neighborhood — a decision the participant opposed but which visibly improved their mental state, demonstrating the powerful pull of place identity in recovery.\n\nA distinctive feature of her account was the role she occupied as a non-primary survivor. Because she had not personally lost a home, she felt unable to grieve openly alongside her parents, whose distress consumed the available emotional space. Over time she developed a practice of suppressing her own grief entirely in their presence — what she called a 'ballet' of expression and non-expression — to protect them and to guard herself against enmeshing family dynamics. This prolonged suppression, combined with increasing parental resistance to her help, led her to consciously disengage from active caregiving around the summer, after a rupture during a family vacation. She observed that public attention had shifted away from the fires within a month, a cycle she recognized from prior losses, which compounded her parents' sense of abandonment.\n\nThe most significant unmet need she identified was accessible mental health support for elderly survivors. Her father's breakdown in the spring, followed by a flat rejection of a therapy suggestion she compared to being asked to learn Russian, crystallized her view: for older generations, emotional support needs to be woven into existing recovery touchpoints — resource fairs, clothing drives, community anchors — rather than presented as a separate, stigmatized service. Technology played a supporting role in her own navigation: social media surfaced time-sensitive information, while a neighbor who had survived prior California fires provided invaluable structured checklists organized by recovery phase. Her insurance outcome was notably smooth relative to peers, and she explicitly flagged her parents' relative luck on that front.\n\nHer AI use was light but pragmatic; she valued speed and synthesis while worrying primarily about misinformation and the correction burden it creates. During the demo she engaged thoughtfully with the contextual-specificity question and flagged that her parents would only access such a tool via text, highlighting an important design consideration for older, non-platform-native survivors. She expressed no explicit hesitations about the demo features and closed warmly, offering to connect the team with other Eaton Fire survivors.",
+  "uncodedObservationsValidated": [
+    {
+      "category": "recoveryChallengesAndPainPoints",
+      "note": "Therapy stigma among elderly survivors is a structural barrier distinct from cost or access. No existing code captures generational reluctance to seek mental health support specifically. Relevant to MVP design for older users.",
+      "citation": {
+        "participantId": "INT008",
+        "transcriptPath": "data/qualitative/transcripts/INT008.md",
+        "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+        "quoteVerbatim": "And I suggested they get therapy, and it was as if I was suggesting they learn how to speak Russian, you know? Like, they just have never done it, they've never…",
+        "flatCharStart": 17341,
+        "flatCharEnd": 17502,
+        "cueNumber": 150,
+        "startTime": "00:20:13.660",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "emotionalImpact",
+      "note": "The relational grief-suppression dynamic experienced by adult-child caregivers of fire-survivor parents is only partially captured by delayed_processing. The 'ballet' metaphor describes a managed performance of non-grief for the benefit of primary survivors — a distinct caregiver archetype not addressed by current codes.",
+      "citation": {
+        "participantId": "INT008",
+        "transcriptPath": "data/qualitative/transcripts/INT008.md",
+        "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+        "quoteVerbatim": "The ballet that has to happen around the grief and the expression of it, and the lack of expression of it, so…",
+        "flatCharStart": 16227,
+        "flatCharEnd": 16337,
+        "cueNumber": 137,
+        "startTime": "00:18:49.620",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    },
+    {
+      "category": "needsOverTime",
+      "note": "Peer survivor knowledge transfer via structured, phase-sequenced checklists from neighbors who survived prior California fires was among the most valued resources. Not captured by tech_social_media_hub (person-to-person, not platform-mediated) or tech_spreadsheet_diy (created by another person, not the participant). Suggests a distinct mode of experiential knowledge transmission worth tracking.",
+      "citation": {
+        "participantId": "INT008",
+        "transcriptPath": "data/qualitative/transcripts/INT008.md",
+        "transcriptSha256": "8911e1def7bf9f293892a9166a0a15b98d16141c3c35706f9ed1057618cff828",
+        "quoteVerbatim": "Really quickly provided, like, full checklists of, like, here's what you need to do, you know, here are the agencies you have to talk to, you know, here's what you have to do for insurance.",
+        "flatCharStart": 22522,
+        "flatCharEnd": 22711,
+        "cueNumber": 201,
+        "startTime": "00:26:10.370",
+        "contextBefore": "",
+        "contextAfter": ""
+      }
+    }
+  ],
+  "uncodedObservationsRejected": []
+}
