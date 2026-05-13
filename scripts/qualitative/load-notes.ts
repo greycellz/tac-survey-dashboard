@@ -1,10 +1,12 @@
 import * as fs from "node:fs";
+import * as path from "node:path";
 import Papa from "papaparse";
 import type {
   ParticipantId,
   Demographics,
   ResearcherNotesByCategory,
   ResearcherNotesEntry,
+  ResearcherNoteCategoryKey,
 } from "../../src/types/qualitative";
 
 // =====================================================================
@@ -210,4 +212,36 @@ export function loadResearcherNotes(absPath: string): ResearcherNotesEntry[] {
   }
   console.log(`[notes] Loaded ${entries.length} participant rows.`);
   return entries;
+}
+
+const RESEARCHER_FULL_NOTE_KEYS: ResearcherNoteCategoryKey[] = [
+  "lifeAndRoutineChanges",
+  "emotionalImpact",
+  "recoveryChallengesAndPainPoints",
+  "needsOverTime",
+  "technologyForRecovery",
+  "aiAttitudesAndBeliefs",
+  "chatGptInsights",
+];
+
+/**
+ * Full original researcher narratives from notes.csv (seven columns), keyed by participant.
+ */
+export function loadResearcherFullNotes(csvPath?: string): Partial<
+  Record<ParticipantId, Partial<Record<ResearcherNoteCategoryKey, string>>>
+> {
+  const absPath = csvPath ?? path.resolve("data/qualitative/notes.csv");
+  if (!fs.existsSync(absPath)) return {};
+
+  const entries = loadResearcherNotes(absPath);
+  const out: Partial<Record<ParticipantId, Partial<Record<ResearcherNoteCategoryKey, string>>>> = {};
+  for (const e of entries) {
+    const partial: Partial<Record<ResearcherNoteCategoryKey, string>> = {};
+    for (const key of RESEARCHER_FULL_NOTE_KEYS) {
+      const v = e.notes[key];
+      if (v) partial[key] = v;
+    }
+    if (Object.keys(partial).length > 0) out[e.id] = partial;
+  }
+  return out;
 }

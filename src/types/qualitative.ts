@@ -450,6 +450,62 @@ export type AffectFingerprint = {
   meanStance: number;
 };
 
+// =====================================================================
+// Researcher notes summaries (Prompt 8)
+// =====================================================================
+
+/**
+ * The seven researcher-narrative categories from notes.csv.
+ * These mirror the codebook categories minus "Cross-cutting" and "MVP feedback"
+ * (which the researcher did not separately narrate), and include the
+ * researcher-meta "ChatGPT insights" column which was deliberately
+ * excluded from the LLM codebook (see methodology §2.1).
+ */
+export type ResearcherNoteCategoryKey =
+  | "lifeAndRoutineChanges"
+  | "emotionalImpact"
+  | "recoveryChallengesAndPainPoints"
+  | "needsOverTime"
+  | "technologyForRecovery"
+  | "aiAttitudesAndBeliefs"
+  | "chatGptInsights";
+
+/**
+ * Mapping from the markdown's bolded labels (verbatim, including ampersands)
+ * to the canonical category keys above. The parser uses this to map labels
+ * found in RESEARCHER_NOTES_SUMMARIES.md to typed keys.
+ */
+export const RESEARCHER_NOTE_LABEL_TO_KEY: Record<string, ResearcherNoteCategoryKey> = {
+  "Life and routine changes": "lifeAndRoutineChanges",
+  "Emotional impact": "emotionalImpact",
+  "Recovery challenges and pain points": "recoveryChallengesAndPainPoints",
+  "Needs over time": "needsOverTime",
+  "Technology for recovery": "technologyForRecovery",
+  "AI for Recovery Attitudes and Beliefs": "aiAttitudesAndBeliefs",
+  "ChatGPT insights": "chatGptInsights",
+};
+
+export type ResearcherNotesSummary = {
+  participantId: ParticipantId;
+  /** Cross-category synthesis paragraph (~150 words). */
+  summary: string;
+  /** One-liner per category. Optional because a category may be omitted. */
+  perCategory: Partial<Record<ResearcherNoteCategoryKey, string>>;
+};
+
+export type ResearcherNotesBundle = {
+  version: string;
+  generatedAt: string;
+  /** Per-participant summaries, keyed by participant ID. */
+  summaries: Partial<Record<ParticipantId, ResearcherNotesSummary>>;
+  /**
+   * Full original researcher narratives from notes.csv, keyed by participant ID.
+   * Loaded directly from the CSV by the notes loader; included here so the
+   * dashboard has both summaries and originals in one bundle.
+   */
+  fullNotes: Partial<Record<ParticipantId, Partial<Record<ResearcherNoteCategoryKey, string>>>>;
+};
+
 /**
  * Everything the qualitative dashboard needs in memory. Loaded once at
  * server-render time from the JSON files in data/qualitative/.
@@ -464,4 +520,6 @@ export type QualitativeBundle = {
   /** Affect layer: optional per participant (Prompt 6). */
   affect: Partial<Record<ParticipantId, AffectFile>>;
   affectVocabulary: AffectVocabulary;
+  /** Researcher field-note summaries + full CSV narratives (Prompt 8). */
+  researcherNotes: ResearcherNotesBundle;
 };

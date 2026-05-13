@@ -223,6 +223,12 @@ const FIXTURE: QualitativeBundle = {
       { id: "neutral", name: "Neutral / procedural", definition: "" },
     ],
   },
+  researcherNotes: {
+    version: "test",
+    generatedAt: "",
+    summaries: {},
+    fullNotes: {},
+  },
 };
 
 const wrapper = ({ children }: { children: ReactNode }) => (

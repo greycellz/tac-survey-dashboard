@@ -8,8 +8,11 @@ import type {
   Codebook,
   AffectFile,
   AffectVocabulary,
+  ResearcherNotesBundle,
 } from "@/types/qualitative";
 import { parseTranscriptFromFile } from "../../../scripts/qualitative/parse-transcript";
+import { loadResearcherNotesMd } from "../../../scripts/qualitative/parse-researcher-notes";
+import { loadResearcherFullNotes } from "../../../scripts/qualitative/load-notes";
 
 /**
  * Server-only data loader. Reads all qualitative JSON + parses transcripts.
@@ -50,5 +53,24 @@ export function loadQualitativeData(): QualitativeBundle {
     }
   }
 
-  return { manifest, codebook, extractions, transcripts, affect, affectVocabulary };
+  const summariesPath = path.resolve("data/qualitative/RESEARCHER_NOTES_SUMMARIES.md");
+  let researcherNotes: ResearcherNotesBundle;
+  if (fs.existsSync(summariesPath)) {
+    const parsed = loadResearcherNotesMd(summariesPath);
+    researcherNotes = {
+      version: parsed.version,
+      generatedAt: parsed.generatedAt,
+      summaries: parsed.summaries,
+      fullNotes: loadResearcherFullNotes(),
+    };
+  } else {
+    researcherNotes = {
+      version: "missing",
+      generatedAt: new Date().toISOString(),
+      summaries: {},
+      fullNotes: {},
+    };
+  }
+
+  return { manifest, codebook, extractions, transcripts, affect, affectVocabulary, researcherNotes };
 }

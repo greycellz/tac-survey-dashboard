@@ -13,6 +13,8 @@ import type {
   QuoteAffect,
   EmotionId,
   AffectFingerprint,
+  ResearcherNotesSummary,
+  ResearcherNoteCategoryKey,
 } from "@/types/qualitative";
 import { makeQuoteId } from "@/types/qualitative";
 import { QUALITATIVE_CATEGORY_KEYS } from "@/lib/qualitative/category-keys";
@@ -75,6 +77,8 @@ type QualitativeContextValue = {
   fingerprintForQuotes: (quotes: EnrichedQuote[]) => AffectFingerprint;
   fingerprintsByParticipant: Record<string, AffectFingerprint>;
   affectVocabulary: QualitativeBundle["affectVocabulary"];
+  researcherNotesByParticipant: (id: ParticipantId) => ResearcherNotesSummary | null;
+  fullResearcherNotesByParticipant: (id: ParticipantId) => Partial<Record<ResearcherNoteCategoryKey, string>>;
 };
 
 const Ctx = createContext<QualitativeContextValue | null>(null);
@@ -234,6 +238,10 @@ export function QualitativeDataProvider({
     return map;
   }, [filteredQuotes, participantIds, fingerprintForQuotes]);
 
+  const researcherNotesByParticipant = (id: ParticipantId) => bundle.researcherNotes.summaries[id] ?? null;
+
+  const fullResearcherNotesByParticipant = (id: ParticipantId) => bundle.researcherNotes.fullNotes[id] ?? {};
+
   const value: QualitativeContextValue = {
     bundle,
     filter,
@@ -252,6 +260,8 @@ export function QualitativeDataProvider({
     fingerprintForQuotes,
     fingerprintsByParticipant,
     affectVocabulary: bundle.affectVocabulary,
+    researcherNotesByParticipant,
+    fullResearcherNotesByParticipant,
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
